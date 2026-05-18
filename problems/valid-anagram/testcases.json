@@ -1,0 +1,17 @@
+[
+  {
+    "input": "[\"anagram\",\"nagaram\"]",
+    "expectedOutput": "true",
+    "isHidden": false
+  },
+  {
+    "input": "[\"rat\",\"car\"]",
+    "expectedOutput": "false",
+    "isHidden": false
+  },
+  {
+    "input": "[\"a\",\"ab\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  }
+]

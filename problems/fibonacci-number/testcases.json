@@ -1,0 +1,22 @@
+[
+  {
+    "input": "[2]",
+    "expectedOutput": "1",
+    "isHidden": false
+  },
+  {
+    "input": "[3]",
+    "expectedOutput": "2",
+    "isHidden": false
+  },
+  {
+    "input": "[4]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[10]",
+    "expectedOutput": "55",
+    "isHidden": true
+  }
+]
