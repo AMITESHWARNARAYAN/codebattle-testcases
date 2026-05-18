@@ -1,0 +1,12 @@
+[
+  {
+    "input": "[[\"h\",\"e\",\"l\",\"l\",\"o\"]]",
+    "expectedOutput": "[\"o\",\"l\",\"l\",\"e\",\"h\"]",
+    "isHidden": false
+  },
+  {
+    "input": "[[\"H\",\"a\",\"n\",\"n\",\"a\",\"h\"]]",
+    "expectedOutput": "[\"h\",\"a\",\"n\",\"n\",\"a\",\"H\"]",
+    "isHidden": false
+  }
+]

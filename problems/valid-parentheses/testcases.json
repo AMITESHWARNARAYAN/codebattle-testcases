@@ -1,0 +1,17 @@
+[
+  {
+    "input": "[\"()\"]",
+    "expectedOutput": "true",
+    "isHidden": false
+  },
+  {
+    "input": "[\"()[]{}\"]",
+    "expectedOutput": "true",
+    "isHidden": false
+  },
+  {
+    "input": "[\"(]\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  }
+]

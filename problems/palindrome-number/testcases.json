@@ -1,0 +1,17 @@
+[
+  {
+    "input": "[121]",
+    "expectedOutput": "true",
+    "isHidden": false
+  },
+  {
+    "input": "[-121]",
+    "expectedOutput": "false",
+    "isHidden": false
+  },
+  {
+    "input": "[10]",
+    "expectedOutput": "false",
+    "isHidden": true
+  }
+]
