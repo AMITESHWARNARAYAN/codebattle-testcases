@@ -1,0 +1,267 @@
+[
+  {
+    "input": "[\"hello\"]",
+    "expectedOutput": "\"olleh\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"leetcode\"]",
+    "expectedOutput": "\"edocteel\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\" \"]",
+    "expectedOutput": "\" \"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"pezbnuywdnlmotxvgnwbis\"]",
+    "expectedOutput": "\"sibwngvxtomlndwyunbzep\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"zegmaycgugbydwnaxqskiw\"]",
+    "expectedOutput": "\"wiksqxanwdybgugcyamgez\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"ldocwzjzpeledtxchc\"]",
+    "expectedOutput": "\"chcxtdelepzjzwcodl\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"otyblfsox\"]",
+    "expectedOutput": "\"xosflbyto\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"vyrnyxidfwc\"]",
+    "expectedOutput": "\"cwfdixynryv\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"sseesgzkrnyq\"]",
+    "expectedOutput": "\"qynrkzgseess\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"zzxlsrzbiadap\"]",
+    "expectedOutput": "\"padaibzrslxzz\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"zymeapsdozbisdzvgwnvxjr\"]",
+    "expectedOutput": "\"rjxvnwgvzdsibzodspaemyz\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"vywvzjq\"]",
+    "expectedOutput": "\"qjzvwyv\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bmaizowrdtyeukjp\"]",
+    "expectedOutput": "\"pjkueytdrwoziamb\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"wnljxfipirrzqfhwwjyfpsv\"]",
+    "expectedOutput": "\"vspfyjwwhfqzrripifxjlnw\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"rlpttoctcxsg\"]",
+    "expectedOutput": "\"gsxctcottplr\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"xalugzdaggn\"]",
+    "expectedOutput": "\"nggadzgulax\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aacohjuqzsiajngftywphs\"]",
+    "expectedOutput": "\"shpwytfgnjaiszqujhocaa\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"vmnxdirq\"]",
+    "expectedOutput": "\"qridxnmv\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"xnzorkqbamgglffarctpkw\"]",
+    "expectedOutput": "\"wkptcrafflggmabqkroznx\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"phghst\"]",
+    "expectedOutput": "\"tshghp\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"omabvjjjvtpwpvvlxk\"]",
+    "expectedOutput": "\"kxlvvpwptvjjjvbamo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"egkmvawoekbcgnfciirmf\"]",
+    "expectedOutput": "\"fmriicfngcbkeowavmkge\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"gfwwdxvqobc\"]",
+    "expectedOutput": "\"cboqvxdwwfg\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ggdfqbvsfoqjhz\"]",
+    "expectedOutput": "\"zhjqofsvbqfdgg\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bloeytwifgikbjxucawtuujj\"]",
+    "expectedOutput": "\"jjuutwacuxjbkigfiwtyeolb\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"whvwjpkkglyqezenvtwcrlipj\"]",
+    "expectedOutput": "\"jpilrcwtvnezeqylgkkpjwvhw\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"karokwzoxki\"]",
+    "expectedOutput": "\"ikxozwkorak\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"yztrrkpgfxnawsvff\"]",
+    "expectedOutput": "\"ffvswanxfgpkrrtzy\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"rlcohttvn\"]",
+    "expectedOutput": "\"nvtthoclr\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ifmeolctizhrylwlqqjpmik\"]",
+    "expectedOutput": "\"kimpjqqlwlyrhzitcloemfi\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"xdvprdiwsezt\"]",
+    "expectedOutput": "\"tzeswidrpvdx\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"zfjmqzdfvlthyalszicyklg\"]",
+    "expectedOutput": "\"glkycizslayhtlvfdzqmjfz\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"klzzpawsoeiyt\"]",
+    "expectedOutput": "\"tyieoswapzzlk\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pvzgdg\"]",
+    "expectedOutput": "\"gdgzvp\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"qlpeuwrkogvbzgvsfmfya\"]",
+    "expectedOutput": "\"ayfmfsvgzbvgokrwueplq\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"swlkpqucoax\"]",
+    "expectedOutput": "\"xaocuqpklws\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"mclbdc\"]",
+    "expectedOutput": "\"cdblcm\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"tqbrfswesjrny\"]",
+    "expectedOutput": "\"ynrjsewsfrbqt\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ewyqezmgh\"]",
+    "expectedOutput": "\"hgmzeqywe\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cmylyfjfzqnbhovgophavzsc\"]",
+    "expectedOutput": "\"cszvahpogvohbnqzfjfylymc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"qzqmsjtzebzehuyhtl\"]",
+    "expectedOutput": "\"lthyuhezbeztjsmqzq\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"jcmur\"]",
+    "expectedOutput": "\"rumcj\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"lmkceooijxe\"]",
+    "expectedOutput": "\"exjiooeckml\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"nyabfysvkxjysdhxmdnwa\"]",
+    "expectedOutput": "\"awndmxhdsyjxkvsyfbayn\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"glrbhmaywgetorj\"]",
+    "expectedOutput": "\"jrotegwyamhbrlg\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"oyehoibegt\"]",
+    "expectedOutput": "\"tgebioheyo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"rqilzqazinm\"]",
+    "expectedOutput": "\"mnizaqzliqr\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"vxktzzhyddfdhdcd\"]",
+    "expectedOutput": "\"dcdhdfddyhzztkxv\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"qqiutjthcjubjbfvwr\"]",
+    "expectedOutput": "\"rwvfbjbujchtjtuiqq\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"myfitsdotpcvytzbhpiebwrd\"]",
+    "expectedOutput": "\"drwbeiphbztyvcptodstifym\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"liukkbdp\"]",
+    "expectedOutput": "\"pdbkkuil\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"zrphguhvwocvwhyc\"]",
+    "expectedOutput": "\"cyhwvcowvhughprz\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"fhxstfdutom\"]",
+    "expectedOutput": "\"motudftsxhf\"",
+    "isHidden": true
+  }
+]

@@ -1,0 +1,267 @@
+[
+  {
+    "input": "[\"hello\"]",
+    "expectedOutput": "\"olleh\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"leetcode\"]",
+    "expectedOutput": "\"edocteel\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\" \"]",
+    "expectedOutput": "\" \"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"ycutaoooyayscvrqdz\"]",
+    "expectedOutput": "\"zdqrvcsyayoooatucy\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"xuznkyshwoiqrh\"]",
+    "expectedOutput": "\"hrqiowhsyknzux\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"hmzuhgppto\"]",
+    "expectedOutput": "\"otppghuzmh\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"idsglqt\"]",
+    "expectedOutput": "\"tqlgsdi\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hzvzpjujcdzaazcagcslphl\"]",
+    "expectedOutput": "\"lhplscgaczaazdcjujpzvzh\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"eyanpzbytgeh\"]",
+    "expectedOutput": "\"hegtybzpnaye\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ehkucnyk\"]",
+    "expectedOutput": "\"kyncukhe\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"sovrelinktwzlqympktolkr\"]",
+    "expectedOutput": "\"rklotkpmyqlzwtknilervos\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"qjgybkfnozwzktysjzfowx\"]",
+    "expectedOutput": "\"xwofzjsytkzwzonfkbygjq\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"jljym\"]",
+    "expectedOutput": "\"myjlj\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cirvaedzznbjduon\"]",
+    "expectedOutput": "\"noudjbnzzdeavric\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"wdyfkvrxbgxlhkluxchaimt\"]",
+    "expectedOutput": "\"tmiahcxulkhlxgbxrvkfydw\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hdqbhhhwqfplsivwdjruoex\"]",
+    "expectedOutput": "\"xeourjdwvislpfqwhhhbqdh\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"qhtyimy\"]",
+    "expectedOutput": "\"ymiythq\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"jejkrafnruaefujnskkkuo\"]",
+    "expectedOutput": "\"oukkksnjufeaurnfarkjej\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"clwelrrsoxeux\"]",
+    "expectedOutput": "\"xuexosrrlewlc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"yuwbkf\"]",
+    "expectedOutput": "\"fkbwuy\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"rljdntwxi\"]",
+    "expectedOutput": "\"ixwtndjlr\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"jayqhwphqoebjzntpsfdz\"]",
+    "expectedOutput": "\"zdfsptnzjbeoqhpwhqyaj\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cqacaedggbvpspn\"]",
+    "expectedOutput": "\"npspvbggdeacaqc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"olbhlfnyt\"]",
+    "expectedOutput": "\"tynflhblo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"nxkiaxku\"]",
+    "expectedOutput": "\"ukxaikxn\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"txirfrcpduj\"]",
+    "expectedOutput": "\"judpcrfrixt\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"evrxcnfrsvusafbwckkwgapxn\"]",
+    "expectedOutput": "\"nxpagwkkcwbfasuvsrfncxrve\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hqocaypve\"]",
+    "expectedOutput": "\"evpyacoqh\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"zmwzpovatqcxojewku\"]",
+    "expectedOutput": "\"ukwejoxcqtavopzwmz\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"riqtroauoosmkr\"]",
+    "expectedOutput": "\"rkmsoouaortqir\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"krhrjcwbrbsnndbkbhql\"]",
+    "expectedOutput": "\"lqhbkbdnnsbrbwcjrhrk\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"tuqevvozvelwp\"]",
+    "expectedOutput": "\"pwlevzovvequt\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"drgvvmdoez\"]",
+    "expectedOutput": "\"zeodmvvgrd\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"jqfstxjoo\"]",
+    "expectedOutput": "\"oojxtsfqj\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dhhregk\"]",
+    "expectedOutput": "\"kgerhhd\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"mbdckekxjtojzjadxcqd\"]",
+    "expectedOutput": "\"dqcxdajzjotjxkekcdbm\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cxcxlkurcrtalyuinxz\"]",
+    "expectedOutput": "\"zxniuylatrcruklxcxc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ghntpigh\"]",
+    "expectedOutput": "\"hgiptnhg\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"oppgf\"]",
+    "expectedOutput": "\"fgppo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pmiprgmumzfccnjlvwdeqrlv\"]",
+    "expectedOutput": "\"vlrqedwvljnccfzmumgrpimp\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aypmusxrxck\"]",
+    "expectedOutput": "\"kcxrxsumpya\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"kkdoarygrajo\"]",
+    "expectedOutput": "\"ojargyraodkk\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aaatqqpxnohrcwgil\"]",
+    "expectedOutput": "\"ligwcrhonxpqqtaaa\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"tcfpdvtqalgmeqzvowal\"]",
+    "expectedOutput": "\"lawovzqemglaqtvdpfct\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"fzabblpxgvqgrrbsbivdjglbj\"]",
+    "expectedOutput": "\"jblgjdvibsbrrgqvgxplbbazf\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ztxoelwerlnvnvzf\"]",
+    "expectedOutput": "\"fzvnvnlrewleoxtz\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dcaviknscrbyufbvqlt\"]",
+    "expectedOutput": "\"tlqvbfuybrcsnkivacd\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"urygmgu\"]",
+    "expectedOutput": "\"ugmgyru\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"gkvgr\"]",
+    "expectedOutput": "\"rgvkg\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bfziqjspwzfsdenycrmtlp\"]",
+    "expectedOutput": "\"pltmrcynedsfzwpsjqizfb\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hojwyuslyzarqoiuwdg\"]",
+    "expectedOutput": "\"gdwuioqrazylsuywjoh\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"gelvevcxn\"]",
+    "expectedOutput": "\"nxcvevleg\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"mrhzvqistjjw\"]",
+    "expectedOutput": "\"wjjtsiqvzhrm\"",
+    "isHidden": true
+  }
+]
