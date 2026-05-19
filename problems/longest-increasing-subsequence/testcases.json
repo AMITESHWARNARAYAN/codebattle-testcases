@@ -1,267 +1,267 @@
 [
   {
-    "input": "[\"hello\"]",
-    "expectedOutput": "\"olleh\"",
+    "input": "[[10,9,2,5,3,7,101,18]]",
+    "expectedOutput": "4",
     "isHidden": false
   },
   {
-    "input": "[\"leetcode\"]",
-    "expectedOutput": "\"edocteel\"",
+    "input": "[[0,1,0,3,2,3]]",
+    "expectedOutput": "4",
     "isHidden": false
   },
   {
-    "input": "[\" \"]",
-    "expectedOutput": "\" \"",
+    "input": "[[7,7,7,7,7,7,7]]",
+    "expectedOutput": "1",
     "isHidden": false
   },
   {
-    "input": "[\"bxefutkfqvishpdxksywz\"]",
-    "expectedOutput": "\"zwyskxdphsivqfktufexb\"",
+    "input": "[[23,2,15,29,10]]",
+    "expectedOutput": "3",
     "isHidden": false
   },
   {
-    "input": "[\"sksns\"]",
-    "expectedOutput": "\"snsks\"",
+    "input": "[[-5,19,37,43,45,47,23,48,32,-10,10,24]]",
+    "expectedOutput": "7",
     "isHidden": false
   },
   {
-    "input": "[\"ilrydowubvva\"]",
-    "expectedOutput": "\"avvbuwodyrli\"",
+    "input": "[[15,19,38,1,31,42,32,-7]]",
+    "expectedOutput": "4",
     "isHidden": true
   },
   {
-    "input": "[\"rfqzgzkdyowhixmijtjqg\"]",
-    "expectedOutput": "\"gqjtjimxihwoydkzgzqfr\"",
+    "input": "[[-8,1,28,19,49,46,-1]]",
+    "expectedOutput": "4",
     "isHidden": true
   },
   {
-    "input": "[\"focaec\"]",
-    "expectedOutput": "\"ceacof\"",
+    "input": "[[32,-6,45,38,49,34,38,3,39]]",
+    "expectedOutput": "4",
     "isHidden": true
   },
   {
-    "input": "[\"fbviwnvovlgbhzwowggqufpk\"]",
-    "expectedOutput": "\"kpfuqggwowzhbglvovnwivbf\"",
+    "input": "[[21,6,31,43,6]]",
+    "expectedOutput": "3",
     "isHidden": true
   },
   {
-    "input": "[\"rmkzwuofvoendemlcg\"]",
-    "expectedOutput": "\"gclmedneovfouwzkmr\"",
+    "input": "[[23,-9,34,-3,18]]",
+    "expectedOutput": "3",
     "isHidden": true
   },
   {
-    "input": "[\"dtmwrrvnvpnafsptf\"]",
-    "expectedOutput": "\"ftpsfanpvnvrrwmtd\"",
+    "input": "[[-10,-3,1,9,-2,32,12]]",
+    "expectedOutput": "5",
     "isHidden": true
   },
   {
-    "input": "[\"knpfnf\"]",
-    "expectedOutput": "\"fnfpnk\"",
+    "input": "[[40,29,27,-4,-2,36,31,44,14,-2]]",
+    "expectedOutput": "4",
     "isHidden": true
   },
   {
-    "input": "[\"zbhuucforbvtnycmoocfphqsq\"]",
-    "expectedOutput": "\"qsqhpfcoomcyntvbrofcuuhbz\"",
+    "input": "[[4,21,49,32,47,16,18,4,6]]",
+    "expectedOutput": "4",
     "isHidden": true
   },
   {
-    "input": "[\"uujgkqinriqanwn\"]",
-    "expectedOutput": "\"nwnaqirniqkgjuu\"",
+    "input": "[[8,26,6,42,38,17,9]]",
+    "expectedOutput": "3",
     "isHidden": true
   },
   {
-    "input": "[\"oqzggvxaijluwivkdgivxwuiv\"]",
-    "expectedOutput": "\"viuwxvigdkviwuljiaxvggzqo\"",
+    "input": "[[29,19,37,27,10,50,42]]",
+    "expectedOutput": "3",
     "isHidden": true
   },
   {
-    "input": "[\"pxldx\"]",
-    "expectedOutput": "\"xdlxp\"",
+    "input": "[[32,46,-2,28,12,9,50,37,44,50,35,10]]",
+    "expectedOutput": "5",
     "isHidden": true
   },
   {
-    "input": "[\"updzbvbrhl\"]",
-    "expectedOutput": "\"lhrbvbzdpu\"",
+    "input": "[[13,-5,21,0,22,48]]",
+    "expectedOutput": "4",
     "isHidden": true
   },
   {
-    "input": "[\"fnohefjwvzmim\"]",
-    "expectedOutput": "\"mimzvwjfehonf\"",
+    "input": "[[-3,7,17,25,9,48,43,12,2,41]]",
+    "expectedOutput": "5",
     "isHidden": true
   },
   {
-    "input": "[\"ovyqsdwrmh\"]",
-    "expectedOutput": "\"hmrwdsqyvo\"",
+    "input": "[[31,41,23,0,26,46,41,20,48,21,15]]",
+    "expectedOutput": "4",
     "isHidden": true
   },
   {
-    "input": "[\"fuqihvrtkjkrorznun\"]",
-    "expectedOutput": "\"nunzrorkjktrvhiquf\"",
+    "input": "[[22,-4,35,27,18,6,31]]",
+    "expectedOutput": "3",
     "isHidden": true
   },
   {
-    "input": "[\"mufxz\"]",
-    "expectedOutput": "\"zxfum\"",
+    "input": "[[31,1,27,36,7,35,13,4]]",
+    "expectedOutput": "3",
     "isHidden": true
   },
   {
-    "input": "[\"zdjzckashvbyzilqozzbd\"]",
-    "expectedOutput": "\"dbzzoqlizybvhsakczjdz\"",
+    "input": "[[41,29,43,5,-9,25,10,29]]",
+    "expectedOutput": "3",
     "isHidden": true
   },
   {
-    "input": "[\"pjfwxefuuiuoutlqp\"]",
-    "expectedOutput": "\"pqltuouiuufexwfjp\"",
+    "input": "[[-8,41,6,-6,-1,-8]]",
+    "expectedOutput": "3",
     "isHidden": true
   },
   {
-    "input": "[\"ykirf\"]",
-    "expectedOutput": "\"friky\"",
+    "input": "[[11,26,24,0,44]]",
+    "expectedOutput": "3",
     "isHidden": true
   },
   {
-    "input": "[\"zgudbdyikhmidaramuhhey\"]",
-    "expectedOutput": "\"yehhumaradimhkiydbdugz\"",
+    "input": "[[47,20,39,15,1,39,23,21,18]]",
+    "expectedOutput": "2",
     "isHidden": true
   },
   {
-    "input": "[\"ytbpghkanultpfgwsup\"]",
-    "expectedOutput": "\"puswgfptlunakhgpbty\"",
+    "input": "[[29,2,19,40,14,3,36,-1,43,40]]",
+    "expectedOutput": "4",
     "isHidden": true
   },
   {
-    "input": "[\"nqwzradmgvrzh\"]",
-    "expectedOutput": "\"hzrvgmdarzwqn\"",
+    "input": "[[43,35,-8,18,-1,19,10,-5,-1,35,7]]",
+    "expectedOutput": "4",
     "isHidden": true
   },
   {
-    "input": "[\"jtugodklpckkghwjefixemb\"]",
-    "expectedOutput": "\"bmexifejwhgkkcplkdogutj\"",
+    "input": "[[35,4,39,1,22,3,17,17]]",
+    "expectedOutput": "3",
     "isHidden": true
   },
   {
-    "input": "[\"gbhzwdedbreldrfhbgb\"]",
-    "expectedOutput": "\"bgbhfrdlerbdedwzhbg\"",
+    "input": "[[34,49,-6,40,43,33,-6,4,-3,17,44]]",
+    "expectedOutput": "4",
     "isHidden": true
   },
   {
-    "input": "[\"cgekb\"]",
-    "expectedOutput": "\"bkegc\"",
+    "input": "[[-2,-5,33,8,32,48,25,29,-3,29,42]]",
+    "expectedOutput": "5",
     "isHidden": true
   },
   {
-    "input": "[\"vibeliyjievq\"]",
-    "expectedOutput": "\"qveijyilebiv\"",
+    "input": "[[37,47,-2,18,35,4,47,32]]",
+    "expectedOutput": "4",
     "isHidden": true
   },
   {
-    "input": "[\"mqodyxbxuiwufxtelydtscqm\"]",
-    "expectedOutput": "\"mqcstdyletxfuwiuxbxydoqm\"",
+    "input": "[[40,32,39,-3,28,20]]",
+    "expectedOutput": "2",
     "isHidden": true
   },
   {
-    "input": "[\"wqdvzfgschdwkllpak\"]",
-    "expectedOutput": "\"kapllkwdhcsgfzvdqw\"",
+    "input": "[[-8,34,42,39,44,-5,21,46]]",
+    "expectedOutput": "5",
     "isHidden": true
   },
   {
-    "input": "[\"vywumyppbdpqevqvbda\"]",
-    "expectedOutput": "\"adbvqveqpdbppymuwyv\"",
+    "input": "[[49,34,9,45,-6,47,-8,16,45,22]]",
+    "expectedOutput": "3",
     "isHidden": true
   },
   {
-    "input": "[\"pgutusjsbemzlqugzo\"]",
-    "expectedOutput": "\"ozguqlzmebsjsutugp\"",
+    "input": "[[-7,34,19,-3,12]]",
+    "expectedOutput": "3",
     "isHidden": true
   },
   {
-    "input": "[\"cqfpecntkzocrdewszznn\"]",
-    "expectedOutput": "\"nnzzswedrcozktncepfqc\"",
+    "input": "[[-3,-7,36,45,43,39,22,19]]",
+    "expectedOutput": "3",
     "isHidden": true
   },
   {
-    "input": "[\"fpwxlvtcekey\"]",
-    "expectedOutput": "\"yekectvlxwpf\"",
+    "input": "[[41,19,4,18,-10,-5,9,36,43,44,15,38]]",
+    "expectedOutput": "6",
     "isHidden": true
   },
   {
-    "input": "[\"mgwqrleipfd\"]",
-    "expectedOutput": "\"dfpielrqwgm\"",
+    "input": "[[12,27,17,9,3,4,13,41,24,-9,9,-2]]",
+    "expectedOutput": "4",
     "isHidden": true
   },
   {
-    "input": "[\"mmssbtlcjydmrrzejevn\"]",
-    "expectedOutput": "\"nvejezrrmdyjcltbssmm\"",
+    "input": "[[39,-7,5,28,5]]",
+    "expectedOutput": "3",
     "isHidden": true
   },
   {
-    "input": "[\"vfsgmxembwlspkpjuhiwhstxy\"]",
-    "expectedOutput": "\"yxtshwihujpkpslwbmexmgsfv\"",
+    "input": "[[15,17,1,17,18,45,26,1,47,36]]",
+    "expectedOutput": "5",
     "isHidden": true
   },
   {
-    "input": "[\"atddalonye\"]",
-    "expectedOutput": "\"eynoladdta\"",
+    "input": "[[26,34,-2,25,27,9,8]]",
+    "expectedOutput": "3",
     "isHidden": true
   },
   {
-    "input": "[\"adtsqhvapocmzuhqiuzewgj\"]",
-    "expectedOutput": "\"jgwezuiqhuzmcopavhqstda\"",
+    "input": "[[8,16,22,-10,24,-1,5,22,32]]",
+    "expectedOutput": "5",
     "isHidden": true
   },
   {
-    "input": "[\"jenzbr\"]",
-    "expectedOutput": "\"rbznej\"",
+    "input": "[[-8,49,2,30,29,11,40,32,43]]",
+    "expectedOutput": "5",
     "isHidden": true
   },
   {
-    "input": "[\"uzkwuj\"]",
-    "expectedOutput": "\"juwkzu\"",
+    "input": "[[17,50,40,38,6,12,9,28,-3,48,-6]]",
+    "expectedOutput": "4",
     "isHidden": true
   },
   {
-    "input": "[\"qziudvlv\"]",
-    "expectedOutput": "\"vlvduizq\"",
+    "input": "[[27,10,18,42,48,-8,40,35,47]]",
+    "expectedOutput": "4",
     "isHidden": true
   },
   {
-    "input": "[\"swwjuliapmnqzoq\"]",
-    "expectedOutput": "\"qozqnmpailujwws\"",
+    "input": "[[0,37,21,48,22,-7]]",
+    "expectedOutput": "3",
     "isHidden": true
   },
   {
-    "input": "[\"ungyozrpjqadbbuwweqzotglv\"]",
-    "expectedOutput": "\"vlgtozqewwubbdaqjprzoygnu\"",
+    "input": "[[21,15,10,6,10,26,42,10,47]]",
+    "expectedOutput": "5",
     "isHidden": true
   },
   {
-    "input": "[\"ruyghwzkugayyvw\"]",
-    "expectedOutput": "\"wvyyagukzwhgyur\"",
+    "input": "[[-4,14,1,7,-6,-10,20,4,13,44,10]]",
+    "expectedOutput": "5",
     "isHidden": true
   },
   {
-    "input": "[\"fmwrrynbsyxquuocufcig\"]",
-    "expectedOutput": "\"gicfucouuqxysbnyrrwmf\"",
+    "input": "[[23,27,42,2,25,15,37,28,10,33]]",
+    "expectedOutput": "4",
     "isHidden": true
   },
   {
-    "input": "[\"jzkzjjxpuzg\"]",
-    "expectedOutput": "\"gzupxjjzkzj\"",
+    "input": "[[48,-3,4,43,15]]",
+    "expectedOutput": "3",
     "isHidden": true
   },
   {
-    "input": "[\"tqotmeawdzynlptugobhai\"]",
-    "expectedOutput": "\"iahbogutplnyzdwaemtoqt\"",
+    "input": "[[-5,19,14,-8,1,33,19,-3,18,41,18]]",
+    "expectedOutput": "4",
     "isHidden": true
   },
   {
-    "input": "[\"rcwbsijwxaohrqznanszzbia\"]",
-    "expectedOutput": "\"aibzzsnanzqrhoaxwjisbwcr\"",
+    "input": "[[33,12,39,-6,41]]",
+    "expectedOutput": "3",
     "isHidden": true
   },
   {
-    "input": "[\"yvezcbgksnrvtgqajiop\"]",
-    "expectedOutput": "\"poijaqgtvrnskgbczevy\"",
+    "input": "[[49,27,40,40,23,-5,20,-6]]",
+    "expectedOutput": "2",
     "isHidden": true
   }
 ]

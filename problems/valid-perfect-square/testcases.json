@@ -1,267 +1,262 @@
 [
   {
-    "input": "[1]",
-    "expectedOutput": "3",
+    "input": "[16]",
+    "expectedOutput": "true",
     "isHidden": false
   },
   {
-    "input": "[0]",
-    "expectedOutput": "1",
+    "input": "[14]",
+    "expectedOutput": "false",
     "isHidden": false
   },
   {
-    "input": "[10]",
-    "expectedOutput": "21",
+    "input": "[66]",
+    "expectedOutput": "false",
     "isHidden": false
   },
   {
-    "input": "[7057]",
-    "expectedOutput": "14115",
+    "input": "[361]",
+    "expectedOutput": "true",
     "isHidden": false
   },
   {
-    "input": "[8323]",
-    "expectedOutput": "16647",
+    "input": "[324]",
+    "expectedOutput": "true",
     "isHidden": false
   },
   {
-    "input": "[9942]",
-    "expectedOutput": "19885",
+    "input": "[25]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[2588]",
-    "expectedOutput": "5177",
+    "input": "[102]",
+    "expectedOutput": "false",
     "isHidden": true
   },
   {
-    "input": "[2368]",
-    "expectedOutput": "4737",
+    "input": "[169]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[9178]",
-    "expectedOutput": "18357",
+    "input": "[146]",
+    "expectedOutput": "false",
     "isHidden": true
   },
   {
-    "input": "[4814]",
-    "expectedOutput": "9629",
+    "input": "[144]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[8586]",
-    "expectedOutput": "17173",
+    "input": "[138]",
+    "expectedOutput": "false",
     "isHidden": true
   },
   {
-    "input": "[1155]",
-    "expectedOutput": "2311",
+    "input": "[324]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[7844]",
-    "expectedOutput": "15689",
+    "input": "[324]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[902]",
-    "expectedOutput": "1805",
+    "input": "[64]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[1257]",
-    "expectedOutput": "2515",
+    "input": "[81]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[5584]",
-    "expectedOutput": "11169",
+    "input": "[339]",
+    "expectedOutput": "false",
     "isHidden": true
   },
   {
-    "input": "[1060]",
-    "expectedOutput": "2121",
+    "input": "[9]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[1823]",
-    "expectedOutput": "3647",
+    "input": "[236]",
+    "expectedOutput": "false",
     "isHidden": true
   },
   {
-    "input": "[5915]",
-    "expectedOutput": "11831",
+    "input": "[144]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[4348]",
-    "expectedOutput": "8697",
+    "input": "[332]",
+    "expectedOutput": "false",
     "isHidden": true
   },
   {
-    "input": "[1046]",
-    "expectedOutput": "2093",
+    "input": "[16]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[4450]",
-    "expectedOutput": "8901",
+    "input": "[391]",
+    "expectedOutput": "false",
     "isHidden": true
   },
   {
-    "input": "[6790]",
-    "expectedOutput": "13581",
+    "input": "[266]",
+    "expectedOutput": "false",
     "isHidden": true
   },
   {
-    "input": "[6358]",
-    "expectedOutput": "12717",
+    "input": "[400]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[1800]",
-    "expectedOutput": "3601",
+    "input": "[101]",
+    "expectedOutput": "false",
     "isHidden": true
   },
   {
-    "input": "[7978]",
-    "expectedOutput": "15957",
+    "input": "[9]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[7589]",
-    "expectedOutput": "15179",
+    "input": "[289]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[7721]",
-    "expectedOutput": "15443",
+    "input": "[4]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[2473]",
-    "expectedOutput": "4947",
+    "input": "[169]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[8016]",
-    "expectedOutput": "16033",
+    "input": "[121]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[6954]",
-    "expectedOutput": "13909",
+    "input": "[341]",
+    "expectedOutput": "false",
     "isHidden": true
   },
   {
-    "input": "[2567]",
-    "expectedOutput": "5135",
+    "input": "[320]",
+    "expectedOutput": "false",
     "isHidden": true
   },
   {
-    "input": "[1141]",
-    "expectedOutput": "2283",
+    "input": "[318]",
+    "expectedOutput": "false",
     "isHidden": true
   },
   {
-    "input": "[8786]",
-    "expectedOutput": "17573",
+    "input": "[348]",
+    "expectedOutput": "false",
     "isHidden": true
   },
   {
-    "input": "[6731]",
-    "expectedOutput": "13463",
+    "input": "[158]",
+    "expectedOutput": "false",
     "isHidden": true
   },
   {
-    "input": "[3641]",
-    "expectedOutput": "7283",
+    "input": "[196]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[4590]",
-    "expectedOutput": "9181",
+    "input": "[25]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[8643]",
-    "expectedOutput": "17287",
+    "input": "[27]",
+    "expectedOutput": "false",
     "isHidden": true
   },
   {
-    "input": "[6127]",
-    "expectedOutput": "12255",
+    "input": "[122]",
+    "expectedOutput": "false",
     "isHidden": true
   },
   {
-    "input": "[4438]",
-    "expectedOutput": "8877",
+    "input": "[256]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[1852]",
-    "expectedOutput": "3705",
+    "input": "[205]",
+    "expectedOutput": "false",
     "isHidden": true
   },
   {
-    "input": "[8540]",
-    "expectedOutput": "17081",
+    "input": "[392]",
+    "expectedOutput": "false",
     "isHidden": true
   },
   {
-    "input": "[277]",
-    "expectedOutput": "555",
+    "input": "[25]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[4694]",
-    "expectedOutput": "9389",
+    "input": "[304]",
+    "expectedOutput": "false",
     "isHidden": true
   },
   {
-    "input": "[2885]",
-    "expectedOutput": "5771",
+    "input": "[361]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[2994]",
-    "expectedOutput": "5989",
+    "input": "[25]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[7875]",
-    "expectedOutput": "15751",
+    "input": "[49]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[1086]",
-    "expectedOutput": "2173",
+    "input": "[100]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[8519]",
-    "expectedOutput": "17039",
+    "input": "[344]",
+    "expectedOutput": "false",
     "isHidden": true
   },
   {
-    "input": "[182]",
-    "expectedOutput": "365",
+    "input": "[144]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[1476]",
-    "expectedOutput": "2953",
+    "input": "[49]",
+    "expectedOutput": "true",
     "isHidden": true
   },
   {
-    "input": "[1910]",
-    "expectedOutput": "3821",
-    "isHidden": true
-  },
-  {
-    "input": "[1669]",
-    "expectedOutput": "3339",
+    "input": "[81]",
+    "expectedOutput": "true",
     "isHidden": true
   }
 ]

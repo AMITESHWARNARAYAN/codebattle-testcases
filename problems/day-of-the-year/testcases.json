@@ -1,267 +1,262 @@
 [
   {
-    "input": "[1]",
-    "expectedOutput": "3",
+    "input": "[\"2019-01-09\"]",
+    "expectedOutput": "9",
     "isHidden": false
   },
   {
-    "input": "[0]",
-    "expectedOutput": "1",
+    "input": "[\"2019-02-10\"]",
+    "expectedOutput": "41",
     "isHidden": false
   },
   {
-    "input": "[10]",
-    "expectedOutput": "21",
+    "input": "[\"2020-07-18\"]",
+    "expectedOutput": "200",
     "isHidden": false
   },
   {
-    "input": "[6355]",
-    "expectedOutput": "12711",
+    "input": "[\"2020-01-14\"]",
+    "expectedOutput": "14",
     "isHidden": false
   },
   {
-    "input": "[9302]",
-    "expectedOutput": "18605",
+    "input": "[\"2020-01-13\"]",
+    "expectedOutput": "13",
     "isHidden": false
   },
   {
-    "input": "[7203]",
-    "expectedOutput": "14407",
+    "input": "[\"2020-06-10\"]",
+    "expectedOutput": "162",
     "isHidden": true
   },
   {
-    "input": "[8425]",
-    "expectedOutput": "16851",
+    "input": "[\"2020-03-15\"]",
+    "expectedOutput": "75",
     "isHidden": true
   },
   {
-    "input": "[333]",
-    "expectedOutput": "667",
+    "input": "[\"2020-02-10\"]",
+    "expectedOutput": "41",
     "isHidden": true
   },
   {
-    "input": "[9041]",
-    "expectedOutput": "18083",
+    "input": "[\"2020-05-14\"]",
+    "expectedOutput": "135",
     "isHidden": true
   },
   {
-    "input": "[7235]",
-    "expectedOutput": "14471",
+    "input": "[\"2020-02-12\"]",
+    "expectedOutput": "43",
     "isHidden": true
   },
   {
-    "input": "[5716]",
-    "expectedOutput": "11433",
+    "input": "[\"2020-07-17\"]",
+    "expectedOutput": "199",
     "isHidden": true
   },
   {
-    "input": "[9639]",
-    "expectedOutput": "19279",
+    "input": "[\"2020-09-12\"]",
+    "expectedOutput": "256",
     "isHidden": true
   },
   {
-    "input": "[4602]",
-    "expectedOutput": "9205",
+    "input": "[\"2020-08-18\"]",
+    "expectedOutput": "231",
     "isHidden": true
   },
   {
-    "input": "[6804]",
-    "expectedOutput": "13609",
+    "input": "[\"2020-09-19\"]",
+    "expectedOutput": "263",
     "isHidden": true
   },
   {
-    "input": "[6944]",
-    "expectedOutput": "13889",
+    "input": "[\"2020-08-14\"]",
+    "expectedOutput": "227",
     "isHidden": true
   },
   {
-    "input": "[9577]",
-    "expectedOutput": "19155",
+    "input": "[\"2020-06-15\"]",
+    "expectedOutput": "167",
     "isHidden": true
   },
   {
-    "input": "[7356]",
-    "expectedOutput": "14713",
+    "input": "[\"2020-06-18\"]",
+    "expectedOutput": "170",
     "isHidden": true
   },
   {
-    "input": "[5606]",
-    "expectedOutput": "11213",
+    "input": "[\"2020-01-12\"]",
+    "expectedOutput": "12",
     "isHidden": true
   },
   {
-    "input": "[4039]",
-    "expectedOutput": "8079",
+    "input": "[\"2020-04-11\"]",
+    "expectedOutput": "102",
     "isHidden": true
   },
   {
-    "input": "[9555]",
-    "expectedOutput": "19111",
+    "input": "[\"2020-01-19\"]",
+    "expectedOutput": "19",
     "isHidden": true
   },
   {
-    "input": "[3277]",
-    "expectedOutput": "6555",
+    "input": "[\"2020-07-16\"]",
+    "expectedOutput": "198",
     "isHidden": true
   },
   {
-    "input": "[3608]",
-    "expectedOutput": "7217",
+    "input": "[\"2020-08-14\"]",
+    "expectedOutput": "227",
     "isHidden": true
   },
   {
-    "input": "[354]",
-    "expectedOutput": "709",
+    "input": "[\"2020-02-14\"]",
+    "expectedOutput": "45",
     "isHidden": true
   },
   {
-    "input": "[8872]",
-    "expectedOutput": "17745",
+    "input": "[\"2020-01-15\"]",
+    "expectedOutput": "15",
     "isHidden": true
   },
   {
-    "input": "[2652]",
-    "expectedOutput": "5305",
+    "input": "[\"2020-02-17\"]",
+    "expectedOutput": "48",
     "isHidden": true
   },
   {
-    "input": "[9215]",
-    "expectedOutput": "18431",
+    "input": "[\"2020-02-10\"]",
+    "expectedOutput": "41",
     "isHidden": true
   },
   {
-    "input": "[1487]",
-    "expectedOutput": "2975",
+    "input": "[\"2020-03-12\"]",
+    "expectedOutput": "72",
     "isHidden": true
   },
   {
-    "input": "[3353]",
-    "expectedOutput": "6707",
+    "input": "[\"2020-03-14\"]",
+    "expectedOutput": "74",
     "isHidden": true
   },
   {
-    "input": "[2596]",
-    "expectedOutput": "5193",
+    "input": "[\"2020-02-10\"]",
+    "expectedOutput": "41",
     "isHidden": true
   },
   {
-    "input": "[5551]",
-    "expectedOutput": "11103",
+    "input": "[\"2020-01-17\"]",
+    "expectedOutput": "17",
     "isHidden": true
   },
   {
-    "input": "[6640]",
-    "expectedOutput": "13281",
+    "input": "[\"2020-03-12\"]",
+    "expectedOutput": "72",
     "isHidden": true
   },
   {
-    "input": "[7148]",
-    "expectedOutput": "14297",
+    "input": "[\"2020-04-18\"]",
+    "expectedOutput": "109",
     "isHidden": true
   },
   {
-    "input": "[5423]",
-    "expectedOutput": "10847",
+    "input": "[\"2020-03-17\"]",
+    "expectedOutput": "77",
     "isHidden": true
   },
   {
-    "input": "[8829]",
-    "expectedOutput": "17659",
+    "input": "[\"2020-05-17\"]",
+    "expectedOutput": "138",
     "isHidden": true
   },
   {
-    "input": "[4332]",
-    "expectedOutput": "8665",
+    "input": "[\"2020-07-11\"]",
+    "expectedOutput": "193",
     "isHidden": true
   },
   {
-    "input": "[4152]",
-    "expectedOutput": "8305",
+    "input": "[\"2020-06-19\"]",
+    "expectedOutput": "171",
     "isHidden": true
   },
   {
-    "input": "[8136]",
-    "expectedOutput": "16273",
+    "input": "[\"2020-08-10\"]",
+    "expectedOutput": "223",
     "isHidden": true
   },
   {
-    "input": "[6103]",
-    "expectedOutput": "12207",
+    "input": "[\"2020-08-12\"]",
+    "expectedOutput": "225",
     "isHidden": true
   },
   {
-    "input": "[8341]",
-    "expectedOutput": "16683",
+    "input": "[\"2020-02-10\"]",
+    "expectedOutput": "41",
     "isHidden": true
   },
   {
-    "input": "[3417]",
-    "expectedOutput": "6835",
+    "input": "[\"2020-06-18\"]",
+    "expectedOutput": "170",
     "isHidden": true
   },
   {
-    "input": "[4660]",
-    "expectedOutput": "9321",
+    "input": "[\"2020-07-15\"]",
+    "expectedOutput": "197",
     "isHidden": true
   },
   {
-    "input": "[8941]",
-    "expectedOutput": "17883",
+    "input": "[\"2020-02-17\"]",
+    "expectedOutput": "48",
     "isHidden": true
   },
   {
-    "input": "[8438]",
-    "expectedOutput": "16877",
+    "input": "[\"2020-08-15\"]",
+    "expectedOutput": "228",
     "isHidden": true
   },
   {
-    "input": "[154]",
-    "expectedOutput": "309",
+    "input": "[\"2020-06-12\"]",
+    "expectedOutput": "164",
     "isHidden": true
   },
   {
-    "input": "[7214]",
-    "expectedOutput": "14429",
+    "input": "[\"2020-05-16\"]",
+    "expectedOutput": "137",
     "isHidden": true
   },
   {
-    "input": "[5018]",
-    "expectedOutput": "10037",
+    "input": "[\"2020-06-15\"]",
+    "expectedOutput": "167",
     "isHidden": true
   },
   {
-    "input": "[5736]",
-    "expectedOutput": "11473",
+    "input": "[\"2020-04-18\"]",
+    "expectedOutput": "109",
     "isHidden": true
   },
   {
-    "input": "[7514]",
-    "expectedOutput": "15029",
+    "input": "[\"2020-04-19\"]",
+    "expectedOutput": "110",
     "isHidden": true
   },
   {
-    "input": "[2989]",
-    "expectedOutput": "5979",
+    "input": "[\"2020-06-18\"]",
+    "expectedOutput": "170",
     "isHidden": true
   },
   {
-    "input": "[7909]",
-    "expectedOutput": "15819",
+    "input": "[\"2020-06-10\"]",
+    "expectedOutput": "162",
     "isHidden": true
   },
   {
-    "input": "[4717]",
-    "expectedOutput": "9435",
+    "input": "[\"2020-05-12\"]",
+    "expectedOutput": "133",
     "isHidden": true
   },
   {
-    "input": "[6731]",
-    "expectedOutput": "13463",
-    "isHidden": true
-  },
-  {
-    "input": "[8352]",
-    "expectedOutput": "16705",
+    "input": "[\"2020-06-19\"]",
+    "expectedOutput": "171",
     "isHidden": true
   }
 ]

@@ -1,262 +1,262 @@
 [
   {
-    "input": "[[1,2,3]]",
-    "expectedOutput": "[2,4,6]",
+    "input": "[\"Mr John Smith\"]",
+    "expectedOutput": "\"Mr%20John%20Smith\"",
     "isHidden": false
   },
   {
-    "input": "[[0]]",
-    "expectedOutput": "[0]",
+    "input": "[\"Hello World \"]",
+    "expectedOutput": "\"Hello%20World\"",
     "isHidden": false
   },
   {
-    "input": "[[34,41,37,49,29,13]]",
-    "expectedOutput": "[26,58,68,74,82,98]",
+    "input": "[\"bvr ggh\"]",
+    "expectedOutput": "\"bvr%20ggh\"",
     "isHidden": false
   },
   {
-    "input": "[[25,-10,20,21,46]]",
-    "expectedOutput": "[-20,40,42,50,92]",
+    "input": "[\"teg cst\"]",
+    "expectedOutput": "\"teg%20cst\"",
     "isHidden": false
   },
   {
-    "input": "[[22,34,15,-3,27,31,16]]",
-    "expectedOutput": "[-6,30,32,44,54,62,68]",
+    "input": "[\"iyr eiz\"]",
+    "expectedOutput": "\"iyr%20eiz\"",
     "isHidden": false
   },
   {
-    "input": "[[11,48,6,9,34,-8,18,-3,6,34]]",
-    "expectedOutput": "[-16,-6,12,12,18,22,36,68,68,96]",
+    "input": "[\"dvz zxa\"]",
+    "expectedOutput": "\"dvz%20zxa\"",
     "isHidden": true
   },
   {
-    "input": "[[28,13,48,21,49,29,48,9,6,10,-4,32,5,13]]",
-    "expectedOutput": "[-8,10,12,18,20,26,26,42,56,58,64,96,96,98]",
+    "input": "[\"pas ujh\"]",
+    "expectedOutput": "\"pas%20ujh\"",
     "isHidden": true
   },
   {
-    "input": "[[35,-6,28,25,48,12,2,5]]",
-    "expectedOutput": "[-12,4,10,24,50,56,70,96]",
+    "input": "[\"qdc qzm\"]",
+    "expectedOutput": "\"qdc%20qzm\"",
     "isHidden": true
   },
   {
-    "input": "[[11,43,31,23,27,0,-9,39,7,29,3,40,16,47,27,26,-2,46]]",
-    "expectedOutput": "[-18,-4,0,6,14,22,32,46,52,54,54,58,62,78,80,86,92,94]",
+    "input": "[\"agh ktr\"]",
+    "expectedOutput": "\"agh%20ktr\"",
     "isHidden": true
   },
   {
-    "input": "[[11,4,9,14,50,-5,16,29,10,46,-8,1,38,25,32,21,-7]]",
-    "expectedOutput": "[-16,-14,-10,2,8,18,20,22,28,32,42,50,58,64,76,92,100]",
+    "input": "[\"bxw scl\"]",
+    "expectedOutput": "\"bxw%20scl\"",
     "isHidden": true
   },
   {
-    "input": "[[3,37,43,8,32,19,5,9,50,-7,14,48,21,41,42,42,46,47,38,37]]",
-    "expectedOutput": "[-14,6,10,16,18,28,38,42,64,74,74,76,82,84,84,86,92,94,96,100]",
+    "input": "[\"pgt trs\"]",
+    "expectedOutput": "\"pgt%20trs\"",
     "isHidden": true
   },
   {
-    "input": "[[12,11,34,1,39,41,-5,2,28,27,32,1,30,1]]",
-    "expectedOutput": "[-10,2,2,2,4,22,24,54,56,60,64,68,78,82]",
+    "input": "[\"liw dqo\"]",
+    "expectedOutput": "\"liw%20dqo\"",
     "isHidden": true
   },
   {
-    "input": "[[45,43,36,34,-8,42,14,-3,26,30,26,31,-3,-5,24,-9,10,9,16]]",
-    "expectedOutput": "[-18,-16,-10,-6,-6,18,20,28,32,48,52,52,60,62,68,72,84,86,90]",
+    "input": "[\"ygg hpg\"]",
+    "expectedOutput": "\"ygg%20hpg\"",
     "isHidden": true
   },
   {
-    "input": "[[17,12,7,39,46,16,19,20]]",
-    "expectedOutput": "[14,24,32,34,38,40,78,92]",
+    "input": "[\"yyd dmn\"]",
+    "expectedOutput": "\"yyd%20dmn\"",
     "isHidden": true
   },
   {
-    "input": "[[35,43,28,12,49,45,20]]",
-    "expectedOutput": "[24,40,56,70,86,90,98]",
+    "input": "[\"rog kao\"]",
+    "expectedOutput": "\"rog%20kao\"",
     "isHidden": true
   },
   {
-    "input": "[[23,43,-6,48,24,-6,23,50,47,47,31,33,10,17,42,32,23,41,34,27]]",
-    "expectedOutput": "[-12,-12,20,34,46,46,46,48,54,62,64,66,68,82,84,86,94,94,96,100]",
+    "input": "[\"izf aen\"]",
+    "expectedOutput": "\"izf%20aen\"",
     "isHidden": true
   },
   {
-    "input": "[[46,33,21,0,48,34,48,34,11,36,-5]]",
-    "expectedOutput": "[-10,0,22,42,66,68,68,72,92,96,96]",
+    "input": "[\"drc efr\"]",
+    "expectedOutput": "\"drc%20efr\"",
     "isHidden": true
   },
   {
-    "input": "[[-2,30,42,44,25,32,29,31,14,24,-8,37,40,4,23,36,43,11]]",
-    "expectedOutput": "[-16,-4,8,22,28,46,48,50,58,60,62,64,72,74,80,84,86,88]",
+    "input": "[\"wro dxm\"]",
+    "expectedOutput": "\"wro%20dxm\"",
     "isHidden": true
   },
   {
-    "input": "[[35,50,14,8,29,28,24,11,31]]",
-    "expectedOutput": "[16,22,28,48,56,58,62,70,100]",
+    "input": "[\"qwj seq\"]",
+    "expectedOutput": "\"qwj%20seq\"",
     "isHidden": true
   },
   {
-    "input": "[[-3,6,17,42,4,19,-6,5,2,39,17,17,21,18,23,18]]",
-    "expectedOutput": "[-12,-6,4,8,10,12,34,34,34,36,36,38,42,46,78,84]",
+    "input": "[\"wxr kmh\"]",
+    "expectedOutput": "\"wxr%20kmh\"",
     "isHidden": true
   },
   {
-    "input": "[[0,10,28,-9,47,8,39,31,10,2,25,15,-5,46,0,10,2,1]]",
-    "expectedOutput": "[-18,-10,0,0,2,4,4,16,20,20,20,30,50,56,62,78,92,94]",
+    "input": "[\"mfv gkd\"]",
+    "expectedOutput": "\"mfv%20gkd\"",
     "isHidden": true
   },
   {
-    "input": "[[15,-5,21,48,36]]",
-    "expectedOutput": "[-10,30,42,72,96]",
+    "input": "[\"iss dru\"]",
+    "expectedOutput": "\"iss%20dru\"",
     "isHidden": true
   },
   {
-    "input": "[[22,39,30,29,45,23,-1,49,26,3,23]]",
-    "expectedOutput": "[-2,6,44,46,46,52,58,60,78,90,98]",
+    "input": "[\"cwr puy\"]",
+    "expectedOutput": "\"cwr%20puy\"",
     "isHidden": true
   },
   {
-    "input": "[[38,44,24,9,25,47,42]]",
-    "expectedOutput": "[18,48,50,76,84,88,94]",
+    "input": "[\"ugt lkj\"]",
+    "expectedOutput": "\"ugt%20lkj\"",
     "isHidden": true
   },
   {
-    "input": "[[26,28,27,15,0,-7,43,48,38,-6,24,4,-10,4]]",
-    "expectedOutput": "[-20,-14,-12,0,8,8,30,48,52,54,56,76,86,96]",
+    "input": "[\"kkj jxl\"]",
+    "expectedOutput": "\"kkj%20jxl\"",
     "isHidden": true
   },
   {
-    "input": "[[20,8,4,13,24,-3,-2,-8,-2,44,14,8,4,46,25,40,9,33,-9]]",
-    "expectedOutput": "[-18,-16,-6,-4,-4,8,8,16,16,18,26,28,40,48,50,66,80,88,92]",
+    "input": "[\"lei huk\"]",
+    "expectedOutput": "\"lei%20huk\"",
     "isHidden": true
   },
   {
-    "input": "[[6,46,12,13,16,38,-8,27,-3,30,38,26,48,49,37,-5,2,-3]]",
-    "expectedOutput": "[-16,-10,-6,-6,4,12,24,26,32,52,54,60,74,76,76,92,96,98]",
+    "input": "[\"zec rcq\"]",
+    "expectedOutput": "\"zec%20rcq\"",
     "isHidden": true
   },
   {
-    "input": "[[42,-3,-3,47,32,-4,42,-4,17,41,11,22,17,-8,29,35,4,32]]",
-    "expectedOutput": "[-16,-8,-8,-6,-6,8,22,34,34,44,58,64,64,70,82,84,84,94]",
+    "input": "[\"cdx ado\"]",
+    "expectedOutput": "\"cdx%20ado\"",
     "isHidden": true
   },
   {
-    "input": "[[40,-8,31,47,10,-3,20,20,49,15,25,10,30,47,40]]",
-    "expectedOutput": "[-16,-6,20,20,30,40,40,50,60,62,80,80,94,94,98]",
+    "input": "[\"oiz crs\"]",
+    "expectedOutput": "\"oiz%20crs\"",
     "isHidden": true
   },
   {
-    "input": "[[2,-9,-1,34,21,19,3,2,32,-9,-6,-4,22,18,0,39,-9]]",
-    "expectedOutput": "[-18,-18,-18,-12,-8,-2,0,4,4,6,36,38,42,44,64,68,78]",
+    "input": "[\"vhj cbl\"]",
+    "expectedOutput": "\"vhj%20cbl\"",
     "isHidden": true
   },
   {
-    "input": "[[38,30,10,17,15,27,49,29,10,5,-3,46,22,50]]",
-    "expectedOutput": "[-6,10,20,20,30,34,44,54,58,60,76,92,98,100]",
+    "input": "[\"rrl zcx\"]",
+    "expectedOutput": "\"rrl%20zcx\"",
     "isHidden": true
   },
   {
-    "input": "[[9,7,31,1,10]]",
-    "expectedOutput": "[2,14,18,20,62]",
+    "input": "[\"mrp bhn\"]",
+    "expectedOutput": "\"mrp%20bhn\"",
     "isHidden": true
   },
   {
-    "input": "[[13,6,36,30,20,32,45,12,18,47,12,21]]",
-    "expectedOutput": "[12,24,24,26,36,40,42,60,64,72,90,94]",
+    "input": "[\"lzs clt\"]",
+    "expectedOutput": "\"lzs%20clt\"",
     "isHidden": true
   },
   {
-    "input": "[[41,19,49,15,48,36,11,15,26,36,-10,6,50,42,15,29,13,1,16]]",
-    "expectedOutput": "[-20,2,12,22,26,30,30,30,32,38,52,58,72,72,82,84,96,98,100]",
+    "input": "[\"dom fio\"]",
+    "expectedOutput": "\"dom%20fio\"",
     "isHidden": true
   },
   {
-    "input": "[[0,23,2,22,26,10,7,20,36,10,33,36,46,38,21]]",
-    "expectedOutput": "[0,4,14,20,20,40,42,44,46,52,66,72,72,76,92]",
+    "input": "[\"ydw fhb\"]",
+    "expectedOutput": "\"ydw%20fhb\"",
     "isHidden": true
   },
   {
-    "input": "[[-1,49,33,13,22,-9,27,-3,2,44,24,12,15,13,-3,-1,11,32,26,6]]",
-    "expectedOutput": "[-18,-6,-6,-2,-2,4,12,22,24,26,26,30,44,48,52,54,64,66,88,98]",
+    "input": "[\"yqo jwu\"]",
+    "expectedOutput": "\"yqo%20jwu\"",
     "isHidden": true
   },
   {
-    "input": "[[18,5,23,0,28,18,41,4,11,38,17,-2,21,48,3,26,13]]",
-    "expectedOutput": "[-4,0,6,8,10,22,26,34,36,36,42,46,52,56,76,82,96]",
+    "input": "[\"pqw tqb\"]",
+    "expectedOutput": "\"pqw%20tqb\"",
     "isHidden": true
   },
   {
-    "input": "[[22,48,25,39,23,6,39,40,10,18,11,-4,-8,22,38,10,11,45,-8,28]]",
-    "expectedOutput": "[-16,-16,-8,12,20,20,22,22,36,44,44,46,50,56,76,78,78,80,90,96]",
+    "input": "[\"qar vls\"]",
+    "expectedOutput": "\"qar%20vls\"",
     "isHidden": true
   },
   {
-    "input": "[[-8,0,49,41,-5,-2,18,49]]",
-    "expectedOutput": "[-16,-10,-4,0,36,82,98,98]",
+    "input": "[\"iap psx\"]",
+    "expectedOutput": "\"iap%20psx\"",
     "isHidden": true
   },
   {
-    "input": "[[2,50,4,-5,26,30,19,22,3,36,32,15,32]]",
-    "expectedOutput": "[-10,4,6,8,30,38,44,52,60,64,64,72,100]",
+    "input": "[\"ilr xpt\"]",
+    "expectedOutput": "\"ilr%20xpt\"",
     "isHidden": true
   },
   {
-    "input": "[[7,-7,13,48,2,15,28,23,38,20]]",
-    "expectedOutput": "[-14,4,14,26,30,40,46,56,76,96]",
+    "input": "[\"ken pwd\"]",
+    "expectedOutput": "\"ken%20pwd\"",
     "isHidden": true
   },
   {
-    "input": "[[-1,46,-5,17,37,20,10,14,35,30]]",
-    "expectedOutput": "[-10,-2,20,28,34,40,60,70,74,92]",
+    "input": "[\"gbc cft\"]",
+    "expectedOutput": "\"gbc%20cft\"",
     "isHidden": true
   },
   {
-    "input": "[[19,4,46,23,14,37,14,-2,27]]",
-    "expectedOutput": "[-4,8,28,28,38,46,54,74,92]",
+    "input": "[\"rcf rfc\"]",
+    "expectedOutput": "\"rcf%20rfc\"",
     "isHidden": true
   },
   {
-    "input": "[[24,34,-10,12,-6,16,37,-10]]",
-    "expectedOutput": "[-20,-20,-12,24,32,48,68,74]",
+    "input": "[\"rdc pum\"]",
+    "expectedOutput": "\"rdc%20pum\"",
     "isHidden": true
   },
   {
-    "input": "[[-3,47,-6,-6,40,30,48,23,24,4,9,4,41,40,12]]",
-    "expectedOutput": "[-12,-12,-6,8,8,18,24,46,48,60,80,80,82,94,96]",
+    "input": "[\"qef tig\"]",
+    "expectedOutput": "\"qef%20tig\"",
     "isHidden": true
   },
   {
-    "input": "[[16,2,42,-2,40,48,20,-1,15,-10,35,15,31,42,8]]",
-    "expectedOutput": "[-20,-4,-2,4,16,30,30,32,40,62,70,80,84,84,96]",
+    "input": "[\"lxk wmp\"]",
+    "expectedOutput": "\"lxk%20wmp\"",
     "isHidden": true
   },
   {
-    "input": "[[17,2,6,-3,-5,35,48,40]]",
-    "expectedOutput": "[-10,-6,4,12,34,70,80,96]",
+    "input": "[\"dtp umj\"]",
+    "expectedOutput": "\"dtp%20umj\"",
     "isHidden": true
   },
   {
-    "input": "[[17,7,43,14,42]]",
-    "expectedOutput": "[14,28,34,84,86]",
+    "input": "[\"jcn mup\"]",
+    "expectedOutput": "\"jcn%20mup\"",
     "isHidden": true
   },
   {
-    "input": "[[48,4,-10,12,20,39,48,33,10,32,19,35,-2,29,28,10,-6,-5,36,43]]",
-    "expectedOutput": "[-20,-12,-10,-4,8,20,20,24,38,40,56,58,64,66,70,72,78,86,96,96]",
+    "input": "[\"mkr bfa\"]",
+    "expectedOutput": "\"mkr%20bfa\"",
     "isHidden": true
   },
   {
-    "input": "[[3,8,30,0,50,27,15,-3,43,-5,27,49,2,37,0,22,3,36]]",
-    "expectedOutput": "[-10,-6,0,0,4,6,6,16,30,44,54,54,60,72,74,86,98,100]",
+    "input": "[\"rvu qps\"]",
+    "expectedOutput": "\"rvu%20qps\"",
     "isHidden": true
   },
   {
-    "input": "[[15,35,12,30,27,7,49,30,42,10,42,5,33,29,4]]",
-    "expectedOutput": "[8,10,14,20,24,30,54,58,60,60,66,70,84,84,98]",
+    "input": "[\"bzp muk\"]",
+    "expectedOutput": "\"bzp%20muk\"",
     "isHidden": true
   },
   {
-    "input": "[[4,30,50,31,18,45,22,0,1,41,34,11,35,-5,12,9,49,-6,39,43]]",
-    "expectedOutput": "[-12,-10,0,2,8,18,22,24,36,44,60,62,68,70,78,82,86,90,98,100]",
+    "input": "[\"kqm zbu\"]",
+    "expectedOutput": "\"kqm%20zbu\"",
     "isHidden": true
   }
 ]
