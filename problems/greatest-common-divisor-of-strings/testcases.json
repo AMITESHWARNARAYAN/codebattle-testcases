@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[\"ABCABC\",\"ABC\"]",
+    "expectedOutput": "\"ABC\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"LEET\",\"CODE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"BCBC\",\"EFFDFF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"AACAAC\",\"AACAACAAC\"]",
+    "expectedOutput": "\"AAC\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"BCAACA\",\"EDFFEDFDF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"BCBBCB\",\"BCBBCB\"]",
+    "expectedOutput": "\"BCBBCB\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBBB\",\"BBBB\"]",
+    "expectedOutput": "\"BBBB\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABCC\",\"DEFFDE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AB\",\"EDD\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BABABABA\",\"BABABABA\"]",
+    "expectedOutput": "\"BABABABA\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBCBCBCB\",\"CBCBCBCB\"]",
+    "expectedOutput": "\"CBCBCBCB\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCBC\",\"DEDEDF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCCA\",\"DFEEED\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BC\",\"DDE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BABCCC\",\"EDDEEFDFD\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ACAA\",\"FEDFDF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBCCBC\",\"CBC\"]",
+    "expectedOutput": "\"CBC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBC\",\"CBCCBCCBCCBC\"]",
+    "expectedOutput": "\"CBC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BACBCA\",\"EFFDEFEDE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABC\",\"ABCABCABCABC\"]",
+    "expectedOutput": "\"ABC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CACACA\",\"CACACA\"]",
+    "expectedOutput": "\"CACACA\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CB\",\"DFD\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABBABB\",\"DFEDDEFFE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCCB\",\"EEDFEF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AB\",\"AB\"]",
+    "expectedOutput": "\"AB\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBACBACBA\",\"CBACBACBA\"]",
+    "expectedOutput": "\"CBACBACBA\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ACB\",\"ACBACBACBACB\"]",
+    "expectedOutput": "\"ACB\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AA\",\"AAA\"]",
+    "expectedOutput": "\"A\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCBCBC\",\"BCBC\"]",
+    "expectedOutput": "\"BC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BAACBA\",\"EFFDEFDFF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCBC\",\"FDFEFE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCBC\",\"BCBCBCBC\"]",
+    "expectedOutput": "\"BCBC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBBB\",\"BB\"]",
+    "expectedOutput": "\"BB\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ACACACAC\",\"ACACACAC\"]",
+    "expectedOutput": "\"ACACACAC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCAA\",\"FDFFFF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BB\",\"BBBBBB\"]",
+    "expectedOutput": "\"BB\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BAACBB\",\"EDDEFFFDD\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBCBAC\",\"EEEFEDEFD\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBBCCB\",\"EEDDEFEFD\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CA\",\"CACA\"]",
+    "expectedOutput": "\"CA\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BB\",\"BBBB\"]",
+    "expectedOutput": "\"BB\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"B\",\"BBBB\"]",
+    "expectedOutput": "\"B\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCBCAA\",\"EDDFFFEFF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AACA\",\"DFFDFD\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AACAACAACAAC\",\"AAC\"]",
+    "expectedOutput": "\"AAC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BABB\",\"DDFEEE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CAAABB\",\"FFFDDFFDD\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BB\",\"EFF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AC\",\"ACACAC\"]",
+    "expectedOutput": "\"AC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CC\",\"CCC\"]",
+    "expectedOutput": "\"C\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBBBBBBBB\",\"BBBBBB\"]",
+    "expectedOutput": "\"BBB\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBACBC\",\"EDDFDFFFF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABBABB\",\"ABBABB\"]",
+    "expectedOutput": "\"ABBABB\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBBAABBBBAABBBBAABBBBAAB\",\"BBBAABBBBAAB\"]",
+    "expectedOutput": "\"BBBAABBBBAAB\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AACACCBCCC\",\"DFDEDDEDFFDFDDF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCCCBBACCCAA\",\"DFDDFEFEFEDFEDDDFE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BACACC\",\"EEFEEFDFE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBCAAC\",\"FDFFDFEFF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ACABBCACABBC\",\"ACABBCACABBCACABBCACABBC\"]",
+    "expectedOutput": "\"ACABBCACABBC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCBCCCCBCCCCBCCCCBCC\",\"CCBCCCCBCCCCBCCCCBCC\"]",
+    "expectedOutput": "\"CCBCCCCBCCCCBCCCCBCC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBCABA\",\"BBCABABBCABABBCABABBCABA\"]",
+    "expectedOutput": "\"BBCABA\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABBCACCC\",\"DFEEEDDEFEEE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCCBCB\",\"DEFEDDEEE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBACCBBA\",\"EDEEDEDEFDFF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBAABC\",\"CBAABCCBAABCCBAABC\"]",
+    "expectedOutput": "\"CBAABC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBBCBC\",\"DDDEDFEDF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCCABACACABC\",\"FFDFEFFEEFDFDFFEDE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AACCBC\",\"FEFEFDEFE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ACAACACAACACAAC\",\"ACAAC\"]",
+    "expectedOutput": "\"ACAAC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCCABBBAAB\",\"EDEFEFDEDFDEFEF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BACBBCAABAAB\",\"FDEEFEFFEFFFFFFDDF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CACCAC\",\"CAC\"]",
+    "expectedOutput": "\"CAC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCCACBCCACBCCAC\",\"BCCACBCCAC\"]",
+    "expectedOutput": "\"BCCAC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCACCABCACCABCACCA\",\"BCACCABCACCABCACCABCACCA\"]",
+    "expectedOutput": "\"BCACCA\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBAABCACAA\",\"DEFEFDEFEFDDEED\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCABCABCABCABCABCA\",\"BCABCABCABCABCABCABCABCA\"]",
+    "expectedOutput": "\"BCABCA\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AABACACABABC\",\"DDFEDFEFFDFEDFFDDD\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCCCBBCA\",\"FEFEEFFDDEDF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ACAAAAAC\",\"FEFDDFFEFFDE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCCCAC\",\"EEFFDDFFD\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CACCACCAC\",\"CACCACCACCAC\"]",
+    "expectedOutput": "\"CAC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBAACBBBCA\",\"FDDEEEFFFFDEEDE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AAABA\",\"AAABAAAABAAAABAAAABA\"]",
+    "expectedOutput": "\"AAABA\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AACAB\",\"AACABAACABAACABAACAB\"]",
+    "expectedOutput": "\"AACAB\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABCCA\",\"ABCCA\"]",
+    "expectedOutput": "\"ABCCA\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AAACAAAACAAAACA\",\"AAACAAAACA\"]",
+    "expectedOutput": "\"AAACA\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCABCCCABCCCABC\",\"CCABCCCABCCCABCCCABC\"]",
+    "expectedOutput": "\"CCABC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ACAACAAC\",\"FFEEEFDEDFFE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBCCBCCBC\",\"CBCCBCCBC\"]",
+    "expectedOutput": "\"CBCCBCCBC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBCAAA\",\"DFEDFFEED\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CABACABA\",\"CABACABA\"]",
+    "expectedOutput": "\"CABACABA\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ACAACA\",\"ACAACAACAACA\"]",
+    "expectedOutput": "\"ACAACA\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCBBAB\",\"FEFEFFEDD\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBCBCABBBB\",\"EEEDEEFFEEDFEFE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AAACBA\",\"EFDEFDFDF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBCAAA\",\"FEFEDEDEE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBACBAAA\",\"EFFEDDDDDDFF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBCABABC\",\"EDEEFEFFFDED\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBCBAABBCBAABBCBAABBCBAA\",\"BBCBAABBCBAABBCBAA\"]",
+    "expectedOutput": "\"BBCBAA\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBACCBCCACAA\",\"FDDFDDFDFFEDFFFFED\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCABCCCABBCAAA\",\"FFEEDEDFEDEDDDDFDEEDF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AACCBCCAACCBCC\",\"AACCBCCAACCBCCAACCBCC\"]",
+    "expectedOutput": "\"AACCBCC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABBABACACABBABABACCA\",\"FFFFEDEEEEDFFEEDDEDDFDDDEEEEEE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCCCCABAABCAAB\",\"FEFEDDFEEDFDEEDFDDFED\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ACABCABCCBCB\",\"ACABCABCCBCBACABCABCCBCBACABCABCCBCBACABCABCCBCB\"]",
+    "expectedOutput": "\"ACABCABCCBCB\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCACACABAABBCC\",\"DDDEFDFEFFEFDEDFDDEDF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BACACBBAABBBAABCBCBC\",\"DEEEDFFFEFFDDEDFEEFDDFDFFFDFEE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBCABCABAACB\",\"FDEDDDEDDEEEEFEEDF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABCABBAACB\",\"ABCABBAACBABCABBAACBABCABBAACB\"]",
+    "expectedOutput": "\"ABCABBAACB\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCACCBBCACCBBCACCBBCACCB\",\"BCACCBBCACCBBCACCBBCACCB\"]",
+    "expectedOutput": "\"BCACCBBCACCBBCACCBBCACCB\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCCCBACABCCCBA\",\"EEDEDEDFDEEFFFFEEDEDF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBBBACCCBCBBBBCABCCB\",\"FEFDDFFDEFEDDFDEDFDEEDEDFFFEEE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AAABAAAAABAA\",\"AAABAAAAABAA\"]",
+    "expectedOutput": "\"AAABAAAAABAA\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBBCAAABAABAABBBCA\",\"EDEFEEEEEFFFEDEDDDFFFEDDDFF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBABCCCBBBCCBCBBABACAAAB\",\"FEDEDEEDEEEEEFDEEFDDEEEEDEDFDFEFFEFE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABACACAAABACACAAABACACAA\",\"ABACACAAABACACAA\"]",
+    "expectedOutput": "\"ABACACAA\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CABABABCBCCCAAACAACCCACA\",\"DFEDDDFEEEDEEEEDDFFFEEFFFEEDEFDEFDEE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CACBACBCCABAABBCBB\",\"DEEEFFDFFFDEDEFFEEFDFFFEDDE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCBCBCBBACBC\",\"FDDEDFFFDFFDFDDFEF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AAABCCACBBCCAACC\",\"FFDFEEDFFDFFEDEFEDDDDFFF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ACABCCBBBACBBCABCC\",\"EFDEEEEFEEFDFEFFDEEFEFDEFFF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBABBABBCBCBBABA\",\"EFDDFFEEEDEFDDDDFDDDFEDF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ACBCAACAAAACBCAACAAAACBCAACAAAACBCAACAAA\",\"ACBCAACAAAACBCAACAAAACBCAACAAAACBCAACAAA\"]",
+    "expectedOutput": "\"ACBCAACAAAACBCAACAAAACBCAACAAAACBCAACAAA\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCCBABBCCBCABCCAABAC\",\"FDEFEDDDDEEEEFDFDEEDEDFFFDFEFD\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AABBCBAAAAAB\",\"DDFDDFFFFFFDEDFEDF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBBBBCBCACBBBBCBCCBCABAC\",\"DEEDFFEFFFEDFFFEEEEEEFFEEDFEDEFEFFEE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCCCAACCBCACCCCAACCBCACCCCAACCBCACCCCAACCBCA\",\"CCCCAACCBCACCCCAACCBCACCCCAACCBCA\"]",
+    "expectedOutput": "\"CCCCAACCBCA\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CAAABCACCABCABBCAAACBA\",\"FFDEDFFFDFDEEDEDEFFEEFDDDDEEFDEFF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AAABCACCBABAACCB\",\"EDDDDFDFDEDFEEEEFDDDDEED\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABAABACBCBBBBCCB\",\"DFEDEEEEDDFFEFDFEFDDEFEE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBCBBACCBCBBAC\",\"CBCBBACCBCBBAC\"]",
+    "expectedOutput": "\"CBCBBACCBCBBAC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABCAAACCCBBCABCAAACCCBBCABCAAACCCBBCABCAAACCCBBC\",\"ABCAAACCCBBCABCAAACCCBBCABCAAACCCBBCABCAAACCCBBC\"]",
+    "expectedOutput": "\"ABCAAACCCBBCABCAAACCCBBCABCAAACCCBBCABCAAACCCBBC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCCCBCBBBCABCCCCBCBBBCABCCCCBCBBBCAB\",\"CCCCBCBBBCAB\"]",
+    "expectedOutput": "\"CCCCBCBBBCAB\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BACBCACABBBC\",\"FDFFFFFDEDDDEFFEFE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CABBAAAACCCACBBCCBCACCAB\",\"DFFDFEFDEDFEDFEEEFDEDEFEEFFEDEEDFDEF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ACCBACAACCBACAACCBACA\",\"ACCBACAACCBACAACCBACA\"]",
+    "expectedOutput": "\"ACCBACAACCBACAACCBACA\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CABCAAACBCABCAAACB\",\"CABCAAACB\"]",
+    "expectedOutput": "\"CABCAAACB\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBAACACBBCCBBCAAABAB\",\"EDDFFEFEEFDEDEFEDFFEEFEFDFEEDD\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABAABBCBACABCCAA\",\"EDDDEEEEEDEFEDFDFDEDEEDD\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABCACBCBCCCCABBBBA\",\"DEEEFFDEEFDEDFFEDEDDEFFFDDE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CABCBBBCC\",\"CABCBBBCCCABCBBBCC\"]",
+    "expectedOutput": "\"CABCBBBCC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CABCCABAAACBCBAACBACACCA\",\"FEDDEEEEFDFDDEEFDFFDDFDEDFFDDDFDFEDD\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AABABACCAAACBCBABCBACB\",\"FEFFDEFFEFDDFDDEDDDEEDEEDDFDFDDEE\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCAAAACCAAAACCAAAA\",\"CCAAAACCAAAA\"]",
+    "expectedOutput": "\"CCAAAA\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCBACCCABCBACCCABCBACCCABCBACCCA\",\"BCBACCCABCBACCCABCBACCCA\"]",
+    "expectedOutput": "\"BCBACCCA\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCBBACACBCCCCBBACACBCC\",\"CCBBACACBCCCCBBACACBCCCCBBACACBCC\"]",
+    "expectedOutput": "\"CCBBACACBCC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCABACCCBCC\",\"BCABACCCBCCBCABACCCBCC\"]",
+    "expectedOutput": "\"BCABACCCBCC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBCCBABBCAAAAAACAB\",\"DFDEFEDFFDFDEDDEEDEFFDFDDDD\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCABBBABBACCAAABBB\",\"EFDFFFDDDEFFFDEFFDFDDDDEEFD\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBCCBBCACCABBCCBCCCCBC\",\"EFEDDFDFDDEEEEEEEEEEDEDFFFEFDFFDF\"]",
+    "expectedOutput": "\"\"",
+    "isHidden": true
+  }
+]

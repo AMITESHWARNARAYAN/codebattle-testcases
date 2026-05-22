@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[\"Bob hit a ball, the hit BALL flew far after it was hit.\",[\"hit\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"catcher ball pitcher base, pitcher base pitcher\",[\"base\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"base catcher pitcher,\",[\"base\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"base pitcher bat\",[\"pitcher\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"pitcher catcher base base glove, base\",[\"catcher\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"ball, catcher glove base\",[\"pitcher\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"glove ball base base, catcher,\",[\"bat\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball pitcher catcher, catcher base base,\",[\"catcher\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher catcher bat, catcher catcher glove pitcher,\",[\"base\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bat base bat bat\",[\"bat\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcher glove ball, catcher\",[\"base\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"base pitcher bat ball base ball bat\",[\"catcher\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcher ball glove, glove catcher pitcher ball\",[\"catcher\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"base bat base glove glove\",[\"bat\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcher, base glove,\",[\"catcher\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball catcher, pitcher pitcher base ball ball, bat,\",[\"base\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher base bat base, bat catcher ball pitcher\",[\"glove\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher ball glove pitcher bat\",[\"glove\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher bat base,\",[\"bat\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"glove glove base, catcher\",[\"pitcher\"]]",
+    "expectedOutput": "\"glove\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher base pitcher pitcher bat, catcher ball catcher,\",[\"catcher\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"base glove, glove catcher bat ball,\",[\"base\"]]",
+    "expectedOutput": "\"glove\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"glove ball catcher bat ball, pitcher\",[\"base\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball ball pitcher pitcher ball catcher\",[\"glove\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"glove ball, catcher\",[\"base\"]]",
+    "expectedOutput": "\"glove\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher catcher catcher, glove base, glove glove\",[\"bat\"]]",
+    "expectedOutput": "\"glove\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bat, catcher glove\",[\"ball\"]]",
+    "expectedOutput": "\"bat\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bat pitcher, base bat ball glove\",[\"base\"]]",
+    "expectedOutput": "\"bat\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcher ball, pitcher pitcher base ball base base\",[\"base\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"base base catcher catcher bat ball\",[\"catcher\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball ball, catcher, bat ball catcher\",[\"ball\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bat ball base catcher catcher, ball base\",[\"base\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball bat glove ball base\",[\"pitcher\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball glove pitcher ball pitcher\",[\"catcher\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"glove catcher base bat pitcher glove glove glove\",[\"glove\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher bat bat glove base pitcher pitcher\",[\"glove\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcher glove base, catcher base base,\",[\"bat\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball, ball, bat base catcher base\",[\"catcher\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"glove bat glove catcher bat catcher base glove\",[\"glove\"]]",
+    "expectedOutput": "\"bat\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"base bat glove catcher\",[\"base\"]]",
+    "expectedOutput": "\"bat\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"base bat glove\",[\"ball\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcher pitcher ball glove ball glove bat,\",[\"pitcher\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcher catcher base,\",[\"base\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcher, glove, pitcher glove pitcher pitcher bat\",[\"pitcher\"]]",
+    "expectedOutput": "\"glove\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball base pitcher pitcher ball catcher, bat,\",[\"bat\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bat pitcher, bat base bat pitcher catcher base\",[\"bat\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher pitcher, base pitcher pitcher base pitcher catcher\",[\"ball\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"base, bat glove glove, glove pitcher\",[\"bat\"]]",
+    "expectedOutput": "\"glove\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball glove bat glove bat bat ball\",[\"base\"]]",
+    "expectedOutput": "\"bat\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball pitcher, catcher,\",[\"bat\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball catcher bat, pitcher catcher base pitcher, glove base\",[\"pitcher\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"base bat base base, base, catcher, glove glove bat bat, base, pitcher, catcher pitcher base, ball catcher base, catcher catcher pitcher\",[\"ball\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"glove ball catcher, catcher glove, ball pitcher, catcher pitcher, base base bat pitcher catcher, catcher, ball base base ball\",[\"catcher\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher glove ball, ball bat, base, pitcher ball pitcher bat catcher catcher pitcher, catcher bat base pitcher, glove pitcher\",[\"ball\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bat bat ball catcher, pitcher base base catcher, pitcher glove catcher base catcher pitcher base bat base bat catcher, ball pitcher, catcher\",[\"bat\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bat catcher pitcher bat pitcher pitcher bat ball, bat pitcher base bat pitcher glove glove\",[\"catcher\"]]",
+    "expectedOutput": "\"bat\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"base, glove base bat ball catcher glove catcher base base catcher glove base, base,\",[\"pitcher\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"glove base pitcher ball base pitcher glove, bat bat bat catcher bat, catcher catcher glove, pitcher base glove, bat base glove\",[\"base\"]]",
+    "expectedOutput": "\"glove\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"base, glove bat catcher catcher, ball base catcher, bat catcher\",[\"base\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcher catcher, pitcher, base glove glove ball pitcher\",[\"bat\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball base base base bat bat bat, ball, pitcher\",[\"base\"]]",
+    "expectedOutput": "\"bat\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball base, pitcher, base glove, pitcher pitcher ball catcher pitcher bat glove pitcher,\",[\"glove\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcher bat ball bat pitcher, base glove ball glove catcher base glove, bat base base ball,\",[\"glove\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher ball catcher pitcher pitcher pitcher glove catcher base pitcher ball glove catcher\",[\"glove\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcher bat ball pitcher glove pitcher bat base bat pitcher ball ball bat catcher base ball, base pitcher ball pitcher catcher catcher, pitcher\",[\"pitcher\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcher bat ball base, base pitcher, bat catcher, ball bat catcher bat, base ball ball glove base glove glove base bat bat,\",[\"glove\"]]",
+    "expectedOutput": "\"bat\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bat base pitcher bat ball, glove catcher, base, glove, catcher bat ball catcher glove catcher, base\",[\"ball\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bat, base catcher glove base catcher glove base, bat glove glove glove base glove ball ball ball\",[\"pitcher\"]]",
+    "expectedOutput": "\"glove\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"base glove ball glove glove pitcher glove ball base, pitcher, base, catcher pitcher ball ball, bat glove, glove, glove glove base ball, catcher, catcher\",[\"base\"]]",
+    "expectedOutput": "\"glove\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcher pitcher glove glove bat, ball, glove pitcher catcher pitcher, bat, base ball pitcher catcher base, ball, ball pitcher base ball, ball ball,\",[\"bat\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"base catcher ball ball catcher catcher bat ball, glove, base glove catcher bat, base base base\",[\"catcher\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball bat, base glove, base bat glove pitcher bat, bat bat\",[\"glove\"]]",
+    "expectedOutput": "\"bat\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball bat catcher glove, catcher base catcher, base catcher catcher pitcher base pitcher ball base\",[\"pitcher\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bat, ball glove glove bat pitcher bat bat, base base bat glove, base pitcher ball glove base glove\",[\"catcher\"]]",
+    "expectedOutput": "\"bat\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcher base pitcher, ball bat catcher ball bat base pitcher base catcher bat pitcher base base ball catcher glove, pitcher base, base bat ball\",[\"base\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"base base bat, base pitcher bat pitcher pitcher base pitcher catcher bat, pitcher bat\",[\"glove\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball, bat, base, catcher glove ball, glove base glove ball bat, pitcher ball bat ball, bat ball, base\",[\"pitcher\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"base glove, catcher catcher bat base bat glove catcher base glove catcher glove, base ball glove ball, ball\",[\"pitcher\"]]",
+    "expectedOutput": "\"glove\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bat catcher pitcher bat bat bat pitcher base catcher catcher pitcher bat pitcher glove ball, bat pitcher pitcher ball, base, glove,\",[\"bat\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball bat catcher, ball bat catcher catcher, catcher pitcher ball base bat, glove base glove\",[\"pitcher\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher ball base pitcher catcher catcher pitcher ball bat, glove ball pitcher, ball pitcher, catcher bat, glove, bat catcher pitcher glove\",[\"bat\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher base catcher, pitcher bat, catcher ball base bat pitcher, bat, glove pitcher base ball, catcher pitcher catcher glove ball glove, pitcher ball\",[\"ball\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"glove base, ball, bat bat, ball base catcher base pitcher, base pitcher catcher\",[\"base\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"base, base pitcher, bat pitcher bat, catcher pitcher\",[\"ball\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher bat glove catcher, catcher base, bat pitcher bat, ball\",[\"base\"]]",
+    "expectedOutput": "\"bat\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"base base, glove catcher pitcher bat, pitcher bat bat base bat pitcher base catcher, catcher ball, pitcher glove pitcher, base glove, ball ball\",[\"pitcher\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcher, pitcher ball glove, base, catcher bat, pitcher catcher base, catcher catcher, bat glove bat, catcher base,\",[\"glove\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bat base ball pitcher catcher catcher glove base catcher pitcher pitcher catcher base base, glove glove bat catcher\",[\"glove\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher glove, glove glove glove bat base base, ball glove bat pitcher ball pitcher glove bat base glove pitcher base glove\",[\"catcher\"]]",
+    "expectedOutput": "\"glove\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"glove glove, ball bat base bat, bat pitcher ball, catcher glove glove, base base, glove\",[\"bat\"]]",
+    "expectedOutput": "\"glove\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"base ball, base bat, pitcher glove catcher pitcher pitcher, ball glove catcher, base\",[\"ball\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball base catcher glove bat bat base glove glove ball, catcher\",[\"glove\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcher catcher pitcher glove glove ball ball ball, base catcher pitcher catcher glove ball pitcher ball bat\",[\"pitcher\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher glove glove catcher ball, pitcher base bat\",[\"ball\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"glove, bat catcher base glove base base catcher bat ball, pitcher, glove ball bat, catcher glove ball, catcher base glove bat base, ball glove, catcher,\",[\"ball\"]]",
+    "expectedOutput": "\"glove\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher catcher bat bat, pitcher base ball catcher pitcher, catcher catcher pitcher, base catcher\",[\"base\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcher ball pitcher bat ball catcher glove pitcher catcher bat pitcher bat catcher glove, glove ball bat catcher base, bat pitcher,\",[\"bat\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher, ball ball base glove bat catcher, glove bat bat pitcher, bat base\",[\"bat\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bat base bat glove base bat, glove ball base bat glove\",[\"pitcher\"]]",
+    "expectedOutput": "\"bat\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball, base base, bat pitcher pitcher ball bat\",[\"base\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher glove catcher, glove bat catcher, bat glove, pitcher bat, bat bat pitcher bat pitcher, bat glove pitcher pitcher pitcher pitcher base bat bat pitcher catcher pitcher glove bat glove glove bat ball base ball pitcher ball bat, base bat pitcher bat ball, bat ball bat ball catcher ball ball pitcher pitcher, ball bat pitcher pitcher, ball, glove catcher,\",[\"ball\"]]",
+    "expectedOutput": "\"bat\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"base pitcher glove catcher ball glove, ball, ball glove bat catcher ball catcher catcher bat bat pitcher pitcher pitcher glove, bat glove catcher glove bat ball pitcher bat pitcher ball pitcher ball base ball pitcher base glove ball base pitcher, catcher, pitcher pitcher base bat bat base, glove, pitcher pitcher base glove\",[\"glove\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"base ball catcher bat glove bat catcher, glove, bat base catcher pitcher catcher ball ball pitcher, pitcher bat bat, ball base pitcher catcher, ball catcher glove bat, ball, pitcher base, ball base glove, ball pitcher, catcher ball, pitcher bat base ball pitcher bat glove pitcher base base catcher bat catcher pitcher, ball ball catcher, pitcher catcher glove base pitcher\",[\"pitcher\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher glove pitcher base ball glove pitcher, pitcher catcher ball base glove ball bat base base pitcher pitcher catcher base, pitcher bat base base base base bat pitcher pitcher base bat catcher ball base glove pitcher pitcher base base pitcher catcher, base bat base ball, pitcher base, base catcher catcher glove ball, base bat ball\",[\"bat\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher, catcher catcher base, glove catcher glove glove ball catcher catcher pitcher bat pitcher base, base catcher ball bat pitcher pitcher catcher ball bat glove pitcher ball, bat base, pitcher, catcher base catcher, glove catcher ball base,\",[\"base\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball, catcher, catcher glove ball ball ball ball pitcher ball pitcher base, bat, catcher, ball pitcher catcher, bat catcher, pitcher catcher catcher base base, pitcher ball, base pitcher, bat pitcher ball, ball ball bat ball base bat base, glove glove pitcher glove catcher pitcher pitcher ball bat base, bat bat pitcher ball glove pitcher bat,\",[\"bat\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bat catcher catcher bat base ball catcher base glove glove base catcher bat, glove glove catcher catcher, bat bat, pitcher, glove, ball base bat catcher base, catcher catcher ball pitcher, base, glove pitcher, pitcher, glove bat,\",[\"bat\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher pitcher bat, glove base pitcher, bat, base base bat, ball, catcher pitcher glove catcher bat, ball bat bat, base bat pitcher base, catcher ball catcher catcher pitcher, ball catcher base pitcher base bat ball bat glove glove catcher catcher bat pitcher ball catcher pitcher catcher, ball ball catcher\",[\"glove\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"base bat, catcher glove bat, bat glove ball pitcher ball catcher base catcher catcher pitcher base base, pitcher catcher pitcher bat glove catcher base ball glove base bat bat bat catcher catcher, bat ball, bat ball glove glove, glove\",[\"catcher\"]]",
+    "expectedOutput": "\"bat\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"glove catcher, base glove, ball base bat bat base, bat, pitcher, catcher catcher catcher catcher glove catcher bat glove base base base bat, pitcher bat\",[\"base\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher glove glove catcher pitcher, ball pitcher base glove catcher catcher base, glove pitcher bat glove ball glove, ball, bat ball glove catcher, catcher catcher, base catcher pitcher catcher\",[\"glove\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher ball catcher base bat bat glove ball bat glove base pitcher, glove bat bat glove, catcher pitcher, base base glove catcher ball pitcher base catcher pitcher bat pitcher, pitcher pitcher, ball glove, pitcher ball bat pitcher, ball,\",[\"glove\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bat bat pitcher pitcher, ball base, glove catcher, ball bat ball catcher, base pitcher pitcher pitcher bat pitcher pitcher ball ball, catcher ball ball ball pitcher base, bat pitcher, ball ball bat bat glove glove, pitcher catcher catcher pitcher bat catcher, bat\",[\"bat\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball, catcher base ball base base glove pitcher base ball, base bat catcher catcher pitcher ball catcher pitcher base base catcher base ball, base ball, pitcher bat bat ball, bat pitcher glove ball glove catcher base catcher catcher bat glove ball, pitcher, glove, ball bat, pitcher ball ball base, bat pitcher\",[\"glove\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball catcher, glove bat, glove pitcher, bat ball, bat, glove glove, catcher pitcher catcher ball bat glove, base bat pitcher ball bat ball, catcher ball glove glove base base bat ball ball ball, pitcher pitcher base bat catcher bat catcher ball bat bat base ball glove,\",[\"bat\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"base base ball base catcher base pitcher bat, pitcher base ball pitcher catcher pitcher pitcher pitcher ball glove ball, pitcher, pitcher base, catcher glove, ball,\",[\"bat\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher, catcher pitcher catcher glove ball ball ball ball catcher pitcher catcher, base, base catcher glove base bat, glove base glove pitcher, glove catcher pitcher, ball pitcher, bat pitcher bat ball, bat base catcher base glove bat pitcher catcher glove bat base catcher bat, ball, pitcher bat ball, bat catcher, catcher glove, bat\",[\"ball\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcher glove glove base pitcher base, bat ball pitcher ball pitcher pitcher ball ball, glove bat glove pitcher, pitcher, ball pitcher, catcher catcher ball, ball base catcher glove pitcher ball\",[\"glove\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bat, base ball catcher base base glove, bat pitcher, bat base, base catcher base bat ball, ball glove, pitcher base ball, glove, catcher ball bat base,\",[\"base\"]]",
+    "expectedOutput": "\"bat\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"glove glove glove ball glove ball catcher, pitcher glove bat, pitcher ball glove base bat bat ball base catcher bat base bat bat ball ball glove, ball ball, base pitcher catcher glove ball ball, catcher, ball bat bat base catcher, ball base base base base base\",[\"pitcher\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"base, base catcher glove, pitcher bat base bat, base glove pitcher pitcher, bat pitcher base, base catcher ball ball ball glove base base glove base base base, ball bat base pitcher glove ball ball pitcher bat base glove catcher, glove base glove ball catcher ball pitcher pitcher, ball, pitcher pitcher,\",[\"pitcher\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball glove base ball glove, glove bat, bat, bat, pitcher, bat catcher, ball ball, pitcher glove, catcher, base ball ball, base, catcher ball catcher glove base base ball bat pitcher, bat, ball ball, ball pitcher, catcher pitcher bat ball pitcher catcher ball pitcher glove glove ball pitcher, ball base base base base\",[\"catcher\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bat catcher bat catcher base ball, catcher ball pitcher ball glove, base, glove catcher, pitcher, bat base, catcher pitcher, bat ball pitcher base catcher pitcher pitcher pitcher, ball catcher ball base bat glove pitcher bat\",[\"catcher\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcher glove, bat bat ball, base pitcher base glove ball pitcher, catcher, base ball ball pitcher glove, ball ball glove ball pitcher pitcher, glove pitcher, bat pitcher catcher base base base, catcher base glove glove bat pitcher pitcher base base pitcher catcher catcher base ball pitcher glove bat pitcher catcher catcher catcher catcher, bat base, bat pitcher pitcher catcher\",[\"ball\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcher ball, catcher ball, catcher, glove ball bat pitcher, base bat pitcher, pitcher base pitcher ball pitcher base catcher glove catcher pitcher catcher glove catcher glove glove, bat ball glove base catcher catcher pitcher base glove glove catcher catcher, glove, bat bat, ball glove ball catcher\",[\"ball\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball bat, bat, bat bat, bat bat, pitcher, base catcher bat ball catcher, catcher ball bat, base, catcher ball pitcher bat glove bat ball, base pitcher base glove glove ball bat, ball bat pitcher bat, base base bat catcher pitcher, pitcher base, ball bat, catcher bat bat ball bat glove, base pitcher, bat glove, catcher catcher pitcher bat, glove base\",[\"catcher\"]]",
+    "expectedOutput": "\"bat\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bat bat, pitcher glove pitcher base ball bat, bat pitcher bat glove glove glove pitcher, bat, ball ball, base ball bat, bat base pitcher glove, glove glove base base catcher glove catcher base pitcher, pitcher, pitcher\",[\"glove\"]]",
+    "expectedOutput": "\"bat\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcher ball, base catcher glove base base catcher, ball glove bat base, glove, catcher ball catcher, ball pitcher pitcher bat pitcher base pitcher glove pitcher bat, base ball base bat bat glove ball, bat catcher, base pitcher ball pitcher glove,\",[\"bat\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bat pitcher bat pitcher, glove glove, glove base base ball ball bat bat catcher ball, pitcher ball ball catcher base base glove base glove bat, ball ball catcher, catcher, catcher bat base base catcher glove catcher ball pitcher glove, ball base ball catcher bat base catcher ball, base, pitcher pitcher ball glove pitcher, bat bat\",[\"ball\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"base catcher, glove pitcher ball ball ball glove bat pitcher base ball bat, base bat bat catcher base catcher glove, base base pitcher ball base catcher pitcher pitcher catcher, bat pitcher glove glove base pitcher pitcher glove catcher\",[\"glove\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bat base, ball glove ball ball catcher base ball pitcher ball catcher pitcher base pitcher, catcher, base glove bat ball bat ball, ball glove pitcher bat, bat base\",[\"base\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball bat catcher catcher glove ball pitcher bat base, glove, catcher bat base ball glove catcher catcher, bat, base ball glove pitcher pitcher ball pitcher bat glove catcher bat base, base pitcher base, ball, ball bat glove, bat catcher, catcher ball\",[\"ball\"]]",
+    "expectedOutput": "\"bat\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcher, ball ball, bat base pitcher glove, catcher pitcher base bat, bat ball ball pitcher, glove bat pitcher, pitcher base bat, catcher base pitcher ball, base bat base ball catcher glove pitcher\",[\"bat\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"base base, pitcher bat pitcher glove pitcher catcher glove, glove catcher, glove pitcher base glove base, pitcher, catcher pitcher catcher catcher pitcher glove pitcher bat glove, bat glove ball bat pitcher bat bat base base glove base, glove base glove catcher, ball ball glove glove base glove ball ball catcher catcher ball ball ball, ball pitcher ball bat\",[\"pitcher\"]]",
+    "expectedOutput": "\"glove\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"glove, base ball, bat base base, glove base, base bat catcher base bat ball bat glove ball glove bat base, bat ball bat, base catcher, pitcher pitcher bat, bat bat glove ball bat catcher ball catcher catcher, bat base base, ball bat bat pitcher pitcher pitcher glove base base base glove, ball pitcher, glove catcher\",[\"ball\"]]",
+    "expectedOutput": "\"bat\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"glove catcher ball pitcher pitcher, base ball catcher catcher ball, glove pitcher glove ball catcher ball glove base ball glove bat glove bat pitcher catcher base, ball base, ball catcher pitcher glove bat catcher bat bat catcher glove, catcher glove, bat catcher glove ball pitcher\",[\"ball\"]]",
+    "expectedOutput": "\"glove\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bat, base glove ball glove catcher base glove glove, base, pitcher ball bat pitcher catcher, base, base base glove base base ball, base bat ball catcher ball, bat catcher ball glove pitcher, bat pitcher catcher catcher bat catcher glove, base, pitcher base base pitcher catcher glove pitcher bat glove bat glove catcher ball catcher\",[\"bat\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball bat, base ball glove pitcher, ball ball, catcher glove catcher pitcher base catcher ball bat glove catcher, ball bat glove glove glove pitcher pitcher, bat bat, glove ball pitcher pitcher\",[\"pitcher\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"glove catcher catcher glove ball glove bat bat base base, glove bat catcher, catcher ball catcher pitcher glove base catcher pitcher bat catcher ball, catcher bat bat catcher glove base ball catcher, ball bat ball base ball pitcher pitcher catcher ball catcher base base, glove ball, glove base catcher ball base pitcher base catcher ball pitcher, ball\",[\"ball\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bat, base base catcher bat bat base catcher, catcher, catcher catcher pitcher, base ball ball base pitcher, base, base base glove, bat ball pitcher pitcher, bat glove bat ball bat base ball pitcher base ball bat glove catcher glove pitcher pitcher,\",[\"pitcher\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"glove, glove base bat pitcher catcher glove base pitcher bat bat pitcher, bat bat glove bat bat catcher ball ball ball, glove catcher base ball ball glove bat pitcher bat pitcher catcher, catcher bat bat ball glove ball bat glove glove ball ball, ball, ball, bat glove, ball, ball glove catcher glove glove glove, bat catcher pitcher glove\",[\"catcher\"]]",
+    "expectedOutput": "\"glove\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher bat ball, catcher bat bat catcher base catcher bat, ball glove catcher ball pitcher, glove catcher, base base pitcher base ball, glove pitcher glove base glove, ball bat,\",[\"bat\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bat base, catcher glove base glove ball catcher bat catcher, catcher, base, glove pitcher bat, glove glove base pitcher, ball, bat base bat pitcher base glove, base\",[\"base\"]]",
+    "expectedOutput": "\"glove\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball, pitcher base, pitcher base catcher catcher ball bat pitcher, glove bat pitcher, catcher base, ball ball, glove base ball pitcher, bat bat, pitcher glove glove ball catcher ball pitcher glove ball base ball ball base catcher ball bat bat catcher pitcher glove base pitcher bat, catcher glove, catcher pitcher bat glove catcher bat bat glove pitcher glove\",[\"glove\"]]",
+    "expectedOutput": "\"ball\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcher, catcher glove bat, bat, glove, bat, pitcher glove, pitcher bat pitcher glove bat ball glove base glove, ball, glove, pitcher ball base glove base catcher ball\",[\"ball\"]]",
+    "expectedOutput": "\"glove\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball pitcher bat base ball, base catcher ball ball glove ball ball pitcher, bat pitcher pitcher pitcher, catcher ball base, glove glove catcher pitcher, glove, catcher glove pitcher glove, bat pitcher ball pitcher bat pitcher catcher, catcher catcher catcher, catcher catcher glove, pitcher ball, glove catcher base, ball\",[\"bat\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher catcher glove bat catcher base ball catcher bat base bat base bat catcher glove bat catcher pitcher ball, catcher ball ball, glove glove base bat, bat base catcher glove glove, pitcher catcher catcher bat bat ball\",[\"glove\"]]",
+    "expectedOutput": "\"catcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ball, bat, catcher, catcher base ball base base ball base ball catcher base, ball catcher base base ball glove pitcher base bat catcher, catcher pitcher glove bat bat catcher base\",[\"bat\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher catcher catcher base glove pitcher, pitcher, bat, pitcher base base, pitcher catcher, ball, bat base, catcher ball, pitcher catcher catcher bat bat, pitcher pitcher, ball bat ball base\",[\"base\"]]",
+    "expectedOutput": "\"pitcher\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pitcher, base, ball catcher base pitcher, base, pitcher base base bat ball ball pitcher bat, bat ball pitcher ball catcher, glove bat, base, pitcher glove pitcher bat catcher base pitcher, catcher base base ball bat glove glove catcher base\",[\"bat\"]]",
+    "expectedOutput": "\"base\"",
+    "isHidden": true
+  }
+]

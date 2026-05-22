@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[50]",
+    "expectedOutput": "0.625",
+    "isHidden": false
+  },
+  {
+    "input": "[100]",
+    "expectedOutput": "0.71875",
+    "isHidden": false
+  },
+  {
+    "input": "[37]",
+    "expectedOutput": "0.625",
+    "isHidden": false
+  },
+  {
+    "input": "[75]",
+    "expectedOutput": "0.65625",
+    "isHidden": false
+  },
+  {
+    "input": "[31]",
+    "expectedOutput": "0.625",
+    "isHidden": false
+  },
+  {
+    "input": "[31]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[48]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[84]",
+    "expectedOutput": "0.71875",
+    "isHidden": true
+  },
+  {
+    "input": "[19]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[58]",
+    "expectedOutput": "0.65625",
+    "isHidden": true
+  },
+  {
+    "input": "[77]",
+    "expectedOutput": "0.71875",
+    "isHidden": true
+  },
+  {
+    "input": "[38]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[20]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[11]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[1]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[3]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[14]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[67]",
+    "expectedOutput": "0.65625",
+    "isHidden": true
+  },
+  {
+    "input": "[62]",
+    "expectedOutput": "0.65625",
+    "isHidden": true
+  },
+  {
+    "input": "[73]",
+    "expectedOutput": "0.65625",
+    "isHidden": true
+  },
+  {
+    "input": "[32]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[87]",
+    "expectedOutput": "0.71875",
+    "isHidden": true
+  },
+  {
+    "input": "[99]",
+    "expectedOutput": "0.71875",
+    "isHidden": true
+  },
+  {
+    "input": "[87]",
+    "expectedOutput": "0.71875",
+    "isHidden": true
+  },
+  {
+    "input": "[30]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[14]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[62]",
+    "expectedOutput": "0.65625",
+    "isHidden": true
+  },
+  {
+    "input": "[25]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[38]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[6]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[19]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[51]",
+    "expectedOutput": "0.65625",
+    "isHidden": true
+  },
+  {
+    "input": "[53]",
+    "expectedOutput": "0.65625",
+    "isHidden": true
+  },
+  {
+    "input": "[22]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[99]",
+    "expectedOutput": "0.71875",
+    "isHidden": true
+  },
+  {
+    "input": "[62]",
+    "expectedOutput": "0.65625",
+    "isHidden": true
+  },
+  {
+    "input": "[90]",
+    "expectedOutput": "0.71875",
+    "isHidden": true
+  },
+  {
+    "input": "[34]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[9]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[66]",
+    "expectedOutput": "0.65625",
+    "isHidden": true
+  },
+  {
+    "input": "[30]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[70]",
+    "expectedOutput": "0.65625",
+    "isHidden": true
+  },
+  {
+    "input": "[38]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[23]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[65]",
+    "expectedOutput": "0.65625",
+    "isHidden": true
+  },
+  {
+    "input": "[75]",
+    "expectedOutput": "0.65625",
+    "isHidden": true
+  },
+  {
+    "input": "[50]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[21]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[99]",
+    "expectedOutput": "0.71875",
+    "isHidden": true
+  },
+  {
+    "input": "[20]",
+    "expectedOutput": "0.625",
+    "isHidden": true
+  },
+  {
+    "input": "[554]",
+    "expectedOutput": "0.93353",
+    "isHidden": true
+  },
+  {
+    "input": "[340]",
+    "expectedOutput": "0.87256",
+    "isHidden": true
+  },
+  {
+    "input": "[392]",
+    "expectedOutput": "0.88963",
+    "isHidden": true
+  },
+  {
+    "input": "[706]",
+    "expectedOutput": "0.95493",
+    "isHidden": true
+  },
+  {
+    "input": "[440]",
+    "expectedOutput": "0.90406",
+    "isHidden": true
+  },
+  {
+    "input": "[467]",
+    "expectedOutput": "0.91301",
+    "isHidden": true
+  },
+  {
+    "input": "[470]",
+    "expectedOutput": "0.91301",
+    "isHidden": true
+  },
+  {
+    "input": "[750]",
+    "expectedOutput": "0.95646",
+    "isHidden": true
+  },
+  {
+    "input": "[419]",
+    "expectedOutput": "0.90008",
+    "isHidden": true
+  },
+  {
+    "input": "[617]",
+    "expectedOutput": "0.9417",
+    "isHidden": true
+  },
+  {
+    "input": "[418]",
+    "expectedOutput": "0.90008",
+    "isHidden": true
+  },
+  {
+    "input": "[120]",
+    "expectedOutput": "0.74219",
+    "isHidden": true
+  },
+  {
+    "input": "[640]",
+    "expectedOutput": "0.94376",
+    "isHidden": true
+  },
+  {
+    "input": "[185]",
+    "expectedOutput": "0.79688",
+    "isHidden": true
+  },
+  {
+    "input": "[700]",
+    "expectedOutput": "0.95056",
+    "isHidden": true
+  },
+  {
+    "input": "[450]",
+    "expectedOutput": "0.90406",
+    "isHidden": true
+  },
+  {
+    "input": "[203]",
+    "expectedOutput": "0.81787",
+    "isHidden": true
+  },
+  {
+    "input": "[691]",
+    "expectedOutput": "0.95056",
+    "isHidden": true
+  },
+  {
+    "input": "[562]",
+    "expectedOutput": "0.93353",
+    "isHidden": true
+  },
+  {
+    "input": "[509]",
+    "expectedOutput": "0.92405",
+    "isHidden": true
+  },
+  {
+    "input": "[299]",
+    "expectedOutput": "0.85217",
+    "isHidden": true
+  },
+  {
+    "input": "[795]",
+    "expectedOutput": "0.96162",
+    "isHidden": true
+  },
+  {
+    "input": "[147]",
+    "expectedOutput": "0.75781",
+    "isHidden": true
+  },
+  {
+    "input": "[622]",
+    "expectedOutput": "0.9417",
+    "isHidden": true
+  },
+  {
+    "input": "[540]",
+    "expectedOutput": "0.92687",
+    "isHidden": true
+  },
+  {
+    "input": "[423]",
+    "expectedOutput": "0.90008",
+    "isHidden": true
+  },
+  {
+    "input": "[118]",
+    "expectedOutput": "0.74219",
+    "isHidden": true
+  },
+  {
+    "input": "[690]",
+    "expectedOutput": "0.95056",
+    "isHidden": true
+  },
+  {
+    "input": "[185]",
+    "expectedOutput": "0.79688",
+    "isHidden": true
+  },
+  {
+    "input": "[397]",
+    "expectedOutput": "0.88963",
+    "isHidden": true
+  },
+  {
+    "input": "[560]",
+    "expectedOutput": "0.93353",
+    "isHidden": true
+  },
+  {
+    "input": "[130]",
+    "expectedOutput": "0.75781",
+    "isHidden": true
+  },
+  {
+    "input": "[252]",
+    "expectedOutput": "0.84485",
+    "isHidden": true
+  },
+  {
+    "input": "[555]",
+    "expectedOutput": "0.93353",
+    "isHidden": true
+  },
+  {
+    "input": "[387]",
+    "expectedOutput": "0.88963",
+    "isHidden": true
+  },
+  {
+    "input": "[304]",
+    "expectedOutput": "0.8667",
+    "isHidden": true
+  },
+  {
+    "input": "[385]",
+    "expectedOutput": "0.88963",
+    "isHidden": true
+  },
+  {
+    "input": "[582]",
+    "expectedOutput": "0.93593",
+    "isHidden": true
+  },
+  {
+    "input": "[705]",
+    "expectedOutput": "0.95493",
+    "isHidden": true
+  },
+  {
+    "input": "[610]",
+    "expectedOutput": "0.9417",
+    "isHidden": true
+  },
+  {
+    "input": "[537]",
+    "expectedOutput": "0.92687",
+    "isHidden": true
+  },
+  {
+    "input": "[136]",
+    "expectedOutput": "0.75781",
+    "isHidden": true
+  },
+  {
+    "input": "[694]",
+    "expectedOutput": "0.95056",
+    "isHidden": true
+  },
+  {
+    "input": "[130]",
+    "expectedOutput": "0.75781",
+    "isHidden": true
+  },
+  {
+    "input": "[497]",
+    "expectedOutput": "0.91634",
+    "isHidden": true
+  },
+  {
+    "input": "[303]",
+    "expectedOutput": "0.8667",
+    "isHidden": true
+  },
+  {
+    "input": "[173]",
+    "expectedOutput": "0.78516",
+    "isHidden": true
+  },
+  {
+    "input": "[221]",
+    "expectedOutput": "0.81787",
+    "isHidden": true
+  },
+  {
+    "input": "[374]",
+    "expectedOutput": "0.88483",
+    "isHidden": true
+  },
+  {
+    "input": "[386]",
+    "expectedOutput": "0.88963",
+    "isHidden": true
+  },
+  {
+    "input": "[1719]",
+    "expectedOutput": "0.99585",
+    "isHidden": true
+  },
+  {
+    "input": "[4334]",
+    "expectedOutput": "0.99999",
+    "isHidden": true
+  },
+  {
+    "input": "[5101]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[4239]",
+    "expectedOutput": "0.99998",
+    "isHidden": true
+  },
+  {
+    "input": "[4406]",
+    "expectedOutput": "0.99999",
+    "isHidden": true
+  },
+  {
+    "input": "[5425]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[5329]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[1837]",
+    "expectedOutput": "0.99679",
+    "isHidden": true
+  },
+  {
+    "input": "[4723]",
+    "expectedOutput": "0.99999",
+    "isHidden": true
+  },
+  {
+    "input": "[5348]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[1874]",
+    "expectedOutput": "0.99705",
+    "isHidden": true
+  },
+  {
+    "input": "[1187]",
+    "expectedOutput": "0.98551",
+    "isHidden": true
+  },
+  {
+    "input": "[4962]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[3655]",
+    "expectedOutput": "0.99994",
+    "isHidden": true
+  },
+  {
+    "input": "[1791]",
+    "expectedOutput": "0.9964",
+    "isHidden": true
+  },
+  {
+    "input": "[3873]",
+    "expectedOutput": "0.99996",
+    "isHidden": true
+  },
+  {
+    "input": "[3537]",
+    "expectedOutput": "0.99993",
+    "isHidden": true
+  },
+  {
+    "input": "[5150]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[4215]",
+    "expectedOutput": "0.99998",
+    "isHidden": true
+  },
+  {
+    "input": "[805]",
+    "expectedOutput": "0.96497",
+    "isHidden": true
+  },
+  {
+    "input": "[5318]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[855]",
+    "expectedOutput": "0.96906",
+    "isHidden": true
+  },
+  {
+    "input": "[4971]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[2679]",
+    "expectedOutput": "0.99952",
+    "isHidden": true
+  },
+  {
+    "input": "[2236]",
+    "expectedOutput": "0.9987",
+    "isHidden": true
+  },
+  {
+    "input": "[5142]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[4270]",
+    "expectedOutput": "0.99998",
+    "isHidden": true
+  },
+  {
+    "input": "[2452]",
+    "expectedOutput": "0.99923",
+    "isHidden": true
+  },
+  {
+    "input": "[2101]",
+    "expectedOutput": "0.99832",
+    "isHidden": true
+  },
+  {
+    "input": "[2492]",
+    "expectedOutput": "0.99925",
+    "isHidden": true
+  },
+  {
+    "input": "[3282]",
+    "expectedOutput": "0.99987",
+    "isHidden": true
+  },
+  {
+    "input": "[4035]",
+    "expectedOutput": "0.99997",
+    "isHidden": true
+  },
+  {
+    "input": "[1827]",
+    "expectedOutput": "0.99679",
+    "isHidden": true
+  },
+  {
+    "input": "[4465]",
+    "expectedOutput": "0.99999",
+    "isHidden": true
+  },
+  {
+    "input": "[4903]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[2518]",
+    "expectedOutput": "0.99931",
+    "isHidden": true
+  },
+  {
+    "input": "[2486]",
+    "expectedOutput": "0.99925",
+    "isHidden": true
+  },
+  {
+    "input": "[3223]",
+    "expectedOutput": "0.99985",
+    "isHidden": true
+  },
+  {
+    "input": "[1730]",
+    "expectedOutput": "0.99597",
+    "isHidden": true
+  },
+  {
+    "input": "[1726]",
+    "expectedOutput": "0.99597",
+    "isHidden": true
+  },
+  {
+    "input": "[1519]",
+    "expectedOutput": "0.99342",
+    "isHidden": true
+  },
+  {
+    "input": "[2271]",
+    "expectedOutput": "0.9988",
+    "isHidden": true
+  },
+  {
+    "input": "[1367]",
+    "expectedOutput": "0.99067",
+    "isHidden": true
+  },
+  {
+    "input": "[1534]",
+    "expectedOutput": "0.99362",
+    "isHidden": true
+  },
+  {
+    "input": "[3554]",
+    "expectedOutput": "0.99993",
+    "isHidden": true
+  },
+  {
+    "input": "[2020]",
+    "expectedOutput": "0.9979",
+    "isHidden": true
+  },
+  {
+    "input": "[4959]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[5170]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[3411]",
+    "expectedOutput": "0.99991",
+    "isHidden": true
+  },
+  {
+    "input": "[4167]",
+    "expectedOutput": "0.99998",
+    "isHidden": true
+  }
+]

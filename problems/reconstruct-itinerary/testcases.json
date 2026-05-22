@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[[[\"MUC\",\"LHR\"],[\"JFK\",\"MUC\"],[\"SFO\",\"SJC\"],[\"LHR\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"MUC\",\"LHR\",\"SFO\",\"SJC\"]",
+    "isHidden": false
+  },
+  {
+    "input": "[[[\"JFK\",\"SFO\"],[\"JFK\",\"ATL\"],[\"SFO\",\"ATL\"],[\"ATL\",\"JFK\"],[\"ATL\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"JFK\",\"SFO\",\"ATL\",\"SFO\"]",
+    "isHidden": false
+  },
+  {
+    "input": "[[[\"LAX\",\"JFK\"],[\"LAX\",\"ATL\"],[\"JFK\",\"LAX\"],[\"JFK\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"JFK\",\"LAX\",\"ATL\"]",
+    "isHidden": false
+  },
+  {
+    "input": "[[[\"LAX\",\"ORD\"],[\"JFK\",\"DEN\"],[\"DEN\",\"LAX\"],[\"ORD\",\"ATL\"]]]",
+    "expectedOutput": "[\"JFK\",\"DEN\",\"LAX\",\"ORD\",\"ATL\"]",
+    "isHidden": false
+  },
+  {
+    "input": "[[[\"SFO\",\"JFK\"],[\"JFK\",\"SFO\"],[\"ORD\",\"JFK\"],[\"JFK\",\"ORD\"]]]",
+    "expectedOutput": "[\"JFK\",\"ORD\",\"JFK\",\"SFO\",\"JFK\"]",
+    "isHidden": false
+  },
+  {
+    "input": "[[[\"JFK\",\"ATL\"],[\"DEN\",\"JFK\"],[\"JFK\",\"DEN\"]]]",
+    "expectedOutput": "[\"JFK\",\"DEN\",\"JFK\",\"ATL\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ATL\",\"LAX\"],[\"LAX\",\"JFK\"],[\"JFK\",\"ATL\"],[\"JFK\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"LAX\",\"JFK\",\"SFO\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"DEN\",\"DFW\"],[\"JFK\",\"DEN\"]]]",
+    "expectedOutput": "[\"JFK\",\"DEN\",\"DFW\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"SFO\"],[\"SFO\",\"DEN\"]]]",
+    "expectedOutput": "[\"JFK\",\"SFO\",\"DEN\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"DFW\"],[\"SFO\",\"JFK\"],[\"JFK\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"SFO\",\"JFK\",\"DFW\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"SFO\"],[\"SFO\",\"DEN\"]]]",
+    "expectedOutput": "[\"JFK\",\"SFO\",\"DEN\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"DEN\"],[\"DEN\",\"ATL\"]]]",
+    "expectedOutput": "[\"JFK\",\"DEN\",\"ATL\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"DFW\"],[\"DEN\",\"JFK\"],[\"JFK\",\"DEN\"]]]",
+    "expectedOutput": "[\"JFK\",\"DEN\",\"JFK\",\"DFW\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"DFW\"],[\"DFW\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"DFW\",\"SFO\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"SFO\"],[\"JFK\",\"DEN\"],[\"SFO\",\"JFK\"],[\"DEN\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"DEN\",\"LAX\",\"SFO\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ORD\",\"DFW\"],[\"LAX\",\"ORD\"],[\"SFO\",\"LAX\"],[\"JFK\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"SFO\",\"LAX\",\"ORD\",\"DFW\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"DEN\"],[\"DEN\",\"LAX\"],[\"SFO\",\"LAX\"],[\"JFK\",\"LAX\"],[\"LAX\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"DEN\",\"LAX\",\"SFO\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"LAX\"],[\"LAX\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"SFO\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ORD\",\"LAX\"],[\"JFK\",\"ORD\"]]]",
+    "expectedOutput": "[\"JFK\",\"ORD\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"LAX\"],[\"LAX\",\"SFO\"],[\"SFO\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"SFO\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"ATL\"],[\"JFK\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"ATL\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ATL\",\"DFW\"],[\"SFO\",\"JFK\"],[\"JFK\",\"SFO\"],[\"JFK\",\"ATL\"]]]",
+    "expectedOutput": "[\"JFK\",\"SFO\",\"JFK\",\"ATL\",\"DFW\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ORD\",\"SFO\"],[\"SFO\",\"DEN\"],[\"JFK\",\"ORD\"]]]",
+    "expectedOutput": "[\"JFK\",\"ORD\",\"SFO\",\"DEN\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"DFW\"],[\"JFK\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"DFW\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"ORD\"],[\"ORD\",\"DFW\"]]]",
+    "expectedOutput": "[\"JFK\",\"ORD\",\"DFW\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"SFO\",\"JFK\"],[\"LAX\",\"SFO\"],[\"JFK\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"SFO\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ORD\",\"DEN\"],[\"JFK\",\"DEN\"],[\"LAX\",\"JFK\"],[\"DEN\",\"LAX\"],[\"JFK\",\"ORD\"]]]",
+    "expectedOutput": "[\"JFK\",\"DEN\",\"LAX\",\"JFK\",\"ORD\",\"DEN\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ORD\",\"LAX\"],[\"JFK\",\"ORD\"],[\"LAX\",\"ORD\"]]]",
+    "expectedOutput": "[\"JFK\",\"ORD\",\"LAX\",\"ORD\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"JFK\"],[\"JFK\",\"SFO\"],[\"JFK\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"JFK\",\"SFO\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"ORD\"],[\"JFK\",\"LAX\"],[\"JFK\",\"DFW\"],[\"DFW\",\"JFK\"]]]",
+    "expectedOutput": "[\"JFK\",\"DFW\",\"JFK\",\"LAX\",\"ORD\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"ORD\"],[\"DEN\",\"SFO\"],[\"ORD\",\"DEN\"],[\"SFO\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"ORD\",\"DEN\",\"SFO\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"DFW\"],[\"DFW\",\"DEN\"],[\"DEN\",\"JFK\"]]]",
+    "expectedOutput": "[\"JFK\",\"DFW\",\"DEN\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"LAX\"],[\"LAX\",\"ORD\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"ORD\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"SFO\"],[\"SFO\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"SFO\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"ATL\"],[\"ATL\",\"ORD\"],[\"ORD\",\"JFK\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"ORD\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"DFW\"],[\"SFO\",\"ORD\"],[\"LAX\",\"SFO\"],[\"JFK\",\"LAX\"],[\"ORD\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"SFO\",\"ORD\",\"LAX\",\"DFW\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"LAX\"],[\"SFO\",\"JFK\"],[\"JFK\",\"LAX\"],[\"LAX\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"SFO\",\"JFK\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"SFO\",\"ORD\"],[\"SFO\",\"ORD\"],[\"ORD\",\"SFO\"],[\"JFK\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"SFO\",\"ORD\",\"SFO\",\"ORD\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ORD\",\"SFO\"],[\"SFO\",\"LAX\"],[\"LAX\",\"DFW\"],[\"JFK\",\"ORD\"]]]",
+    "expectedOutput": "[\"JFK\",\"ORD\",\"SFO\",\"LAX\",\"DFW\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"SFO\",\"LAX\"],[\"LAX\",\"ORD\"],[\"JFK\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"SFO\",\"LAX\",\"ORD\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"SFO\",\"ATL\"],[\"JFK\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"SFO\",\"ATL\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ORD\",\"JFK\"],[\"JFK\",\"ORD\"]]]",
+    "expectedOutput": "[\"JFK\",\"ORD\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"DFW\"],[\"SFO\",\"LAX\"],[\"JFK\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"SFO\",\"LAX\",\"DFW\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"DEN\",\"SFO\"],[\"LAX\",\"DEN\"],[\"SFO\",\"DEN\"],[\"JFK\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"DEN\",\"SFO\",\"DEN\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"DEN\",\"SFO\"],[\"JFK\",\"LAX\"],[\"ATL\",\"LAX\"],[\"LAX\",\"DEN\"],[\"SFO\",\"ATL\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"DEN\",\"SFO\",\"ATL\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ATL\",\"SFO\"],[\"JFK\",\"ATL\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"SFO\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"SFO\"],[\"SFO\",\"DEN\"]]]",
+    "expectedOutput": "[\"JFK\",\"SFO\",\"DEN\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"DFW\"],[\"ORD\",\"JFK\"],[\"DFW\",\"ORD\"]]]",
+    "expectedOutput": "[\"JFK\",\"DFW\",\"ORD\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"SFO\",\"JFK\"],[\"DEN\",\"LAX\"],[\"DFW\",\"DEN\"],[\"JFK\",\"SFO\"],[\"JFK\",\"DFW\"]]]",
+    "expectedOutput": "[\"JFK\",\"SFO\",\"JFK\",\"DFW\",\"DEN\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"SFO\"],[\"SFO\",\"DFW\"]]]",
+    "expectedOutput": "[\"JFK\",\"SFO\",\"DFW\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ATL\",\"SFO\"],[\"ORD\",\"LAX\"],[\"JFK\",\"DEN\"],[\"DFW\",\"SFO\"],[\"SFO\",\"JFK\"],[\"SFO\",\"ATL\"],[\"JFK\",\"DEN\"],[\"DFW\",\"ATL\"],[\"DEN\",\"DFW\"],[\"ATL\",\"ORD\"],[\"DEN\",\"DFW\"]]]",
+    "expectedOutput": "[\"JFK\",\"DEN\",\"DFW\",\"ATL\",\"SFO\",\"JFK\",\"DEN\",\"DFW\",\"SFO\",\"ATL\",\"ORD\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"ORD\"],[\"ATL\",\"DFW\"],[\"ORD\",\"LAX\"],[\"JFK\",\"ATL\"],[\"SFO\",\"DEN\"],[\"ATL\",\"JFK\"],[\"DEN\",\"SFO\"],[\"JFK\",\"DEN\"],[\"DFW\",\"DEN\"],[\"LAX\",\"JFK\"],[\"DEN\",\"ATL\"],[\"DEN\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"DFW\",\"DEN\",\"ATL\",\"JFK\",\"DEN\",\"SFO\",\"DEN\",\"LAX\",\"ORD\",\"LAX\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"JFK\"],[\"SFO\",\"DFW\"],[\"JFK\",\"SFO\"],[\"JFK\",\"ORD\"],[\"JFK\",\"ATL\"],[\"ATL\",\"LAX\"],[\"LAX\",\"JFK\"],[\"JFK\",\"LAX\"],[\"ORD\",\"JFK\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"LAX\",\"JFK\",\"LAX\",\"JFK\",\"ORD\",\"JFK\",\"SFO\",\"DFW\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"DFW\"],[\"JFK\",\"ORD\"],[\"JFK\",\"LAX\"],[\"DFW\",\"ATL\"],[\"DEN\",\"SFO\"],[\"LAX\",\"DEN\"],[\"DFW\",\"JFK\"],[\"JFK\",\"LAX\"],[\"ATL\",\"JFK\"],[\"SFO\",\"ATL\"],[\"LAX\",\"JFK\"],[\"ATL\",\"DFW\"]]]",
+    "expectedOutput": "[\"JFK\",\"DFW\",\"ATL\",\"DFW\",\"JFK\",\"LAX\",\"DEN\",\"SFO\",\"ATL\",\"JFK\",\"LAX\",\"JFK\",\"ORD\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"SFO\"],[\"DEN\",\"LAX\"],[\"JFK\",\"DEN\"],[\"SFO\",\"JFK\"],[\"LAX\",\"DFW\"]]]",
+    "expectedOutput": "[\"JFK\",\"SFO\",\"JFK\",\"DEN\",\"LAX\",\"DFW\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ATL\",\"DEN\"],[\"DEN\",\"ATL\"],[\"DFW\",\"SFO\"],[\"SFO\",\"DFW\"],[\"DEN\",\"SFO\"],[\"SFO\",\"DFW\"],[\"SFO\",\"DEN\"],[\"DFW\",\"SFO\"],[\"JFK\",\"DEN\"],[\"DEN\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"DEN\",\"ATL\",\"DEN\",\"SFO\",\"DEN\",\"SFO\",\"DFW\",\"SFO\",\"DFW\",\"SFO\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"LAX\"],[\"ORD\",\"JFK\"],[\"DFW\",\"LAX\"],[\"LAX\",\"SFO\"],[\"SFO\",\"ORD\"],[\"ATL\",\"DFW\"],[\"JFK\",\"ATL\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"DFW\",\"LAX\",\"SFO\",\"ORD\",\"JFK\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"LAX\"],[\"DFW\",\"JFK\"],[\"LAX\",\"ATL\"],[\"LAX\",\"JFK\"],[\"JFK\",\"DFW\"],[\"LAX\",\"ATL\"],[\"ATL\",\"LAX\"],[\"JFK\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"DFW\",\"JFK\",\"LAX\",\"ATL\",\"LAX\",\"JFK\",\"LAX\",\"ATL\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"DFW\"],[\"DEN\",\"JFK\"],[\"SFO\",\"LAX\"],[\"ATL\",\"DEN\"],[\"DFW\",\"ATL\"],[\"DEN\",\"SFO\"],[\"JFK\",\"DEN\"],[\"JFK\",\"ATL\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"DEN\",\"JFK\",\"DEN\",\"SFO\",\"LAX\",\"DFW\",\"ATL\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"DFW\",\"LAX\"],[\"DEN\",\"DFW\"],[\"DFW\",\"DEN\"],[\"LAX\",\"SFO\"],[\"DEN\",\"DFW\"],[\"JFK\",\"DFW\"],[\"DFW\",\"ATL\"],[\"ATL\",\"DEN\"]]]",
+    "expectedOutput": "[\"JFK\",\"DFW\",\"ATL\",\"DEN\",\"DFW\",\"DEN\",\"DFW\",\"LAX\",\"SFO\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"DFW\",\"JFK\"],[\"DEN\",\"JFK\"],[\"ATL\",\"DEN\"],[\"JFK\",\"ATL\"],[\"JFK\",\"LAX\"],[\"LAX\",\"DFW\"],[\"JFK\",\"DEN\"],[\"DEN\",\"JFK\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"DEN\",\"JFK\",\"DEN\",\"JFK\",\"LAX\",\"DFW\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"DFW\"],[\"DFW\",\"LAX\"],[\"DEN\",\"LAX\"],[\"SFO\",\"LAX\"],[\"LAX\",\"DEN\"],[\"ORD\",\"SFO\"],[\"LAX\",\"JFK\"],[\"JFK\",\"ORD\"]]]",
+    "expectedOutput": "[\"JFK\",\"DFW\",\"LAX\",\"DEN\",\"LAX\",\"JFK\",\"ORD\",\"SFO\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"LAX\"],[\"ATL\",\"SFO\"],[\"ATL\",\"JFK\"],[\"SFO\",\"ATL\"],[\"LAX\",\"ATL\"],[\"JFK\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"ATL\",\"SFO\",\"ATL\",\"JFK\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"LAX\"],[\"JFK\",\"DEN\"],[\"LAX\",\"DFW\"],[\"LAX\",\"SFO\"],[\"JFK\",\"DEN\"],[\"DFW\",\"LAX\"],[\"DEN\",\"DFW\"],[\"SFO\",\"JFK\"],[\"LAX\",\"ATL\"],[\"JFK\",\"LAX\"],[\"DFW\",\"JFK\"],[\"ATL\",\"JFK\"]]]",
+    "expectedOutput": "[\"JFK\",\"DEN\",\"DFW\",\"JFK\",\"LAX\",\"ATL\",\"JFK\",\"LAX\",\"DFW\",\"LAX\",\"SFO\",\"JFK\",\"DEN\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"DFW\"],[\"JFK\",\"ORD\"],[\"SFO\",\"ORD\"],[\"LAX\",\"SFO\"],[\"JFK\",\"DFW\"],[\"DFW\",\"JFK\"],[\"SFO\",\"JFK\"],[\"ORD\",\"JFK\"],[\"JFK\",\"LAX\"],[\"DFW\",\"JFK\"],[\"JFK\",\"LAX\"],[\"LAX\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"DFW\",\"JFK\",\"DFW\",\"JFK\",\"LAX\",\"SFO\",\"JFK\",\"LAX\",\"SFO\",\"ORD\",\"JFK\",\"ORD\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"DEN\"],[\"ORD\",\"DEN\"],[\"SFO\",\"ORD\"],[\"DEN\",\"ORD\"],[\"JFK\",\"DEN\"],[\"DEN\",\"SFO\"],[\"DEN\",\"LAX\"],[\"DEN\",\"LAX\"],[\"LAX\",\"DEN\"]]]",
+    "expectedOutput": "[\"JFK\",\"DEN\",\"LAX\",\"DEN\",\"LAX\",\"DEN\",\"ORD\",\"DEN\",\"SFO\",\"ORD\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"LAX\"],[\"LAX\",\"DEN\"],[\"LAX\",\"ORD\"],[\"ORD\",\"LAX\"],[\"DEN\",\"LAX\"],[\"LAX\",\"DEN\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"DEN\",\"LAX\",\"ORD\",\"LAX\",\"DEN\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"SFO\"],[\"ATL\",\"LAX\"],[\"LAX\",\"SFO\"],[\"DFW\",\"JFK\"],[\"SFO\",\"LAX\"],[\"SFO\",\"DFW\"],[\"JFK\",\"DEN\"],[\"SFO\",\"LAX\"],[\"JFK\",\"SFO\"],[\"LAX\",\"ATL\"],[\"DEN\",\"ATL\"]]]",
+    "expectedOutput": "[\"JFK\",\"DEN\",\"ATL\",\"LAX\",\"SFO\",\"DFW\",\"JFK\",\"SFO\",\"LAX\",\"SFO\",\"LAX\",\"ATL\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"ATL\"],[\"LAX\",\"SFO\"],[\"JFK\",\"LAX\"],[\"ATL\",\"LAX\"],[\"SFO\",\"JFK\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"ATL\",\"LAX\",\"SFO\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"DEN\",\"LAX\"],[\"SFO\",\"DEN\"],[\"SFO\",\"JFK\"],[\"LAX\",\"SFO\"],[\"DEN\",\"SFO\"],[\"JFK\",\"SFO\"],[\"JFK\",\"LAX\"],[\"JFK\",\"DEN\"],[\"SFO\",\"DEN\"],[\"LAX\",\"JFK\"]]]",
+    "expectedOutput": "[\"JFK\",\"DEN\",\"LAX\",\"JFK\",\"LAX\",\"SFO\",\"DEN\",\"SFO\",\"JFK\",\"SFO\",\"DEN\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"ATL\"],[\"JFK\",\"LAX\"],[\"ATL\",\"DFW\"],[\"JFK\",\"SFO\"],[\"DEN\",\"JFK\"],[\"DFW\",\"JFK\"],[\"SFO\",\"DEN\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"DFW\",\"JFK\",\"SFO\",\"DEN\",\"JFK\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ORD\",\"JFK\"],[\"JFK\",\"DEN\"],[\"JFK\",\"ORD\"],[\"ATL\",\"JFK\"],[\"JFK\",\"SFO\"],[\"SFO\",\"ATL\"]]]",
+    "expectedOutput": "[\"JFK\",\"ORD\",\"JFK\",\"SFO\",\"ATL\",\"JFK\",\"DEN\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"SFO\"],[\"SFO\",\"JFK\"],[\"SFO\",\"ORD\"],[\"LAX\",\"ATL\"],[\"ATL\",\"JFK\"],[\"JFK\",\"LAX\"],[\"JFK\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"ATL\",\"JFK\",\"SFO\",\"JFK\",\"SFO\",\"ORD\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"DEN\"],[\"DEN\",\"LAX\"],[\"JFK\",\"SFO\"],[\"JFK\",\"SFO\"],[\"SFO\",\"JFK\"],[\"SFO\",\"JFK\"]]]",
+    "expectedOutput": "[\"JFK\",\"SFO\",\"JFK\",\"SFO\",\"JFK\",\"DEN\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"SFO\",\"ORD\"],[\"ORD\",\"SFO\"],[\"SFO\",\"ORD\"],[\"LAX\",\"DFW\"],[\"ORD\",\"SFO\"],[\"ORD\",\"LAX\"],[\"SFO\",\"ORD\"],[\"JFK\",\"ORD\"],[\"ORD\",\"JFK\"],[\"DFW\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"ORD\",\"LAX\",\"DFW\",\"SFO\",\"ORD\",\"SFO\",\"ORD\",\"SFO\",\"ORD\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"DFW\"],[\"DFW\",\"DEN\"],[\"ORD\",\"SFO\"],[\"SFO\",\"DEN\"],[\"DFW\",\"ATL\"],[\"ATL\",\"ORD\"],[\"DEN\",\"SFO\"],[\"LAX\",\"ATL\"],[\"JFK\",\"SFO\"],[\"DEN\",\"LAX\"],[\"SFO\",\"JFK\"],[\"SFO\",\"DFW\"]]]",
+    "expectedOutput": "[\"JFK\",\"DFW\",\"ATL\",\"ORD\",\"SFO\",\"DEN\",\"SFO\",\"JFK\",\"SFO\",\"DFW\",\"DEN\",\"LAX\",\"ATL\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"DEN\"],[\"DFW\",\"LAX\"],[\"JFK\",\"ATL\"],[\"DEN\",\"ORD\"],[\"ATL\",\"LAX\"],[\"ORD\",\"DEN\"],[\"SFO\",\"ORD\"],[\"LAX\",\"JFK\"],[\"JFK\",\"SFO\"],[\"DEN\",\"DFW\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"LAX\",\"DEN\",\"DFW\",\"LAX\",\"JFK\",\"SFO\",\"ORD\",\"DEN\",\"ORD\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"LAX\"],[\"JFK\",\"LAX\"],[\"LAX\",\"ATL\"],[\"ATL\",\"JFK\"],[\"LAX\",\"JFK\"],[\"LAX\",\"SFO\"],[\"SFO\",\"JFK\"],[\"SFO\",\"LAX\"],[\"JFK\",\"SFO\"],[\"JFK\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"ATL\",\"JFK\",\"LAX\",\"JFK\",\"SFO\",\"JFK\",\"SFO\",\"LAX\",\"SFO\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"SFO\"],[\"JFK\",\"LAX\"],[\"ORD\",\"LAX\"],[\"JFK\",\"LAX\"],[\"LAX\",\"JFK\"],[\"SFO\",\"ORD\"],[\"LAX\",\"JFK\"],[\"JFK\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"JFK\",\"LAX\",\"JFK\",\"LAX\",\"SFO\",\"ORD\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"LAX\"],[\"JFK\",\"ATL\"],[\"ORD\",\"JFK\"],[\"LAX\",\"JFK\"],[\"ATL\",\"LAX\"],[\"JFK\",\"ORD\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"LAX\",\"JFK\",\"ORD\",\"JFK\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"SFO\"],[\"ORD\",\"JFK\"],[\"DFW\",\"JFK\"],[\"SFO\",\"JFK\"],[\"JFK\",\"ORD\"],[\"ORD\",\"DFW\"],[\"ORD\",\"DEN\"],[\"JFK\",\"SFO\"],[\"SFO\",\"ORD\"],[\"DEN\",\"ORD\"],[\"JFK\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"ORD\",\"DEN\",\"ORD\",\"DFW\",\"JFK\",\"SFO\",\"JFK\",\"SFO\",\"ORD\",\"JFK\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ATL\",\"DFW\"],[\"JFK\",\"LAX\"],[\"SFO\",\"ATL\"],[\"ORD\",\"LAX\"],[\"LAX\",\"SFO\"],[\"ATL\",\"DFW\"],[\"DFW\",\"ORD\"],[\"LAX\",\"JFK\"],[\"JFK\",\"ATL\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"DFW\",\"ORD\",\"LAX\",\"JFK\",\"LAX\",\"SFO\",\"ATL\",\"DFW\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"DFW\",\"ATL\"],[\"SFO\",\"LAX\"],[\"DEN\",\"ATL\"],[\"ATL\",\"LAX\"],[\"ATL\",\"SFO\"],[\"LAX\",\"JFK\"],[\"LAX\",\"DFW\"],[\"JFK\",\"DEN\"]]]",
+    "expectedOutput": "[\"JFK\",\"DEN\",\"ATL\",\"LAX\",\"DFW\",\"ATL\",\"SFO\",\"LAX\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"ORD\"],[\"DFW\",\"LAX\"],[\"SFO\",\"DFW\"],[\"ATL\",\"JFK\"],[\"ORD\",\"SFO\"],[\"ATL\",\"DFW\"],[\"DFW\",\"ATL\"],[\"ORD\",\"ATL\"],[\"JFK\",\"ORD\"]]]",
+    "expectedOutput": "[\"JFK\",\"ORD\",\"ATL\",\"DFW\",\"ATL\",\"JFK\",\"ORD\",\"SFO\",\"DFW\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"SFO\",\"LAX\"],[\"SFO\",\"JFK\"],[\"JFK\",\"SFO\"],[\"JFK\",\"LAX\"],[\"LAX\",\"JFK\"],[\"JFK\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"JFK\",\"SFO\",\"JFK\",\"SFO\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"SFO\",\"ATL\"],[\"ATL\",\"JFK\"],[\"LAX\",\"ATL\"],[\"DEN\",\"SFO\"],[\"ORD\",\"SFO\"],[\"JFK\",\"ORD\"],[\"JFK\",\"LAX\"],[\"JFK\",\"DEN\"],[\"SFO\",\"LAX\"],[\"LAX\",\"DEN\"],[\"DEN\",\"JFK\"]]]",
+    "expectedOutput": "[\"JFK\",\"DEN\",\"JFK\",\"LAX\",\"ATL\",\"JFK\",\"ORD\",\"SFO\",\"LAX\",\"DEN\",\"SFO\",\"ATL\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ORD\",\"DFW\"],[\"JFK\",\"SFO\"],[\"SFO\",\"DEN\"],[\"DFW\",\"SFO\"],[\"DEN\",\"DFW\"],[\"SFO\",\"ATL\"],[\"DFW\",\"ORD\"]]]",
+    "expectedOutput": "[\"JFK\",\"SFO\",\"DEN\",\"DFW\",\"ORD\",\"DFW\",\"SFO\",\"ATL\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"ATL\"],[\"JFK\",\"LAX\"],[\"LAX\",\"JFK\"],[\"SFO\",\"JFK\"],[\"DFW\",\"JFK\"],[\"ATL\",\"JFK\"],[\"JFK\",\"LAX\"],[\"JFK\",\"SFO\"],[\"LAX\",\"DFW\"],[\"JFK\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"JFK\",\"LAX\",\"DFW\",\"JFK\",\"LAX\",\"JFK\",\"SFO\",\"JFK\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ATL\",\"SFO\"],[\"JFK\",\"ORD\"],[\"LAX\",\"SFO\"],[\"LAX\",\"ORD\"],[\"SFO\",\"DFW\"],[\"ORD\",\"LAX\"],[\"JFK\",\"ATL\"],[\"SFO\",\"JFK\"],[\"ORD\",\"LAX\"],[\"DFW\",\"JFK\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"SFO\",\"DFW\",\"JFK\",\"ORD\",\"LAX\",\"ORD\",\"LAX\",\"SFO\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"DEN\"],[\"DEN\",\"JFK\"],[\"SFO\",\"JFK\"],[\"JFK\",\"ATL\"],[\"ATL\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"SFO\",\"JFK\",\"DEN\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ATL\",\"ORD\"],[\"ORD\",\"JFK\"],[\"JFK\",\"LAX\"],[\"JFK\",\"ORD\"],[\"ORD\",\"DFW\"],[\"DFW\",\"JFK\"],[\"JFK\",\"ORD\"],[\"JFK\",\"ATL\"],[\"LAX\",\"JFK\"],[\"ORD\",\"ATL\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"ORD\",\"DFW\",\"JFK\",\"LAX\",\"JFK\",\"ORD\",\"JFK\",\"ORD\",\"ATL\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ORD\",\"LAX\"],[\"JFK\",\"LAX\"],[\"JFK\",\"LAX\"],[\"SFO\",\"ATL\"],[\"ATL\",\"JFK\"],[\"LAX\",\"ORD\"],[\"LAX\",\"ORD\"],[\"ORD\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"ORD\",\"LAX\",\"ORD\",\"SFO\",\"ATL\",\"JFK\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ORD\",\"JFK\"],[\"DFW\",\"SFO\"],[\"JFK\",\"SFO\"],[\"SFO\",\"DFW\"],[\"ORD\",\"DEN\"],[\"JFK\",\"SFO\"],[\"DEN\",\"ORD\"],[\"SFO\",\"ORD\"],[\"SFO\",\"LAX\"],[\"LAX\",\"DEN\"]]]",
+    "expectedOutput": "[\"JFK\",\"SFO\",\"DFW\",\"SFO\",\"LAX\",\"DEN\",\"ORD\",\"JFK\",\"SFO\",\"ORD\",\"DEN\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"SFO\",\"LAX\"],[\"ATL\",\"JFK\"],[\"LAX\",\"JFK\"],[\"LAX\",\"SFO\"],[\"JFK\",\"ATL\"],[\"JFK\",\"LAX\"],[\"LAX\",\"SFO\"],[\"SFO\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"JFK\",\"LAX\",\"SFO\",\"LAX\",\"SFO\",\"LAX\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"DEN\"],[\"DFW\",\"JFK\"],[\"SFO\",\"DFW\"],[\"ORD\",\"JFK\"],[\"JFK\",\"SFO\"],[\"SFO\",\"ORD\"],[\"JFK\",\"LAX\"],[\"DEN\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"DEN\",\"SFO\",\"DFW\",\"JFK\",\"SFO\",\"ORD\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ORD\",\"SFO\"],[\"LAX\",\"ORD\"],[\"SFO\",\"JFK\"],[\"DFW\",\"SFO\"],[\"SFO\",\"ATL\"],[\"JFK\",\"DEN\"],[\"DEN\",\"LAX\"],[\"ATL\",\"ORD\"],[\"JFK\",\"ORD\"],[\"ORD\",\"DFW\"]]]",
+    "expectedOutput": "[\"JFK\",\"DEN\",\"LAX\",\"ORD\",\"DFW\",\"SFO\",\"ATL\",\"ORD\",\"SFO\",\"JFK\",\"ORD\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"DFW\",\"JFK\"],[\"ORD\",\"JFK\"],[\"ATL\",\"ORD\"],[\"LAX\",\"JFK\"],[\"JFK\",\"DFW\"],[\"ORD\",\"LAX\"],[\"JFK\",\"SFO\"],[\"SFO\",\"ATL\"],[\"JFK\",\"SFO\"],[\"SFO\",\"JFK\"],[\"JFK\",\"ORD\"]]]",
+    "expectedOutput": "[\"JFK\",\"DFW\",\"JFK\",\"ORD\",\"JFK\",\"SFO\",\"ATL\",\"ORD\",\"LAX\",\"JFK\",\"SFO\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"DEN\",\"ORD\"],[\"SFO\",\"DEN\"],[\"JFK\",\"DEN\"],[\"DEN\",\"JFK\"],[\"JFK\",\"SFO\"],[\"SFO\",\"JFK\"],[\"JFK\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"DEN\",\"JFK\",\"SFO\",\"JFK\",\"SFO\",\"DEN\",\"ORD\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ORD\",\"JFK\"],[\"JFK\",\"DFW\"],[\"DEN\",\"JFK\"],[\"LAX\",\"SFO\"],[\"DFW\",\"ORD\"],[\"ATL\",\"LAX\"],[\"DFW\",\"JFK\"],[\"JFK\",\"ORD\"],[\"JFK\",\"ATL\"],[\"SFO\",\"DFW\"],[\"ORD\",\"DEN\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"LAX\",\"SFO\",\"DFW\",\"JFK\",\"DFW\",\"ORD\",\"DEN\",\"JFK\",\"ORD\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"DEN\",\"ORD\"],[\"ATL\",\"SFO\"],[\"ORD\",\"ATL\"],[\"JFK\",\"SFO\"],[\"JFK\",\"LAX\"],[\"SFO\",\"JFK\"],[\"LAX\",\"DEN\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"DEN\",\"ORD\",\"ATL\",\"SFO\",\"JFK\",\"SFO\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"DFW\"],[\"ATL\",\"SFO\"],[\"LAX\",\"ATL\"],[\"JFK\",\"DEN\"],[\"DEN\",\"SFO\"],[\"DFW\",\"DEN\"],[\"SFO\",\"DEN\"],[\"ATL\",\"LAX\"],[\"LAX\",\"SFO\"],[\"DEN\",\"JFK\"],[\"SFO\",\"DFW\"],[\"DEN\",\"SFO\"],[\"DFW\",\"LAX\"],[\"SFO\",\"LAX\"],[\"LAX\",\"SFO\"],[\"LAX\",\"JFK\"],[\"SFO\",\"ATL\"],[\"JFK\",\"LAX\"],[\"JFK\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"DEN\",\"JFK\",\"LAX\",\"ATL\",\"LAX\",\"DFW\",\"DEN\",\"SFO\",\"ATL\",\"SFO\",\"DEN\",\"SFO\",\"DFW\",\"LAX\",\"JFK\",\"LAX\",\"SFO\",\"LAX\",\"SFO\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"SFO\"],[\"DFW\",\"LAX\"],[\"DEN\",\"LAX\"],[\"SFO\",\"LAX\"],[\"LAX\",\"SFO\"],[\"JFK\",\"LAX\"],[\"SFO\",\"JFK\"],[\"JFK\",\"ATL\"],[\"ATL\",\"DEN\"],[\"JFK\",\"SFO\"],[\"LAX\",\"JFK\"],[\"SFO\",\"DFW\"],[\"LAX\",\"SFO\"],[\"ATL\",\"LAX\"],[\"SFO\",\"JFK\"],[\"JFK\",\"SFO\"],[\"LAX\",\"ATL\"],[\"SFO\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"DEN\",\"LAX\",\"ATL\",\"LAX\",\"JFK\",\"LAX\",\"SFO\",\"DFW\",\"LAX\",\"SFO\",\"JFK\",\"SFO\",\"JFK\",\"SFO\",\"LAX\",\"SFO\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ATL\",\"LAX\"],[\"DFW\",\"SFO\"],[\"SFO\",\"ATL\"],[\"DFW\",\"JFK\"],[\"JFK\",\"DFW\"],[\"LAX\",\"JFK\"],[\"JFK\",\"DFW\"],[\"JFK\",\"ATL\"],[\"LAX\",\"SFO\"],[\"ATL\",\"LAX\"],[\"LAX\",\"JFK\"],[\"DFW\",\"LAX\"],[\"LAX\",\"SFO\"],[\"SFO\",\"LAX\"],[\"JFK\",\"DFW\"],[\"SFO\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"LAX\",\"JFK\",\"DFW\",\"JFK\",\"DFW\",\"LAX\",\"JFK\",\"DFW\",\"SFO\",\"ATL\",\"LAX\",\"SFO\",\"LAX\",\"SFO\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"DEN\"],[\"DEN\",\"LAX\"],[\"LAX\",\"SFO\"],[\"LAX\",\"SFO\"],[\"LAX\",\"DEN\"],[\"ORD\",\"DFW\"],[\"DFW\",\"LAX\"],[\"SFO\",\"DEN\"],[\"JFK\",\"LAX\"],[\"SFO\",\"LAX\"],[\"DEN\",\"ORD\"],[\"DEN\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"DEN\",\"LAX\",\"DEN\",\"LAX\",\"SFO\",\"DEN\",\"ORD\",\"DFW\",\"LAX\",\"SFO\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ORD\",\"ATL\"],[\"ATL\",\"LAX\"],[\"SFO\",\"LAX\"],[\"ATL\",\"JFK\"],[\"DEN\",\"LAX\"],[\"DFW\",\"ORD\"],[\"LAX\",\"ATL\"],[\"JFK\",\"SFO\"],[\"JFK\",\"SFO\"],[\"LAX\",\"DEN\"],[\"JFK\",\"ATL\"],[\"SFO\",\"DEN\"],[\"ATL\",\"SFO\"],[\"SFO\",\"DFW\"],[\"LAX\",\"JFK\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"JFK\",\"SFO\",\"DEN\",\"LAX\",\"ATL\",\"LAX\",\"JFK\",\"SFO\",\"DFW\",\"ORD\",\"ATL\",\"SFO\",\"LAX\",\"DEN\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"SFO\",\"JFK\"],[\"ORD\",\"JFK\"],[\"SFO\",\"DEN\"],[\"SFO\",\"JFK\"],[\"JFK\",\"ORD\"],[\"DEN\",\"DFW\"],[\"SFO\",\"JFK\"],[\"JFK\",\"SFO\"],[\"JFK\",\"SFO\"],[\"JFK\",\"DEN\"],[\"ATL\",\"JFK\"],[\"JFK\",\"SFO\"],[\"DFW\",\"ATL\"],[\"DEN\",\"SFO\"],[\"JFK\",\"DEN\"]]]",
+    "expectedOutput": "[\"JFK\",\"DEN\",\"DFW\",\"ATL\",\"JFK\",\"DEN\",\"SFO\",\"JFK\",\"ORD\",\"JFK\",\"SFO\",\"JFK\",\"SFO\",\"JFK\",\"SFO\",\"DEN\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"ATL\"],[\"DFW\",\"DEN\"],[\"DFW\",\"DEN\"],[\"LAX\",\"ATL\"],[\"ATL\",\"DFW\"],[\"DFW\",\"LAX\"],[\"LAX\",\"DFW\"],[\"SFO\",\"JFK\"],[\"SFO\",\"DFW\"],[\"ATL\",\"LAX\"],[\"DEN\",\"SFO\"],[\"LAX\",\"ATL\"],[\"DEN\",\"DFW\"],[\"JFK\",\"SFO\"],[\"DFW\",\"LAX\"],[\"ATL\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"DFW\",\"DEN\",\"DFW\",\"DEN\",\"SFO\",\"JFK\",\"SFO\",\"DFW\",\"LAX\",\"ATL\",\"LAX\",\"ATL\",\"LAX\",\"DFW\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"SFO\",\"JFK\"],[\"DFW\",\"JFK\"],[\"JFK\",\"DFW\"],[\"SFO\",\"LAX\"],[\"JFK\",\"LAX\"],[\"JFK\",\"SFO\"],[\"LAX\",\"JFK\"],[\"SFO\",\"ORD\"],[\"ORD\",\"JFK\"],[\"JFK\",\"SFO\"],[\"LAX\",\"JFK\"],[\"ORD\",\"SFO\"],[\"SFO\",\"ORD\"],[\"JFK\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"DFW\",\"JFK\",\"LAX\",\"JFK\",\"SFO\",\"JFK\",\"SFO\",\"LAX\",\"JFK\",\"SFO\",\"ORD\",\"SFO\",\"ORD\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"SFO\",\"JFK\"],[\"ORD\",\"DFW\"],[\"LAX\",\"JFK\"],[\"DFW\",\"SFO\"],[\"JFK\",\"ORD\"],[\"SFO\",\"LAX\"],[\"JFK\",\"ORD\"],[\"JFK\",\"LAX\"],[\"ORD\",\"DEN\"],[\"JFK\",\"SFO\"],[\"DEN\",\"JFK\"],[\"LAX\",\"JFK\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"JFK\",\"ORD\",\"DEN\",\"JFK\",\"ORD\",\"DFW\",\"SFO\",\"JFK\",\"SFO\",\"LAX\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"SFO\",\"LAX\"],[\"DEN\",\"SFO\"],[\"DEN\",\"LAX\"],[\"JFK\",\"SFO\"],[\"DFW\",\"DEN\"],[\"JFK\",\"DEN\"],[\"SFO\",\"DEN\"],[\"JFK\",\"DEN\"],[\"LAX\",\"SFO\"],[\"SFO\",\"ATL\"],[\"SFO\",\"JFK\"],[\"ATL\",\"JFK\"],[\"JFK\",\"DFW\"],[\"LAX\",\"JFK\"],[\"DEN\",\"SFO\"],[\"DFW\",\"JFK\"],[\"JFK\",\"DFW\"]]]",
+    "expectedOutput": "[\"JFK\",\"DEN\",\"LAX\",\"JFK\",\"DEN\",\"SFO\",\"ATL\",\"JFK\",\"DFW\",\"DEN\",\"SFO\",\"JFK\",\"DFW\",\"JFK\",\"SFO\",\"LAX\",\"SFO\",\"DEN\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"ORD\"],[\"ATL\",\"LAX\"],[\"ORD\",\"JFK\"],[\"ORD\",\"DEN\"],[\"JFK\",\"DFW\"],[\"DFW\",\"DEN\"],[\"JFK\",\"ATL\"],[\"DEN\",\"JFK\"],[\"JFK\",\"ATL\"],[\"DFW\",\"ORD\"],[\"DEN\",\"DFW\"],[\"ATL\",\"JFK\"],[\"LAX\",\"DFW\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"JFK\",\"ATL\",\"LAX\",\"DFW\",\"DEN\",\"DFW\",\"ORD\",\"DEN\",\"JFK\",\"ORD\",\"JFK\",\"DFW\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"ATL\"],[\"LAX\",\"ORD\"],[\"DFW\",\"LAX\"],[\"DEN\",\"LAX\"],[\"ATL\",\"DFW\"],[\"SFO\",\"LAX\"],[\"ORD\",\"DEN\"],[\"LAX\",\"DEN\"],[\"LAX\",\"ATL\"],[\"JFK\",\"DFW\"],[\"DFW\",\"LAX\"],[\"ATL\",\"SFO\"],[\"DFW\",\"JFK\"],[\"DEN\",\"DFW\"],[\"JFK\",\"DFW\"],[\"DFW\",\"ATL\"]]]",
+    "expectedOutput": "[\"JFK\",\"DFW\",\"ATL\",\"DFW\",\"JFK\",\"DFW\",\"LAX\",\"ATL\",\"SFO\",\"LAX\",\"DEN\",\"DFW\",\"LAX\",\"ORD\",\"DEN\",\"LAX\",\"ATL\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"JFK\"],[\"ATL\",\"LAX\"],[\"LAX\",\"ORD\"],[\"JFK\",\"ATL\"],[\"ATL\",\"JFK\"],[\"SFO\",\"LAX\"],[\"ORD\",\"JFK\"],[\"SFO\",\"ATL\"],[\"ORD\",\"SFO\"],[\"JFK\",\"ORD\"],[\"JFK\",\"LAX\"],[\"LAX\",\"SFO\"],[\"JFK\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"JFK\",\"LAX\",\"JFK\",\"LAX\",\"ORD\",\"JFK\",\"ORD\",\"SFO\",\"ATL\",\"LAX\",\"SFO\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ORD\",\"LAX\"],[\"JFK\",\"DEN\"],[\"JFK\",\"ORD\"],[\"LAX\",\"SFO\"],[\"JFK\",\"DFW\"],[\"ORD\",\"LAX\"],[\"ORD\",\"LAX\"],[\"DEN\",\"DFW\"],[\"LAX\",\"JFK\"],[\"SFO\",\"ORD\"],[\"JFK\",\"SFO\"],[\"DFW\",\"ORD\"],[\"DFW\",\"ATL\"],[\"SFO\",\"JFK\"],[\"LAX\",\"JFK\"]]]",
+    "expectedOutput": "[\"JFK\",\"DEN\",\"DFW\",\"ORD\",\"LAX\",\"JFK\",\"ORD\",\"LAX\",\"JFK\",\"SFO\",\"ORD\",\"LAX\",\"SFO\",\"JFK\",\"DFW\",\"ATL\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"SFO\",\"DEN\"],[\"SFO\",\"LAX\"],[\"DFW\",\"LAX\"],[\"LAX\",\"DFW\"],[\"ATL\",\"DFW\"],[\"DEN\",\"SFO\"],[\"DFW\",\"LAX\"],[\"JFK\",\"ATL\"],[\"LAX\",\"JFK\"],[\"JFK\",\"LAX\"],[\"DFW\",\"SFO\"],[\"JFK\",\"ORD\"],[\"DEN\",\"ATL\"],[\"LAX\",\"JFK\"],[\"ORD\",\"DEN\"],[\"JFK\",\"ATL\"],[\"LAX\",\"JFK\"],[\"ATL\",\"DFW\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"DFW\",\"LAX\",\"DFW\",\"LAX\",\"JFK\",\"ATL\",\"DFW\",\"SFO\",\"DEN\",\"SFO\",\"LAX\",\"JFK\",\"LAX\",\"JFK\",\"ORD\",\"DEN\",\"ATL\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"SFO\"],[\"ATL\",\"DEN\"],[\"DEN\",\"ORD\"],[\"SFO\",\"JFK\"],[\"JFK\",\"DFW\"],[\"JFK\",\"DEN\"],[\"JFK\",\"ORD\"],[\"ORD\",\"LAX\"],[\"JFK\",\"ATL\"],[\"SFO\",\"JFK\"],[\"ATL\",\"JFK\"],[\"DFW\",\"ATL\"],[\"DEN\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"DEN\",\"ORD\",\"LAX\",\"SFO\",\"JFK\",\"DEN\",\"SFO\",\"JFK\",\"DFW\",\"ATL\",\"JFK\",\"ORD\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"ATL\"],[\"DFW\",\"ATL\"],[\"ORD\",\"ATL\"],[\"ORD\",\"DFW\"],[\"ATL\",\"ORD\"],[\"ATL\",\"ORD\"],[\"DFW\",\"SFO\"],[\"SFO\",\"JFK\"],[\"DFW\",\"LAX\"],[\"ATL\",\"SFO\"],[\"JFK\",\"DFW\"],[\"DFW\",\"LAX\"],[\"JFK\",\"LAX\"],[\"SFO\",\"JFK\"],[\"ATL\",\"DFW\"],[\"JFK\",\"ATL\"],[\"LAX\",\"DFW\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"DFW\",\"ATL\",\"ORD\",\"ATL\",\"ORD\",\"DFW\",\"LAX\",\"ATL\",\"SFO\",\"JFK\",\"DFW\",\"LAX\",\"DFW\",\"SFO\",\"JFK\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"SFO\"],[\"DFW\",\"LAX\"],[\"ORD\",\"DFW\"],[\"SFO\",\"LAX\"],[\"JFK\",\"ORD\"],[\"SFO\",\"JFK\"],[\"JFK\",\"ATL\"],[\"SFO\",\"JFK\"],[\"JFK\",\"DEN\"],[\"JFK\",\"SFO\"],[\"SFO\",\"DFW\"],[\"DEN\",\"SFO\"],[\"ATL\",\"JFK\"],[\"DFW\",\"SFO\"],[\"LAX\",\"JFK\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"JFK\",\"DEN\",\"SFO\",\"DFW\",\"LAX\",\"JFK\",\"ORD\",\"DFW\",\"SFO\",\"JFK\",\"SFO\",\"LAX\",\"SFO\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"JFK\"],[\"DEN\",\"DFW\"],[\"LAX\",\"JFK\"],[\"JFK\",\"LAX\"],[\"ATL\",\"SFO\"],[\"ATL\",\"JFK\"],[\"SFO\",\"DFW\"],[\"SFO\",\"LAX\"],[\"JFK\",\"ATL\"],[\"JFK\",\"SFO\"],[\"JFK\",\"ATL\"],[\"DFW\",\"ATL\"],[\"DFW\",\"DEN\"],[\"ATL\",\"LAX\"],[\"JFK\",\"DFW\"],[\"DFW\",\"JFK\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"JFK\",\"ATL\",\"LAX\",\"JFK\",\"DFW\",\"ATL\",\"SFO\",\"DFW\",\"DEN\",\"DFW\",\"JFK\",\"LAX\",\"JFK\",\"SFO\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"SFO\",\"DEN\"],[\"LAX\",\"ATL\"],[\"JFK\",\"LAX\"],[\"JFK\",\"ATL\"],[\"JFK\",\"LAX\"],[\"SFO\",\"ORD\"],[\"DFW\",\"SFO\"],[\"LAX\",\"DFW\"],[\"ORD\",\"JFK\"],[\"DEN\",\"SFO\"],[\"JFK\",\"SFO\"],[\"SFO\",\"LAX\"],[\"LAX\",\"SFO\"],[\"LAX\",\"DFW\"],[\"ATL\",\"JFK\"],[\"DFW\",\"JFK\"],[\"ATL\",\"DFW\"],[\"SFO\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"DFW\",\"JFK\",\"LAX\",\"ATL\",\"JFK\",\"LAX\",\"DFW\",\"SFO\",\"DEN\",\"SFO\",\"LAX\",\"SFO\",\"ORD\",\"JFK\",\"SFO\",\"LAX\",\"DFW\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"ORD\"],[\"ORD\",\"DFW\"],[\"LAX\",\"JFK\"],[\"SFO\",\"JFK\"],[\"SFO\",\"ATL\"],[\"SFO\",\"ATL\"],[\"ATL\",\"LAX\"],[\"JFK\",\"LAX\"],[\"DEN\",\"SFO\"],[\"LAX\",\"DEN\"],[\"JFK\",\"LAX\"],[\"LAX\",\"ORD\"],[\"ORD\",\"SFO\"],[\"DFW\",\"JFK\"],[\"JFK\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"DEN\",\"SFO\",\"ATL\",\"LAX\",\"JFK\",\"LAX\",\"ORD\",\"DFW\",\"JFK\",\"ORD\",\"SFO\",\"JFK\",\"SFO\",\"ATL\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"DEN\",\"SFO\"],[\"DEN\",\"SFO\"],[\"ORD\",\"SFO\"],[\"SFO\",\"JFK\"],[\"SFO\",\"DEN\"],[\"ORD\",\"DEN\"],[\"JFK\",\"LAX\"],[\"DFW\",\"ORD\"],[\"SFO\",\"JFK\"],[\"LAX\",\"DFW\"],[\"JFK\",\"LAX\"],[\"JFK\",\"ORD\"],[\"LAX\",\"ORD\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"DFW\",\"ORD\",\"DEN\",\"SFO\",\"DEN\",\"SFO\",\"JFK\",\"LAX\",\"ORD\",\"SFO\",\"JFK\",\"ORD\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ATL\",\"JFK\"],[\"LAX\",\"SFO\"],[\"JFK\",\"SFO\"],[\"SFO\",\"LAX\"],[\"ORD\",\"SFO\"],[\"LAX\",\"ATL\"],[\"JFK\",\"LAX\"],[\"SFO\",\"ORD\"],[\"DFW\",\"LAX\"],[\"SFO\",\"DFW\"],[\"JFK\",\"LAX\"],[\"JFK\",\"DFW\"],[\"ORD\",\"SFO\"],[\"DFW\",\"ORD\"],[\"LAX\",\"JFK\"],[\"SFO\",\"JFK\"],[\"LAX\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"DFW\",\"LAX\",\"ATL\",\"JFK\",\"LAX\",\"JFK\",\"LAX\",\"SFO\",\"DFW\",\"ORD\",\"SFO\",\"JFK\",\"SFO\",\"LAX\",\"SFO\",\"ORD\",\"SFO\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"DFW\",\"DEN\"],[\"DEN\",\"DFW\"],[\"SFO\",\"DEN\"],[\"LAX\",\"ATL\"],[\"ORD\",\"ATL\"],[\"DFW\",\"ORD\"],[\"DEN\",\"LAX\"],[\"JFK\",\"SFO\"],[\"ATL\",\"LAX\"],[\"LAX\",\"ATL\"],[\"ATL\",\"SFO\"],[\"SFO\",\"DFW\"]]]",
+    "expectedOutput": "[\"JFK\",\"SFO\",\"DEN\",\"DFW\",\"DEN\",\"LAX\",\"ATL\",\"LAX\",\"ATL\",\"SFO\",\"DFW\",\"ORD\",\"ATL\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"ATL\"],[\"DEN\",\"DFW\"],[\"ORD\",\"ATL\"],[\"ATL\",\"SFO\"],[\"SFO\",\"LAX\"],[\"JFK\",\"ORD\"],[\"LAX\",\"DEN\"],[\"DFW\",\"ATL\"],[\"LAX\",\"SFO\"],[\"SFO\",\"JFK\"],[\"ATL\",\"JFK\"],[\"ATL\",\"JFK\"],[\"JFK\",\"SFO\"],[\"JFK\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"JFK\",\"LAX\",\"DEN\",\"DFW\",\"ATL\",\"JFK\",\"ORD\",\"ATL\",\"SFO\",\"JFK\",\"SFO\",\"LAX\",\"SFO\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"ATL\"],[\"LAX\",\"JFK\"],[\"ATL\",\"DEN\"],[\"DEN\",\"LAX\"],[\"SFO\",\"DFW\"],[\"SFO\",\"JFK\"],[\"ATL\",\"SFO\"],[\"LAX\",\"JFK\"],[\"DFW\",\"ATL\"],[\"LAX\",\"JFK\"],[\"JFK\",\"SFO\"],[\"ORD\",\"LAX\"],[\"SFO\",\"DEN\"],[\"JFK\",\"LAX\"],[\"JFK\",\"ORD\"],[\"LAX\",\"SFO\"],[\"JFK\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"DEN\",\"LAX\",\"JFK\",\"LAX\",\"JFK\",\"LAX\",\"JFK\",\"ORD\",\"LAX\",\"SFO\",\"DFW\",\"ATL\",\"SFO\",\"JFK\",\"SFO\",\"DEN\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"LAX\"],[\"DEN\",\"DFW\"],[\"SFO\",\"JFK\"],[\"JFK\",\"ATL\"],[\"LAX\",\"ATL\"],[\"SFO\",\"DEN\"],[\"ATL\",\"LAX\"],[\"DFW\",\"LAX\"],[\"LAX\",\"JFK\"],[\"DEN\",\"LAX\"],[\"LAX\",\"SFO\"],[\"JFK\",\"SFO\"],[\"ATL\",\"SFO\"],[\"DEN\",\"SFO\"],[\"SFO\",\"LAX\"],[\"DFW\",\"DEN\"],[\"LAX\",\"DEN\"],[\"SFO\",\"DFW\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"LAX\",\"ATL\",\"SFO\",\"DEN\",\"DFW\",\"DEN\",\"LAX\",\"DEN\",\"SFO\",\"DFW\",\"LAX\",\"JFK\",\"LAX\",\"SFO\",\"JFK\",\"SFO\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"DFW\"],[\"DEN\",\"SFO\"],[\"DFW\",\"DEN\"],[\"JFK\",\"ATL\"],[\"JFK\",\"LAX\"],[\"ATL\",\"ORD\"],[\"SFO\",\"LAX\"],[\"LAX\",\"DEN\"],[\"LAX\",\"ORD\"],[\"SFO\",\"JFK\"],[\"SFO\",\"JFK\"],[\"ORD\",\"JFK\"],[\"DEN\",\"LAX\"],[\"ORD\",\"SFO\"],[\"JFK\",\"SFO\"],[\"LAX\",\"JFK\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"ORD\",\"JFK\",\"DFW\",\"DEN\",\"LAX\",\"DEN\",\"SFO\",\"JFK\",\"LAX\",\"JFK\",\"SFO\",\"LAX\",\"ORD\",\"SFO\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"SFO\",\"ATL\"],[\"JFK\",\"ATL\"],[\"ATL\",\"JFK\"],[\"DFW\",\"DEN\"],[\"JFK\",\"LAX\"],[\"JFK\",\"SFO\"],[\"SFO\",\"JFK\"],[\"ORD\",\"LAX\"],[\"LAX\",\"JFK\"],[\"LAX\",\"ORD\"],[\"ATL\",\"DFW\"],[\"ATL\",\"LAX\"],[\"JFK\",\"ATL\"],[\"DEN\",\"SFO\"],[\"LAX\",\"SFO\"],[\"SFO\",\"ORD\"],[\"ORD\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"DFW\",\"DEN\",\"SFO\",\"ATL\",\"JFK\",\"ATL\",\"LAX\",\"JFK\",\"LAX\",\"ORD\",\"LAX\",\"SFO\",\"JFK\",\"SFO\",\"ORD\",\"SFO\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"LAX\"],[\"ATL\",\"DFW\"],[\"DEN\",\"JFK\"],[\"ORD\",\"DEN\"],[\"DEN\",\"ATL\"],[\"LAX\",\"SFO\"],[\"DFW\",\"ORD\"],[\"JFK\",\"DEN\"],[\"DEN\",\"JFK\"],[\"LAX\",\"DEN\"],[\"JFK\",\"ATL\"],[\"JFK\",\"LAX\"],[\"SFO\",\"JFK\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"DFW\",\"ORD\",\"DEN\",\"JFK\",\"DEN\",\"JFK\",\"LAX\",\"SFO\",\"JFK\",\"LAX\",\"DEN\",\"ATL\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ORD\",\"JFK\"],[\"LAX\",\"ORD\"],[\"JFK\",\"SFO\"],[\"SFO\",\"DFW\"],[\"LAX\",\"JFK\"],[\"ORD\",\"SFO\"],[\"DEN\",\"JFK\"],[\"DFW\",\"LAX\"],[\"DFW\",\"SFO\"],[\"JFK\",\"ORD\"],[\"ATL\",\"DEN\"],[\"SFO\",\"DEN\"],[\"ORD\",\"LAX\"],[\"SFO\",\"LAX\"],[\"DEN\",\"ORD\"],[\"LAX\",\"ORD\"],[\"JFK\",\"SFO\"],[\"SFO\",\"DFW\"],[\"ORD\",\"ATL\"]]]",
+    "expectedOutput": "[\"JFK\",\"ORD\",\"ATL\",\"DEN\",\"JFK\",\"SFO\",\"DEN\",\"ORD\",\"JFK\",\"SFO\",\"DFW\",\"LAX\",\"ORD\",\"LAX\",\"ORD\",\"SFO\",\"DFW\",\"SFO\",\"LAX\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"SFO\"],[\"ATL\",\"ORD\"],[\"JFK\",\"SFO\"],[\"JFK\",\"ATL\"],[\"JFK\",\"LAX\"],[\"ATL\",\"LAX\"],[\"SFO\",\"LAX\"],[\"ORD\",\"ATL\"],[\"LAX\",\"JFK\"],[\"LAX\",\"JFK\"],[\"SFO\",\"JFK\"],[\"ORD\",\"SFO\"],[\"SFO\",\"ORD\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"LAX\",\"JFK\",\"LAX\",\"JFK\",\"SFO\",\"JFK\",\"SFO\",\"ORD\",\"ATL\",\"ORD\",\"SFO\",\"LAX\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"LAX\"],[\"SFO\",\"ATL\"],[\"ORD\",\"DEN\"],[\"LAX\",\"ORD\"],[\"SFO\",\"LAX\"],[\"ORD\",\"SFO\"],[\"ORD\",\"SFO\"],[\"SFO\",\"ORD\"],[\"LAX\",\"ORD\"],[\"JFK\",\"SFO\"],[\"ATL\",\"JFK\"],[\"DEN\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"ORD\",\"DEN\",\"SFO\",\"ATL\",\"JFK\",\"SFO\",\"LAX\",\"ORD\",\"SFO\",\"ORD\",\"SFO\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"LAX\"],[\"DEN\",\"JFK\"],[\"JFK\",\"LAX\"],[\"LAX\",\"SFO\"],[\"LAX\",\"DFW\"],[\"DFW\",\"DEN\"],[\"DFW\",\"LAX\"],[\"ATL\",\"ORD\"],[\"JFK\",\"ATL\"],[\"SFO\",\"JFK\"],[\"ORD\",\"SFO\"],[\"JFK\",\"SFO\"],[\"SFO\",\"DEN\"],[\"SFO\",\"JFK\"],[\"LAX\",\"DFW\"],[\"DEN\",\"JFK\"],[\"SFO\",\"DFW\"],[\"DFW\",\"SFO\"],[\"JFK\",\"ORD\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"ORD\",\"SFO\",\"DEN\",\"JFK\",\"LAX\",\"DFW\",\"DEN\",\"JFK\",\"LAX\",\"DFW\",\"LAX\",\"SFO\",\"DFW\",\"SFO\",\"JFK\",\"SFO\",\"JFK\",\"ORD\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"SFO\"],[\"SFO\",\"DEN\"],[\"ATL\",\"DEN\"],[\"ATL\",\"JFK\"],[\"JFK\",\"SFO\"],[\"ORD\",\"ATL\"],[\"DEN\",\"JFK\"],[\"JFK\",\"ATL\"],[\"SFO\",\"LAX\"],[\"DEN\",\"JFK\"],[\"SFO\",\"ORD\"],[\"JFK\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"DEN\",\"JFK\",\"SFO\",\"DEN\",\"JFK\",\"SFO\",\"LAX\",\"SFO\",\"ORD\",\"ATL\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"DEN\"],[\"DEN\",\"LAX\"],[\"ATL\",\"DEN\"],[\"ORD\",\"ATL\"],[\"JFK\",\"ORD\"],[\"JFK\",\"DFW\"],[\"ATL\",\"LAX\"],[\"ORD\",\"ATL\"],[\"SFO\",\"JFK\"],[\"ATL\",\"SFO\"],[\"DEN\",\"ATL\"],[\"LAX\",\"SFO\"],[\"SFO\",\"ORD\"]]]",
+    "expectedOutput": "[\"JFK\",\"ORD\",\"ATL\",\"DEN\",\"ATL\",\"LAX\",\"DEN\",\"LAX\",\"SFO\",\"ORD\",\"ATL\",\"SFO\",\"JFK\",\"DFW\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"JFK\"],[\"DEN\",\"LAX\"],[\"JFK\",\"DFW\"],[\"SFO\",\"LAX\"],[\"JFK\",\"ATL\"],[\"JFK\",\"DEN\"],[\"ATL\",\"LAX\"],[\"DFW\",\"JFK\"],[\"LAX\",\"JFK\"],[\"LAX\",\"JFK\"],[\"JFK\",\"DEN\"],[\"DEN\",\"LAX\"],[\"DEN\",\"JFK\"],[\"LAX\",\"SFO\"],[\"JFK\",\"DEN\"],[\"JFK\",\"ATL\"],[\"ATL\",\"JFK\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"JFK\",\"ATL\",\"LAX\",\"JFK\",\"DEN\",\"JFK\",\"DEN\",\"LAX\",\"JFK\",\"DEN\",\"LAX\",\"SFO\",\"LAX\",\"JFK\",\"DFW\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ORD\",\"LAX\"],[\"ATL\",\"ORD\"],[\"ORD\",\"ATL\"],[\"DFW\",\"ATL\"],[\"ATL\",\"DEN\"],[\"LAX\",\"JFK\"],[\"ORD\",\"LAX\"],[\"JFK\",\"ORD\"],[\"JFK\",\"ATL\"],[\"JFK\",\"ORD\"],[\"LAX\",\"JFK\"],[\"DEN\",\"DFW\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"DEN\",\"DFW\",\"ATL\",\"ORD\",\"LAX\",\"JFK\",\"ORD\",\"LAX\",\"JFK\",\"ORD\",\"ATL\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ORD\",\"JFK\"],[\"SFO\",\"ATL\"],[\"DEN\",\"JFK\"],[\"LAX\",\"DEN\"],[\"LAX\",\"JFK\"],[\"DEN\",\"SFO\"],[\"JFK\",\"LAX\"],[\"LAX\",\"SFO\"],[\"ATL\",\"LAX\"],[\"JFK\",\"ORD\"],[\"JFK\",\"LAX\"],[\"SFO\",\"DEN\"],[\"ATL\",\"LAX\"],[\"LAX\",\"SFO\"],[\"DEN\",\"LAX\"],[\"JFK\",\"LAX\"],[\"JFK\",\"SFO\"],[\"LAX\",\"ATL\"],[\"SFO\",\"DEN\"],[\"LAX\",\"JFK\"]]]",
+    "expectedOutput": "[\"JFK\",\"LAX\",\"ATL\",\"LAX\",\"DEN\",\"JFK\",\"LAX\",\"JFK\",\"LAX\",\"JFK\",\"ORD\",\"JFK\",\"SFO\",\"ATL\",\"LAX\",\"SFO\",\"DEN\",\"LAX\",\"SFO\",\"DEN\",\"SFO\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"JFK\"],[\"ATL\",\"SFO\"],[\"JFK\",\"ATL\"],[\"ORD\",\"SFO\"],[\"JFK\",\"DEN\"],[\"SFO\",\"LAX\"],[\"SFO\",\"ORD\"],[\"JFK\",\"SFO\"],[\"LAX\",\"SFO\"],[\"LAX\",\"JFK\"],[\"SFO\",\"ORD\"],[\"DEN\",\"JFK\"],[\"ATL\",\"DEN\"],[\"JFK\",\"DEN\"],[\"SFO\",\"ATL\"],[\"ORD\",\"LAX\"],[\"DEN\",\"ORD\"],[\"ORD\",\"JFK\"],[\"DEN\",\"SFO\"],[\"JFK\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"DEN\",\"JFK\",\"DEN\",\"ORD\",\"JFK\",\"DEN\",\"SFO\",\"ATL\",\"SFO\",\"LAX\",\"JFK\",\"LAX\",\"JFK\",\"SFO\",\"ORD\",\"LAX\",\"SFO\",\"ORD\",\"SFO\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"DFW\"],[\"JFK\",\"ORD\"],[\"JFK\",\"LAX\"],[\"LAX\",\"SFO\"],[\"SFO\",\"LAX\"],[\"ORD\",\"DEN\"],[\"LAX\",\"JFK\"],[\"ORD\",\"JFK\"],[\"JFK\",\"ORD\"],[\"DFW\",\"JFK\"],[\"LAX\",\"JFK\"],[\"JFK\",\"SFO\"],[\"DFW\",\"JFK\"],[\"LAX\",\"DFW\"],[\"DEN\",\"LAX\"],[\"JFK\",\"LAX\"],[\"SFO\",\"LAX\"],[\"LAX\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"DFW\",\"JFK\",\"LAX\",\"DFW\",\"JFK\",\"LAX\",\"JFK\",\"ORD\",\"DEN\",\"LAX\",\"JFK\",\"ORD\",\"JFK\",\"SFO\",\"LAX\",\"SFO\",\"LAX\",\"SFO\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ATL\",\"JFK\"],[\"SFO\",\"JFK\"],[\"DFW\",\"LAX\"],[\"SFO\",\"ORD\"],[\"JFK\",\"SFO\"],[\"DEN\",\"JFK\"],[\"LAX\",\"SFO\"],[\"ORD\",\"DEN\"],[\"JFK\",\"LAX\"],[\"DFW\",\"JFK\"],[\"JFK\",\"SFO\"],[\"JFK\",\"ATL\"],[\"SFO\",\"DFW\"],[\"LAX\",\"DFW\"],[\"JFK\",\"LAX\"],[\"LAX\",\"JFK\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"JFK\",\"LAX\",\"DFW\",\"JFK\",\"LAX\",\"JFK\",\"SFO\",\"DFW\",\"LAX\",\"SFO\",\"JFK\",\"SFO\",\"ORD\",\"DEN\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"JFK\"],[\"ATL\",\"JFK\"],[\"JFK\",\"SFO\"],[\"ORD\",\"LAX\"],[\"SFO\",\"LAX\"],[\"LAX\",\"SFO\"],[\"SFO\",\"LAX\"],[\"LAX\",\"DFW\"],[\"LAX\",\"ORD\"],[\"SFO\",\"ATL\"],[\"JFK\",\"DEN\"],[\"ATL\",\"SFO\"],[\"DEN\",\"ATL\"],[\"JFK\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"DEN\",\"ATL\",\"JFK\",\"LAX\",\"JFK\",\"SFO\",\"ATL\",\"SFO\",\"LAX\",\"ORD\",\"LAX\",\"SFO\",\"LAX\",\"DFW\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"DEN\",\"JFK\"],[\"SFO\",\"ATL\"],[\"ATL\",\"SFO\"],[\"JFK\",\"SFO\"],[\"DFW\",\"JFK\"],[\"SFO\",\"DEN\"],[\"JFK\",\"ATL\"],[\"ORD\",\"ATL\"],[\"JFK\",\"SFO\"],[\"SFO\",\"JFK\"],[\"ATL\",\"DFW\"],[\"LAX\",\"DFW\"],[\"DFW\",\"SFO\"],[\"ATL\",\"ORD\"],[\"JFK\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"DFW\",\"JFK\",\"LAX\",\"DFW\",\"SFO\",\"ATL\",\"ORD\",\"ATL\",\"SFO\",\"DEN\",\"JFK\",\"SFO\",\"JFK\",\"SFO\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"ATL\",\"LAX\"],[\"JFK\",\"LAX\"],[\"JFK\",\"ATL\"],[\"DFW\",\"JFK\"],[\"DEN\",\"ATL\"],[\"DFW\",\"JFK\"],[\"SFO\",\"LAX\"],[\"ATL\",\"DFW\"],[\"JFK\",\"DFW\"],[\"JFK\",\"DEN\"],[\"LAX\",\"SFO\"],[\"LAX\",\"JFK\"],[\"LAX\",\"SFO\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"DFW\",\"JFK\",\"DEN\",\"ATL\",\"LAX\",\"JFK\",\"DFW\",\"JFK\",\"LAX\",\"SFO\",\"LAX\",\"SFO\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"LAX\",\"JFK\"],[\"DFW\",\"LAX\"],[\"LAX\",\"SFO\"],[\"JFK\",\"ORD\"],[\"SFO\",\"ORD\"],[\"LAX\",\"JFK\"],[\"LAX\",\"ORD\"],[\"JFK\",\"ATL\"],[\"ORD\",\"LAX\"],[\"ATL\",\"LAX\"],[\"ORD\",\"JFK\"],[\"JFK\",\"DFW\"],[\"SFO\",\"LAX\"],[\"LAX\",\"SFO\"],[\"JFK\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"LAX\",\"JFK\",\"DFW\",\"LAX\",\"JFK\",\"LAX\",\"ORD\",\"JFK\",\"ORD\",\"LAX\",\"SFO\",\"LAX\",\"SFO\",\"ORD\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"DEN\",\"ORD\"],[\"JFK\",\"SFO\"],[\"ATL\",\"LAX\"],[\"DEN\",\"JFK\"],[\"LAX\",\"JFK\"],[\"DFW\",\"SFO\"],[\"LAX\",\"DEN\"],[\"LAX\",\"JFK\"],[\"SFO\",\"DEN\"],[\"ORD\",\"DFW\"],[\"JFK\",\"ATL\"],[\"JFK\",\"LAX\"],[\"JFK\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"LAX\",\"DEN\",\"JFK\",\"LAX\",\"JFK\",\"LAX\",\"JFK\",\"SFO\",\"DEN\",\"ORD\",\"DFW\",\"SFO\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"SFO\"],[\"JFK\",\"LAX\"],[\"LAX\",\"JFK\"],[\"JFK\",\"DEN\"],[\"DFW\",\"ATL\"],[\"LAX\",\"DFW\"],[\"LAX\",\"JFK\"],[\"ATL\",\"JFK\"],[\"JFK\",\"SFO\"],[\"JFK\",\"ATL\"],[\"DFW\",\"LAX\"],[\"SFO\",\"JFK\"],[\"LAX\",\"SFO\"],[\"DEN\",\"DFW\"],[\"SFO\",\"LAX\"],[\"SFO\",\"JFK\"],[\"ATL\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"ATL\",\"JFK\",\"DEN\",\"DFW\",\"ATL\",\"LAX\",\"DFW\",\"LAX\",\"JFK\",\"LAX\",\"JFK\",\"SFO\",\"JFK\",\"SFO\",\"LAX\",\"SFO\",\"JFK\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"JFK\",\"DEN\"],[\"JFK\",\"SFO\"],[\"DFW\",\"DEN\"],[\"DEN\",\"ORD\"],[\"DFW\",\"DEN\"],[\"DEN\",\"DFW\"],[\"JFK\",\"DFW\"],[\"LAX\",\"JFK\"],[\"SFO\",\"DFW\"],[\"DFW\",\"JFK\"],[\"DEN\",\"SFO\"],[\"DEN\",\"LAX\"],[\"ORD\",\"ATL\"],[\"ATL\",\"DEN\"],[\"SFO\",\"DFW\"]]]",
+    "expectedOutput": "[\"JFK\",\"DEN\",\"DFW\",\"DEN\",\"LAX\",\"JFK\",\"DFW\",\"DEN\",\"ORD\",\"ATL\",\"DEN\",\"SFO\",\"DFW\",\"JFK\",\"SFO\",\"DFW\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[[\"SFO\",\"ORD\"],[\"JFK\",\"ORD\"],[\"LAX\",\"ORD\"],[\"LAX\",\"SFO\"],[\"DFW\",\"SFO\"],[\"ATL\",\"SFO\"],[\"SFO\",\"ATL\"],[\"ORD\",\"SFO\"],[\"ORD\",\"SFO\"],[\"SFO\",\"ORD\"],[\"SFO\",\"ATL\"],[\"SFO\",\"DFW\"],[\"ATL\",\"JFK\"],[\"ORD\",\"LAX\"],[\"ORD\",\"SFO\"],[\"SFO\",\"LAX\"]]]",
+    "expectedOutput": "[\"JFK\",\"ORD\",\"LAX\",\"ORD\",\"SFO\",\"ATL\",\"SFO\",\"DFW\",\"SFO\",\"LAX\",\"SFO\",\"ORD\",\"SFO\",\"ORD\",\"SFO\",\"ATL\",\"JFK\"]",
+    "isHidden": true
+  }
+]

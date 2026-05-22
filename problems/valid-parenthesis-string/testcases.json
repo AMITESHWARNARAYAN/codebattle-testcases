@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[\"(*)\"]",
+    "expectedOutput": "true",
+    "isHidden": false
+  },
+  {
+    "input": "[\"()\"]",
+    "expectedOutput": "true",
+    "isHidden": false
+  },
+  {
+    "input": "[\"(*))\"]",
+    "expectedOutput": "true",
+    "isHidden": false
+  },
+  {
+    "input": "[\"(\"]",
+    "expectedOutput": "false",
+    "isHidden": false
+  },
+  {
+    "input": "[\"*\"]",
+    "expectedOutput": "true",
+    "isHidden": false
+  },
+  {
+    "input": "[\")((()(***)(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(*)(***()()\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(()(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"))()*(((*\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(**)(**))\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\")*(***\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"((***\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\")***)\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"***)*(*))**\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*)*((()*(**)\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*(()*)()(**\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(**)\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"((())*))*)*)(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")**)(((()*(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"**))*)())()\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")*(**(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(()*(*()((*)(*(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"((()(((*)\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")()()**)))*\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(()((((**()(**(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*(**))\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(**((***))*)())\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*(()**)((*)**)\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\")))\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"))*()***(*()(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"((((\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*))))())(**\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"**(((((*)*(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*))()()***()*)\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*)*)*)***)())*\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*(*((*)*)*)*)(*\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*)(*())))*()*(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"))((*)*)***((\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*)))(*))((**(*)\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")((\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\")*))())*(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*)**)()(((())*\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()*\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*()*()(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")())))()(*())*(*****(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()()**(((*)(((()))()()**)*(((((*))(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(*)****)))*)(*(**(((*)()(**))*(*))**)**()*)\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(*)(**))**)()(*(()(*)*((*(**(((((*(*)))\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")()*))**)(()*(**())***)*()*)))***)))(((*)(*(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")*()(())(((*)***((*\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"**()((*(()*))())()*)(()((()()()()**())*)****(())(*\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\")()))(*)**)()*()))(*)))\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"((**))**)()*(())*((**((\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(*)(*)**)()*)(*((((**)))*((((**()*)(*))()**\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\")**()(*))*()(()(*)(**))())*(*)*(*())()*))((((***)\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*))()))((*(()))))()***((()*)())*)((**))(*)(**)\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"((*)((((())***(()))\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(*)(*)))))**(**(*)*(*))*)))\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(((*(*()((*))***))(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")()()())*((())))(()*())))*(******(*)*(*\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*)**()(())*))*)(**))\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*))(((((****)*)*****()**(*))(*(*(*\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")())*()(((*)*))()**))*(*)\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()))((*()*))()))()*()**))((((**)(*()()*)*(*\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"***(**)))))*)**)\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(*)*)**(*((()**))))()*(*****(***(()((*)((*\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*(**)(())**()(((())*)(((*))*)*(((****)(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"**)**(((*)(***)(()((*)(()***(*)****())(*(******)*(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*(*(*)*)(*)()(**(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*(*))(*((*))*(**)**(*((()***))(*)**()()((())((*(*\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"****((*)***(*)***)(**((()\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"((**(**(*(())((()())(*()(()*())()))*)()*\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\")***(()*)(())*)(*)*(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(*()*****(()**)*(*()()(***((*(**)()*()\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\")**()****)(((()(*((**)()*())(***(***()**))**((*\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"**))*()(()*()*((*\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")*(**()()(**)))*\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"**)*())*)*)*)(**))*)**)*))*(*)))())(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()*((*)*(**()(*))*)(*(*)*((((**())))(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"**)()(*(*)*())*)((**()**(*)))))(())*)(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")(((**(())()))(***(*()())))()((*((*()()****))(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")*))())*)(*)(*****()***(((()*((\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(*)**((**(*)*))*\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()**)(*)()*****(**)((()*(*)*)()))((*((()())**(*)\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*)((())((**(*)***()*)*(*)()*\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()(*())**)(****))(*(**))*)()*****\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*())(*(*)))*))(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(*)))(*()*)))*(()(*(*()())****))**)))()\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")*(*()()*((()***))())))(*(()*)((*)((((((\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*(*(*)*()))*)(*(**)))*)()(**(*(*(***)*\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\")()(*())*()))**(**)*()*((\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*())()(*(()()()*((*(()*)*))))*()))(*(*)()(())\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"())(()))*())**)*()*)()**)))((*(((\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")))*(**))*)(**))())***()(*)(**)*()))*))(**(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"**(((()(*)*()*((((*)(((*)***)(((()(((*()*)((()()(*))(*))(*(***(*)***()(()()(**)*(****\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\")(*)**)()**(()((*(*)))****()))(*))**))((())(((***)*)**(***((*******\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")))***))))*))(*)**(*()**(***)(())(((()()()))*())))*)))*)((*)*((()(*()**))(*()))*(*(*((**))(*())()*(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*((*(**))***()*))((()(((*)*))**(**)()(*)))(**(**)*)((()())))()*()***)**)()*)*(***()))*)(*))))))***\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*)(**()*()(*())(()*)()*)***)*(()))))*)**(()()*)))*)*)*****(*()())())**)*))))*)***(*)\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"((((*))(*()((*)*(*)*(()))*()****)*))()())())*))*)(***)**)**()((()\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*(*)))**(***((())(***)*()())((()((()))*()(()*((*(*)*(((*))))(**)**)(*))*())(**))*)*(*)(*()\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*((*))))*(((*(()*(*(*)(*())((((*((*))((()(*()()**))(()(((())*)(**((\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")(*))()*)(**)(*)(*)()((*)(()))()(()*(*)**()(*)()*)*(()())((*((()))(*))*)()\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"**)*()))()***))(((*(()()))((*)*))()((()()(()(***)))())()(*(*)**))))())*())(*))**(**(*(**)***)*\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*()**(***(*()*(((***(*((()(((*(**)()())*(**((()*)))()*))(()*(()*)))*())))()*(*)*)*)*)(**)**())(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*(**()**(*)*()()(*())**(()*)**))*(*(*)(*)((*)**(((()****))*(**(*(*((*)((*((*\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(()))*)()*)(**()()*))*()**(**)**)()*)(*)**(*)*(***()))))(*)*(())))**((()()))(*()*)\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")**(*)()(**())*((*()()*(((*))()(*)(*()))(*)(()**))))()(*((*(())(**())()))*))()(*)()(*)**()))*)*\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")))(*)*))((()**)((()*))))))*)()))))(*((((((((*()***()*(*(*()(**))*)))(***)*****(()\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()((()(*)()*((*)()*()()()()*))()()((*)*()())**)(((**()*(((****)())()*()\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*)()*(*(*(())((())()))*)))((*(*(**))*)**())*())**))*()**)())(*(*)*()*((\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*()()()**)*()*))*(**)(*)*)))*((***()*))(**)*((*(*()*(*(*(*()**))*())*(*))()()*))))((*(*(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"())()*((()())**))((()()))*))**)))*(*()**(*)()***(()*(()**(*\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*()*(*)(()(((()((*(*(*()())(**(*(****)*()(((())****(**)**))*(*(*((((**((()*)*)*(*)\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\")(*((**(*)(()***)*)(*(***((()*)()*****)((*)*((*()((\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"****)*)()(*(((*(*(())**))()*((*(**()**)**(((*(((*)(*))\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")**)**))*)())(*)(**))(**())())(())())((()**)())(((\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(())*()**()((()*(*)((((((*((*)))*))))*(**()(*(****((*())((*((****((*(*)(*(*(**))*))*(***(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")*)*)(*)*(*)***))*)*)((**((**(()*)())*((()(*)(***()***((())(*)()*)*((**)(*(*())(*)(*(***)*(**\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*)*(*)())**))*()()(*)(()(***(**((**()()***)()(())(())*((*)))**)(*))(**(*(((***(()(*)()***((****()**\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\")*)*()*((**)**)**)))*(*(**(*((*((*()))***(((*((**)*)((**)(()**\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*())()*)()))(*))())))*))*(*)()())(****))**()*((*)(()***)))(**())()\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"))*)((()*)(())())**(*)*((****((*((()))***(**)))**))*(**()*))**()))***))*()*))()\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*(*(()**(((***)((*(*)))**(**()*(*()(((*()))())((())**(*)**()))*)**)(**))*(*))\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()))((**())(*)()*(***))()*)(((**)(*)())()*(()()(*()))(((\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")((((*)(*))()(**)*)*)*)*)()()(**()*))()*******))(*))**((\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"((*((**())))))***()())(()(())*)))*((**)((**)(()()*))())((*((*)(((()*)*((**(*)))**\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"))***))))(()*)**)(*)*)((*(**(*)****))*())(*(*)((*))(()))*)(*(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(*)*))()*()*)()*)(**)((((*))(())(*((()(***))(**))))*((*((())*(()(**()*()\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\")(**()(*))())(**)****))()(()*(**))*)(*(*)*)(()((((*(*)()*)(()()((((*)())*(*((**((**\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"((())))*())****)*()***())***()((())*)(()(*)**))*(()(*()***)()*((*)(**(**)*(*(())*\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*))((*())*(**(((()))))*()*()*(*)))))(((()(*())**)*((()*\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")))(((()(())())*)*(**)*)))(()*(*)(*((((*((((*()((((**)())()**)(*(**(*))(()))))**))((**()(*(((((()*\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")((()())*)**)*(()*)))*((**)(())((*))(()(((**()())()*))((())(*))**)*(((((()*))*)*(*(*(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")*)**()())))*)*)*)()(*)(*(*()*)*)))*(((())*((()**(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")((*)(()(*(*)*(*((*))(*(()(()*))**)()((((())**()****))**\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"**()()()*))))***(*()*)**)(*)****()*()*())(()()*))())(*)))**())((*)*\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(**(()*((*))())())))**()***))())((*((*)()(**(*(*(()(**(()()(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")(*)**(*))(**(*((((()))*(*))())*(**)))()(*((**()*(((*))()())))*))**((*))*))(())*)()*()(())*)*)))(())\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"))**()))))))((*)))*(((*(*)*(*()*))(***((*(*(**())***)*)))*()*((*)()*(**)))))*((((**)*******()(((\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"*(())*())))**)*()***()()*(*()*((()()((((()()*)**)()())*(**(*()*)(*)))((***(**(*)(***()(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")*)(*((***)(****()))*()))(((*)))*)()(*)))*)(((*((***)())**()()((***)*)()*)(**(*(()())\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\")**()(**(((())*(()()(*****())(****))**)(*(()*(*)**(((**)**(*)*)(****(())()**))))*()*))(\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"***(()*)(()((((*(**(())()*))))((*)***((())*()(*)****)*()()\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  }
+]

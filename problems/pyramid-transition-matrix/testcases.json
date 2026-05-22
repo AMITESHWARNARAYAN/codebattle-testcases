@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[\"BCD\",[\"BCG\",\"CDE\",\"GEA\",\"FFF\"]]",
+    "expectedOutput": "true",
+    "isHidden": false
+  },
+  {
+    "input": "[\"ACA\",[\"ACC\",\"ABA\",\"ACA\",\"AAC\",\"BAB\",\"BBC\",\"BAC\",\"AAA\",\"BBB\",\"ABA\"]]",
+    "expectedOutput": "false",
+    "isHidden": false
+  },
+  {
+    "input": "[\"ABA\",[\"AAC\",\"CAA\",\"ABA\",\"BCC\",\"ABA\",\"CBB\",\"ABB\",\"ACC\",\"AAB\",\"BAB\"]]",
+    "expectedOutput": "true",
+    "isHidden": false
+  },
+  {
+    "input": "[\"ABA\",[\"BAA\",\"AAB\",\"CCC\",\"AAA\",\"AAB\",\"BCA\",\"CBB\",\"ABA\",\"BAB\",\"BCA\"]]",
+    "expectedOutput": "true",
+    "isHidden": false
+  },
+  {
+    "input": "[\"CAC\",[\"BBC\",\"CCA\",\"BCB\",\"BCC\",\"AAB\",\"CCA\",\"BBC\",\"BAA\",\"ACA\",\"ACA\"]]",
+    "expectedOutput": "false",
+    "isHidden": false
+  },
+  {
+    "input": "[\"ABB\",[\"CCA\",\"ACB\",\"CCB\",\"BBA\",\"CCA\",\"BBB\",\"ACC\",\"CBB\",\"BCA\",\"BCB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABC\",[\"CBC\",\"ABA\",\"BBB\",\"CCB\",\"BAA\",\"CBC\",\"CAB\",\"ACB\",\"CBB\",\"ACA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABC\",[\"CCC\",\"BBC\",\"ACA\",\"BAB\",\"BCC\",\"CCA\",\"AAC\",\"BBC\",\"CAC\",\"BAB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BAA\",[\"BBC\",\"CBB\",\"CCC\",\"CBB\",\"ACC\",\"ABA\",\"AAC\",\"BBA\",\"CBC\",\"BAC\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CAA\",[\"CAC\",\"CCC\",\"AAB\",\"ACC\",\"ACC\",\"CAC\",\"BAA\",\"CCC\",\"CBC\",\"AAB\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBA\",[\"AAC\",\"CCB\",\"CBB\",\"CBC\",\"BAA\",\"ABA\",\"CAC\",\"BCA\",\"BCC\",\"CCB\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BAB\",[\"CBA\",\"CBA\",\"CCC\",\"AAC\",\"CBA\",\"CAA\",\"ACB\",\"CBC\",\"CBB\",\"AAC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABC\",[\"BAC\",\"BCB\",\"AAB\",\"CBC\",\"BCB\",\"CBA\",\"CAB\",\"BBC\",\"ACC\",\"AAA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CAA\",[\"CAB\",\"ACC\",\"CAC\",\"CAA\",\"BBC\",\"CBA\",\"CCC\",\"CAC\",\"BBA\",\"BCC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CAB\",[\"CBB\",\"AAB\",\"CAA\",\"BAB\",\"ACA\",\"ACB\",\"ABA\",\"CBC\",\"BCB\",\"BAC\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AAC\",[\"AAC\",\"BBC\",\"BAC\",\"BCC\",\"AAB\",\"ACA\",\"CCA\",\"CCB\",\"BAB\",\"BAA\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCB\",[\"BAB\",\"BCC\",\"CCC\",\"ABA\",\"BBB\",\"BBA\",\"BBC\",\"BBB\",\"BBA\",\"ACA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBA\",[\"CCC\",\"ABC\",\"BCC\",\"CAC\",\"AAC\",\"AAB\",\"ABA\",\"BBB\",\"BAA\",\"ABA\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ACB\",[\"BBB\",\"BCA\",\"BAA\",\"CBB\",\"BAC\",\"ABB\",\"ABB\",\"CBA\",\"BCB\",\"BCB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ACC\",[\"CBA\",\"BBA\",\"ABB\",\"ABC\",\"BBC\",\"ACB\",\"AAA\",\"CCA\",\"BAA\",\"BCB\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ACB\",[\"CCB\",\"AAC\",\"CBC\",\"ACC\",\"BAC\",\"BBB\",\"CAC\",\"CBA\",\"CAC\",\"ABA\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CAB\",[\"CCA\",\"BAA\",\"CCC\",\"ABC\",\"BBB\",\"ACA\",\"ABB\",\"BAB\",\"ABB\",\"ACA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BAC\",[\"ABB\",\"BBC\",\"BCB\",\"AAB\",\"ACA\",\"CAC\",\"BAA\",\"CCB\",\"CCA\",\"ACA\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CAC\",[\"BCB\",\"ACB\",\"CCA\",\"BBA\",\"CCC\",\"CAA\",\"BCA\",\"BAB\",\"BCA\",\"AAC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CAB\",[\"BBB\",\"BAA\",\"BBA\",\"BCA\",\"ABC\",\"BBB\",\"AAC\",\"BAB\",\"BCA\",\"CBC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BAA\",[\"CAA\",\"CAC\",\"CBB\",\"BCA\",\"ACA\",\"CCA\",\"ABA\",\"BBB\",\"CAA\",\"CBC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ACC\",[\"BCB\",\"AAA\",\"BCC\",\"AAB\",\"CCB\",\"BCC\",\"CBB\",\"ABC\",\"BAC\",\"CCA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBB\",[\"ABC\",\"ACC\",\"BCB\",\"CBC\",\"CAA\",\"BAA\",\"BAA\",\"AAA\",\"ABB\",\"ABC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBC\",[\"ABA\",\"BAC\",\"ACB\",\"ACB\",\"CCB\",\"CBC\",\"AAB\",\"BCB\",\"BAC\",\"AAA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABB\",[\"BCB\",\"CBB\",\"CAB\",\"ABA\",\"ABC\",\"ABB\",\"ABC\",\"CAB\",\"BAA\",\"CAA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABC\",[\"CBB\",\"BCB\",\"BAA\",\"CBC\",\"CCA\",\"BBA\",\"ABA\",\"ABA\",\"BCB\",\"CCC\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CAC\",[\"BBB\",\"BAB\",\"CCA\",\"CCC\",\"ACB\",\"CAB\",\"ACA\",\"CBA\",\"ACA\",\"AAC\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBB\",[\"AAC\",\"BAC\",\"ACB\",\"BBA\",\"CBC\",\"BBA\",\"BAC\",\"BAC\",\"CCB\",\"BCA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AAB\",[\"BCC\",\"ACB\",\"ABA\",\"CBA\",\"CAA\",\"BBC\",\"BAA\",\"ACC\",\"ABB\",\"CCC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBA\",[\"CBA\",\"AAB\",\"CCB\",\"ABC\",\"CBC\",\"BBC\",\"ACB\",\"CCA\",\"ABC\",\"AAA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCA\",[\"AAA\",\"BCA\",\"BAC\",\"BAB\",\"BBA\",\"CAA\",\"BBA\",\"ACC\",\"BCC\",\"BAB\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCC\",[\"AAA\",\"ABB\",\"CAB\",\"CCB\",\"ACB\",\"ABA\",\"BBA\",\"BAB\",\"BBA\",\"BBC\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCA\",[\"CCC\",\"BCB\",\"BAB\",\"CBB\",\"ABB\",\"ABC\",\"BAC\",\"BBC\",\"ABA\",\"CCB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABC\",[\"AAB\",\"AAC\",\"BBA\",\"CBA\",\"ACA\",\"BCA\",\"BAC\",\"CCB\",\"CAC\",\"CCA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCC\",[\"BAB\",\"BCA\",\"ACA\",\"BBA\",\"ABA\",\"BAA\",\"AAC\",\"CAC\",\"ACB\",\"AAA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AAB\",[\"CBC\",\"BAB\",\"CBA\",\"BBB\",\"AAC\",\"CBB\",\"BCA\",\"CBC\",\"BAC\",\"AAB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCB\",[\"BBB\",\"BBA\",\"BBB\",\"CBC\",\"CCC\",\"BBA\",\"CBB\",\"BCB\",\"CBB\",\"BAA\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCB\",[\"BAB\",\"BCA\",\"BAA\",\"ABB\",\"AAC\",\"CAC\",\"AAC\",\"CAC\",\"CBC\",\"CCB\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCC\",[\"BCB\",\"AAC\",\"BBA\",\"ACC\",\"CCA\",\"CAB\",\"BAA\",\"BBC\",\"ABC\",\"ABB\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCB\",[\"AAB\",\"ACB\",\"BAA\",\"ABA\",\"BBA\",\"CAB\",\"CCB\",\"BCB\",\"ACB\",\"ACB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCC\",[\"BAA\",\"CAB\",\"BCA\",\"CBB\",\"CAC\",\"CAA\",\"ACC\",\"CAA\",\"ABC\",\"AAA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCA\",[\"BCC\",\"ACC\",\"CAB\",\"BBB\",\"BAA\",\"BCB\",\"BAC\",\"CBA\",\"CBC\",\"ACA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCC\",[\"ABA\",\"CCB\",\"AAA\",\"ACC\",\"BBC\",\"BAC\",\"BBC\",\"AAB\",\"ACC\",\"BCC\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABB\",[\"BCC\",\"ABC\",\"CBC\",\"BAB\",\"ACB\",\"ABA\",\"BCB\",\"CBC\",\"BAA\",\"BAC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBC\",[\"CAB\",\"CBB\",\"ACB\",\"CAA\",\"BCC\",\"BBB\",\"BCA\",\"BCB\",\"AAC\",\"BBC\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABCB\",[\"CCB\",\"BBB\",\"CBA\",\"CCB\",\"CBB\",\"CAA\",\"BCB\",\"BAA\",\"BCA\",\"BBA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABAC\",[\"AAB\",\"CCA\",\"BAA\",\"CBB\",\"BCB\",\"ACC\",\"ACC\",\"ABB\",\"CBA\",\"AAB\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCCA\",[\"CBB\",\"ABB\",\"BAB\",\"ABA\",\"CCB\",\"CAB\",\"ABB\",\"CAC\",\"BAC\",\"ABC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABAA\",[\"BBB\",\"CBC\",\"BAC\",\"CBA\",\"AAB\",\"CAB\",\"CCB\",\"BCC\",\"BBA\",\"AAA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABBB\",[\"BBA\",\"BBB\",\"CBA\",\"ACB\",\"BAC\",\"CBB\",\"CAC\",\"BCB\",\"CAC\",\"CCC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABAA\",[\"BCA\",\"BCA\",\"BBC\",\"BCA\",\"ABC\",\"ABB\",\"BBA\",\"ACB\",\"BBB\",\"AAA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BABB\",[\"ABC\",\"BBA\",\"AAB\",\"BCC\",\"BAB\",\"BAA\",\"CBA\",\"BBA\",\"BBC\",\"BAC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBCA\",[\"CCB\",\"BCA\",\"CCC\",\"ACB\",\"BBC\",\"CAC\",\"BCA\",\"CBB\",\"ACC\",\"ABA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCAC\",[\"AAA\",\"BCB\",\"BBC\",\"CAA\",\"CBB\",\"ABC\",\"ACB\",\"CAC\",\"CBA\",\"CBC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ACBB\",[\"AAC\",\"CBC\",\"AAA\",\"ACB\",\"CCA\",\"ACC\",\"CCB\",\"BCA\",\"BBB\",\"BBC\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCCA\",[\"CAC\",\"ACB\",\"ABB\",\"BAB\",\"BCB\",\"CBA\",\"BAA\",\"ABB\",\"ACC\",\"ABA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABCC\",[\"BBA\",\"BCA\",\"ABB\",\"BAC\",\"CCA\",\"BAA\",\"ACA\",\"BAA\",\"ABA\",\"CAB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BABA\",[\"BBC\",\"BAA\",\"CBC\",\"CBC\",\"ABA\",\"BCB\",\"BCC\",\"CBC\",\"BBB\",\"AAA\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCBC\",[\"ACA\",\"BBC\",\"CAC\",\"CAA\",\"ABC\",\"ABB\",\"AAB\",\"BAC\",\"CBC\",\"BBA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCCC\",[\"BCA\",\"BBA\",\"CAC\",\"AAA\",\"BBB\",\"ACC\",\"CAB\",\"BCC\",\"BBC\",\"CCA\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCBA\",[\"CAA\",\"ACC\",\"ABC\",\"ACA\",\"BAB\",\"CCC\",\"CAA\",\"BBA\",\"ABC\",\"BCA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BACA\",[\"CAB\",\"CAC\",\"BAB\",\"CCA\",\"ABC\",\"BAB\",\"BCA\",\"CBC\",\"CAB\",\"BCC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABCC\",[\"CBA\",\"ACC\",\"ACB\",\"AAC\",\"BBA\",\"CBB\",\"BCB\",\"ACC\",\"ACC\",\"CCA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCBC\",[\"CCB\",\"CCA\",\"BBB\",\"ACB\",\"BBC\",\"AAC\",\"ABB\",\"BBA\",\"BCA\",\"CAC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CAAC\",[\"ABB\",\"CCB\",\"BBA\",\"CCC\",\"CBB\",\"BCA\",\"CAA\",\"BBA\",\"BCB\",\"BCB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCBA\",[\"ACB\",\"BCC\",\"CAC\",\"CAB\",\"CCA\",\"AAB\",\"CBB\",\"CAA\",\"BCA\",\"BCA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBBC\",[\"CBA\",\"CBB\",\"ACB\",\"AAC\",\"CCA\",\"ACB\",\"CAA\",\"ACA\",\"CCB\",\"ACA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BAAC\",[\"ABC\",\"ACC\",\"AAC\",\"CBC\",\"ABA\",\"BBA\",\"BBB\",\"AAC\",\"ABA\",\"AAC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBBC\",[\"BAA\",\"CAB\",\"CBA\",\"BAA\",\"ACA\",\"ACB\",\"CCA\",\"BAC\",\"CCC\",\"ABB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ACAC\",[\"ABB\",\"BBB\",\"BBB\",\"BBB\",\"ACC\",\"CCA\",\"CCA\",\"BCC\",\"CBC\",\"AAC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABBA\",[\"BCB\",\"CCA\",\"ABC\",\"CBA\",\"BCB\",\"ABA\",\"BAB\",\"ACC\",\"CCA\",\"BBB\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCCA\",[\"CBC\",\"BCA\",\"ABB\",\"CBC\",\"CBA\",\"BCB\",\"BAC\",\"CAB\",\"ABB\",\"AAC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ACBB\",[\"CBA\",\"AAA\",\"BCB\",\"AAC\",\"ABA\",\"CCA\",\"BBB\",\"BCA\",\"AAC\",\"ABC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBAC\",[\"BAB\",\"ACA\",\"ABC\",\"AAA\",\"CBC\",\"CAA\",\"CAB\",\"CBA\",\"ABA\",\"BAC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ACBB\",[\"ACA\",\"ABC\",\"BCC\",\"CBC\",\"ABA\",\"BAC\",\"CBC\",\"AAB\",\"CAC\",\"ACA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABBB\",[\"BCB\",\"ACB\",\"AAA\",\"BBB\",\"CBA\",\"CBA\",\"BBB\",\"CBA\",\"BAC\",\"ACA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AABC\",[\"BCA\",\"BAB\",\"BCC\",\"ACA\",\"CAB\",\"AAC\",\"CBA\",\"CAA\",\"BCB\",\"AAB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBCC\",[\"CBC\",\"CAC\",\"CBA\",\"BAA\",\"BCA\",\"CAB\",\"CAB\",\"BBC\",\"BBC\",\"BCC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABCB\",[\"BCC\",\"BAC\",\"CCC\",\"BCA\",\"CBA\",\"BCA\",\"CCA\",\"ACC\",\"CCA\",\"CBC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CABC\",[\"BBA\",\"BAC\",\"CBC\",\"BAC\",\"BBC\",\"CAB\",\"CCC\",\"CAC\",\"BBA\",\"BAC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBCC\",[\"BBA\",\"AAB\",\"BBB\",\"CBA\",\"CAA\",\"ABA\",\"AAC\",\"CAA\",\"AAA\",\"CCB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCBB\",[\"ACA\",\"BCA\",\"ACB\",\"CBA\",\"BCA\",\"BAC\",\"CBB\",\"BBC\",\"ACA\",\"CBB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCBC\",[\"CCA\",\"CCA\",\"AAC\",\"CCA\",\"AAA\",\"CBB\",\"AAB\",\"CBB\",\"BCA\",\"CAA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCCB\",[\"BCB\",\"CCB\",\"CBB\",\"BCA\",\"ABC\",\"CBB\",\"BBB\",\"AAC\",\"ABB\",\"AAA\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCBC\",[\"CCA\",\"AAC\",\"ABC\",\"BBC\",\"CCA\",\"CAC\",\"ABB\",\"BCB\",\"ABC\",\"BCA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCBB\",[\"ABA\",\"ABA\",\"BAC\",\"AAB\",\"ACC\",\"CAA\",\"CAC\",\"BAB\",\"CBC\",\"BBA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BACC\",[\"CBA\",\"CCC\",\"BBC\",\"ABC\",\"BAB\",\"ACB\",\"ABA\",\"CBB\",\"BCA\",\"CCA\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AABB\",[\"CBA\",\"CCC\",\"BBC\",\"ACC\",\"CCC\",\"ABC\",\"CAB\",\"ACA\",\"CCB\",\"ABA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ACCA\",[\"BAB\",\"BCB\",\"BBC\",\"CBC\",\"BCB\",\"BAB\",\"CCB\",\"CAC\",\"BAC\",\"BAB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CAAB\",[\"BAC\",\"CAA\",\"BAA\",\"BBB\",\"BAC\",\"CAC\",\"ACA\",\"ACB\",\"CAC\",\"ABC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AAAC\",[\"CAC\",\"BCB\",\"ACB\",\"BAC\",\"CAA\",\"BAB\",\"CCA\",\"CBA\",\"CBC\",\"ACA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABAC\",[\"CAA\",\"BAB\",\"ABB\",\"AAB\",\"CCC\",\"AAA\",\"CBA\",\"AAC\",\"AAC\",\"CBC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCAB\",[\"AAB\",\"CCC\",\"BBA\",\"BAB\",\"AAA\",\"CCB\",\"CCB\",\"BAA\",\"BBA\",\"CBA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBAB\",[\"CBC\",\"CCC\",\"BCA\",\"ACA\",\"BAA\",\"CCC\",\"BCB\",\"ABB\",\"ABB\",\"BAA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABBA\",[\"ACB\",\"ABC\",\"BAA\",\"CCC\",\"CAA\",\"CAA\",\"BBA\",\"AAB\",\"AAA\",\"AAA\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCACA\",[\"BAB\",\"ABB\",\"CBB\",\"CAB\",\"CCC\",\"BAA\",\"AAA\",\"ABB\",\"CAC\",\"BAA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCACC\",[\"BAA\",\"AAA\",\"AAA\",\"BBA\",\"BBA\",\"AAB\",\"BBB\",\"CCB\",\"CCA\",\"BBC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABCCC\",[\"BCA\",\"BCC\",\"BBA\",\"BCC\",\"CAC\",\"ACB\",\"BCC\",\"AAC\",\"CCC\",\"ABB\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCAAC\",[\"AAA\",\"BBA\",\"ABA\",\"AAC\",\"AAC\",\"CCB\",\"ABB\",\"AAB\",\"BCB\",\"CBB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCCCA\",[\"ABC\",\"BBC\",\"BBA\",\"BBC\",\"BCA\",\"AAB\",\"AAA\",\"ACA\",\"BBB\",\"CAA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCCAB\",[\"ABB\",\"ABB\",\"BCB\",\"BBB\",\"CBB\",\"BAC\",\"CCB\",\"ACC\",\"AAA\",\"ABB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CAACC\",[\"CAC\",\"BCC\",\"CBB\",\"CCB\",\"BCA\",\"BAB\",\"CCA\",\"BBA\",\"ACC\",\"AAB\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBCCB\",[\"CBB\",\"CAA\",\"ABA\",\"BAB\",\"ACC\",\"BCC\",\"AAA\",\"CCB\",\"CBB\",\"BBA\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABAAA\",[\"CBA\",\"CCB\",\"CCC\",\"CCA\",\"BAB\",\"CAC\",\"CCC\",\"BAB\",\"ACA\",\"AAA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBCBA\",[\"CCA\",\"CBA\",\"ACC\",\"CAC\",\"BAC\",\"ACC\",\"CBC\",\"ACA\",\"CAB\",\"BBB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BABCC\",[\"BAC\",\"BAC\",\"CAB\",\"ABC\",\"CBC\",\"BAB\",\"BCA\",\"BBB\",\"CAA\",\"CCC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ACBCC\",[\"CBA\",\"ACB\",\"CBC\",\"BBA\",\"CCA\",\"CCB\",\"AAC\",\"AAC\",\"BCC\",\"CBA\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABCCC\",[\"BBA\",\"ACC\",\"ACC\",\"ACA\",\"ACA\",\"ABA\",\"CAA\",\"ABA\",\"CBC\",\"CBA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCCAB\",[\"AAA\",\"CAC\",\"CBA\",\"BCC\",\"AAA\",\"AAA\",\"CAB\",\"ACA\",\"AAB\",\"CAA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCBAC\",[\"ABB\",\"ACA\",\"BCC\",\"BBB\",\"BCA\",\"BCB\",\"BCA\",\"ABC\",\"BBC\",\"BCC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBCBA\",[\"AAA\",\"ACB\",\"AAA\",\"BCA\",\"AAA\",\"CCC\",\"ABA\",\"ABB\",\"CAC\",\"BBA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBCBA\",[\"BAC\",\"ACA\",\"ACB\",\"CBC\",\"BBC\",\"CBA\",\"AAB\",\"CBA\",\"ACC\",\"BBC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BABCC\",[\"CBC\",\"AAB\",\"BAA\",\"CCC\",\"ACA\",\"ABC\",\"ACA\",\"CBB\",\"BBA\",\"BBA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABBCB\",[\"BAB\",\"BCA\",\"CBA\",\"BAB\",\"CCA\",\"AAC\",\"BAA\",\"BCB\",\"CBA\",\"AAB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCBAA\",[\"BAB\",\"BBC\",\"CAB\",\"ABC\",\"BCC\",\"AAB\",\"AAC\",\"AAC\",\"CBA\",\"CCC\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CACAA\",[\"CBB\",\"ABC\",\"CBA\",\"BCA\",\"BCB\",\"CBA\",\"BAC\",\"CAA\",\"ABB\",\"ABB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBBCC\",[\"ABB\",\"ACA\",\"ACC\",\"CBB\",\"ABB\",\"BBB\",\"AAB\",\"ACC\",\"CBB\",\"ABC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCCCC\",[\"CAC\",\"AAA\",\"BBB\",\"CBB\",\"CCB\",\"BBB\",\"CCA\",\"CBA\",\"BCC\",\"CBC\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CACAB\",[\"BCA\",\"ABA\",\"CCA\",\"CCC\",\"CBB\",\"ABA\",\"CBC\",\"BAA\",\"CCC\",\"AAA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AAAAA\",[\"CAB\",\"ABC\",\"BCA\",\"BCA\",\"AAA\",\"BBA\",\"BAB\",\"CAA\",\"CAA\",\"CAB\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBABB\",[\"BAC\",\"CAC\",\"ABC\",\"AAC\",\"ABA\",\"AAB\",\"AAC\",\"ACB\",\"BCC\",\"BAB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BACBA\",[\"BCC\",\"CAB\",\"CCA\",\"BAA\",\"ACB\",\"BCB\",\"AAA\",\"ACC\",\"AAA\",\"AAC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBBCB\",[\"CAB\",\"CCB\",\"CBB\",\"BCA\",\"AAB\",\"BBC\",\"ACA\",\"BBB\",\"BCB\",\"ACA\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBABC\",[\"CBA\",\"CCA\",\"AAC\",\"CBA\",\"CAB\",\"AAA\",\"BCC\",\"BAC\",\"BAC\",\"ACB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBBCA\",[\"CAA\",\"BBB\",\"BBB\",\"CBC\",\"ABB\",\"BBB\",\"ABB\",\"BBC\",\"ABA\",\"BCB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBCCB\",[\"CAC\",\"CCC\",\"BCA\",\"CCA\",\"BCC\",\"BAA\",\"AAC\",\"BBB\",\"ACB\",\"BBC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCACB\",[\"CAA\",\"BBB\",\"ACC\",\"ABC\",\"BCB\",\"CAA\",\"CBA\",\"CBB\",\"CCA\",\"CBB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBCBB\",[\"CAA\",\"CBB\",\"CBC\",\"BAB\",\"BAB\",\"BBC\",\"ACB\",\"BBB\",\"BAA\",\"BCA\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CACAB\",[\"ABB\",\"BBA\",\"BAB\",\"ABB\",\"ACB\",\"AAA\",\"BCC\",\"CCB\",\"AAC\",\"BBB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBBBC\",[\"CBB\",\"CCB\",\"BBC\",\"CAB\",\"CCA\",\"BCA\",\"BAB\",\"BAC\",\"CAC\",\"BBB\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCCBA\",[\"BAA\",\"BAA\",\"CAC\",\"AAB\",\"BBC\",\"CAA\",\"CBC\",\"ABA\",\"ACC\",\"CAA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABBBA\",[\"CCB\",\"BCA\",\"ABC\",\"BBB\",\"ABC\",\"CCB\",\"CAC\",\"ACC\",\"ACC\",\"BBB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ABBBB\",[\"BCA\",\"BBB\",\"BCB\",\"AAA\",\"ABB\",\"ABB\",\"CAA\",\"BBC\",\"ACC\",\"ABA\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BAAAB\",[\"CAA\",\"AAC\",\"ACA\",\"CBB\",\"ABA\",\"BAB\",\"BAC\",\"ABC\",\"CAB\",\"BAC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBCCB\",[\"BCA\",\"ABB\",\"ACA\",\"BBC\",\"CCC\",\"ACA\",\"CBC\",\"AAA\",\"CAB\",\"ABA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BBCCB\",[\"ACA\",\"CCB\",\"CAC\",\"CCC\",\"ABB\",\"BBC\",\"BAB\",\"CCC\",\"BCB\",\"CBB\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCABA\",[\"ACA\",\"BBC\",\"ACC\",\"ACB\",\"ACA\",\"CAB\",\"AAC\",\"AAB\",\"ACB\",\"CBB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCCCC\",[\"CBA\",\"BCC\",\"BBA\",\"CBB\",\"AAA\",\"ACA\",\"CCC\",\"AAC\",\"ACB\",\"BCC\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ACAAA\",[\"ACA\",\"ABA\",\"ABA\",\"AAA\",\"BBB\",\"CCC\",\"BCC\",\"ABB\",\"BBC\",\"AAA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCBBB\",[\"BAB\",\"BBA\",\"ACA\",\"ABA\",\"AAB\",\"CBA\",\"CCA\",\"CCA\",\"BBA\",\"ACA\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CCBAC\",[\"CAB\",\"ABA\",\"CCA\",\"BCC\",\"BBB\",\"BAC\",\"CAA\",\"CAC\",\"AAC\",\"AAB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBCCC\",[\"CCB\",\"ABC\",\"BAB\",\"CCB\",\"CAB\",\"AAC\",\"ABC\",\"ACB\",\"BCB\",\"CBB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CBACA\",[\"CCB\",\"CAA\",\"ACA\",\"CBC\",\"BBA\",\"AAA\",\"CAC\",\"CBC\",\"CCC\",\"BBB\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AABAB\",[\"BCA\",\"BCB\",\"BCB\",\"CBC\",\"BCC\",\"CCC\",\"ABA\",\"CAB\",\"ABB\",\"BAC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AACCB\",[\"BBA\",\"BBC\",\"BBA\",\"BBC\",\"CBA\",\"ACA\",\"AAA\",\"CBB\",\"ABC\",\"BBC\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  }
+]

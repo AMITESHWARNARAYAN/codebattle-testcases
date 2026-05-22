@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[[\"9001 discuss.leetcode.com\"]]",
+    "expectedOutput": "[\"9001 com\",\"9001 discuss.leetcode.com\",\"9001 leetcode.com\"]",
+    "isHidden": false
+  },
+  {
+    "input": "[[\"26 end.wqoz.com\",\"538 ous.bppf.com\",\"450 xhp.sari.org\"]]",
+    "expectedOutput": "[\"26 end.wqoz.com\",\"26 wqoz.com\",\"450 org\",\"450 sari.org\",\"450 xhp.sari.org\",\"538 bppf.com\",\"538 ous.bppf.com\",\"564 com\"]",
+    "isHidden": false
+  },
+  {
+    "input": "[[\"495 ogt.zvrz.org\"]]",
+    "expectedOutput": "[\"495 ogt.zvrz.org\",\"495 org\",\"495 zvrz.org\"]",
+    "isHidden": false
+  },
+  {
+    "input": "[[\"10 qyx.grkz.com\",\"106 wbu.upko.com\",\"667 sse.xwod.com\"]]",
+    "expectedOutput": "[\"10 grkz.com\",\"10 qyx.grkz.com\",\"106 upko.com\",\"106 wbu.upko.com\",\"667 sse.xwod.com\",\"667 xwod.com\",\"783 com\"]",
+    "isHidden": false
+  },
+  {
+    "input": "[[\"224 ugf.yidj.com\",\"569 oor.hgvv.org\"]]",
+    "expectedOutput": "[\"224 com\",\"224 ugf.yidj.com\",\"224 yidj.com\",\"569 hgvv.org\",\"569 oor.hgvv.org\",\"569 org\"]",
+    "isHidden": false
+  },
+  {
+    "input": "[[\"739 ziz.vfdy.com\",\"483 cuj.wvrt.org\"]]",
+    "expectedOutput": "[\"483 cuj.wvrt.org\",\"483 org\",\"483 wvrt.org\",\"739 com\",\"739 vfdy.com\",\"739 ziz.vfdy.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"993 gqr.qnsq.com\",\"903 kaj.advb.com\",\"902 pod.cwav.com\"]]",
+    "expectedOutput": "[\"2798 com\",\"902 cwav.com\",\"902 pod.cwav.com\",\"903 advb.com\",\"903 kaj.advb.com\",\"993 gqr.qnsq.com\",\"993 qnsq.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"685 bcc.zgji.org\"]]",
+    "expectedOutput": "[\"685 bcc.zgji.org\",\"685 org\",\"685 zgji.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"460 fok.rnib.org\"]]",
+    "expectedOutput": "[\"460 fok.rnib.org\",\"460 org\",\"460 rnib.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"131 xbg.ghha.org\",\"170 kgh.fsfu.org\"]]",
+    "expectedOutput": "[\"131 ghha.org\",\"131 xbg.ghha.org\",\"170 fsfu.org\",\"170 kgh.fsfu.org\",\"301 org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"844 bgd.aztb.org\",\"111 kgi.eomz.com\"]]",
+    "expectedOutput": "[\"111 com\",\"111 eomz.com\",\"111 kgi.eomz.com\",\"844 aztb.org\",\"844 bgd.aztb.org\",\"844 org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"139 woq.sxoe.org\",\"848 tni.ojkv.com\"]]",
+    "expectedOutput": "[\"139 org\",\"139 sxoe.org\",\"139 woq.sxoe.org\",\"848 com\",\"848 ojkv.com\",\"848 tni.ojkv.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"906 tgg.qlgb.org\"]]",
+    "expectedOutput": "[\"906 org\",\"906 qlgb.org\",\"906 tgg.qlgb.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"50 hdg.domv.org\"]]",
+    "expectedOutput": "[\"50 domv.org\",\"50 hdg.domv.org\",\"50 org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"812 gwt.tdht.org\"]]",
+    "expectedOutput": "[\"812 gwt.tdht.org\",\"812 org\",\"812 tdht.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"199 kcf.kxvr.com\",\"436 lgo.uxpo.org\"]]",
+    "expectedOutput": "[\"199 com\",\"199 kcf.kxvr.com\",\"199 kxvr.com\",\"436 lgo.uxpo.org\",\"436 org\",\"436 uxpo.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"373 krb.eluz.org\",\"463 pzv.aeif.org\"]]",
+    "expectedOutput": "[\"373 eluz.org\",\"373 krb.eluz.org\",\"463 aeif.org\",\"463 pzv.aeif.org\",\"836 org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"193 ajg.wonz.org\",\"613 ghv.ftuq.org\",\"411 lty.qqck.com\"]]",
+    "expectedOutput": "[\"193 ajg.wonz.org\",\"193 wonz.org\",\"411 com\",\"411 lty.qqck.com\",\"411 qqck.com\",\"613 ftuq.org\",\"613 ghv.ftuq.org\",\"806 org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"480 qot.rifs.org\"]]",
+    "expectedOutput": "[\"480 org\",\"480 qot.rifs.org\",\"480 rifs.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"515 gts.gecn.org\",\"256 wel.ydtx.com\"]]",
+    "expectedOutput": "[\"256 com\",\"256 wel.ydtx.com\",\"256 ydtx.com\",\"515 gecn.org\",\"515 gts.gecn.org\",\"515 org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"761 fpt.rffi.com\",\"235 dcf.yqgo.com\",\"880 cun.zqtn.org\"]]",
+    "expectedOutput": "[\"235 dcf.yqgo.com\",\"235 yqgo.com\",\"761 fpt.rffi.com\",\"761 rffi.com\",\"880 cun.zqtn.org\",\"880 org\",\"880 zqtn.org\",\"996 com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"798 uzv.btwe.org\",\"232 toz.lhid.org\",\"170 tam.vqld.com\"]]",
+    "expectedOutput": "[\"1030 org\",\"170 com\",\"170 tam.vqld.com\",\"170 vqld.com\",\"232 lhid.org\",\"232 toz.lhid.org\",\"798 btwe.org\",\"798 uzv.btwe.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"748 leh.fgky.org\",\"684 uwv.nqzg.com\"]]",
+    "expectedOutput": "[\"684 com\",\"684 nqzg.com\",\"684 uwv.nqzg.com\",\"748 fgky.org\",\"748 leh.fgky.org\",\"748 org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"751 jlq.iejj.com\",\"440 maj.erba.com\",\"817 xkz.vwmp.org\"]]",
+    "expectedOutput": "[\"1191 com\",\"440 erba.com\",\"440 maj.erba.com\",\"751 iejj.com\",\"751 jlq.iejj.com\",\"817 org\",\"817 vwmp.org\",\"817 xkz.vwmp.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"264 dit.ebcm.com\",\"153 fno.hmwi.org\"]]",
+    "expectedOutput": "[\"153 fno.hmwi.org\",\"153 hmwi.org\",\"153 org\",\"264 com\",\"264 dit.ebcm.com\",\"264 ebcm.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"200 abv.opbe.org\",\"374 bcg.kzid.com\",\"923 wox.zdub.org\"]]",
+    "expectedOutput": "[\"1123 org\",\"200 abv.opbe.org\",\"200 opbe.org\",\"374 bcg.kzid.com\",\"374 com\",\"374 kzid.com\",\"923 wox.zdub.org\",\"923 zdub.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"393 cti.knau.com\",\"989 jjm.qksv.org\"]]",
+    "expectedOutput": "[\"393 com\",\"393 cti.knau.com\",\"393 knau.com\",\"989 jjm.qksv.org\",\"989 org\",\"989 qksv.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"201 acx.tnny.com\",\"712 mxp.dndj.com\"]]",
+    "expectedOutput": "[\"201 acx.tnny.com\",\"201 tnny.com\",\"712 dndj.com\",\"712 mxp.dndj.com\",\"913 com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"340 stg.ztfc.com\"]]",
+    "expectedOutput": "[\"340 com\",\"340 stg.ztfc.com\",\"340 ztfc.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"238 tfj.ycmq.com\",\"907 nea.mnwz.com\"]]",
+    "expectedOutput": "[\"1145 com\",\"238 tfj.ycmq.com\",\"238 ycmq.com\",\"907 mnwz.com\",\"907 nea.mnwz.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"738 yca.njjc.org\"]]",
+    "expectedOutput": "[\"738 njjc.org\",\"738 org\",\"738 yca.njjc.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"591 kyo.exne.com\",\"942 uef.azrc.com\",\"749 chj.mjzc.com\"]]",
+    "expectedOutput": "[\"2282 com\",\"591 exne.com\",\"591 kyo.exne.com\",\"749 chj.mjzc.com\",\"749 mjzc.com\",\"942 azrc.com\",\"942 uef.azrc.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"713 eno.efou.com\",\"657 bzm.vhxu.com\",\"485 pgo.xqsd.com\"]]",
+    "expectedOutput": "[\"1855 com\",\"485 pgo.xqsd.com\",\"485 xqsd.com\",\"657 bzm.vhxu.com\",\"657 vhxu.com\",\"713 efou.com\",\"713 eno.efou.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"474 hga.cwwc.com\",\"906 dbg.atve.org\"]]",
+    "expectedOutput": "[\"474 com\",\"474 cwwc.com\",\"474 hga.cwwc.com\",\"906 atve.org\",\"906 dbg.atve.org\",\"906 org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"79 jdj.fsjx.com\"]]",
+    "expectedOutput": "[\"79 com\",\"79 fsjx.com\",\"79 jdj.fsjx.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"929 qvl.mdsp.org\"]]",
+    "expectedOutput": "[\"929 mdsp.org\",\"929 org\",\"929 qvl.mdsp.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"801 hbc.eiha.com\"]]",
+    "expectedOutput": "[\"801 com\",\"801 eiha.com\",\"801 hbc.eiha.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"714 wbn.mplo.org\",\"651 qrd.czpv.org\",\"993 pbr.ykpl.com\"]]",
+    "expectedOutput": "[\"1365 org\",\"651 czpv.org\",\"651 qrd.czpv.org\",\"714 mplo.org\",\"714 wbn.mplo.org\",\"993 com\",\"993 pbr.ykpl.com\",\"993 ykpl.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"204 sda.vspp.com\",\"272 mkt.ufvv.com\",\"953 cjy.sdgg.com\"]]",
+    "expectedOutput": "[\"1429 com\",\"204 sda.vspp.com\",\"204 vspp.com\",\"272 mkt.ufvv.com\",\"272 ufvv.com\",\"953 cjy.sdgg.com\",\"953 sdgg.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"154 ppl.jdbg.com\"]]",
+    "expectedOutput": "[\"154 com\",\"154 jdbg.com\",\"154 ppl.jdbg.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"59 jbu.ivef.com\",\"602 omh.gvkm.org\"]]",
+    "expectedOutput": "[\"59 com\",\"59 ivef.com\",\"59 jbu.ivef.com\",\"602 gvkm.org\",\"602 omh.gvkm.org\",\"602 org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"257 pdx.aypv.com\"]]",
+    "expectedOutput": "[\"257 aypv.com\",\"257 com\",\"257 pdx.aypv.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"549 xbd.siwr.com\",\"108 olq.hfzr.org\",\"68 xhz.ykbl.com\"]]",
+    "expectedOutput": "[\"108 hfzr.org\",\"108 olq.hfzr.org\",\"108 org\",\"549 siwr.com\",\"549 xbd.siwr.com\",\"617 com\",\"68 xhz.ykbl.com\",\"68 ykbl.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"411 zzk.nvrd.com\"]]",
+    "expectedOutput": "[\"411 com\",\"411 nvrd.com\",\"411 zzk.nvrd.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"235 tdj.zqgb.com\",\"659 lxh.prod.org\",\"690 ycc.oshd.org\"]]",
+    "expectedOutput": "[\"1349 org\",\"235 com\",\"235 tdj.zqgb.com\",\"235 zqgb.com\",\"659 lxh.prod.org\",\"659 prod.org\",\"690 oshd.org\",\"690 ycc.oshd.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"145 eke.zgip.org\",\"432 upo.knro.com\",\"439 tjp.prht.com\"]]",
+    "expectedOutput": "[\"145 eke.zgip.org\",\"145 org\",\"145 zgip.org\",\"432 knro.com\",\"432 upo.knro.com\",\"439 prht.com\",\"439 tjp.prht.com\",\"871 com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"640 kae.ibpu.org\",\"539 bpj.xsxd.org\"]]",
+    "expectedOutput": "[\"1179 org\",\"539 bpj.xsxd.org\",\"539 xsxd.org\",\"640 ibpu.org\",\"640 kae.ibpu.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"687 dry.siuk.org\",\"205 bth.epoh.com\"]]",
+    "expectedOutput": "[\"205 bth.epoh.com\",\"205 com\",\"205 epoh.com\",\"687 dry.siuk.org\",\"687 org\",\"687 siuk.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"166 ort.cgxj.org\"]]",
+    "expectedOutput": "[\"166 cgxj.org\",\"166 org\",\"166 ort.cgxj.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"438 wib.bakw.com\",\"85 gbi.hipv.org\"]]",
+    "expectedOutput": "[\"438 bakw.com\",\"438 com\",\"438 wib.bakw.com\",\"85 gbi.hipv.org\",\"85 hipv.org\",\"85 org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"703 bzn.gvvk.org\",\"757 tgw.pvww.org\",\"643 zfl.ganc.com\",\"753 wqe.qjeo.com\",\"920 fxg.wwrv.org\",\"570 rfj.yvwl.org\"]]",
+    "expectedOutput": "[\"1396 com\",\"2950 org\",\"570 rfj.yvwl.org\",\"570 yvwl.org\",\"643 ganc.com\",\"643 zfl.ganc.com\",\"703 bzn.gvvk.org\",\"703 gvvk.org\",\"753 qjeo.com\",\"753 wqe.qjeo.com\",\"757 pvww.org\",\"757 tgw.pvww.org\",\"920 fxg.wwrv.org\",\"920 wwrv.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"998 rzh.msme.org\",\"58 otw.ymqv.com\",\"366 tvk.tisw.com\",\"122 vjk.oquy.com\",\"70 pdy.qgsl.com\",\"399 acl.krft.com\",\"632 pnm.ntln.org\"]]",
+    "expectedOutput": "[\"1015 com\",\"122 oquy.com\",\"122 vjk.oquy.com\",\"1630 org\",\"366 tisw.com\",\"366 tvk.tisw.com\",\"399 acl.krft.com\",\"399 krft.com\",\"58 otw.ymqv.com\",\"58 ymqv.com\",\"632 ntln.org\",\"632 pnm.ntln.org\",\"70 pdy.qgsl.com\",\"70 qgsl.com\",\"998 msme.org\",\"998 rzh.msme.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"218 ufi.bjhr.org\",\"807 sdv.ugrw.com\",\"904 fvv.yjgr.com\",\"434 nhy.ogfu.org\",\"946 dyb.ahyc.org\",\"506 uib.kehl.org\"]]",
+    "expectedOutput": "[\"1711 com\",\"2104 org\",\"218 bjhr.org\",\"218 ufi.bjhr.org\",\"434 nhy.ogfu.org\",\"434 ogfu.org\",\"506 kehl.org\",\"506 uib.kehl.org\",\"807 sdv.ugrw.com\",\"807 ugrw.com\",\"904 fvv.yjgr.com\",\"904 yjgr.com\",\"946 ahyc.org\",\"946 dyb.ahyc.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"683 lgp.hayz.org\",\"149 rfw.eauz.com\",\"466 pyk.woin.com\",\"649 tgh.sqqv.com\",\"872 ocl.xlla.org\",\"922 era.otuz.org\"]]",
+    "expectedOutput": "[\"1264 com\",\"149 eauz.com\",\"149 rfw.eauz.com\",\"2477 org\",\"466 pyk.woin.com\",\"466 woin.com\",\"649 sqqv.com\",\"649 tgh.sqqv.com\",\"683 hayz.org\",\"683 lgp.hayz.org\",\"872 ocl.xlla.org\",\"872 xlla.org\",\"922 era.otuz.org\",\"922 otuz.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"488 dvj.oxko.org\",\"624 fma.kkxt.com\",\"678 qgi.gjtb.org\",\"52 cos.rvpi.org\",\"367 vyg.dxkb.com\",\"567 uyr.zsfc.org\",\"907 adn.awvb.org\"]]",
+    "expectedOutput": "[\"2692 org\",\"367 dxkb.com\",\"367 vyg.dxkb.com\",\"488 dvj.oxko.org\",\"488 oxko.org\",\"52 cos.rvpi.org\",\"52 rvpi.org\",\"567 uyr.zsfc.org\",\"567 zsfc.org\",\"624 fma.kkxt.com\",\"624 kkxt.com\",\"678 gjtb.org\",\"678 qgi.gjtb.org\",\"907 adn.awvb.org\",\"907 awvb.org\",\"991 com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"706 psy.guej.org\",\"486 ltn.wuhe.com\",\"135 aui.ivmh.org\",\"306 uee.wrrf.com\",\"701 tpx.goaj.org\",\"607 jby.gxjv.org\",\"987 eyf.lvra.org\"]]",
+    "expectedOutput": "[\"135 aui.ivmh.org\",\"135 ivmh.org\",\"306 uee.wrrf.com\",\"306 wrrf.com\",\"3136 org\",\"486 ltn.wuhe.com\",\"486 wuhe.com\",\"607 gxjv.org\",\"607 jby.gxjv.org\",\"701 goaj.org\",\"701 tpx.goaj.org\",\"706 guej.org\",\"706 psy.guej.org\",\"792 com\",\"987 eyf.lvra.org\",\"987 lvra.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"60 rhc.itbi.com\",\"194 xwj.ooiy.com\",\"778 gbj.hjyl.org\",\"167 iqh.hwsh.org\"]]",
+    "expectedOutput": "[\"167 hwsh.org\",\"167 iqh.hwsh.org\",\"194 ooiy.com\",\"194 xwj.ooiy.com\",\"254 com\",\"60 itbi.com\",\"60 rhc.itbi.com\",\"778 gbj.hjyl.org\",\"778 hjyl.org\",\"945 org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"749 oau.dwhd.org\",\"423 wxv.fgzn.org\",\"299 jtv.lpvs.org\",\"679 okq.kwhf.org\",\"881 mcf.xtxq.org\",\"40 nwx.urqf.org\",\"69 bzm.qdwa.org\",\"244 ksf.eckn.com\"]]",
+    "expectedOutput": "[\"244 com\",\"244 eckn.com\",\"244 ksf.eckn.com\",\"299 jtv.lpvs.org\",\"299 lpvs.org\",\"3140 org\",\"40 nwx.urqf.org\",\"40 urqf.org\",\"423 fgzn.org\",\"423 wxv.fgzn.org\",\"679 kwhf.org\",\"679 okq.kwhf.org\",\"69 bzm.qdwa.org\",\"69 qdwa.org\",\"749 dwhd.org\",\"749 oau.dwhd.org\",\"881 mcf.xtxq.org\",\"881 xtxq.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"204 bbl.phjq.org\",\"944 smm.yapr.org\",\"656 vtz.xtqe.org\",\"438 def.ggei.com\",\"830 rxc.prhx.com\",\"10 kuf.dbvd.org\",\"340 tai.wwqu.com\",\"949 jkj.wagc.org\"]]",
+    "expectedOutput": "[\"10 dbvd.org\",\"10 kuf.dbvd.org\",\"1608 com\",\"204 bbl.phjq.org\",\"204 phjq.org\",\"2763 org\",\"340 tai.wwqu.com\",\"340 wwqu.com\",\"438 def.ggei.com\",\"438 ggei.com\",\"656 vtz.xtqe.org\",\"656 xtqe.org\",\"830 prhx.com\",\"830 rxc.prhx.com\",\"944 smm.yapr.org\",\"944 yapr.org\",\"949 jkj.wagc.org\",\"949 wagc.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"710 vuo.lyhb.org\",\"575 fos.ljqz.org\",\"512 hrk.xano.com\"]]",
+    "expectedOutput": "[\"1285 org\",\"512 com\",\"512 hrk.xano.com\",\"512 xano.com\",\"575 fos.ljqz.org\",\"575 ljqz.org\",\"710 lyhb.org\",\"710 vuo.lyhb.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"991 neh.visz.com\",\"634 txl.puqo.org\",\"809 awr.kmdv.com\",\"405 xgq.prwt.com\",\"462 ych.zuxz.org\",\"544 lqf.rsaw.com\"]]",
+    "expectedOutput": "[\"1096 org\",\"2749 com\",\"405 prwt.com\",\"405 xgq.prwt.com\",\"462 ych.zuxz.org\",\"462 zuxz.org\",\"544 lqf.rsaw.com\",\"544 rsaw.com\",\"634 puqo.org\",\"634 txl.puqo.org\",\"809 awr.kmdv.com\",\"809 kmdv.com\",\"991 neh.visz.com\",\"991 visz.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"100 rnh.nrqt.com\",\"971 cqd.spwt.com\",\"446 xua.myzt.com\",\"881 aks.uesb.org\",\"406 odw.vwcd.com\",\"613 sid.hlky.org\"]]",
+    "expectedOutput": "[\"100 nrqt.com\",\"100 rnh.nrqt.com\",\"1494 org\",\"1923 com\",\"406 odw.vwcd.com\",\"406 vwcd.com\",\"446 myzt.com\",\"446 xua.myzt.com\",\"613 hlky.org\",\"613 sid.hlky.org\",\"881 aks.uesb.org\",\"881 uesb.org\",\"971 cqd.spwt.com\",\"971 spwt.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"566 hln.zxku.com\",\"318 pjp.hzym.com\",\"995 cvu.uqwd.org\",\"701 kyt.vemi.org\"]]",
+    "expectedOutput": "[\"1696 org\",\"318 hzym.com\",\"318 pjp.hzym.com\",\"566 hln.zxku.com\",\"566 zxku.com\",\"701 kyt.vemi.org\",\"701 vemi.org\",\"884 com\",\"995 cvu.uqwd.org\",\"995 uqwd.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"230 ark.vcly.org\",\"377 mzd.selh.org\",\"233 mdb.aiac.com\",\"142 zab.rory.org\"]]",
+    "expectedOutput": "[\"142 rory.org\",\"142 zab.rory.org\",\"230 ark.vcly.org\",\"230 vcly.org\",\"233 aiac.com\",\"233 com\",\"233 mdb.aiac.com\",\"377 mzd.selh.org\",\"377 selh.org\",\"749 org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"276 mvw.yfhc.org\",\"215 puw.nppu.org\",\"878 ovq.etlq.org\"]]",
+    "expectedOutput": "[\"1369 org\",\"215 nppu.org\",\"215 puw.nppu.org\",\"276 mvw.yfhc.org\",\"276 yfhc.org\",\"878 etlq.org\",\"878 ovq.etlq.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"224 vwa.kbbv.com\",\"663 umb.edqb.org\",\"265 nrd.cffb.com\",\"846 qra.gcjy.org\"]]",
+    "expectedOutput": "[\"1509 org\",\"224 kbbv.com\",\"224 vwa.kbbv.com\",\"265 cffb.com\",\"265 nrd.cffb.com\",\"489 com\",\"663 edqb.org\",\"663 umb.edqb.org\",\"846 gcjy.org\",\"846 qra.gcjy.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"574 lxr.dlcj.org\",\"107 jce.irpa.com\",\"296 njp.blqg.com\",\"359 naj.abti.org\",\"863 gio.vfzn.org\",\"101 khl.hsrd.com\",\"172 qgm.qebo.com\"]]",
+    "expectedOutput": "[\"101 hsrd.com\",\"101 khl.hsrd.com\",\"107 irpa.com\",\"107 jce.irpa.com\",\"172 qebo.com\",\"172 qgm.qebo.com\",\"1796 org\",\"296 blqg.com\",\"296 njp.blqg.com\",\"359 abti.org\",\"359 naj.abti.org\",\"574 dlcj.org\",\"574 lxr.dlcj.org\",\"676 com\",\"863 gio.vfzn.org\",\"863 vfzn.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"863 waf.fukx.org\",\"704 lrf.kjyo.com\",\"255 jap.afmy.com\",\"76 dgj.cmlh.com\",\"397 xfd.cnri.org\",\"487 ouv.zcvb.org\",\"940 hxd.smmu.com\",\"337 mql.ghxw.com\"]]",
+    "expectedOutput": "[\"1747 org\",\"2312 com\",\"255 afmy.com\",\"255 jap.afmy.com\",\"337 ghxw.com\",\"337 mql.ghxw.com\",\"397 cnri.org\",\"397 xfd.cnri.org\",\"487 ouv.zcvb.org\",\"487 zcvb.org\",\"704 kjyo.com\",\"704 lrf.kjyo.com\",\"76 cmlh.com\",\"76 dgj.cmlh.com\",\"863 fukx.org\",\"863 waf.fukx.org\",\"940 hxd.smmu.com\",\"940 smmu.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"402 lph.ckfr.org\",\"413 fig.sdki.org\",\"867 blm.galp.com\",\"362 pbi.vaim.com\"]]",
+    "expectedOutput": "[\"1229 com\",\"362 pbi.vaim.com\",\"362 vaim.com\",\"402 ckfr.org\",\"402 lph.ckfr.org\",\"413 fig.sdki.org\",\"413 sdki.org\",\"815 org\",\"867 blm.galp.com\",\"867 galp.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"696 ivk.iggi.com\",\"855 gfk.sgqn.com\",\"917 uox.cuza.com\",\"96 tcp.xdet.com\",\"328 htt.aoru.com\",\"485 itu.bcsv.org\",\"497 dwe.mrju.org\",\"588 rvd.qanp.org\"]]",
+    "expectedOutput": "[\"1570 org\",\"2892 com\",\"328 aoru.com\",\"328 htt.aoru.com\",\"485 bcsv.org\",\"485 itu.bcsv.org\",\"497 dwe.mrju.org\",\"497 mrju.org\",\"588 qanp.org\",\"588 rvd.qanp.org\",\"696 iggi.com\",\"696 ivk.iggi.com\",\"855 gfk.sgqn.com\",\"855 sgqn.com\",\"917 cuza.com\",\"917 uox.cuza.com\",\"96 tcp.xdet.com\",\"96 xdet.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"983 xjk.dzvk.com\",\"722 nbo.hnzu.org\",\"199 lak.iick.com\"]]",
+    "expectedOutput": "[\"1182 com\",\"199 iick.com\",\"199 lak.iick.com\",\"722 hnzu.org\",\"722 nbo.hnzu.org\",\"722 org\",\"983 dzvk.com\",\"983 xjk.dzvk.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"159 map.qntj.com\",\"206 ait.mnax.com\",\"210 xfv.phtk.com\",\"311 tnk.rgze.com\",\"341 esi.vstq.com\",\"28 tfa.vrts.org\",\"492 ffv.icgr.org\",\"855 dov.zmiz.org\"]]",
+    "expectedOutput": "[\"1227 com\",\"1375 org\",\"159 map.qntj.com\",\"159 qntj.com\",\"206 ait.mnax.com\",\"206 mnax.com\",\"210 phtk.com\",\"210 xfv.phtk.com\",\"28 tfa.vrts.org\",\"28 vrts.org\",\"311 rgze.com\",\"311 tnk.rgze.com\",\"341 esi.vstq.com\",\"341 vstq.com\",\"492 ffv.icgr.org\",\"492 icgr.org\",\"855 dov.zmiz.org\",\"855 zmiz.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"957 jlz.oarv.org\",\"702 wch.fwux.com\",\"69 fhy.jeav.org\",\"744 nmo.vrfs.com\",\"590 bjg.ugta.com\",\"513 zul.vvjv.com\",\"997 bwk.qyul.com\"]]",
+    "expectedOutput": "[\"1026 org\",\"3546 com\",\"513 vvjv.com\",\"513 zul.vvjv.com\",\"590 bjg.ugta.com\",\"590 ugta.com\",\"69 fhy.jeav.org\",\"69 jeav.org\",\"702 fwux.com\",\"702 wch.fwux.com\",\"744 nmo.vrfs.com\",\"744 vrfs.com\",\"957 jlz.oarv.org\",\"957 oarv.org\",\"997 bwk.qyul.com\",\"997 qyul.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"506 imz.gjgm.org\",\"315 wxj.nncn.org\",\"745 ifj.gvvd.org\",\"340 qnc.ejbn.com\",\"305 jmp.scvc.org\",\"893 jxi.wuhr.org\",\"567 wut.ursp.org\"]]",
+    "expectedOutput": "[\"305 jmp.scvc.org\",\"305 scvc.org\",\"315 nncn.org\",\"315 wxj.nncn.org\",\"3331 org\",\"340 com\",\"340 ejbn.com\",\"340 qnc.ejbn.com\",\"506 gjgm.org\",\"506 imz.gjgm.org\",\"567 ursp.org\",\"567 wut.ursp.org\",\"745 gvvd.org\",\"745 ifj.gvvd.org\",\"893 jxi.wuhr.org\",\"893 wuhr.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"143 zfg.qwna.com\",\"226 zmu.iedr.com\",\"914 cwr.iyjq.org\"]]",
+    "expectedOutput": "[\"143 qwna.com\",\"143 zfg.qwna.com\",\"226 iedr.com\",\"226 zmu.iedr.com\",\"369 com\",\"914 cwr.iyjq.org\",\"914 iyjq.org\",\"914 org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"488 hec.lbcd.org\",\"41 shp.dmgb.org\",\"98 nja.hbxz.org\",\"22 wen.oeuk.com\",\"49 ias.flia.org\",\"669 upb.rgrz.com\",\"960 owy.rzml.com\",\"247 gby.vuad.org\"]]",
+    "expectedOutput": "[\"1651 com\",\"22 oeuk.com\",\"22 wen.oeuk.com\",\"247 gby.vuad.org\",\"247 vuad.org\",\"41 dmgb.org\",\"41 shp.dmgb.org\",\"488 hec.lbcd.org\",\"488 lbcd.org\",\"49 flia.org\",\"49 ias.flia.org\",\"669 rgrz.com\",\"669 upb.rgrz.com\",\"923 org\",\"960 owy.rzml.com\",\"960 rzml.com\",\"98 hbxz.org\",\"98 nja.hbxz.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"792 nar.mjdm.org\",\"688 nqk.ewvn.com\",\"487 zcx.yfrt.org\",\"918 zoa.ailg.org\"]]",
+    "expectedOutput": "[\"2197 org\",\"487 yfrt.org\",\"487 zcx.yfrt.org\",\"688 com\",\"688 ewvn.com\",\"688 nqk.ewvn.com\",\"792 mjdm.org\",\"792 nar.mjdm.org\",\"918 ailg.org\",\"918 zoa.ailg.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"438 ogo.lgla.org\",\"592 ayq.cfrs.org\",\"642 qur.kyrl.com\",\"856 sdr.qdxd.org\"]]",
+    "expectedOutput": "[\"1886 org\",\"438 lgla.org\",\"438 ogo.lgla.org\",\"592 ayq.cfrs.org\",\"592 cfrs.org\",\"642 com\",\"642 kyrl.com\",\"642 qur.kyrl.com\",\"856 qdxd.org\",\"856 sdr.qdxd.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"385 lry.bham.com\",\"513 dbz.ngew.com\",\"504 akg.ilnm.com\",\"755 pnp.nkmq.com\",\"946 iki.hgnb.org\"]]",
+    "expectedOutput": "[\"2157 com\",\"385 bham.com\",\"385 lry.bham.com\",\"504 akg.ilnm.com\",\"504 ilnm.com\",\"513 dbz.ngew.com\",\"513 ngew.com\",\"755 nkmq.com\",\"755 pnp.nkmq.com\",\"946 hgnb.org\",\"946 iki.hgnb.org\",\"946 org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"667 yrx.ucmo.org\",\"175 eai.fljr.org\",\"784 kxs.yuyj.com\",\"162 ecv.ahyb.com\"]]",
+    "expectedOutput": "[\"162 ahyb.com\",\"162 ecv.ahyb.com\",\"175 eai.fljr.org\",\"175 fljr.org\",\"667 ucmo.org\",\"667 yrx.ucmo.org\",\"784 kxs.yuyj.com\",\"784 yuyj.com\",\"842 org\",\"946 com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"442 era.hlha.com\",\"961 pqb.njrt.com\",\"814 fpx.tuqg.org\",\"821 aoy.nceg.org\"]]",
+    "expectedOutput": "[\"1403 com\",\"1635 org\",\"442 era.hlha.com\",\"442 hlha.com\",\"814 fpx.tuqg.org\",\"814 tuqg.org\",\"821 aoy.nceg.org\",\"821 nceg.org\",\"961 njrt.com\",\"961 pqb.njrt.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"619 ccs.wwxd.com\",\"324 mhp.enin.org\",\"429 kky.xirx.org\",\"333 ucq.ljfr.org\",\"247 cfa.dzrw.org\"]]",
+    "expectedOutput": "[\"1333 org\",\"247 cfa.dzrw.org\",\"247 dzrw.org\",\"324 enin.org\",\"324 mhp.enin.org\",\"333 ljfr.org\",\"333 ucq.ljfr.org\",\"429 kky.xirx.org\",\"429 xirx.org\",\"619 ccs.wwxd.com\",\"619 com\",\"619 wwxd.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"729 isk.hmfw.com\",\"896 sjh.iqfk.com\",\"446 oqq.tsgr.com\",\"914 evt.sxkh.com\"]]",
+    "expectedOutput": "[\"2985 com\",\"446 oqq.tsgr.com\",\"446 tsgr.com\",\"729 hmfw.com\",\"729 isk.hmfw.com\",\"896 iqfk.com\",\"896 sjh.iqfk.com\",\"914 evt.sxkh.com\",\"914 sxkh.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"205 mnl.oyhr.org\",\"754 mtd.nyee.com\",\"57 utk.jqdm.org\",\"906 ija.nojr.org\",\"149 skv.ynqq.org\",\"868 opc.cxuq.com\",\"244 sjz.hjec.org\",\"497 lgz.omfn.com\"]]",
+    "expectedOutput": "[\"149 skv.ynqq.org\",\"149 ynqq.org\",\"1561 org\",\"205 mnl.oyhr.org\",\"205 oyhr.org\",\"2119 com\",\"244 hjec.org\",\"244 sjz.hjec.org\",\"497 lgz.omfn.com\",\"497 omfn.com\",\"57 jqdm.org\",\"57 utk.jqdm.org\",\"754 mtd.nyee.com\",\"754 nyee.com\",\"868 cxuq.com\",\"868 opc.cxuq.com\",\"906 ija.nojr.org\",\"906 nojr.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"571 wkw.meid.org\",\"364 ubp.ewgl.com\",\"522 jks.vikt.org\",\"297 ddm.alrs.org\"]]",
+    "expectedOutput": "[\"1390 org\",\"297 alrs.org\",\"297 ddm.alrs.org\",\"364 com\",\"364 ewgl.com\",\"364 ubp.ewgl.com\",\"522 jks.vikt.org\",\"522 vikt.org\",\"571 meid.org\",\"571 wkw.meid.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"10 dsz.zlud.org\",\"557 hcd.cnpf.com\",\"945 rja.obht.com\"]]",
+    "expectedOutput": "[\"10 dsz.zlud.org\",\"10 org\",\"10 zlud.org\",\"1502 com\",\"557 cnpf.com\",\"557 hcd.cnpf.com\",\"945 obht.com\",\"945 rja.obht.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"318 fsk.whjk.org\",\"991 ukl.efyi.com\",\"95 gnf.ojyq.org\",\"723 pri.spxh.org\"]]",
+    "expectedOutput": "[\"1136 org\",\"318 fsk.whjk.org\",\"318 whjk.org\",\"723 pri.spxh.org\",\"723 spxh.org\",\"95 gnf.ojyq.org\",\"95 ojyq.org\",\"991 com\",\"991 efyi.com\",\"991 ukl.efyi.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"531 uzt.cyrx.com\",\"867 fql.zkeo.org\",\"754 mhq.ufol.org\",\"255 ggu.lowo.org\",\"861 ljy.kpvg.org\"]]",
+    "expectedOutput": "[\"255 ggu.lowo.org\",\"255 lowo.org\",\"2737 org\",\"531 com\",\"531 cyrx.com\",\"531 uzt.cyrx.com\",\"754 mhq.ufol.org\",\"754 ufol.org\",\"861 kpvg.org\",\"861 ljy.kpvg.org\",\"867 fql.zkeo.org\",\"867 zkeo.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"127 jzm.gaof.com\",\"56 iqn.goez.org\",\"182 jyk.segk.org\",\"866 bbm.lvwt.com\",\"448 bdt.ugei.org\",\"496 vde.mnpa.com\",\"750 urj.lwwh.org\"]]",
+    "expectedOutput": "[\"127 gaof.com\",\"127 jzm.gaof.com\",\"1436 org\",\"1489 com\",\"182 jyk.segk.org\",\"182 segk.org\",\"448 bdt.ugei.org\",\"448 ugei.org\",\"496 mnpa.com\",\"496 vde.mnpa.com\",\"56 goez.org\",\"56 iqn.goez.org\",\"750 lwwh.org\",\"750 urj.lwwh.org\",\"866 bbm.lvwt.com\",\"866 lvwt.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"840 ogi.seij.com\",\"995 atv.mhqf.com\",\"859 rip.llwy.org\",\"836 fou.cuvi.org\"]]",
+    "expectedOutput": "[\"1695 org\",\"1835 com\",\"836 cuvi.org\",\"836 fou.cuvi.org\",\"840 ogi.seij.com\",\"840 seij.com\",\"859 llwy.org\",\"859 rip.llwy.org\",\"995 atv.mhqf.com\",\"995 mhqf.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"705 wsn.psnt.org\",\"444 rpe.uyuy.com\",\"877 dxc.cjdy.com\",\"89 hyn.xxbj.com\",\"586 awy.bgqc.org\",\"473 qnr.wopn.org\",\"471 rla.zthx.com\"]]",
+    "expectedOutput": "[\"1764 org\",\"1881 com\",\"444 rpe.uyuy.com\",\"444 uyuy.com\",\"471 rla.zthx.com\",\"471 zthx.com\",\"473 qnr.wopn.org\",\"473 wopn.org\",\"586 awy.bgqc.org\",\"586 bgqc.org\",\"705 psnt.org\",\"705 wsn.psnt.org\",\"877 cjdy.com\",\"877 dxc.cjdy.com\",\"89 hyn.xxbj.com\",\"89 xxbj.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"695 deb.mkhu.org\",\"263 yac.xecf.org\",\"644 qxw.toxq.org\",\"88 pyc.tndc.org\",\"635 zva.reax.org\",\"169 mrr.byzv.com\",\"718 xhm.zpbr.org\"]]",
+    "expectedOutput": "[\"169 byzv.com\",\"169 com\",\"169 mrr.byzv.com\",\"263 xecf.org\",\"263 yac.xecf.org\",\"3043 org\",\"635 reax.org\",\"635 zva.reax.org\",\"644 qxw.toxq.org\",\"644 toxq.org\",\"695 deb.mkhu.org\",\"695 mkhu.org\",\"718 xhm.zpbr.org\",\"718 zpbr.org\",\"88 pyc.tndc.org\",\"88 tndc.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"273 dsj.fgan.org\",\"822 sah.fpsv.org\",\"120 zxj.hljt.org\"]]",
+    "expectedOutput": "[\"120 hljt.org\",\"120 zxj.hljt.org\",\"1215 org\",\"273 dsj.fgan.org\",\"273 fgan.org\",\"822 fpsv.org\",\"822 sah.fpsv.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"11 hrw.gzbn.org\",\"347 cxq.gycd.org\",\"192 mdx.fhoc.com\",\"708 mad.evgy.com\",\"33 nyp.xgjt.org\",\"98 fbn.rnxv.com\",\"311 ztk.ovek.com\"]]",
+    "expectedOutput": "[\"11 gzbn.org\",\"11 hrw.gzbn.org\",\"1309 com\",\"192 fhoc.com\",\"192 mdx.fhoc.com\",\"311 ovek.com\",\"311 ztk.ovek.com\",\"33 nyp.xgjt.org\",\"33 xgjt.org\",\"347 cxq.gycd.org\",\"347 gycd.org\",\"391 org\",\"708 evgy.com\",\"708 mad.evgy.com\",\"98 fbn.rnxv.com\",\"98 rnxv.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"946 dwu.pyzr.org\",\"689 pbx.ngpv.org\",\"980 luk.lhql.com\",\"102 euk.qioq.org\",\"716 dww.nzxb.com\"]]",
+    "expectedOutput": "[\"102 euk.qioq.org\",\"102 qioq.org\",\"1696 com\",\"1737 org\",\"689 ngpv.org\",\"689 pbx.ngpv.org\",\"716 dww.nzxb.com\",\"716 nzxb.com\",\"946 dwu.pyzr.org\",\"946 pyzr.org\",\"980 lhql.com\",\"980 luk.lhql.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"905 tkf.xbrz.org\",\"646 qzg.jble.org\",\"980 coh.nney.com\",\"358 dqt.uigu.com\"]]",
+    "expectedOutput": "[\"1338 com\",\"1551 org\",\"358 dqt.uigu.com\",\"358 uigu.com\",\"646 jble.org\",\"646 qzg.jble.org\",\"905 tkf.xbrz.org\",\"905 xbrz.org\",\"980 coh.nney.com\",\"980 nney.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"429 uxx.qdzu.org\",\"593 evv.gjcx.org\",\"955 zjd.rilw.org\",\"906 rgx.fnlp.com\"]]",
+    "expectedOutput": "[\"1977 org\",\"429 qdzu.org\",\"429 uxx.qdzu.org\",\"593 evv.gjcx.org\",\"593 gjcx.org\",\"906 com\",\"906 fnlp.com\",\"906 rgx.fnlp.com\",\"955 rilw.org\",\"955 zjd.rilw.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"688 mky.owtg.org\",\"428 jvd.ybfl.org\",\"960 xak.poom.org\",\"127 wyo.dgat.org\",\"955 cyq.xqvb.com\"]]",
+    "expectedOutput": "[\"127 dgat.org\",\"127 wyo.dgat.org\",\"2203 org\",\"428 jvd.ybfl.org\",\"428 ybfl.org\",\"688 mky.owtg.org\",\"688 owtg.org\",\"955 com\",\"955 cyq.xqvb.com\",\"955 xqvb.com\",\"960 poom.org\",\"960 xak.poom.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"122 wok.ohpt.org\",\"785 ytv.gdtk.org\",\"429 hky.ppiv.com\",\"158 clg.eyjc.org\",\"561 amm.tpot.org\",\"295 dna.yrec.org\",\"986 sqx.svhj.com\",\"975 kuu.fzmi.org\"]]",
+    "expectedOutput": "[\"122 ohpt.org\",\"122 wok.ohpt.org\",\"1415 com\",\"158 clg.eyjc.org\",\"158 eyjc.org\",\"2896 org\",\"295 dna.yrec.org\",\"295 yrec.org\",\"429 hky.ppiv.com\",\"429 ppiv.com\",\"561 amm.tpot.org\",\"561 tpot.org\",\"785 gdtk.org\",\"785 ytv.gdtk.org\",\"975 fzmi.org\",\"975 kuu.fzmi.org\",\"986 sqx.svhj.com\",\"986 svhj.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"437 nrf.jzcx.org\",\"418 lse.efvu.com\",\"32 gct.teuu.org\",\"373 zmt.tznp.com\",\"410 xet.dcpm.com\",\"709 vck.jcrs.org\",\"657 ufs.jgei.org\"]]",
+    "expectedOutput": "[\"1201 com\",\"1835 org\",\"32 gct.teuu.org\",\"32 teuu.org\",\"373 tznp.com\",\"373 zmt.tznp.com\",\"410 dcpm.com\",\"410 xet.dcpm.com\",\"418 efvu.com\",\"418 lse.efvu.com\",\"437 jzcx.org\",\"437 nrf.jzcx.org\",\"657 jgei.org\",\"657 ufs.jgei.org\",\"709 jcrs.org\",\"709 vck.jcrs.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"69 edr.ello.com\",\"260 mcf.jnxa.org\",\"772 efz.axos.org\",\"568 itc.rmxi.org\",\"556 uba.tsdp.com\",\"952 mdo.blyo.com\",\"786 kiz.weaq.com\",\"790 dhc.snua.org\",\"813 sat.bgxj.com\",\"825 uhu.bdip.com\",\"222 shy.awqk.org\"]]",
+    "expectedOutput": "[\"222 awqk.org\",\"222 shy.awqk.org\",\"260 jnxa.org\",\"260 mcf.jnxa.org\",\"2612 org\",\"4001 com\",\"556 tsdp.com\",\"556 uba.tsdp.com\",\"568 itc.rmxi.org\",\"568 rmxi.org\",\"69 edr.ello.com\",\"69 ello.com\",\"772 axos.org\",\"772 efz.axos.org\",\"786 kiz.weaq.com\",\"786 weaq.com\",\"790 dhc.snua.org\",\"790 snua.org\",\"813 bgxj.com\",\"813 sat.bgxj.com\",\"825 bdip.com\",\"825 uhu.bdip.com\",\"952 blyo.com\",\"952 mdo.blyo.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"853 yds.ibkz.org\",\"361 fqj.punp.com\",\"667 xci.qqxa.com\",\"935 nkc.womj.org\",\"736 xmg.zgrf.org\",\"649 mct.ryrk.com\",\"201 gmi.vdat.com\",\"802 nac.ugwo.com\",\"36 mlj.fsgu.com\",\"691 svh.bfan.com\"]]",
+    "expectedOutput": "[\"201 gmi.vdat.com\",\"201 vdat.com\",\"2524 org\",\"3407 com\",\"36 fsgu.com\",\"36 mlj.fsgu.com\",\"361 fqj.punp.com\",\"361 punp.com\",\"649 mct.ryrk.com\",\"649 ryrk.com\",\"667 qqxa.com\",\"667 xci.qqxa.com\",\"691 bfan.com\",\"691 svh.bfan.com\",\"736 xmg.zgrf.org\",\"736 zgrf.org\",\"802 nac.ugwo.com\",\"802 ugwo.com\",\"853 ibkz.org\",\"853 yds.ibkz.org\",\"935 nkc.womj.org\",\"935 womj.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"202 xlz.rtzt.org\",\"437 euy.vamo.com\",\"818 xmz.hkpj.org\",\"366 fwo.ohoc.com\",\"67 hsh.vddm.com\",\"365 ygn.fxnq.com\",\"531 lov.kzev.com\",\"647 dix.qdui.org\",\"298 lvv.conc.org\",\"757 lso.myxa.com\",\"919 rbe.jcbv.org\"]]",
+    "expectedOutput": "[\"202 rtzt.org\",\"202 xlz.rtzt.org\",\"2523 com\",\"2884 org\",\"298 conc.org\",\"298 lvv.conc.org\",\"365 fxnq.com\",\"365 ygn.fxnq.com\",\"366 fwo.ohoc.com\",\"366 ohoc.com\",\"437 euy.vamo.com\",\"437 vamo.com\",\"531 kzev.com\",\"531 lov.kzev.com\",\"647 dix.qdui.org\",\"647 qdui.org\",\"67 hsh.vddm.com\",\"67 vddm.com\",\"757 lso.myxa.com\",\"757 myxa.com\",\"818 hkpj.org\",\"818 xmz.hkpj.org\",\"919 jcbv.org\",\"919 rbe.jcbv.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"830 vup.khas.com\",\"353 fxg.meed.org\",\"285 ebh.ncqx.org\",\"538 mmm.zzve.org\",\"423 gtr.ryhx.com\",\"120 evq.lwpt.org\",\"529 aat.bidz.org\",\"265 dfh.gqbb.org\",\"122 spv.epyq.org\",\"275 jdh.pqrs.com\",\"630 yoq.dcez.com\",\"754 sth.gqjg.org\",\"556 wzo.mbph.com\",\"570 pix.kaye.com\",\"66 ulh.vrjo.org\",\"247 vap.aphr.com\"]]",
+    "expectedOutput": "[\"120 evq.lwpt.org\",\"120 lwpt.org\",\"122 epyq.org\",\"122 spv.epyq.org\",\"247 aphr.com\",\"247 vap.aphr.com\",\"265 dfh.gqbb.org\",\"265 gqbb.org\",\"275 jdh.pqrs.com\",\"275 pqrs.com\",\"285 ebh.ncqx.org\",\"285 ncqx.org\",\"3032 org\",\"353 fxg.meed.org\",\"353 meed.org\",\"3531 com\",\"423 gtr.ryhx.com\",\"423 ryhx.com\",\"529 aat.bidz.org\",\"529 bidz.org\",\"538 mmm.zzve.org\",\"538 zzve.org\",\"556 mbph.com\",\"556 wzo.mbph.com\",\"570 kaye.com\",\"570 pix.kaye.com\",\"630 dcez.com\",\"630 yoq.dcez.com\",\"66 ulh.vrjo.org\",\"66 vrjo.org\",\"754 gqjg.org\",\"754 sth.gqjg.org\",\"830 khas.com\",\"830 vup.khas.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"950 dtp.rwcl.com\",\"980 lnl.xvbd.com\",\"521 sln.hfvu.org\",\"73 adi.ffme.com\",\"288 wab.aivc.com\",\"269 ipl.ihge.com\",\"452 hfg.xvzj.com\",\"555 avu.qmsg.org\",\"366 jnn.kknv.com\",\"641 exf.vsur.org\",\"622 zur.knsc.org\",\"691 oiw.ette.com\",\"634 kie.jrpf.org\",\"157 yoy.poul.com\",\"564 gpq.ilyl.com\",\"955 sji.obnj.com\",\"718 fqj.mnpl.com\",\"307 gjj.chtw.org\",\"157 sub.eluu.com\",\"234 bhz.bwct.org\"]]",
+    "expectedOutput": "[\"157 eluu.com\",\"157 poul.com\",\"157 sub.eluu.com\",\"157 yoy.poul.com\",\"234 bhz.bwct.org\",\"234 bwct.org\",\"269 ihge.com\",\"269 ipl.ihge.com\",\"288 aivc.com\",\"288 wab.aivc.com\",\"307 chtw.org\",\"307 gjj.chtw.org\",\"3514 org\",\"366 jnn.kknv.com\",\"366 kknv.com\",\"452 hfg.xvzj.com\",\"452 xvzj.com\",\"521 hfvu.org\",\"521 sln.hfvu.org\",\"555 avu.qmsg.org\",\"555 qmsg.org\",\"564 gpq.ilyl.com\",\"564 ilyl.com\",\"622 knsc.org\",\"622 zur.knsc.org\",\"634 jrpf.org\",\"634 kie.jrpf.org\",\"641 exf.vsur.org\",\"641 vsur.org\",\"6620 com\",\"691 ette.com\",\"691 oiw.ette.com\",\"718 fqj.mnpl.com\",\"718 mnpl.com\",\"73 adi.ffme.com\",\"73 ffme.com\",\"950 dtp.rwcl.com\",\"950 rwcl.com\",\"955 obnj.com\",\"955 sji.obnj.com\",\"980 lnl.xvbd.com\",\"980 xvbd.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"78 gel.rjlq.com\",\"399 oni.ogos.org\",\"728 lfg.mhss.com\",\"382 koh.pcsa.org\",\"81 ijt.jrlr.com\",\"194 cwe.nion.com\",\"203 lio.vuji.com\",\"531 hel.dpip.com\"]]",
+    "expectedOutput": "[\"1815 com\",\"194 cwe.nion.com\",\"194 nion.com\",\"203 lio.vuji.com\",\"203 vuji.com\",\"382 koh.pcsa.org\",\"382 pcsa.org\",\"399 ogos.org\",\"399 oni.ogos.org\",\"531 dpip.com\",\"531 hel.dpip.com\",\"728 lfg.mhss.com\",\"728 mhss.com\",\"78 gel.rjlq.com\",\"78 rjlq.com\",\"781 org\",\"81 ijt.jrlr.com\",\"81 jrlr.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"71 kjq.myhl.org\",\"914 fbc.ixmz.org\",\"158 spg.wdqf.com\",\"726 rkq.peoy.com\",\"197 xdm.kjof.com\",\"625 vuf.awdp.org\",\"958 zlz.gsag.com\",\"295 tvt.vaeq.org\",\"925 hlu.sqtx.org\",\"215 ibg.hfiu.org\"]]",
+    "expectedOutput": "[\"158 spg.wdqf.com\",\"158 wdqf.com\",\"197 kjof.com\",\"197 xdm.kjof.com\",\"2039 com\",\"215 hfiu.org\",\"215 ibg.hfiu.org\",\"295 tvt.vaeq.org\",\"295 vaeq.org\",\"3045 org\",\"625 awdp.org\",\"625 vuf.awdp.org\",\"71 kjq.myhl.org\",\"71 myhl.org\",\"726 peoy.com\",\"726 rkq.peoy.com\",\"914 fbc.ixmz.org\",\"914 ixmz.org\",\"925 hlu.sqtx.org\",\"925 sqtx.org\",\"958 gsag.com\",\"958 zlz.gsag.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"42 qyp.ppqv.org\",\"282 xnw.jkvo.com\",\"631 dnr.meuz.com\",\"365 xqh.hfwl.com\",\"490 lzr.jerh.com\",\"842 amn.nzrw.org\",\"815 dul.cmbh.com\",\"622 nhh.dwcl.com\",\"478 cfr.rxwn.com\",\"573 gux.wytv.com\",\"437 bfy.vtzs.org\",\"679 ofg.evpq.org\",\"79 gwp.jubq.org\",\"271 xep.odmp.com\",\"501 ytt.zkei.org\",\"59 dvu.wgdp.org\"]]",
+    "expectedOutput": "[\"2639 org\",\"271 odmp.com\",\"271 xep.odmp.com\",\"282 jkvo.com\",\"282 xnw.jkvo.com\",\"365 hfwl.com\",\"365 xqh.hfwl.com\",\"42 ppqv.org\",\"42 qyp.ppqv.org\",\"437 bfy.vtzs.org\",\"437 vtzs.org\",\"4527 com\",\"478 cfr.rxwn.com\",\"478 rxwn.com\",\"490 jerh.com\",\"490 lzr.jerh.com\",\"501 ytt.zkei.org\",\"501 zkei.org\",\"573 gux.wytv.com\",\"573 wytv.com\",\"59 dvu.wgdp.org\",\"59 wgdp.org\",\"622 dwcl.com\",\"622 nhh.dwcl.com\",\"631 dnr.meuz.com\",\"631 meuz.com\",\"679 evpq.org\",\"679 ofg.evpq.org\",\"79 gwp.jubq.org\",\"79 jubq.org\",\"815 cmbh.com\",\"815 dul.cmbh.com\",\"842 amn.nzrw.org\",\"842 nzrw.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"198 wdp.ttuj.org\",\"206 rfv.qayp.org\",\"698 sti.ybob.org\",\"166 los.mrig.com\",\"155 vqe.vrjc.org\",\"36 hjt.pzcj.org\",\"187 iqz.xmda.com\",\"259 pyo.dlch.com\",\"466 zcy.rxud.org\",\"711 yvi.epyi.org\",\"447 pfi.tnlr.org\",\"421 wae.bvms.org\",\"87 wsw.bram.org\",\"217 mwe.qkti.org\",\"674 csl.vtft.com\"]]",
+    "expectedOutput": "[\"1286 com\",\"155 vqe.vrjc.org\",\"155 vrjc.org\",\"166 los.mrig.com\",\"166 mrig.com\",\"187 iqz.xmda.com\",\"187 xmda.com\",\"198 ttuj.org\",\"198 wdp.ttuj.org\",\"206 qayp.org\",\"206 rfv.qayp.org\",\"217 mwe.qkti.org\",\"217 qkti.org\",\"259 dlch.com\",\"259 pyo.dlch.com\",\"36 hjt.pzcj.org\",\"36 pzcj.org\",\"3642 org\",\"421 bvms.org\",\"421 wae.bvms.org\",\"447 pfi.tnlr.org\",\"447 tnlr.org\",\"466 rxud.org\",\"466 zcy.rxud.org\",\"674 csl.vtft.com\",\"674 vtft.com\",\"698 sti.ybob.org\",\"698 ybob.org\",\"711 epyi.org\",\"711 yvi.epyi.org\",\"87 bram.org\",\"87 wsw.bram.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"364 dlp.jqte.com\",\"733 pac.wvgm.org\",\"819 dxn.mauu.com\",\"867 bks.zhxc.com\",\"632 hsq.jnlp.com\",\"867 xzj.jxyo.org\",\"720 mke.kors.com\",\"444 vgx.iyjb.com\",\"193 htk.vzwd.com\"]]",
+    "expectedOutput": "[\"1600 org\",\"193 htk.vzwd.com\",\"193 vzwd.com\",\"364 dlp.jqte.com\",\"364 jqte.com\",\"4039 com\",\"444 iyjb.com\",\"444 vgx.iyjb.com\",\"632 hsq.jnlp.com\",\"632 jnlp.com\",\"720 kors.com\",\"720 mke.kors.com\",\"733 pac.wvgm.org\",\"733 wvgm.org\",\"819 dxn.mauu.com\",\"819 mauu.com\",\"867 bks.zhxc.com\",\"867 jxyo.org\",\"867 xzj.jxyo.org\",\"867 zhxc.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"293 nwo.tieb.org\",\"579 gbt.bwww.org\",\"878 acs.idkc.com\",\"393 eyb.yciq.com\",\"812 rls.klay.org\",\"61 luy.oknv.org\",\"559 fuj.wxxe.org\",\"694 vsz.ojyp.com\",\"27 gjn.atkh.org\",\"805 xyt.accb.com\",\"864 yqb.ndsa.org\",\"905 pld.lbdt.com\",\"462 uzf.mqum.org\",\"416 hyb.qcmj.org\",\"152 uvp.fpdg.com\",\"69 rkc.iifw.com\"]]",
+    "expectedOutput": "[\"152 fpdg.com\",\"152 uvp.fpdg.com\",\"27 atkh.org\",\"27 gjn.atkh.org\",\"293 nwo.tieb.org\",\"293 tieb.org\",\"3896 com\",\"393 eyb.yciq.com\",\"393 yciq.com\",\"4073 org\",\"416 hyb.qcmj.org\",\"416 qcmj.org\",\"462 mqum.org\",\"462 uzf.mqum.org\",\"559 fuj.wxxe.org\",\"559 wxxe.org\",\"579 bwww.org\",\"579 gbt.bwww.org\",\"61 luy.oknv.org\",\"61 oknv.org\",\"69 iifw.com\",\"69 rkc.iifw.com\",\"694 ojyp.com\",\"694 vsz.ojyp.com\",\"805 accb.com\",\"805 xyt.accb.com\",\"812 klay.org\",\"812 rls.klay.org\",\"864 ndsa.org\",\"864 yqb.ndsa.org\",\"878 acs.idkc.com\",\"878 idkc.com\",\"905 lbdt.com\",\"905 pld.lbdt.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"761 xep.iwpn.com\",\"413 ekp.mzcx.org\",\"666 ivi.ghss.org\",\"617 qio.aavs.com\",\"582 vxi.vgdz.org\",\"740 npi.hfho.org\",\"138 hno.lynd.org\",\"903 mrk.jvzz.com\",\"714 xqh.ozrs.com\",\"403 wua.rvdw.org\",\"111 rbi.xpqf.com\",\"304 olp.kerb.com\"]]",
+    "expectedOutput": "[\"111 rbi.xpqf.com\",\"111 xpqf.com\",\"138 hno.lynd.org\",\"138 lynd.org\",\"2942 org\",\"304 kerb.com\",\"304 olp.kerb.com\",\"3410 com\",\"403 rvdw.org\",\"403 wua.rvdw.org\",\"413 ekp.mzcx.org\",\"413 mzcx.org\",\"582 vgdz.org\",\"582 vxi.vgdz.org\",\"617 aavs.com\",\"617 qio.aavs.com\",\"666 ghss.org\",\"666 ivi.ghss.org\",\"714 ozrs.com\",\"714 xqh.ozrs.com\",\"740 hfho.org\",\"740 npi.hfho.org\",\"761 iwpn.com\",\"761 xep.iwpn.com\",\"903 jvzz.com\",\"903 mrk.jvzz.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"82 qgo.pjwx.com\",\"15 jxf.pjjm.com\",\"840 xll.nwjt.com\",\"41 inw.qhgj.org\",\"568 sup.oplk.org\",\"577 nkv.xhwf.org\",\"689 mjr.ejma.org\",\"590 rou.lxyj.org\",\"850 pke.kxys.com\",\"799 owq.wnev.org\",\"716 lvp.gogb.org\",\"191 hod.vdqx.org\",\"997 evn.bdll.com\",\"117 hqx.hyvx.com\"]]",
+    "expectedOutput": "[\"117 hqx.hyvx.com\",\"117 hyvx.com\",\"15 jxf.pjjm.com\",\"15 pjjm.com\",\"191 hod.vdqx.org\",\"191 vdqx.org\",\"2901 com\",\"41 inw.qhgj.org\",\"41 qhgj.org\",\"4171 org\",\"568 oplk.org\",\"568 sup.oplk.org\",\"577 nkv.xhwf.org\",\"577 xhwf.org\",\"590 lxyj.org\",\"590 rou.lxyj.org\",\"689 ejma.org\",\"689 mjr.ejma.org\",\"716 gogb.org\",\"716 lvp.gogb.org\",\"799 owq.wnev.org\",\"799 wnev.org\",\"82 pjwx.com\",\"82 qgo.pjwx.com\",\"840 nwjt.com\",\"840 xll.nwjt.com\",\"850 kxys.com\",\"850 pke.kxys.com\",\"997 bdll.com\",\"997 evn.bdll.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"175 gry.lmqs.org\",\"229 upk.ihfp.org\",\"96 miw.lgwb.com\",\"626 oky.yzzb.com\",\"44 rxg.jeab.com\",\"805 nlo.mxzf.org\",\"359 kgp.wega.org\",\"802 tjb.owhx.org\",\"142 hxl.ddsp.org\",\"514 lhk.vzwp.org\",\"23 use.povd.com\",\"759 zxs.drmb.org\",\"729 ejq.mubc.org\",\"37 rdt.xxoa.com\",\"16 cqe.iupl.org\",\"235 ter.psdw.org\",\"342 uvl.erab.com\"]]",
+    "expectedOutput": "[\"1168 com\",\"142 ddsp.org\",\"142 hxl.ddsp.org\",\"16 cqe.iupl.org\",\"16 iupl.org\",\"175 gry.lmqs.org\",\"175 lmqs.org\",\"229 ihfp.org\",\"229 upk.ihfp.org\",\"23 povd.com\",\"23 use.povd.com\",\"235 psdw.org\",\"235 ter.psdw.org\",\"342 erab.com\",\"342 uvl.erab.com\",\"359 kgp.wega.org\",\"359 wega.org\",\"37 rdt.xxoa.com\",\"37 xxoa.com\",\"44 jeab.com\",\"44 rxg.jeab.com\",\"4765 org\",\"514 lhk.vzwp.org\",\"514 vzwp.org\",\"626 oky.yzzb.com\",\"626 yzzb.com\",\"729 ejq.mubc.org\",\"729 mubc.org\",\"759 drmb.org\",\"759 zxs.drmb.org\",\"802 owhx.org\",\"802 tjb.owhx.org\",\"805 mxzf.org\",\"805 nlo.mxzf.org\",\"96 lgwb.com\",\"96 miw.lgwb.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"825 rjg.ogav.org\",\"908 ghv.bmwj.org\",\"20 vmd.pikb.org\",\"845 rer.ivab.com\",\"154 tbs.bien.org\",\"474 mhu.ifro.com\",\"59 zyl.wsrs.org\",\"689 kfm.aelb.org\",\"249 cmm.mral.org\",\"823 xhe.ilmt.com\",\"555 flo.zday.org\",\"611 xsr.gfpt.org\",\"196 wmo.pazb.com\",\"755 pst.pwca.com\",\"989 qcc.vkwy.org\",\"467 ccq.gmuj.com\"]]",
+    "expectedOutput": "[\"154 bien.org\",\"154 tbs.bien.org\",\"196 pazb.com\",\"196 wmo.pazb.com\",\"20 pikb.org\",\"20 vmd.pikb.org\",\"249 cmm.mral.org\",\"249 mral.org\",\"3560 com\",\"467 ccq.gmuj.com\",\"467 gmuj.com\",\"474 ifro.com\",\"474 mhu.ifro.com\",\"5059 org\",\"555 flo.zday.org\",\"555 zday.org\",\"59 wsrs.org\",\"59 zyl.wsrs.org\",\"611 gfpt.org\",\"611 xsr.gfpt.org\",\"689 aelb.org\",\"689 kfm.aelb.org\",\"755 pst.pwca.com\",\"755 pwca.com\",\"823 ilmt.com\",\"823 xhe.ilmt.com\",\"825 ogav.org\",\"825 rjg.ogav.org\",\"845 ivab.com\",\"845 rer.ivab.com\",\"908 bmwj.org\",\"908 ghv.bmwj.org\",\"989 qcc.vkwy.org\",\"989 vkwy.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"800 jeg.krlt.com\",\"712 aii.fncc.org\",\"297 wmj.mzwk.com\",\"773 aqw.htwt.org\",\"625 vnj.pyvx.com\",\"539 rlg.hutz.org\",\"56 pym.qeqi.org\",\"230 qot.fmct.org\",\"246 ajb.qrbi.org\",\"868 opa.zmde.com\",\"874 dmb.oday.org\"]]",
+    "expectedOutput": "[\"230 fmct.org\",\"230 qot.fmct.org\",\"246 ajb.qrbi.org\",\"246 qrbi.org\",\"2590 com\",\"297 mzwk.com\",\"297 wmj.mzwk.com\",\"3430 org\",\"539 hutz.org\",\"539 rlg.hutz.org\",\"56 pym.qeqi.org\",\"56 qeqi.org\",\"625 pyvx.com\",\"625 vnj.pyvx.com\",\"712 aii.fncc.org\",\"712 fncc.org\",\"773 aqw.htwt.org\",\"773 htwt.org\",\"800 jeg.krlt.com\",\"800 krlt.com\",\"868 opa.zmde.com\",\"868 zmde.com\",\"874 dmb.oday.org\",\"874 oday.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"730 yut.fvqk.com\",\"791 kkt.epha.org\",\"782 skc.kmok.com\",\"120 fwh.vbxn.com\",\"936 wzl.viyq.com\",\"816 tkf.xgap.org\",\"780 gpb.riqk.com\",\"820 hrd.xsns.com\",\"476 spv.ddlb.com\",\"643 vwm.fays.org\",\"789 eex.fcfg.com\",\"542 hfb.dcdt.org\",\"835 bjf.vrst.org\",\"449 ofw.zouo.com\",\"341 ubh.odnu.com\",\"213 azu.egvl.org\",\"320 feh.ehwt.com\",\"813 uby.fnxr.com\",\"915 xpg.sbcx.com\"]]",
+    "expectedOutput": "[\"120 fwh.vbxn.com\",\"120 vbxn.com\",\"213 azu.egvl.org\",\"213 egvl.org\",\"320 ehwt.com\",\"320 feh.ehwt.com\",\"341 odnu.com\",\"341 ubh.odnu.com\",\"3840 org\",\"449 ofw.zouo.com\",\"449 zouo.com\",\"476 ddlb.com\",\"476 spv.ddlb.com\",\"542 dcdt.org\",\"542 hfb.dcdt.org\",\"643 fays.org\",\"643 vwm.fays.org\",\"730 fvqk.com\",\"730 yut.fvqk.com\",\"780 gpb.riqk.com\",\"780 riqk.com\",\"782 kmok.com\",\"782 skc.kmok.com\",\"789 eex.fcfg.com\",\"789 fcfg.com\",\"791 epha.org\",\"791 kkt.epha.org\",\"813 fnxr.com\",\"813 uby.fnxr.com\",\"816 tkf.xgap.org\",\"816 xgap.org\",\"820 hrd.xsns.com\",\"820 xsns.com\",\"8271 com\",\"835 bjf.vrst.org\",\"835 vrst.org\",\"915 sbcx.com\",\"915 xpg.sbcx.com\",\"936 viyq.com\",\"936 wzl.viyq.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"905 ahh.kscb.com\",\"782 qbf.ethk.org\",\"269 abk.jbxk.org\",\"796 gem.xarn.com\",\"87 mya.ktuu.org\",\"396 bvj.zdpx.com\",\"754 fhb.pawk.org\",\"143 lma.dihh.org\"]]",
+    "expectedOutput": "[\"143 dihh.org\",\"143 lma.dihh.org\",\"2035 org\",\"2097 com\",\"269 abk.jbxk.org\",\"269 jbxk.org\",\"396 bvj.zdpx.com\",\"396 zdpx.com\",\"754 fhb.pawk.org\",\"754 pawk.org\",\"782 ethk.org\",\"782 qbf.ethk.org\",\"796 gem.xarn.com\",\"796 xarn.com\",\"87 ktuu.org\",\"87 mya.ktuu.org\",\"905 ahh.kscb.com\",\"905 kscb.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"739 amr.bwpo.com\",\"133 wqf.hsbc.org\",\"741 tmn.egoo.com\",\"661 uok.dpoi.org\",\"372 als.jvmx.com\",\"227 ylb.yelx.org\",\"743 swf.vtpo.com\",\"798 qkz.nsxn.com\",\"737 lrs.cwha.org\",\"560 hcs.cxem.com\",\"878 crq.geuf.org\",\"235 vvu.glnd.com\",\"135 aev.geiw.org\",\"141 iut.jpmw.org\",\"466 eqf.goni.com\",\"510 uyi.ugrn.org\",\"526 dep.ggdi.com\",\"999 utn.dewr.org\",\"586 jzr.vqmo.org\",\"705 vrl.ptda.org\"]]",
+    "expectedOutput": "[\"133 hsbc.org\",\"133 wqf.hsbc.org\",\"135 aev.geiw.org\",\"135 geiw.org\",\"141 iut.jpmw.org\",\"141 jpmw.org\",\"227 yelx.org\",\"227 ylb.yelx.org\",\"235 glnd.com\",\"235 vvu.glnd.com\",\"372 als.jvmx.com\",\"372 jvmx.com\",\"466 eqf.goni.com\",\"466 goni.com\",\"510 ugrn.org\",\"510 uyi.ugrn.org\",\"5180 com\",\"526 dep.ggdi.com\",\"526 ggdi.com\",\"560 cxem.com\",\"560 hcs.cxem.com\",\"5712 org\",\"586 jzr.vqmo.org\",\"586 vqmo.org\",\"661 dpoi.org\",\"661 uok.dpoi.org\",\"705 ptda.org\",\"705 vrl.ptda.org\",\"737 cwha.org\",\"737 lrs.cwha.org\",\"739 amr.bwpo.com\",\"739 bwpo.com\",\"741 egoo.com\",\"741 tmn.egoo.com\",\"743 swf.vtpo.com\",\"743 vtpo.com\",\"798 nsxn.com\",\"798 qkz.nsxn.com\",\"878 crq.geuf.org\",\"878 geuf.org\",\"999 dewr.org\",\"999 utn.dewr.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"202 nsr.aryc.org\",\"780 yui.vble.com\",\"523 ovf.hwdf.com\",\"916 ikh.kfuv.org\",\"297 stm.lcnj.com\",\"810 lpj.pedf.com\",\"893 dbn.lgtm.com\",\"827 acy.vati.com\",\"888 dud.xmke.com\",\"291 msh.xibo.org\",\"342 vay.jonz.org\",\"701 lip.axer.org\",\"63 tbl.xlna.com\",\"64 stq.ozyh.com\",\"460 yha.sjuw.com\",\"932 jgs.ildu.com\",\"327 xnt.igvs.org\",\"732 ohn.oatg.com\",\"933 bya.hdow.org\"]]",
+    "expectedOutput": "[\"202 aryc.org\",\"202 nsr.aryc.org\",\"291 msh.xibo.org\",\"291 xibo.org\",\"297 lcnj.com\",\"297 stm.lcnj.com\",\"327 igvs.org\",\"327 xnt.igvs.org\",\"342 jonz.org\",\"342 vay.jonz.org\",\"3712 org\",\"460 sjuw.com\",\"460 yha.sjuw.com\",\"523 hwdf.com\",\"523 ovf.hwdf.com\",\"63 tbl.xlna.com\",\"63 xlna.com\",\"64 ozyh.com\",\"64 stq.ozyh.com\",\"701 axer.org\",\"701 lip.axer.org\",\"7269 com\",\"732 oatg.com\",\"732 ohn.oatg.com\",\"780 vble.com\",\"780 yui.vble.com\",\"810 lpj.pedf.com\",\"810 pedf.com\",\"827 acy.vati.com\",\"827 vati.com\",\"888 dud.xmke.com\",\"888 xmke.com\",\"893 dbn.lgtm.com\",\"893 lgtm.com\",\"916 ikh.kfuv.org\",\"916 kfuv.org\",\"932 ildu.com\",\"932 jgs.ildu.com\",\"933 bya.hdow.org\",\"933 hdow.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"406 hbo.bfyo.com\",\"815 esu.tlcm.com\",\"684 dmg.gqlb.org\",\"22 pww.jyak.com\",\"543 dsu.sgih.org\",\"444 lqx.qahz.com\",\"869 jei.btbh.org\",\"248 aem.lzxq.org\",\"893 bqy.bkvu.com\"]]",
+    "expectedOutput": "[\"22 jyak.com\",\"22 pww.jyak.com\",\"2344 org\",\"248 aem.lzxq.org\",\"248 lzxq.org\",\"2580 com\",\"406 bfyo.com\",\"406 hbo.bfyo.com\",\"444 lqx.qahz.com\",\"444 qahz.com\",\"543 dsu.sgih.org\",\"543 sgih.org\",\"684 dmg.gqlb.org\",\"684 gqlb.org\",\"815 esu.tlcm.com\",\"815 tlcm.com\",\"869 btbh.org\",\"869 jei.btbh.org\",\"893 bkvu.com\",\"893 bqy.bkvu.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"212 keu.fzdj.com\",\"366 msd.gbuf.org\",\"965 spv.enwg.com\",\"964 dhf.zbbp.org\",\"174 kbw.syfm.com\",\"725 cec.glxw.org\",\"894 wtx.wnhl.org\",\"256 ive.hmci.org\",\"200 jmb.tvye.com\",\"767 ilg.cmuk.com\",\"502 bih.vuwa.com\",\"873 dlh.kdbv.com\",\"168 sgu.hpwh.com\",\"304 qie.mkeu.org\",\"151 bbo.gibd.com\",\"964 nup.mpmr.org\",\"284 yie.chof.com\",\"917 vwk.rqdi.org\",\"777 nwl.zsrh.com\",\"589 vad.yqrq.org\"]]",
+    "expectedOutput": "[\"151 bbo.gibd.com\",\"151 gibd.com\",\"168 hpwh.com\",\"168 sgu.hpwh.com\",\"174 kbw.syfm.com\",\"174 syfm.com\",\"200 jmb.tvye.com\",\"200 tvye.com\",\"212 fzdj.com\",\"212 keu.fzdj.com\",\"256 hmci.org\",\"256 ive.hmci.org\",\"284 chof.com\",\"284 yie.chof.com\",\"304 mkeu.org\",\"304 qie.mkeu.org\",\"366 gbuf.org\",\"366 msd.gbuf.org\",\"502 bih.vuwa.com\",\"502 vuwa.com\",\"5073 com\",\"589 vad.yqrq.org\",\"589 yqrq.org\",\"5979 org\",\"725 cec.glxw.org\",\"725 glxw.org\",\"767 cmuk.com\",\"767 ilg.cmuk.com\",\"777 nwl.zsrh.com\",\"777 zsrh.com\",\"873 dlh.kdbv.com\",\"873 kdbv.com\",\"894 wnhl.org\",\"894 wtx.wnhl.org\",\"917 rqdi.org\",\"917 vwk.rqdi.org\",\"964 dhf.zbbp.org\",\"964 mpmr.org\",\"964 nup.mpmr.org\",\"964 zbbp.org\",\"965 enwg.com\",\"965 spv.enwg.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"832 typ.bukq.org\",\"423 sij.sype.com\",\"994 tzf.agpd.org\",\"442 knw.eeba.com\",\"394 uzb.epde.org\",\"239 men.jxoa.org\",\"850 ics.cftg.com\",\"533 gcy.bywu.com\",\"803 qxd.pdep.com\",\"520 ayx.vhdz.org\",\"578 xau.niug.com\",\"680 wtq.vtrf.com\",\"386 mnf.qnkr.org\"]]",
+    "expectedOutput": "[\"239 jxoa.org\",\"239 men.jxoa.org\",\"3365 org\",\"386 mnf.qnkr.org\",\"386 qnkr.org\",\"394 epde.org\",\"394 uzb.epde.org\",\"423 sij.sype.com\",\"423 sype.com\",\"4309 com\",\"442 eeba.com\",\"442 knw.eeba.com\",\"520 ayx.vhdz.org\",\"520 vhdz.org\",\"533 bywu.com\",\"533 gcy.bywu.com\",\"578 niug.com\",\"578 xau.niug.com\",\"680 vtrf.com\",\"680 wtq.vtrf.com\",\"803 pdep.com\",\"803 qxd.pdep.com\",\"832 bukq.org\",\"832 typ.bukq.org\",\"850 cftg.com\",\"850 ics.cftg.com\",\"994 agpd.org\",\"994 tzf.agpd.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"19 dts.qcra.com\",\"744 npc.kfyt.com\",\"458 yxo.lkph.org\",\"436 suu.ushp.com\",\"186 unk.rshn.com\",\"953 otu.xzwh.com\",\"982 hnp.etcq.org\",\"461 rxm.cfof.com\",\"998 syn.yjjj.org\",\"771 ajf.igdl.org\",\"687 egs.bhth.org\",\"520 xwq.dhvp.com\",\"411 ukw.jrad.com\"]]",
+    "expectedOutput": "[\"186 rshn.com\",\"186 unk.rshn.com\",\"19 dts.qcra.com\",\"19 qcra.com\",\"3730 com\",\"3896 org\",\"411 jrad.com\",\"411 ukw.jrad.com\",\"436 suu.ushp.com\",\"436 ushp.com\",\"458 lkph.org\",\"458 yxo.lkph.org\",\"461 cfof.com\",\"461 rxm.cfof.com\",\"520 dhvp.com\",\"520 xwq.dhvp.com\",\"687 bhth.org\",\"687 egs.bhth.org\",\"744 kfyt.com\",\"744 npc.kfyt.com\",\"771 ajf.igdl.org\",\"771 igdl.org\",\"953 otu.xzwh.com\",\"953 xzwh.com\",\"982 etcq.org\",\"982 hnp.etcq.org\",\"998 syn.yjjj.org\",\"998 yjjj.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"853 nff.xmrt.com\",\"290 vvs.brsa.org\",\"833 fpn.dytj.com\",\"602 dyt.vnsq.com\",\"251 mtb.zjct.org\",\"167 kdj.pcqq.org\",\"613 ivb.nthp.com\",\"513 sps.tqws.com\",\"231 gjv.fdtc.com\",\"461 bho.icwe.com\",\"686 bap.vifm.org\",\"927 wnw.zqzs.org\",\"59 omy.xdnu.com\",\"872 uxt.farg.org\"]]",
+    "expectedOutput": "[\"167 kdj.pcqq.org\",\"167 pcqq.org\",\"231 fdtc.com\",\"231 gjv.fdtc.com\",\"251 mtb.zjct.org\",\"251 zjct.org\",\"290 brsa.org\",\"290 vvs.brsa.org\",\"3193 org\",\"4165 com\",\"461 bho.icwe.com\",\"461 icwe.com\",\"513 sps.tqws.com\",\"513 tqws.com\",\"59 omy.xdnu.com\",\"59 xdnu.com\",\"602 dyt.vnsq.com\",\"602 vnsq.com\",\"613 ivb.nthp.com\",\"613 nthp.com\",\"686 bap.vifm.org\",\"686 vifm.org\",\"833 dytj.com\",\"833 fpn.dytj.com\",\"853 nff.xmrt.com\",\"853 xmrt.com\",\"872 farg.org\",\"872 uxt.farg.org\",\"927 wnw.zqzs.org\",\"927 zqzs.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"640 xcw.xmka.org\",\"750 dws.qdro.org\",\"377 paw.jaby.org\",\"201 agi.glqp.org\",\"32 uhj.gruf.org\",\"745 jov.pmjy.org\",\"328 nah.vhmq.org\",\"548 hij.vhvb.org\",\"439 vld.jndw.com\",\"445 gne.vumt.org\",\"388 pgp.mckr.com\",\"133 wwb.yqsq.com\",\"707 xzy.wuag.org\",\"316 kdj.geyc.com\",\"886 ufx.azik.com\",\"457 fst.uevr.org\"]]",
+    "expectedOutput": "[\"133 wwb.yqsq.com\",\"133 yqsq.com\",\"201 agi.glqp.org\",\"201 glqp.org\",\"2162 com\",\"316 geyc.com\",\"316 kdj.geyc.com\",\"32 gruf.org\",\"32 uhj.gruf.org\",\"328 nah.vhmq.org\",\"328 vhmq.org\",\"377 jaby.org\",\"377 paw.jaby.org\",\"388 mckr.com\",\"388 pgp.mckr.com\",\"439 jndw.com\",\"439 vld.jndw.com\",\"445 gne.vumt.org\",\"445 vumt.org\",\"457 fst.uevr.org\",\"457 uevr.org\",\"5230 org\",\"548 hij.vhvb.org\",\"548 vhvb.org\",\"640 xcw.xmka.org\",\"640 xmka.org\",\"707 wuag.org\",\"707 xzy.wuag.org\",\"745 jov.pmjy.org\",\"745 pmjy.org\",\"750 dws.qdro.org\",\"750 qdro.org\",\"886 azik.com\",\"886 ufx.azik.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"574 mxd.buys.org\",\"388 ahi.bzvn.com\",\"487 ojr.ikme.com\",\"51 uvm.jcls.org\",\"19 jeu.hjhj.com\",\"962 wch.doze.org\",\"394 bxp.zcyd.org\",\"562 ngf.slfm.org\",\"826 hyz.ucoa.org\",\"364 mfy.vywv.org\",\"956 gep.tqrp.org\",\"514 liv.ioje.com\"]]",
+    "expectedOutput": "[\"1408 com\",\"19 hjhj.com\",\"19 jeu.hjhj.com\",\"364 mfy.vywv.org\",\"364 vywv.org\",\"388 ahi.bzvn.com\",\"388 bzvn.com\",\"394 bxp.zcyd.org\",\"394 zcyd.org\",\"4689 org\",\"487 ikme.com\",\"487 ojr.ikme.com\",\"51 jcls.org\",\"51 uvm.jcls.org\",\"514 ioje.com\",\"514 liv.ioje.com\",\"562 ngf.slfm.org\",\"562 slfm.org\",\"574 buys.org\",\"574 mxd.buys.org\",\"826 hyz.ucoa.org\",\"826 ucoa.org\",\"956 gep.tqrp.org\",\"956 tqrp.org\",\"962 doze.org\",\"962 wch.doze.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"100 jnc.thup.com\",\"572 wsk.hvct.org\",\"48 itb.msca.org\",\"401 bqi.wgpo.org\",\"985 nkv.lkhl.org\",\"585 yhc.xeeb.com\",\"328 yzk.fkiv.com\",\"669 fqa.xleq.org\",\"82 wlq.abyp.org\",\"904 uov.klyb.org\",\"57 ime.ltoi.org\",\"129 ylo.ipuw.org\",\"896 dhx.dqvs.com\",\"919 yll.csow.org\",\"377 vbk.tvhd.org\",\"111 urq.yqpd.com\",\"946 gui.otuz.com\",\"525 gpa.jrzk.com\",\"659 rca.nuro.com\"]]",
+    "expectedOutput": "[\"100 jnc.thup.com\",\"100 thup.com\",\"111 urq.yqpd.com\",\"111 yqpd.com\",\"129 ipuw.org\",\"129 ylo.ipuw.org\",\"328 fkiv.com\",\"328 yzk.fkiv.com\",\"377 tvhd.org\",\"377 vbk.tvhd.org\",\"401 bqi.wgpo.org\",\"401 wgpo.org\",\"4150 com\",\"48 itb.msca.org\",\"48 msca.org\",\"5143 org\",\"525 gpa.jrzk.com\",\"525 jrzk.com\",\"57 ime.ltoi.org\",\"57 ltoi.org\",\"572 hvct.org\",\"572 wsk.hvct.org\",\"585 xeeb.com\",\"585 yhc.xeeb.com\",\"659 nuro.com\",\"659 rca.nuro.com\",\"669 fqa.xleq.org\",\"669 xleq.org\",\"82 abyp.org\",\"82 wlq.abyp.org\",\"896 dhx.dqvs.com\",\"896 dqvs.com\",\"904 klyb.org\",\"904 uov.klyb.org\",\"919 csow.org\",\"919 yll.csow.org\",\"946 gui.otuz.com\",\"946 otuz.com\",\"985 lkhl.org\",\"985 nkv.lkhl.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"119 qet.qyej.com\",\"693 nfz.oyhu.com\",\"626 ura.hujd.org\",\"874 aqm.lxnl.org\",\"425 rom.gosc.org\",\"650 kae.lxsc.org\",\"409 vop.nfkn.com\",\"341 wzm.fxtw.com\",\"942 tyd.ggjg.com\",\"913 rjj.pdcx.org\",\"859 dkk.efzb.com\",\"878 ejx.kvry.org\",\"717 oes.gtlj.com\",\"381 hhz.fjzb.org\",\"165 zpz.roci.org\",\"533 irm.kiiy.org\"]]",
+    "expectedOutput": "[\"119 qet.qyej.com\",\"119 qyej.com\",\"165 roci.org\",\"165 zpz.roci.org\",\"341 fxtw.com\",\"341 wzm.fxtw.com\",\"381 fjzb.org\",\"381 hhz.fjzb.org\",\"4080 com\",\"409 nfkn.com\",\"409 vop.nfkn.com\",\"425 gosc.org\",\"425 rom.gosc.org\",\"533 irm.kiiy.org\",\"533 kiiy.org\",\"5445 org\",\"626 hujd.org\",\"626 ura.hujd.org\",\"650 kae.lxsc.org\",\"650 lxsc.org\",\"693 nfz.oyhu.com\",\"693 oyhu.com\",\"717 gtlj.com\",\"717 oes.gtlj.com\",\"859 dkk.efzb.com\",\"859 efzb.com\",\"874 aqm.lxnl.org\",\"874 lxnl.org\",\"878 ejx.kvry.org\",\"878 kvry.org\",\"913 pdcx.org\",\"913 rjj.pdcx.org\",\"942 ggjg.com\",\"942 tyd.ggjg.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"912 loc.dizv.com\",\"850 bzn.rhrt.org\",\"501 sbl.oerq.com\",\"933 qpl.swke.org\",\"491 yrd.snve.com\",\"581 fct.admo.com\",\"565 idn.dcde.org\",\"523 npb.gebi.com\",\"546 vqo.hcrn.com\",\"689 gsw.uqoo.com\"]]",
+    "expectedOutput": "[\"2348 org\",\"4243 com\",\"491 snve.com\",\"491 yrd.snve.com\",\"501 oerq.com\",\"501 sbl.oerq.com\",\"523 gebi.com\",\"523 npb.gebi.com\",\"546 hcrn.com\",\"546 vqo.hcrn.com\",\"565 dcde.org\",\"565 idn.dcde.org\",\"581 admo.com\",\"581 fct.admo.com\",\"689 gsw.uqoo.com\",\"689 uqoo.com\",\"850 bzn.rhrt.org\",\"850 rhrt.org\",\"912 dizv.com\",\"912 loc.dizv.com\",\"933 qpl.swke.org\",\"933 swke.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"644 jhc.fcsl.org\",\"802 lco.obwt.com\",\"447 bus.tqyu.com\",\"596 qgx.armg.com\",\"920 unh.dwkn.com\",\"345 fgy.ngsa.org\",\"223 zmu.nqyh.com\",\"253 fji.deeo.org\",\"672 sgb.thnr.com\",\"232 vlz.sxin.org\",\"182 hmj.jixt.com\",\"491 pkm.nudv.org\",\"309 bgm.bygj.com\",\"98 axw.oase.com\",\"389 spy.wmqu.org\"]]",
+    "expectedOutput": "[\"182 hmj.jixt.com\",\"182 jixt.com\",\"223 nqyh.com\",\"223 zmu.nqyh.com\",\"232 sxin.org\",\"232 vlz.sxin.org\",\"2354 org\",\"253 deeo.org\",\"253 fji.deeo.org\",\"309 bgm.bygj.com\",\"309 bygj.com\",\"345 fgy.ngsa.org\",\"345 ngsa.org\",\"389 spy.wmqu.org\",\"389 wmqu.org\",\"4249 com\",\"447 bus.tqyu.com\",\"447 tqyu.com\",\"491 nudv.org\",\"491 pkm.nudv.org\",\"596 armg.com\",\"596 qgx.armg.com\",\"644 fcsl.org\",\"644 jhc.fcsl.org\",\"672 sgb.thnr.com\",\"672 thnr.com\",\"802 lco.obwt.com\",\"802 obwt.com\",\"920 dwkn.com\",\"920 unh.dwkn.com\",\"98 axw.oase.com\",\"98 oase.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"915 vjc.hczl.com\",\"530 aus.vptm.com\",\"414 hti.mmnd.com\",\"477 ymx.szog.org\",\"740 xvw.swha.com\",\"950 miw.ofbq.com\",\"350 ygf.myxo.org\",\"258 xzs.odfg.org\",\"33 wbq.hrrg.org\",\"962 lmo.wszb.org\",\"703 prt.jyki.org\",\"586 xwl.oxth.com\",\"855 rae.rgtk.com\"]]",
+    "expectedOutput": "[\"258 odfg.org\",\"258 xzs.odfg.org\",\"2783 org\",\"33 hrrg.org\",\"33 wbq.hrrg.org\",\"350 myxo.org\",\"350 ygf.myxo.org\",\"414 hti.mmnd.com\",\"414 mmnd.com\",\"477 szog.org\",\"477 ymx.szog.org\",\"4990 com\",\"530 aus.vptm.com\",\"530 vptm.com\",\"586 oxth.com\",\"586 xwl.oxth.com\",\"703 jyki.org\",\"703 prt.jyki.org\",\"740 swha.com\",\"740 xvw.swha.com\",\"855 rae.rgtk.com\",\"855 rgtk.com\",\"915 hczl.com\",\"915 vjc.hczl.com\",\"950 miw.ofbq.com\",\"950 ofbq.com\",\"962 lmo.wszb.org\",\"962 wszb.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"358 suh.mhmv.com\",\"645 nai.kqbk.com\",\"837 hfa.rbzy.com\",\"80 nmk.mcoo.org\",\"960 xna.tiku.org\",\"476 tgq.givz.org\",\"898 apx.vduu.com\",\"479 lyt.wstn.com\",\"179 gwu.jiag.org\",\"293 tjb.lusj.com\",\"970 jdg.trkk.org\",\"959 xsd.kihk.org\",\"42 owp.xctp.org\",\"866 qug.dyjn.com\",\"246 zky.extj.com\"]]",
+    "expectedOutput": "[\"179 gwu.jiag.org\",\"179 jiag.org\",\"246 extj.com\",\"246 zky.extj.com\",\"293 lusj.com\",\"293 tjb.lusj.com\",\"358 mhmv.com\",\"358 suh.mhmv.com\",\"3666 org\",\"42 owp.xctp.org\",\"42 xctp.org\",\"4622 com\",\"476 givz.org\",\"476 tgq.givz.org\",\"479 lyt.wstn.com\",\"479 wstn.com\",\"645 kqbk.com\",\"645 nai.kqbk.com\",\"80 mcoo.org\",\"80 nmk.mcoo.org\",\"837 hfa.rbzy.com\",\"837 rbzy.com\",\"866 dyjn.com\",\"866 qug.dyjn.com\",\"898 apx.vduu.com\",\"898 vduu.com\",\"959 kihk.org\",\"959 xsd.kihk.org\",\"960 tiku.org\",\"960 xna.tiku.org\",\"970 jdg.trkk.org\",\"970 trkk.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"611 qmr.brxw.org\",\"189 xrp.greb.org\",\"623 pcz.bbtc.org\",\"787 pkz.xfgk.org\",\"55 idf.eiep.org\",\"536 tyl.ttit.com\",\"168 axw.ptir.com\",\"540 qlr.etwy.com\",\"537 jci.cvtt.org\",\"378 zlw.eeot.com\",\"255 sva.uofj.org\",\"19 ozv.ovfq.com\",\"960 wth.orik.org\",\"324 wxm.hsch.com\",\"582 dun.hqiz.org\",\"45 vca.drvi.org\",\"390 sfk.zika.org\",\"231 efj.lidx.org\",\"939 htr.texu.org\"]]",
+    "expectedOutput": "[\"168 axw.ptir.com\",\"168 ptir.com\",\"189 greb.org\",\"189 xrp.greb.org\",\"19 ovfq.com\",\"19 ozv.ovfq.com\",\"1965 com\",\"231 efj.lidx.org\",\"231 lidx.org\",\"255 sva.uofj.org\",\"255 uofj.org\",\"324 hsch.com\",\"324 wxm.hsch.com\",\"378 eeot.com\",\"378 zlw.eeot.com\",\"390 sfk.zika.org\",\"390 zika.org\",\"45 drvi.org\",\"45 vca.drvi.org\",\"536 ttit.com\",\"536 tyl.ttit.com\",\"537 cvtt.org\",\"537 jci.cvtt.org\",\"540 etwy.com\",\"540 qlr.etwy.com\",\"55 eiep.org\",\"55 idf.eiep.org\",\"582 dun.hqiz.org\",\"582 hqiz.org\",\"611 brxw.org\",\"611 qmr.brxw.org\",\"6204 org\",\"623 bbtc.org\",\"623 pcz.bbtc.org\",\"787 pkz.xfgk.org\",\"787 xfgk.org\",\"939 htr.texu.org\",\"939 texu.org\",\"960 orik.org\",\"960 wth.orik.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"921 ppn.didc.org\",\"177 orz.lgjv.com\",\"666 hkl.oopb.org\",\"973 smy.pozw.com\",\"411 hqd.rdbo.org\",\"526 pew.qmed.com\",\"889 jvc.xwxh.com\",\"614 qil.guoq.org\",\"775 waz.imlf.com\",\"986 iaa.hsdg.com\",\"72 lcv.syai.com\",\"474 ule.muti.com\",\"711 eep.bdaw.org\",\"877 box.llna.org\",\"509 ffi.vapr.com\"]]",
+    "expectedOutput": "[\"177 lgjv.com\",\"177 orz.lgjv.com\",\"411 hqd.rdbo.org\",\"411 rdbo.org\",\"4200 org\",\"474 muti.com\",\"474 ule.muti.com\",\"509 ffi.vapr.com\",\"509 vapr.com\",\"526 pew.qmed.com\",\"526 qmed.com\",\"5381 com\",\"614 guoq.org\",\"614 qil.guoq.org\",\"666 hkl.oopb.org\",\"666 oopb.org\",\"711 bdaw.org\",\"711 eep.bdaw.org\",\"72 lcv.syai.com\",\"72 syai.com\",\"775 imlf.com\",\"775 waz.imlf.com\",\"877 box.llna.org\",\"877 llna.org\",\"889 jvc.xwxh.com\",\"889 xwxh.com\",\"921 didc.org\",\"921 ppn.didc.org\",\"973 pozw.com\",\"973 smy.pozw.com\",\"986 hsdg.com\",\"986 iaa.hsdg.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"283 zza.zxjf.org\",\"868 och.stct.org\",\"556 ecx.dwdr.com\",\"147 vzr.izaf.com\",\"750 onp.jvzn.com\",\"53 zui.vsrp.org\",\"441 llc.ifvo.org\",\"912 lqc.ulvc.org\",\"563 lbz.wful.org\",\"400 vlr.jcnx.org\",\"457 atp.xous.com\",\"110 xut.fpqd.com\",\"293 zhn.nfym.org\",\"882 auz.cijj.com\",\"687 usg.zsnl.com\",\"89 xxr.ervf.org\",\"629 dig.kfeq.com\"]]",
+    "expectedOutput": "[\"110 fpqd.com\",\"110 xut.fpqd.com\",\"147 izaf.com\",\"147 vzr.izaf.com\",\"283 zxjf.org\",\"283 zza.zxjf.org\",\"293 nfym.org\",\"293 zhn.nfym.org\",\"3902 org\",\"400 jcnx.org\",\"400 vlr.jcnx.org\",\"4218 com\",\"441 ifvo.org\",\"441 llc.ifvo.org\",\"457 atp.xous.com\",\"457 xous.com\",\"53 vsrp.org\",\"53 zui.vsrp.org\",\"556 dwdr.com\",\"556 ecx.dwdr.com\",\"563 lbz.wful.org\",\"563 wful.org\",\"629 dig.kfeq.com\",\"629 kfeq.com\",\"687 usg.zsnl.com\",\"687 zsnl.com\",\"750 jvzn.com\",\"750 onp.jvzn.com\",\"868 och.stct.org\",\"868 stct.org\",\"882 auz.cijj.com\",\"882 cijj.com\",\"89 ervf.org\",\"89 xxr.ervf.org\",\"912 lqc.ulvc.org\",\"912 ulvc.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"927 qne.ejzg.com\",\"875 vib.exno.com\",\"14 hvg.yuzn.com\",\"745 ekt.zppw.com\",\"113 czl.gwzt.com\",\"431 uyw.isic.org\",\"64 pcg.ytga.com\",\"783 xwl.fppv.org\"]]",
+    "expectedOutput": "[\"113 czl.gwzt.com\",\"113 gwzt.com\",\"1214 org\",\"14 hvg.yuzn.com\",\"14 yuzn.com\",\"2738 com\",\"431 isic.org\",\"431 uyw.isic.org\",\"64 pcg.ytga.com\",\"64 ytga.com\",\"745 ekt.zppw.com\",\"745 zppw.com\",\"783 fppv.org\",\"783 xwl.fppv.org\",\"875 exno.com\",\"875 vib.exno.com\",\"927 ejzg.com\",\"927 qne.ejzg.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"758 zok.pnzx.com\",\"50 xat.kkim.org\",\"165 wuf.fwwl.org\",\"551 wru.iclv.org\",\"193 ojh.yehb.org\",\"363 efu.lfhk.org\",\"281 vcy.rrnz.com\",\"757 efi.gbex.com\",\"749 dvr.cgai.org\",\"217 hxd.spjw.com\",\"608 fam.jhgk.com\",\"130 lsc.zsol.org\",\"935 gts.plyl.com\",\"180 ckw.fxsw.org\",\"608 zlv.nneq.org\"]]",
+    "expectedOutput": "[\"130 lsc.zsol.org\",\"130 zsol.org\",\"165 fwwl.org\",\"165 wuf.fwwl.org\",\"180 ckw.fxsw.org\",\"180 fxsw.org\",\"193 ojh.yehb.org\",\"193 yehb.org\",\"217 hxd.spjw.com\",\"217 spjw.com\",\"281 rrnz.com\",\"281 vcy.rrnz.com\",\"2989 org\",\"3556 com\",\"363 efu.lfhk.org\",\"363 lfhk.org\",\"50 kkim.org\",\"50 xat.kkim.org\",\"551 iclv.org\",\"551 wru.iclv.org\",\"608 fam.jhgk.com\",\"608 jhgk.com\",\"608 nneq.org\",\"608 zlv.nneq.org\",\"749 cgai.org\",\"749 dvr.cgai.org\",\"757 efi.gbex.com\",\"757 gbex.com\",\"758 pnzx.com\",\"758 zok.pnzx.com\",\"935 gts.plyl.com\",\"935 plyl.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"145 iqq.hdbu.org\",\"375 zhb.frmp.com\",\"594 ccj.smvy.com\",\"928 xjo.fmey.com\",\"486 yrf.altr.org\",\"822 egn.afjv.com\",\"243 syi.yoqq.org\",\"228 hmp.vran.org\",\"800 uht.feyq.com\",\"61 tse.wwfp.org\",\"137 ntc.xdyi.org\",\"953 udy.emde.org\",\"987 rcl.jjot.com\",\"31 uin.bfmb.com\",\"383 dze.qjij.com\",\"323 ona.osrl.com\"]]",
+    "expectedOutput": "[\"137 ntc.xdyi.org\",\"137 xdyi.org\",\"145 hdbu.org\",\"145 iqq.hdbu.org\",\"2253 org\",\"228 hmp.vran.org\",\"228 vran.org\",\"243 syi.yoqq.org\",\"243 yoqq.org\",\"31 bfmb.com\",\"31 uin.bfmb.com\",\"323 ona.osrl.com\",\"323 osrl.com\",\"375 frmp.com\",\"375 zhb.frmp.com\",\"383 dze.qjij.com\",\"383 qjij.com\",\"486 altr.org\",\"486 yrf.altr.org\",\"5243 com\",\"594 ccj.smvy.com\",\"594 smvy.com\",\"61 tse.wwfp.org\",\"61 wwfp.org\",\"800 feyq.com\",\"800 uht.feyq.com\",\"822 afjv.com\",\"822 egn.afjv.com\",\"928 fmey.com\",\"928 xjo.fmey.com\",\"953 emde.org\",\"953 udy.emde.org\",\"987 jjot.com\",\"987 rcl.jjot.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"323 zys.vlge.com\",\"367 rwq.rqio.org\",\"698 arj.jaiz.org\",\"956 ukn.oseg.org\",\"676 ddi.jyvj.org\",\"838 kmp.wogs.org\",\"53 jom.ytns.org\",\"12 wpn.zpze.com\",\"98 nll.ctfs.com\",\"30 mme.vdvq.org\",\"101 zrb.wcbu.com\",\"66 jww.vsfa.org\",\"343 azk.pfng.com\",\"69 cxo.gzfn.org\"]]",
+    "expectedOutput": "[\"101 wcbu.com\",\"101 zrb.wcbu.com\",\"12 wpn.zpze.com\",\"12 zpze.com\",\"30 mme.vdvq.org\",\"30 vdvq.org\",\"323 vlge.com\",\"323 zys.vlge.com\",\"343 azk.pfng.com\",\"343 pfng.com\",\"367 rqio.org\",\"367 rwq.rqio.org\",\"3753 org\",\"53 jom.ytns.org\",\"53 ytns.org\",\"66 jww.vsfa.org\",\"66 vsfa.org\",\"676 ddi.jyvj.org\",\"676 jyvj.org\",\"69 cxo.gzfn.org\",\"69 gzfn.org\",\"698 arj.jaiz.org\",\"698 jaiz.org\",\"838 kmp.wogs.org\",\"838 wogs.org\",\"877 com\",\"956 oseg.org\",\"956 ukn.oseg.org\",\"98 ctfs.com\",\"98 nll.ctfs.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"152 rri.qtqt.com\",\"548 bqg.byue.com\",\"792 ojt.jape.org\",\"512 ipk.qrwh.com\",\"303 ztu.xsqe.com\",\"905 qkv.jlhw.com\",\"497 lzo.altx.com\",\"955 hbv.ftja.com\",\"940 wxr.xdhx.com\",\"955 wef.capu.org\",\"755 dff.ranu.com\",\"971 xec.tbaa.com\",\"404 ndq.lkti.org\",\"167 cda.qymg.org\",\"987 uom.npmr.com\",\"667 qop.tkoy.com\",\"824 wsw.cjuh.org\"]]",
+    "expectedOutput": "[\"152 qtqt.com\",\"152 rri.qtqt.com\",\"167 cda.qymg.org\",\"167 qymg.org\",\"303 xsqe.com\",\"303 ztu.xsqe.com\",\"3142 org\",\"404 lkti.org\",\"404 ndq.lkti.org\",\"497 altx.com\",\"497 lzo.altx.com\",\"512 ipk.qrwh.com\",\"512 qrwh.com\",\"548 bqg.byue.com\",\"548 byue.com\",\"667 qop.tkoy.com\",\"667 tkoy.com\",\"755 dff.ranu.com\",\"755 ranu.com\",\"792 jape.org\",\"792 ojt.jape.org\",\"8192 com\",\"824 cjuh.org\",\"824 wsw.cjuh.org\",\"905 jlhw.com\",\"905 qkv.jlhw.com\",\"940 wxr.xdhx.com\",\"940 xdhx.com\",\"955 capu.org\",\"955 ftja.com\",\"955 hbv.ftja.com\",\"955 wef.capu.org\",\"971 tbaa.com\",\"971 xec.tbaa.com\",\"987 npmr.com\",\"987 uom.npmr.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"976 uzf.vyvv.org\",\"490 vck.icza.org\",\"189 kxd.wncg.com\",\"119 pxl.aeqp.com\",\"957 vsk.sbdk.com\",\"807 lfz.ylrj.com\",\"252 ufy.pnlc.com\",\"528 yke.xexx.com\",\"28 nty.wspr.com\",\"820 uen.gbkx.com\"]]",
+    "expectedOutput": "[\"119 aeqp.com\",\"119 pxl.aeqp.com\",\"1466 org\",\"189 kxd.wncg.com\",\"189 wncg.com\",\"252 pnlc.com\",\"252 ufy.pnlc.com\",\"28 nty.wspr.com\",\"28 wspr.com\",\"3700 com\",\"490 icza.org\",\"490 vck.icza.org\",\"528 xexx.com\",\"528 yke.xexx.com\",\"807 lfz.ylrj.com\",\"807 ylrj.com\",\"820 gbkx.com\",\"820 uen.gbkx.com\",\"957 sbdk.com\",\"957 vsk.sbdk.com\",\"976 uzf.vyvv.org\",\"976 vyvv.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"147 ehl.osak.org\",\"674 czn.scqp.com\",\"643 siz.avwq.org\",\"911 ldt.xrzt.com\",\"980 dhr.dwgz.com\",\"518 wik.yfkc.org\",\"229 nnm.eemj.org\",\"890 dvw.krlo.com\",\"645 opj.pjhm.com\",\"773 ypi.jooi.com\",\"300 azi.ckgo.com\",\"929 qvi.aibs.org\",\"807 ftr.bshn.com\",\"839 ybb.elmv.com\",\"815 iam.whdb.com\",\"267 iwf.outf.org\",\"525 nzq.nlku.com\"]]",
+    "expectedOutput": "[\"147 ehl.osak.org\",\"147 osak.org\",\"229 eemj.org\",\"229 nnm.eemj.org\",\"267 iwf.outf.org\",\"267 outf.org\",\"2733 org\",\"300 azi.ckgo.com\",\"300 ckgo.com\",\"518 wik.yfkc.org\",\"518 yfkc.org\",\"525 nlku.com\",\"525 nzq.nlku.com\",\"643 avwq.org\",\"643 siz.avwq.org\",\"645 opj.pjhm.com\",\"645 pjhm.com\",\"674 czn.scqp.com\",\"674 scqp.com\",\"773 jooi.com\",\"773 ypi.jooi.com\",\"807 bshn.com\",\"807 ftr.bshn.com\",\"815 iam.whdb.com\",\"815 whdb.com\",\"8159 com\",\"839 elmv.com\",\"839 ybb.elmv.com\",\"890 dvw.krlo.com\",\"890 krlo.com\",\"911 ldt.xrzt.com\",\"911 xrzt.com\",\"929 aibs.org\",\"929 qvi.aibs.org\",\"980 dhr.dwgz.com\",\"980 dwgz.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"209 guv.ncgl.com\",\"259 lap.nsag.com\",\"100 zfq.cqsi.org\",\"375 jrj.ydgj.org\",\"870 vgf.tvhb.com\",\"278 msv.uvih.com\",\"72 kfv.agus.org\",\"853 gvs.bpex.org\",\"181 dlg.thiu.com\"]]",
+    "expectedOutput": "[\"100 cqsi.org\",\"100 zfq.cqsi.org\",\"1400 org\",\"1797 com\",\"181 dlg.thiu.com\",\"181 thiu.com\",\"209 guv.ncgl.com\",\"209 ncgl.com\",\"259 lap.nsag.com\",\"259 nsag.com\",\"278 msv.uvih.com\",\"278 uvih.com\",\"375 jrj.ydgj.org\",\"375 ydgj.org\",\"72 agus.org\",\"72 kfv.agus.org\",\"853 bpex.org\",\"853 gvs.bpex.org\",\"870 tvhb.com\",\"870 vgf.tvhb.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"519 qop.rclv.org\",\"847 eqj.hyxx.org\",\"932 dwy.vsqq.com\",\"873 stg.ugjp.org\",\"387 rts.xzgk.com\",\"702 ozt.hveb.com\",\"329 izo.dlee.com\",\"772 djm.owal.com\",\"493 dzr.assa.com\",\"145 hzk.suuz.org\",\"991 mwp.xgec.com\",\"65 giw.ybrv.com\"]]",
+    "expectedOutput": "[\"145 hzk.suuz.org\",\"145 suuz.org\",\"2384 org\",\"329 dlee.com\",\"329 izo.dlee.com\",\"387 rts.xzgk.com\",\"387 xzgk.com\",\"4671 com\",\"493 assa.com\",\"493 dzr.assa.com\",\"519 qop.rclv.org\",\"519 rclv.org\",\"65 giw.ybrv.com\",\"65 ybrv.com\",\"702 hveb.com\",\"702 ozt.hveb.com\",\"772 djm.owal.com\",\"772 owal.com\",\"847 eqj.hyxx.org\",\"847 hyxx.org\",\"873 stg.ugjp.org\",\"873 ugjp.org\",\"932 dwy.vsqq.com\",\"932 vsqq.com\",\"991 mwp.xgec.com\",\"991 xgec.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"482 qhe.asox.com\",\"376 rcx.sfvl.com\",\"144 fih.uwee.org\",\"782 ghx.yawi.com\",\"872 rdc.gtfs.com\",\"937 uig.vrpj.org\",\"774 naa.mxmy.org\",\"402 tqp.cpli.org\",\"111 vgg.trlm.com\",\"556 gia.prwn.org\",\"893 qkg.glca.org\",\"204 hvp.rtsr.com\",\"767 whj.fknh.com\",\"453 heh.lwod.com\",\"640 kzz.yhhv.org\",\"980 uml.jvkb.com\",\"266 pgw.evnz.org\",\"802 mqo.msas.com\"]]",
+    "expectedOutput": "[\"111 trlm.com\",\"111 vgg.trlm.com\",\"144 fih.uwee.org\",\"144 uwee.org\",\"204 hvp.rtsr.com\",\"204 rtsr.com\",\"266 evnz.org\",\"266 pgw.evnz.org\",\"376 rcx.sfvl.com\",\"376 sfvl.com\",\"402 cpli.org\",\"402 tqp.cpli.org\",\"453 heh.lwod.com\",\"453 lwod.com\",\"4612 org\",\"482 asox.com\",\"482 qhe.asox.com\",\"556 gia.prwn.org\",\"556 prwn.org\",\"5829 com\",\"640 kzz.yhhv.org\",\"640 yhhv.org\",\"767 fknh.com\",\"767 whj.fknh.com\",\"774 mxmy.org\",\"774 naa.mxmy.org\",\"782 ghx.yawi.com\",\"782 yawi.com\",\"802 mqo.msas.com\",\"802 msas.com\",\"872 gtfs.com\",\"872 rdc.gtfs.com\",\"893 glca.org\",\"893 qkg.glca.org\",\"937 uig.vrpj.org\",\"937 vrpj.org\",\"980 jvkb.com\",\"980 uml.jvkb.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"229 gna.vjjw.com\",\"96 fsv.zbpj.org\",\"215 cxg.xvrg.com\",\"554 wch.tqya.com\",\"451 twe.hupw.com\",\"830 jzz.tzko.org\",\"39 bsv.cxts.org\",\"728 gxi.ketg.com\",\"431 dao.reiw.org\",\"619 rqx.bulv.com\",\"707 sgt.akcy.com\",\"647 sfu.owyr.com\",\"575 dqo.sngg.org\"]]",
+    "expectedOutput": "[\"1971 org\",\"215 cxg.xvrg.com\",\"215 xvrg.com\",\"229 gna.vjjw.com\",\"229 vjjw.com\",\"39 bsv.cxts.org\",\"39 cxts.org\",\"4150 com\",\"431 dao.reiw.org\",\"431 reiw.org\",\"451 hupw.com\",\"451 twe.hupw.com\",\"554 tqya.com\",\"554 wch.tqya.com\",\"575 dqo.sngg.org\",\"575 sngg.org\",\"619 bulv.com\",\"619 rqx.bulv.com\",\"647 owyr.com\",\"647 sfu.owyr.com\",\"707 akcy.com\",\"707 sgt.akcy.com\",\"728 gxi.ketg.com\",\"728 ketg.com\",\"830 jzz.tzko.org\",\"830 tzko.org\",\"96 fsv.zbpj.org\",\"96 zbpj.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"215 yyn.fgko.com\",\"943 dqb.kqet.org\",\"331 pza.jgkx.org\",\"973 laq.pvpb.com\",\"417 gha.aokp.org\",\"198 dog.gkqx.com\",\"946 eau.pofu.com\",\"427 lwo.etrt.org\",\"919 prb.ducr.com\",\"51 ukd.ypah.com\",\"475 vhz.akhd.com\",\"929 jbb.qehd.org\",\"850 nsa.ddon.org\",\"886 lrh.tizu.com\",\"631 vrq.yzak.org\",\"932 wcs.gdib.org\",\"692 fmb.lqlk.org\"]]",
+    "expectedOutput": "[\"198 dog.gkqx.com\",\"198 gkqx.com\",\"215 fgko.com\",\"215 yyn.fgko.com\",\"331 jgkx.org\",\"331 pza.jgkx.org\",\"417 aokp.org\",\"417 gha.aokp.org\",\"427 etrt.org\",\"427 lwo.etrt.org\",\"4663 com\",\"475 akhd.com\",\"475 vhz.akhd.com\",\"51 ukd.ypah.com\",\"51 ypah.com\",\"6152 org\",\"631 vrq.yzak.org\",\"631 yzak.org\",\"692 fmb.lqlk.org\",\"692 lqlk.org\",\"850 ddon.org\",\"850 nsa.ddon.org\",\"886 lrh.tizu.com\",\"886 tizu.com\",\"919 ducr.com\",\"919 prb.ducr.com\",\"929 jbb.qehd.org\",\"929 qehd.org\",\"932 gdib.org\",\"932 wcs.gdib.org\",\"943 dqb.kqet.org\",\"943 kqet.org\",\"946 eau.pofu.com\",\"946 pofu.com\",\"973 laq.pvpb.com\",\"973 pvpb.com\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"748 kzn.jacf.com\",\"693 xxi.cpzh.org\",\"171 nnn.aljy.org\",\"827 suj.xwpr.org\",\"31 zmh.prpa.org\",\"154 lon.yemi.com\",\"809 wsi.vebb.com\",\"645 jwi.vmmx.org\",\"226 ylo.cant.com\",\"957 mae.jkfq.org\"]]",
+    "expectedOutput": "[\"154 lon.yemi.com\",\"154 yemi.com\",\"171 aljy.org\",\"171 nnn.aljy.org\",\"1937 com\",\"226 cant.com\",\"226 ylo.cant.com\",\"31 prpa.org\",\"31 zmh.prpa.org\",\"3324 org\",\"645 jwi.vmmx.org\",\"645 vmmx.org\",\"693 cpzh.org\",\"693 xxi.cpzh.org\",\"748 jacf.com\",\"748 kzn.jacf.com\",\"809 vebb.com\",\"809 wsi.vebb.com\",\"827 suj.xwpr.org\",\"827 xwpr.org\",\"957 jkfq.org\",\"957 mae.jkfq.org\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"950 gvc.cpsm.org\",\"709 eer.ryoo.com\",\"116 her.vqcv.com\",\"918 qjh.ysfe.org\",\"838 egp.vsuc.org\",\"284 rvj.fnxe.com\",\"859 imc.ebsh.org\",\"485 ulx.lsku.com\",\"736 dci.exyp.com\",\"321 tgu.lgjt.org\"]]",
+    "expectedOutput": "[\"116 her.vqcv.com\",\"116 vqcv.com\",\"2330 com\",\"284 fnxe.com\",\"284 rvj.fnxe.com\",\"321 lgjt.org\",\"321 tgu.lgjt.org\",\"3886 org\",\"485 lsku.com\",\"485 ulx.lsku.com\",\"709 eer.ryoo.com\",\"709 ryoo.com\",\"736 dci.exyp.com\",\"736 exyp.com\",\"838 egp.vsuc.org\",\"838 vsuc.org\",\"859 ebsh.org\",\"859 imc.ebsh.org\",\"918 qjh.ysfe.org\",\"918 ysfe.org\",\"950 cpsm.org\",\"950 gvc.cpsm.org\"]",
+    "isHidden": true
+  }
+]

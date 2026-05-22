@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[1,2]",
+    "expectedOutput": "3",
+    "isHidden": false
+  },
+  {
+    "input": "[2,3]",
+    "expectedOutput": "5",
+    "isHidden": false
+  },
+  {
+    "input": "[489,322]",
+    "expectedOutput": "811",
+    "isHidden": false
+  },
+  {
+    "input": "[-368,237]",
+    "expectedOutput": "-131",
+    "isHidden": false
+  },
+  {
+    "input": "[-492,-250]",
+    "expectedOutput": "-742",
+    "isHidden": false
+  },
+  {
+    "input": "[269,-389]",
+    "expectedOutput": "-120",
+    "isHidden": true
+  },
+  {
+    "input": "[-83,93]",
+    "expectedOutput": "10",
+    "isHidden": true
+  },
+  {
+    "input": "[-468,-245]",
+    "expectedOutput": "-713",
+    "isHidden": true
+  },
+  {
+    "input": "[122,68]",
+    "expectedOutput": "190",
+    "isHidden": true
+  },
+  {
+    "input": "[-146,391]",
+    "expectedOutput": "245",
+    "isHidden": true
+  },
+  {
+    "input": "[-414,226]",
+    "expectedOutput": "-188",
+    "isHidden": true
+  },
+  {
+    "input": "[-329,-201]",
+    "expectedOutput": "-530",
+    "isHidden": true
+  },
+  {
+    "input": "[370,365]",
+    "expectedOutput": "735",
+    "isHidden": true
+  },
+  {
+    "input": "[495,-216]",
+    "expectedOutput": "279",
+    "isHidden": true
+  },
+  {
+    "input": "[9,330]",
+    "expectedOutput": "339",
+    "isHidden": true
+  },
+  {
+    "input": "[-52,189]",
+    "expectedOutput": "137",
+    "isHidden": true
+  },
+  {
+    "input": "[-70,21]",
+    "expectedOutput": "-49",
+    "isHidden": true
+  },
+  {
+    "input": "[-285,310]",
+    "expectedOutput": "25",
+    "isHidden": true
+  },
+  {
+    "input": "[-325,-428]",
+    "expectedOutput": "-753",
+    "isHidden": true
+  },
+  {
+    "input": "[191,-158]",
+    "expectedOutput": "33",
+    "isHidden": true
+  },
+  {
+    "input": "[-404,-158]",
+    "expectedOutput": "-562",
+    "isHidden": true
+  },
+  {
+    "input": "[-146,10]",
+    "expectedOutput": "-136",
+    "isHidden": true
+  },
+  {
+    "input": "[-289,339]",
+    "expectedOutput": "50",
+    "isHidden": true
+  },
+  {
+    "input": "[112,366]",
+    "expectedOutput": "478",
+    "isHidden": true
+  },
+  {
+    "input": "[-261,-363]",
+    "expectedOutput": "-624",
+    "isHidden": true
+  },
+  {
+    "input": "[-297,135]",
+    "expectedOutput": "-162",
+    "isHidden": true
+  },
+  {
+    "input": "[-204,-311]",
+    "expectedOutput": "-515",
+    "isHidden": true
+  },
+  {
+    "input": "[-83,-36]",
+    "expectedOutput": "-119",
+    "isHidden": true
+  },
+  {
+    "input": "[89,-127]",
+    "expectedOutput": "-38",
+    "isHidden": true
+  },
+  {
+    "input": "[249,327]",
+    "expectedOutput": "576",
+    "isHidden": true
+  },
+  {
+    "input": "[410,189]",
+    "expectedOutput": "599",
+    "isHidden": true
+  },
+  {
+    "input": "[-458,379]",
+    "expectedOutput": "-79",
+    "isHidden": true
+  },
+  {
+    "input": "[-212,-433]",
+    "expectedOutput": "-645",
+    "isHidden": true
+  },
+  {
+    "input": "[60,-81]",
+    "expectedOutput": "-21",
+    "isHidden": true
+  },
+  {
+    "input": "[192,48]",
+    "expectedOutput": "240",
+    "isHidden": true
+  },
+  {
+    "input": "[-500,-275]",
+    "expectedOutput": "-775",
+    "isHidden": true
+  },
+  {
+    "input": "[138,72]",
+    "expectedOutput": "210",
+    "isHidden": true
+  },
+  {
+    "input": "[380,225]",
+    "expectedOutput": "605",
+    "isHidden": true
+  },
+  {
+    "input": "[395,3]",
+    "expectedOutput": "398",
+    "isHidden": true
+  },
+  {
+    "input": "[138,-294]",
+    "expectedOutput": "-156",
+    "isHidden": true
+  },
+  {
+    "input": "[-401,-341]",
+    "expectedOutput": "-742",
+    "isHidden": true
+  },
+  {
+    "input": "[480,28]",
+    "expectedOutput": "508",
+    "isHidden": true
+  },
+  {
+    "input": "[424,18]",
+    "expectedOutput": "442",
+    "isHidden": true
+  },
+  {
+    "input": "[-328,-26]",
+    "expectedOutput": "-354",
+    "isHidden": true
+  },
+  {
+    "input": "[-49,461]",
+    "expectedOutput": "412",
+    "isHidden": true
+  },
+  {
+    "input": "[-247,-177]",
+    "expectedOutput": "-424",
+    "isHidden": true
+  },
+  {
+    "input": "[361,-479]",
+    "expectedOutput": "-118",
+    "isHidden": true
+  },
+  {
+    "input": "[205,-488]",
+    "expectedOutput": "-283",
+    "isHidden": true
+  },
+  {
+    "input": "[217,294]",
+    "expectedOutput": "511",
+    "isHidden": true
+  },
+  {
+    "input": "[-117,436]",
+    "expectedOutput": "319",
+    "isHidden": true
+  },
+  {
+    "input": "[-308,-421]",
+    "expectedOutput": "-729",
+    "isHidden": true
+  },
+  {
+    "input": "[384,-475]",
+    "expectedOutput": "-91",
+    "isHidden": true
+  },
+  {
+    "input": "[412,20]",
+    "expectedOutput": "432",
+    "isHidden": true
+  },
+  {
+    "input": "[-183,-146]",
+    "expectedOutput": "-329",
+    "isHidden": true
+  },
+  {
+    "input": "[-17,372]",
+    "expectedOutput": "355",
+    "isHidden": true
+  },
+  {
+    "input": "[-14,-268]",
+    "expectedOutput": "-282",
+    "isHidden": true
+  },
+  {
+    "input": "[226,-299]",
+    "expectedOutput": "-73",
+    "isHidden": true
+  },
+  {
+    "input": "[391,474]",
+    "expectedOutput": "865",
+    "isHidden": true
+  },
+  {
+    "input": "[-270,487]",
+    "expectedOutput": "217",
+    "isHidden": true
+  },
+  {
+    "input": "[271,-474]",
+    "expectedOutput": "-203",
+    "isHidden": true
+  },
+  {
+    "input": "[148,129]",
+    "expectedOutput": "277",
+    "isHidden": true
+  },
+  {
+    "input": "[-215,-348]",
+    "expectedOutput": "-563",
+    "isHidden": true
+  },
+  {
+    "input": "[446,-315]",
+    "expectedOutput": "131",
+    "isHidden": true
+  },
+  {
+    "input": "[245,71]",
+    "expectedOutput": "316",
+    "isHidden": true
+  },
+  {
+    "input": "[-320,-406]",
+    "expectedOutput": "-726",
+    "isHidden": true
+  },
+  {
+    "input": "[492,-355]",
+    "expectedOutput": "137",
+    "isHidden": true
+  },
+  {
+    "input": "[485,-299]",
+    "expectedOutput": "186",
+    "isHidden": true
+  },
+  {
+    "input": "[382,-126]",
+    "expectedOutput": "256",
+    "isHidden": true
+  },
+  {
+    "input": "[-366,471]",
+    "expectedOutput": "105",
+    "isHidden": true
+  },
+  {
+    "input": "[95,-439]",
+    "expectedOutput": "-344",
+    "isHidden": true
+  },
+  {
+    "input": "[-361,256]",
+    "expectedOutput": "-105",
+    "isHidden": true
+  },
+  {
+    "input": "[242,-50]",
+    "expectedOutput": "192",
+    "isHidden": true
+  },
+  {
+    "input": "[126,-327]",
+    "expectedOutput": "-201",
+    "isHidden": true
+  },
+  {
+    "input": "[-441,-391]",
+    "expectedOutput": "-832",
+    "isHidden": true
+  },
+  {
+    "input": "[-46,-47]",
+    "expectedOutput": "-93",
+    "isHidden": true
+  },
+  {
+    "input": "[46,141]",
+    "expectedOutput": "187",
+    "isHidden": true
+  },
+  {
+    "input": "[-378,349]",
+    "expectedOutput": "-29",
+    "isHidden": true
+  },
+  {
+    "input": "[444,23]",
+    "expectedOutput": "467",
+    "isHidden": true
+  },
+  {
+    "input": "[39,401]",
+    "expectedOutput": "440",
+    "isHidden": true
+  },
+  {
+    "input": "[-121,-51]",
+    "expectedOutput": "-172",
+    "isHidden": true
+  },
+  {
+    "input": "[-284,291]",
+    "expectedOutput": "7",
+    "isHidden": true
+  },
+  {
+    "input": "[106,97]",
+    "expectedOutput": "203",
+    "isHidden": true
+  },
+  {
+    "input": "[440,-233]",
+    "expectedOutput": "207",
+    "isHidden": true
+  },
+  {
+    "input": "[86,-437]",
+    "expectedOutput": "-351",
+    "isHidden": true
+  },
+  {
+    "input": "[83,-308]",
+    "expectedOutput": "-225",
+    "isHidden": true
+  },
+  {
+    "input": "[104,-28]",
+    "expectedOutput": "76",
+    "isHidden": true
+  },
+  {
+    "input": "[340,174]",
+    "expectedOutput": "514",
+    "isHidden": true
+  },
+  {
+    "input": "[-410,472]",
+    "expectedOutput": "62",
+    "isHidden": true
+  },
+  {
+    "input": "[378,-173]",
+    "expectedOutput": "205",
+    "isHidden": true
+  },
+  {
+    "input": "[311,-41]",
+    "expectedOutput": "270",
+    "isHidden": true
+  },
+  {
+    "input": "[-177,60]",
+    "expectedOutput": "-117",
+    "isHidden": true
+  },
+  {
+    "input": "[-458,471]",
+    "expectedOutput": "13",
+    "isHidden": true
+  },
+  {
+    "input": "[-58,-123]",
+    "expectedOutput": "-181",
+    "isHidden": true
+  },
+  {
+    "input": "[247,257]",
+    "expectedOutput": "504",
+    "isHidden": true
+  },
+  {
+    "input": "[-274,313]",
+    "expectedOutput": "39",
+    "isHidden": true
+  },
+  {
+    "input": "[-459,-151]",
+    "expectedOutput": "-610",
+    "isHidden": true
+  },
+  {
+    "input": "[-280,-182]",
+    "expectedOutput": "-462",
+    "isHidden": true
+  },
+  {
+    "input": "[120,47]",
+    "expectedOutput": "167",
+    "isHidden": true
+  },
+  {
+    "input": "[-466,482]",
+    "expectedOutput": "16",
+    "isHidden": true
+  },
+  {
+    "input": "[-164,402]",
+    "expectedOutput": "238",
+    "isHidden": true
+  },
+  {
+    "input": "[-327,-201]",
+    "expectedOutput": "-528",
+    "isHidden": true
+  },
+  {
+    "input": "[-339,-339]",
+    "expectedOutput": "-678",
+    "isHidden": true
+  },
+  {
+    "input": "[-155,0]",
+    "expectedOutput": "-155",
+    "isHidden": true
+  },
+  {
+    "input": "[12,-89]",
+    "expectedOutput": "-77",
+    "isHidden": true
+  },
+  {
+    "input": "[314,-347]",
+    "expectedOutput": "-33",
+    "isHidden": true
+  },
+  {
+    "input": "[-38,-56]",
+    "expectedOutput": "-94",
+    "isHidden": true
+  },
+  {
+    "input": "[358,33]",
+    "expectedOutput": "391",
+    "isHidden": true
+  },
+  {
+    "input": "[317,-396]",
+    "expectedOutput": "-79",
+    "isHidden": true
+  },
+  {
+    "input": "[-339,146]",
+    "expectedOutput": "-193",
+    "isHidden": true
+  },
+  {
+    "input": "[489,-359]",
+    "expectedOutput": "130",
+    "isHidden": true
+  },
+  {
+    "input": "[-73,-102]",
+    "expectedOutput": "-175",
+    "isHidden": true
+  },
+  {
+    "input": "[-354,-335]",
+    "expectedOutput": "-689",
+    "isHidden": true
+  },
+  {
+    "input": "[406,-177]",
+    "expectedOutput": "229",
+    "isHidden": true
+  },
+  {
+    "input": "[136,235]",
+    "expectedOutput": "371",
+    "isHidden": true
+  },
+  {
+    "input": "[-243,-472]",
+    "expectedOutput": "-715",
+    "isHidden": true
+  },
+  {
+    "input": "[-453,58]",
+    "expectedOutput": "-395",
+    "isHidden": true
+  },
+  {
+    "input": "[0,457]",
+    "expectedOutput": "457",
+    "isHidden": true
+  },
+  {
+    "input": "[-404,-462]",
+    "expectedOutput": "-866",
+    "isHidden": true
+  },
+  {
+    "input": "[60,350]",
+    "expectedOutput": "410",
+    "isHidden": true
+  },
+  {
+    "input": "[-114,-162]",
+    "expectedOutput": "-276",
+    "isHidden": true
+  },
+  {
+    "input": "[-263,483]",
+    "expectedOutput": "220",
+    "isHidden": true
+  },
+  {
+    "input": "[-461,-424]",
+    "expectedOutput": "-885",
+    "isHidden": true
+  },
+  {
+    "input": "[-269,-481]",
+    "expectedOutput": "-750",
+    "isHidden": true
+  },
+  {
+    "input": "[0,-184]",
+    "expectedOutput": "-184",
+    "isHidden": true
+  },
+  {
+    "input": "[219,-449]",
+    "expectedOutput": "-230",
+    "isHidden": true
+  },
+  {
+    "input": "[-90,-120]",
+    "expectedOutput": "-210",
+    "isHidden": true
+  },
+  {
+    "input": "[-433,4]",
+    "expectedOutput": "-429",
+    "isHidden": true
+  },
+  {
+    "input": "[382,-280]",
+    "expectedOutput": "102",
+    "isHidden": true
+  },
+  {
+    "input": "[-129,380]",
+    "expectedOutput": "251",
+    "isHidden": true
+  },
+  {
+    "input": "[-164,-489]",
+    "expectedOutput": "-653",
+    "isHidden": true
+  },
+  {
+    "input": "[-187,-309]",
+    "expectedOutput": "-496",
+    "isHidden": true
+  },
+  {
+    "input": "[178,-483]",
+    "expectedOutput": "-305",
+    "isHidden": true
+  },
+  {
+    "input": "[370,0]",
+    "expectedOutput": "370",
+    "isHidden": true
+  },
+  {
+    "input": "[467,-110]",
+    "expectedOutput": "357",
+    "isHidden": true
+  },
+  {
+    "input": "[-312,-243]",
+    "expectedOutput": "-555",
+    "isHidden": true
+  },
+  {
+    "input": "[94,-69]",
+    "expectedOutput": "25",
+    "isHidden": true
+  },
+  {
+    "input": "[-252,36]",
+    "expectedOutput": "-216",
+    "isHidden": true
+  },
+  {
+    "input": "[-257,-84]",
+    "expectedOutput": "-341",
+    "isHidden": true
+  },
+  {
+    "input": "[-470,-93]",
+    "expectedOutput": "-563",
+    "isHidden": true
+  },
+  {
+    "input": "[-353,240]",
+    "expectedOutput": "-113",
+    "isHidden": true
+  },
+  {
+    "input": "[-317,-75]",
+    "expectedOutput": "-392",
+    "isHidden": true
+  },
+  {
+    "input": "[-497,471]",
+    "expectedOutput": "-26",
+    "isHidden": true
+  },
+  {
+    "input": "[-233,-99]",
+    "expectedOutput": "-332",
+    "isHidden": true
+  },
+  {
+    "input": "[389,68]",
+    "expectedOutput": "457",
+    "isHidden": true
+  },
+  {
+    "input": "[223,-280]",
+    "expectedOutput": "-57",
+    "isHidden": true
+  },
+  {
+    "input": "[126,-196]",
+    "expectedOutput": "-70",
+    "isHidden": true
+  },
+  {
+    "input": "[-326,-269]",
+    "expectedOutput": "-595",
+    "isHidden": true
+  },
+  {
+    "input": "[-174,-291]",
+    "expectedOutput": "-465",
+    "isHidden": true
+  },
+  {
+    "input": "[83,-199]",
+    "expectedOutput": "-116",
+    "isHidden": true
+  },
+  {
+    "input": "[-120,428]",
+    "expectedOutput": "308",
+    "isHidden": true
+  }
+]

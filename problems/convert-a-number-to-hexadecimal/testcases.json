@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[26]",
+    "expectedOutput": "\"1a\"",
+    "isHidden": false
+  },
+  {
+    "input": "[-1]",
+    "expectedOutput": "\"ffffffff\"",
+    "isHidden": false
+  },
+  {
+    "input": "[0]",
+    "expectedOutput": "\"0\"",
+    "isHidden": false
+  },
+  {
+    "input": "[49]",
+    "expectedOutput": "\"31\"",
+    "isHidden": false
+  },
+  {
+    "input": "[96]",
+    "expectedOutput": "\"60\"",
+    "isHidden": false
+  },
+  {
+    "input": "[74]",
+    "expectedOutput": "\"4a\"",
+    "isHidden": true
+  },
+  {
+    "input": "[25]",
+    "expectedOutput": "\"19\"",
+    "isHidden": true
+  },
+  {
+    "input": "[42]",
+    "expectedOutput": "\"2a\"",
+    "isHidden": true
+  },
+  {
+    "input": "[13]",
+    "expectedOutput": "\"d\"",
+    "isHidden": true
+  },
+  {
+    "input": "[32]",
+    "expectedOutput": "\"20\"",
+    "isHidden": true
+  },
+  {
+    "input": "[47]",
+    "expectedOutput": "\"2f\"",
+    "isHidden": true
+  },
+  {
+    "input": "[6]",
+    "expectedOutput": "\"6\"",
+    "isHidden": true
+  },
+  {
+    "input": "[96]",
+    "expectedOutput": "\"60\"",
+    "isHidden": true
+  },
+  {
+    "input": "[10]",
+    "expectedOutput": "\"a\"",
+    "isHidden": true
+  },
+  {
+    "input": "[63]",
+    "expectedOutput": "\"3f\"",
+    "isHidden": true
+  },
+  {
+    "input": "[42]",
+    "expectedOutput": "\"2a\"",
+    "isHidden": true
+  },
+  {
+    "input": "[67]",
+    "expectedOutput": "\"43\"",
+    "isHidden": true
+  },
+  {
+    "input": "[80]",
+    "expectedOutput": "\"50\"",
+    "isHidden": true
+  },
+  {
+    "input": "[96]",
+    "expectedOutput": "\"60\"",
+    "isHidden": true
+  },
+  {
+    "input": "[90]",
+    "expectedOutput": "\"5a\"",
+    "isHidden": true
+  },
+  {
+    "input": "[7]",
+    "expectedOutput": "\"7\"",
+    "isHidden": true
+  },
+  {
+    "input": "[74]",
+    "expectedOutput": "\"4a\"",
+    "isHidden": true
+  },
+  {
+    "input": "[77]",
+    "expectedOutput": "\"4d\"",
+    "isHidden": true
+  },
+  {
+    "input": "[45]",
+    "expectedOutput": "\"2d\"",
+    "isHidden": true
+  },
+  {
+    "input": "[68]",
+    "expectedOutput": "\"44\"",
+    "isHidden": true
+  },
+  {
+    "input": "[75]",
+    "expectedOutput": "\"4b\"",
+    "isHidden": true
+  },
+  {
+    "input": "[75]",
+    "expectedOutput": "\"4b\"",
+    "isHidden": true
+  },
+  {
+    "input": "[31]",
+    "expectedOutput": "\"1f\"",
+    "isHidden": true
+  },
+  {
+    "input": "[78]",
+    "expectedOutput": "\"4e\"",
+    "isHidden": true
+  },
+  {
+    "input": "[92]",
+    "expectedOutput": "\"5c\"",
+    "isHidden": true
+  },
+  {
+    "input": "[31]",
+    "expectedOutput": "\"1f\"",
+    "isHidden": true
+  },
+  {
+    "input": "[8]",
+    "expectedOutput": "\"8\"",
+    "isHidden": true
+  },
+  {
+    "input": "[58]",
+    "expectedOutput": "\"3a\"",
+    "isHidden": true
+  },
+  {
+    "input": "[32]",
+    "expectedOutput": "\"20\"",
+    "isHidden": true
+  },
+  {
+    "input": "[50]",
+    "expectedOutput": "\"32\"",
+    "isHidden": true
+  },
+  {
+    "input": "[30]",
+    "expectedOutput": "\"1e\"",
+    "isHidden": true
+  },
+  {
+    "input": "[84]",
+    "expectedOutput": "\"54\"",
+    "isHidden": true
+  },
+  {
+    "input": "[50]",
+    "expectedOutput": "\"32\"",
+    "isHidden": true
+  },
+  {
+    "input": "[46]",
+    "expectedOutput": "\"2e\"",
+    "isHidden": true
+  },
+  {
+    "input": "[11]",
+    "expectedOutput": "\"b\"",
+    "isHidden": true
+  },
+  {
+    "input": "[77]",
+    "expectedOutput": "\"4d\"",
+    "isHidden": true
+  },
+  {
+    "input": "[51]",
+    "expectedOutput": "\"33\"",
+    "isHidden": true
+  },
+  {
+    "input": "[33]",
+    "expectedOutput": "\"21\"",
+    "isHidden": true
+  },
+  {
+    "input": "[23]",
+    "expectedOutput": "\"17\"",
+    "isHidden": true
+  },
+  {
+    "input": "[57]",
+    "expectedOutput": "\"39\"",
+    "isHidden": true
+  },
+  {
+    "input": "[27]",
+    "expectedOutput": "\"1b\"",
+    "isHidden": true
+  },
+  {
+    "input": "[80]",
+    "expectedOutput": "\"50\"",
+    "isHidden": true
+  },
+  {
+    "input": "[99]",
+    "expectedOutput": "\"63\"",
+    "isHidden": true
+  },
+  {
+    "input": "[12]",
+    "expectedOutput": "\"c\"",
+    "isHidden": true
+  },
+  {
+    "input": "[39]",
+    "expectedOutput": "\"27\"",
+    "isHidden": true
+  },
+  {
+    "input": "[42058]",
+    "expectedOutput": "\"a44a\"",
+    "isHidden": true
+  },
+  {
+    "input": "[93621]",
+    "expectedOutput": "\"16db5\"",
+    "isHidden": true
+  },
+  {
+    "input": "[62932]",
+    "expectedOutput": "\"f5d4\"",
+    "isHidden": true
+  },
+  {
+    "input": "[35562]",
+    "expectedOutput": "\"8aea\"",
+    "isHidden": true
+  },
+  {
+    "input": "[4332]",
+    "expectedOutput": "\"10ec\"",
+    "isHidden": true
+  },
+  {
+    "input": "[12597]",
+    "expectedOutput": "\"3135\"",
+    "isHidden": true
+  },
+  {
+    "input": "[74850]",
+    "expectedOutput": "\"12462\"",
+    "isHidden": true
+  },
+  {
+    "input": "[52354]",
+    "expectedOutput": "\"cc82\"",
+    "isHidden": true
+  },
+  {
+    "input": "[90158]",
+    "expectedOutput": "\"1602e\"",
+    "isHidden": true
+  },
+  {
+    "input": "[83114]",
+    "expectedOutput": "\"144aa\"",
+    "isHidden": true
+  },
+  {
+    "input": "[5624]",
+    "expectedOutput": "\"15f8\"",
+    "isHidden": true
+  },
+  {
+    "input": "[75846]",
+    "expectedOutput": "\"12846\"",
+    "isHidden": true
+  },
+  {
+    "input": "[31611]",
+    "expectedOutput": "\"7b7b\"",
+    "isHidden": true
+  },
+  {
+    "input": "[71020]",
+    "expectedOutput": "\"1156c\"",
+    "isHidden": true
+  },
+  {
+    "input": "[76728]",
+    "expectedOutput": "\"12bb8\"",
+    "isHidden": true
+  },
+  {
+    "input": "[33520]",
+    "expectedOutput": "\"82f0\"",
+    "isHidden": true
+  },
+  {
+    "input": "[82227]",
+    "expectedOutput": "\"14133\"",
+    "isHidden": true
+  },
+  {
+    "input": "[69198]",
+    "expectedOutput": "\"10e4e\"",
+    "isHidden": true
+  },
+  {
+    "input": "[35407]",
+    "expectedOutput": "\"8a4f\"",
+    "isHidden": true
+  },
+  {
+    "input": "[52691]",
+    "expectedOutput": "\"cdd3\"",
+    "isHidden": true
+  },
+  {
+    "input": "[15995]",
+    "expectedOutput": "\"3e7b\"",
+    "isHidden": true
+  },
+  {
+    "input": "[25411]",
+    "expectedOutput": "\"6343\"",
+    "isHidden": true
+  },
+  {
+    "input": "[19298]",
+    "expectedOutput": "\"4b62\"",
+    "isHidden": true
+  },
+  {
+    "input": "[82933]",
+    "expectedOutput": "\"143f5\"",
+    "isHidden": true
+  },
+  {
+    "input": "[98569]",
+    "expectedOutput": "\"18109\"",
+    "isHidden": true
+  },
+  {
+    "input": "[83925]",
+    "expectedOutput": "\"147d5\"",
+    "isHidden": true
+  },
+  {
+    "input": "[84904]",
+    "expectedOutput": "\"14ba8\"",
+    "isHidden": true
+  },
+  {
+    "input": "[95787]",
+    "expectedOutput": "\"1762b\"",
+    "isHidden": true
+  },
+  {
+    "input": "[5147]",
+    "expectedOutput": "\"141b\"",
+    "isHidden": true
+  },
+  {
+    "input": "[56140]",
+    "expectedOutput": "\"db4c\"",
+    "isHidden": true
+  },
+  {
+    "input": "[18459]",
+    "expectedOutput": "\"481b\"",
+    "isHidden": true
+  },
+  {
+    "input": "[88130]",
+    "expectedOutput": "\"15842\"",
+    "isHidden": true
+  },
+  {
+    "input": "[12829]",
+    "expectedOutput": "\"321d\"",
+    "isHidden": true
+  },
+  {
+    "input": "[46726]",
+    "expectedOutput": "\"b686\"",
+    "isHidden": true
+  },
+  {
+    "input": "[58147]",
+    "expectedOutput": "\"e323\"",
+    "isHidden": true
+  },
+  {
+    "input": "[34250]",
+    "expectedOutput": "\"85ca\"",
+    "isHidden": true
+  },
+  {
+    "input": "[81501]",
+    "expectedOutput": "\"13e5d\"",
+    "isHidden": true
+  },
+  {
+    "input": "[66446]",
+    "expectedOutput": "\"1038e\"",
+    "isHidden": true
+  },
+  {
+    "input": "[84448]",
+    "expectedOutput": "\"149e0\"",
+    "isHidden": true
+  },
+  {
+    "input": "[5159]",
+    "expectedOutput": "\"1427\"",
+    "isHidden": true
+  },
+  {
+    "input": "[67257]",
+    "expectedOutput": "\"106b9\"",
+    "isHidden": true
+  },
+  {
+    "input": "[71965]",
+    "expectedOutput": "\"1191d\"",
+    "isHidden": true
+  },
+  {
+    "input": "[59375]",
+    "expectedOutput": "\"e7ef\"",
+    "isHidden": true
+  },
+  {
+    "input": "[38623]",
+    "expectedOutput": "\"96df\"",
+    "isHidden": true
+  },
+  {
+    "input": "[60090]",
+    "expectedOutput": "\"eaba\"",
+    "isHidden": true
+  },
+  {
+    "input": "[94656]",
+    "expectedOutput": "\"171c0\"",
+    "isHidden": true
+  },
+  {
+    "input": "[89549]",
+    "expectedOutput": "\"15dcd\"",
+    "isHidden": true
+  },
+  {
+    "input": "[11756]",
+    "expectedOutput": "\"2dec\"",
+    "isHidden": true
+  },
+  {
+    "input": "[89046]",
+    "expectedOutput": "\"15bd6\"",
+    "isHidden": true
+  },
+  {
+    "input": "[43985]",
+    "expectedOutput": "\"abd1\"",
+    "isHidden": true
+  },
+  {
+    "input": "[78377]",
+    "expectedOutput": "\"13229\"",
+    "isHidden": true
+  },
+  {
+    "input": "[19640]",
+    "expectedOutput": "\"4cb8\"",
+    "isHidden": true
+  },
+  {
+    "input": "[58923]",
+    "expectedOutput": "\"e62b\"",
+    "isHidden": true
+  },
+  {
+    "input": "[11990]",
+    "expectedOutput": "\"2ed6\"",
+    "isHidden": true
+  },
+  {
+    "input": "[35849]",
+    "expectedOutput": "\"8c09\"",
+    "isHidden": true
+  },
+  {
+    "input": "[47108]",
+    "expectedOutput": "\"b804\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-73904]",
+    "expectedOutput": "\"fffedf50\"",
+    "isHidden": true
+  },
+  {
+    "input": "[76549]",
+    "expectedOutput": "\"12b05\"",
+    "isHidden": true
+  },
+  {
+    "input": "[70944]",
+    "expectedOutput": "\"11520\"",
+    "isHidden": true
+  },
+  {
+    "input": "[47142]",
+    "expectedOutput": "\"b826\"",
+    "isHidden": true
+  },
+  {
+    "input": "[15485]",
+    "expectedOutput": "\"3c7d\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-24078]",
+    "expectedOutput": "\"ffffa1f2\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-68333]",
+    "expectedOutput": "\"fffef513\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-91313]",
+    "expectedOutput": "\"fffe9b4f\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-81375]",
+    "expectedOutput": "\"fffec221\"",
+    "isHidden": true
+  },
+  {
+    "input": "[16437]",
+    "expectedOutput": "\"4035\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-12182]",
+    "expectedOutput": "\"ffffd06a\"",
+    "isHidden": true
+  },
+  {
+    "input": "[36044]",
+    "expectedOutput": "\"8ccc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[29750]",
+    "expectedOutput": "\"7436\"",
+    "isHidden": true
+  },
+  {
+    "input": "[14218]",
+    "expectedOutput": "\"378a\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-54254]",
+    "expectedOutput": "\"ffff2c12\"",
+    "isHidden": true
+  },
+  {
+    "input": "[5050]",
+    "expectedOutput": "\"13ba\"",
+    "isHidden": true
+  },
+  {
+    "input": "[82166]",
+    "expectedOutput": "\"140f6\"",
+    "isHidden": true
+  },
+  {
+    "input": "[70159]",
+    "expectedOutput": "\"1120f\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-540]",
+    "expectedOutput": "\"fffffde4\"",
+    "isHidden": true
+  },
+  {
+    "input": "[93231]",
+    "expectedOutput": "\"16c2f\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-5861]",
+    "expectedOutput": "\"ffffe91b\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-48201]",
+    "expectedOutput": "\"ffff43b7\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-7220]",
+    "expectedOutput": "\"ffffe3cc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-41416]",
+    "expectedOutput": "\"ffff5e38\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-80330]",
+    "expectedOutput": "\"fffec636\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-516]",
+    "expectedOutput": "\"fffffdfc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-99949]",
+    "expectedOutput": "\"fffe7993\"",
+    "isHidden": true
+  },
+  {
+    "input": "[86066]",
+    "expectedOutput": "\"15032\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-17974]",
+    "expectedOutput": "\"ffffb9ca\"",
+    "isHidden": true
+  },
+  {
+    "input": "[50026]",
+    "expectedOutput": "\"c36a\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-63622]",
+    "expectedOutput": "\"ffff077a\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-41910]",
+    "expectedOutput": "\"ffff5c4a\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-1601]",
+    "expectedOutput": "\"fffff9bf\"",
+    "isHidden": true
+  },
+  {
+    "input": "[76669]",
+    "expectedOutput": "\"12b7d\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-63233]",
+    "expectedOutput": "\"ffff08ff\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-62183]",
+    "expectedOutput": "\"ffff0d19\"",
+    "isHidden": true
+  },
+  {
+    "input": "[90726]",
+    "expectedOutput": "\"16266\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-21325]",
+    "expectedOutput": "\"ffffacb3\"",
+    "isHidden": true
+  },
+  {
+    "input": "[23727]",
+    "expectedOutput": "\"5caf\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-5582]",
+    "expectedOutput": "\"ffffea32\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-47919]",
+    "expectedOutput": "\"ffff44d1\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-1807]",
+    "expectedOutput": "\"fffff8f1\"",
+    "isHidden": true
+  },
+  {
+    "input": "[20889]",
+    "expectedOutput": "\"5199\"",
+    "isHidden": true
+  },
+  {
+    "input": "[51281]",
+    "expectedOutput": "\"c851\"",
+    "isHidden": true
+  }
+]

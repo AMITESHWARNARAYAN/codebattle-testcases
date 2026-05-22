@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[\"aabcbc\"]",
+    "expectedOutput": "true",
+    "isHidden": false
+  },
+  {
+    "input": "[\"abcabcababcc\"]",
+    "expectedOutput": "true",
+    "isHidden": false
+  },
+  {
+    "input": "[\"abccba\"]",
+    "expectedOutput": "false",
+    "isHidden": false
+  },
+  {
+    "input": "[\"a\"]",
+    "expectedOutput": "false",
+    "isHidden": false
+  },
+  {
+    "input": "[\"b\"]",
+    "expectedOutput": "false",
+    "isHidden": false
+  },
+  {
+    "input": "[\"bbacaabaccabaccbbac\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bbbbaaacccaccbaa\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ccaa\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bbaaaabcbbbbbaabbb\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"b\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bbbabcbaabccc\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ccacabaacbccaaaccc\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bcbabcabbccabc\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ccaaaaabaccb\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"baaacbbbbbcabcb\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bcccccabcaabcbaaaa\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cbccccabcbaa\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bbbabacbca\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bcbcbabcccabc\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cbaca\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cabcbcbbcbac\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bacbcaaccaba\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bbccaaaaaabacbccab\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bbbbbbbbacabcc\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"b\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bc\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aacabcbaacbccccbbccbcacbabbaccbcbcaabcbbcbbcbcbcbaaaabcbaacbbacbcccabbccbaaaccccbcbb\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"acacaabbbabbccbbbbaabbccaaacbbccbcabccaaabaaacabccbbcbbababbcbbaacaaacccaaacbbbccaabcacacbbaba\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abccaabacbcacabacbbcbaaabcbaccaaacccccababbccaaccabbcbbbbaccbbbcbaba\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"accaabcbaccbacabccccacbaccacacabbccacacacbbbacbbaacbacb\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bcababaababcaaacbccaaaaabccaaacccab\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bbcbbcbbabcccccabaccaacbcbaaabbccccbabbbbbccbacccaabcaacacbcabbcbacbaabaacabac\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abaacaaccbcabababbbacacaccbccbbc\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bbcbcabcaababacaacccbbbabcabacaacabcbbaccccbacacaabbbcaabbcbcbcbaca\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ccacaababcaccccabacbabcaacbaaababcabaccaaaacbaabaabcbcccababbcaabbabaaaabbacacccaacca\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aaabbacbbcacacaccaabacbbcbcabccbaabcaaacccbacaabbcabbabcccbbabbacbccccacbacccbbcba\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"acbcbcabbcaabaccbabcacabcbcccbccbcbabacccbcbb\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aaacbbcaacbbbbaacacababacaaaaacbbccbaacab\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bbcabccaaaacbbabaaabbbbcaccaababaaaccbacbaa\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aacbaaaccaccabbcbbbbabcbbacacbacaaaabcbcacaccccbbbbcaabbbbacacaccbacacbcabcbabb\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bbbabbcabbbbbaabacbbabcbabbcccacaabcaaaccabaabcacabbabababcaacaaaabbacbccaabbaccbb\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cbcbacbccbacbbccbbabaacaabbcc\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cacaaacacaacbbbabbbcaacbbababaabacbcccccaaa\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bcacbabcbccccbbccbbbabbbcabbabc\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aaaabacaccccccbcccaaaaccbabaaacaccccacbabcaacbbccbacacabababbcacacbcccbabcacbcbac\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ccbabbabacabbcbbabccbbbabccacbbabbbbcacccacbbaacbaacacba\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bcccbbcccbcbbaacacabcc\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"acccbacbcbaacbccbabcccaaacabaaccbcabababacbcaccbccacabacccbbbbbba\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ccbcccabaabaaaabcbacabcbcbaaa\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bacbcbccbaccacbcabbcbccbaabcaaccacbacbaababbccacbcbaabcaaaccbbb\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bbabcababcbcaabacaacaaabbcababcaaaabcbcbabbbaaabbaccbbacbbcbcabaaaacaaaacabbbcbcccbaa\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ccbbbabaccaaaacbaabaacaacccbccbcccccbccabaacacbbccbcaaccbbbbbbcbaaccbaacccabcacbabacbcaabbbb\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aaacbbcbcbbbcbbcaabccaaabbcbacbcbbaacacccaccbcbbaaccacabbbccbcccacccabcaaccbbaaaabaaccacaaabaca\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abaabcbbaaaacccacbccaaabcaacaccabcbaabcbcccccccccbbbbbacccbbbabcaacababacbbabbb\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bccbaababbaabaacaccbcaacbcbbacacbacccabcccacacbabbcbabbabcbacababccbcaccbaccacbaaabbbacaabaacaacbbacbcbcbccabbccaababbcacacabcaaccabcbacbcbacbbbcbcbcabccccccbabbbacbaacbcbcbbbacccccacabccbcccaaccbbcbabaaccaccabcabbaccabbcabcaaaacbcabccbabbabcbaaabcbaacacbccbbbacbcccbcaaabcabaccbabaccbcabaacbbabcabcbacabccaaccaabcaccbbacaacbaaacbbabacabbaaaccaaacacccccacabbbccbccccabcbbabbababcbacababbbcacbbccbaacbcaaacacbabbabccbcbccaaccababbacbccbccacaabaabbaabcaabccccbbbbcacbbacbbcccccbacbbccccccacaacbacbccbabacbbaccbacbababbaabbbacbcbcabbcbbaaaababccbbcacbcccaaaccccabaaccbcbacccaccbbcacacbacacbabababbaabcbcabc\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abbbaabbacbcbcccaccccabaaaaabcbbccaabbacbacabccacbcbcccbcccacbcbcacaaaababccacacbcaaaabcacbcbcccccabbbcbaaabccbccccbaaaacabcacacbacbcbacababacccaaaabcacabbcbaaccbabbbaaacbaaccacaaccbbccbacaaabcaaccbcaaacabbcabccaaacbaaccbcccababcbcacabbccbcaaaacbbccacbbcbbabbbccbcabcabbbaacbaaaabaabbcbcbbccbcabbaaccbcbbaccaabacacbbbbcbabaabaaaacaabbbacabbbccaacacbabbcabcaccbcccbbaabcbaacbbbbbaaaccacbabcaaacbcccacbaaccaaacbccaacbbababbaacacccbaababbaabccbaaabccccababacaabbbbccaccabaacccccaccbacabcabcbabacaccaccbcccbacbbbcbaacbbbbbacabccabcbaaaccccaabbbaccaaaaacbbabbcabccccbbcbcabcccaccaaabcbaaccabaaabcbbabcbaaccabbccabcbbccabbcbaccababcaccccbbaacbbcacbacacabcbacbacaccaacbcabaabbbcaaaaaaabcbabaccccaacbcbbbbbccaccccbbccccbaacabbbcaacabbaaccccbaacbcabbabbbaaaccabbcbcccaabcccbcac\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"acabbcabcababcbaabccbabbacccbaccccbbbcaaaaacbcacccccbbcbcaacabbaccbcbbcabcbaccacbaccbccaacababbcacabccbaccbbbccbaaabbababbbbbbccbbccbbabbcabbbbaaccaacccabaacaacbbcacacbccbabbccc\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ccbaacbccbcaacbabacaaabbabacbaaaacabcaababbccacaabbacccacaaaacbbbbaacbabcacbaaaccbcbcaaaaccaabbcabcaabacccbcbcababaabbbbbaacbccaacbabcaccbaccaccabccbacababacaccbbbbcccaabbbcbabbbbaccbbbbabccabaaccbcbcbcabcaabcbbacaaaabcbabacacccabcbbcacabbacbbabbacccbbcacaacbaacacabbcccbacabbacbabbacbbabacbbaca\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"acccbccaababcacbcbbacaabcbbbbacbbabbcaacbacacbbcccacccbcacabcaaacbbbbabccbaaaabcbcabbacabaabbbbbccabbbbccbccbbbccabcbcaacabbabccaabaaabcacaacacabcbaccbcabcbcacbccabbabcbaccbaaccbbacacacabccaacaacccabcaccbabbaacbbcbcabcacbbaacbabbbcbbabcccbabccaacaaccbccbbbbcbabbccbabaacbbacacabaccbbbcccccbcbbaacabaacabbcccbababcbabacbcccaccaababcaabbbbacababcaabbccacbabacbacbaabbbcaacacacbbaaacbabaabcbcabbacbbcbccaacabaccbcccacbacccbcaabccbbabbcaccbabacbcbbccbabccbbcaaccccbbbbccabcacbcbcabbcbbbbbcaabccbbcbcccbbabcabcbcbaabaabbccbbbcaabaacabacbaaacbbbacaccbaaabccabacabaccacabbbacbcabccacbacbcaaaacacccbccabaabbbaccaaacabbccaabacbcbabbbcaccbacaaaaabcabcabbccbaccbabaaacccbbaccccabccbabbbbaacbacaabbbcbcaabcacacccaacaaaabbcacaacabacacccaabbcbacbcccbcc\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bbcbbbbbcccabbcaccacbacabbcccaababbcccbcabbbbcbcbcbcaaacabbabccbbabcccacabbcbbcaabababcaccbbcbcbbacbabbccaabababaacbcaccaccababbcbbbcbabaabcaacaabcbccaaccbcbbaccbbccbcbacaccabacacbacabcacbbaacbabbcabcaaccaaabcbccaabbbcccacbaacbbabacccacbaaccacacbbbaccabcacbaabaccccabcbcacbcabaacbbacacacacbaaabbabcabacabccaccbbaaabccacccacaccacbaabaabbcbbcbaacbccbcccbcababacacabbbaacaacbcacaaabbbbbbbaaaacbbabbcbcabcbabacbcbbccabaccaabaabbacbbacaabcccbcbbabcabaccabbcabbccccbbacabbabaabacacbbaccacbacaccacaacbacaacbacbaaabcacaaabacabcabbaaaabaabacaaccbabbacccbbaaabcccbbcbbbbaaccbccbcccaaaacacabcaabaaaccbaabcbcbabcbcbbabbaaacabacbcacccbabaabaabbbccbbbbbccccbcbcbcacbbcbbaacbab\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cbbaacacbbbacbacbcbccbabababcccccaaccaabbccbacbccabccaabcbabbbcccabaabbbbaacccaacbcbcabaabbbccaaacbccbcabbcacabacbbabcacbaacababcabaccbbabbacccbbcbacabbcbbacacaccaccaa\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cbaccabbbbbcabcabacbaabbccbacbbcbacbbabaaaababcbccacbbcbcbaaabbcaabbcbcaababcaacccbabccbbbcaabbcbaacbbbabccbcbcbcccccbbaccbccbbcaabbbcccaccabbbcacbccbbacccbccaccbacaaabcbabbcbccaabbbabbbaacaabcaabcabbaaccbcbaaccaacbbabcabcbbcbacabcccbabccccbbbabaccbbcbcbcacabaabcabacbbbaacbbbbbbacacccacccbbbbcbabaaabbaaaaaabbbbaacbccbabaaccccaabcbcbbbbbcaaccccaaccbacbaacababcacacbabbaabaabbcaccbbbcabccaacacaabaacabcbbaababbaccbcbabacccccbcbbcccaaaaabbcccbaaabacbbccabbbabaabbcab\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"accbaaababcacbaaaabccabbbbcbccccabbbbbbccacabaaacacbaccbacbabbaccacccbbccaccaccaccbcccccbcbcbaccccbcccbbacbcbbbaaacbbbccacacbbabaccabbababacaacabacbcbabccabbccabccacbbcaababaabaababcacbcaaaabaccbbabbbbabaabaccbaabbaabbacaaaccabcbbbcbaccaacacbaaabcaabca\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bbbbbbcaaccbbbacbbcccacbabbaacccbababbbccbcbccbbbbbbabacbabcababbcabbccbcccaaaccbbcaacabbaacabacbabaccccabbbccaabcaacbcacbabcbccbbccbbaaaacacbabbbcbcacbbbacbbbacbacbaccbcbcacaacbbccaabbcccabbbaccabbcabbacaacaaccbbccaaabaccaaaccbcbbcacbaaccccbaaaabaacaacacbccabbbaccccacbacbcabcbbbccbbcbbabccbcbbcacccbaacccbaabccccababcabcbcbcbaaacbbbcbccbbbcabbacccbbaabbabcbcaabbbaabbaaabacaabbbbacabacbcacbbaabbbccaabaacccbabcaccaacaacbcaabcabcacabbabbcbabaabbccaccbcbabbcacaacbccaaabbbcbabcaabaaacccbbcababccbbaabcacbabacbcccbbacbaccaacbbccbbabababbabcccaabbcbbbcbccabbbbbaaabcccccacbcaabccabaabcacaaabaacabbacbacacaaabbbcbacbbbbbbabcaaaaccaaabbaacbcabbaababacbbcccabbacabaacabcbababababacbbabcbbaabbcbccabbbcbcbbacacaabbcbacbcbcbbbbccbaabbcbccbbbccccbcbbcabbabbbbaccbcabbcabababaaa\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cbaaacaabbcaacccacbcabcacaaabacbbabbbabacbbccacacabacaacbcbbababbccabccbabcacbcacbacbcacbbabaacbccbbccaacacb\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cccbaaccaccbccbbcbcbccacaaabaaaabacbaacbcbabcbcbabccbbbccbccbbbcbbacbccbacaccacacbaccbbbcbbabcaaaaabaabccaabbbabbbacabcbcabbbcbbbcbcaaaaabaacacaaacbbcbabaabbbbbacbbcaccbbbabcabcabcacabababcbaaacbacbabbbabcacbbccaaaccaaacbccacbaccaabcccbccbcbccabccbabcbabacaaccbccbcbbacaaaacccccbabacbcababcbcbbbccacbbbacccabbcbcbaaabaacaabbaccacbabaccaaacbccbbbacabcacaccabbbbaaabbbabcccbccbaccbbbccbbcaababbababcaccbbcbccacbabbcabcabacccabbcabbcaccbccacbaabbaaaacabcacaccbaaabbcccaabcbbbcccababcaababbbacbacbaaababaaccbbbbaccaacbbcbcbcbcaca\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abaaacbbcaaaaaabbacbaaacabbaaacccbbaacbaacaaaaccaabbcbaabcabbabcbbbabaaacaaabbbbcccbbbaaabcbbccbbaabaac\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cacacbcabaaccbbaccaaacacaccbcabaccbbacabcaccbcbcaaabbabcbcbbbcccaabccbabcaabcabaabbabbbcababcbbcbbacaacaacaaabbcacccaabbaabcaababbcaacbbbccaccaaaabbcbcbaabbabbbbcabcbbcbbababcbcccacbcbaacccaccaccbacaaaccaaaabbcbaccaccaccbbbabacaabaccbbaccabcaccacbcabccaabaacbabcccbcabbbcbcbcaabaccbaaabccababbbcaaaaaabaccccccbabcbbaaccbcbbbbcbbacbbcbbbcccabaacbbbcaccaaaaaaccbcccacacbbaabcaaacaaccbcbbaabccaccaabccaccbbcccacbacabbaaaacbcbaabcbcccaacaabcccbaaabcbccacccacbbbcaabbcaacacbaacbccccbcbabccbaccbacabccacbcaabbaabcbacabcbaccacccbbccbbacccbcaaacaccccaaabcacabaaccababbbcbbbcccabcaccbcbbacabaccaabababbbccabaaabbcbcbccbbaaabaaaabaaacaccaabbcbbaaaccccaaaaacacbabcccccabbbaababb\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bcccbbbcbcaaccaccaaccacbbbbcbcabbbccbbcbcbcbaaabacaccbcbbaabbcacbcbaaccbbbbacccccccbbabacbccaacbcaabccbacabcaccbccacabcbbacbaabcccacaacccbcbbccbcabbbbbcccbcccbcababcccaabb\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"acccccaacacbcbbcbccacbaccbbcccccbaacbbcbccbabbcbbbcabbbccbacbccbcccbcaaaaabcccbaaccabcbbabbcccbaababbbabaaabbccabccbabbaccabaabcaaaaacbbaabaacbbcaaabacbacaababbbccccbcaabababbacacccaaabccccabbcababcaccbacbcabccabccababbcaacabab\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cbabbbccccacabcbabccabccaaabcccaccabcbabcbabaaaabbabbababbbacacbacbcabbaaacabbcaaccccbccaabaabbbacccacabbbaacbabbbacacaaccaabaabaccbcbabacbacacbacacbbbacbaababbabbbbcbbaaacccacaccbbccabccabcaaabcbabababaaaabcacaacabcccbcccbbaaaacbaacabbcccbbbbaaaccacccabbbabbabbaccccaabbaaaaabcaaaabbcbbcaabaaabbaabcbabccbaacabcabccbbacbaccabbbaaaaaacbcbbbbbccbcaaabbabccacababacabacaccccaabababacccbaaaabaacccacaabcbbccbbcbcaaaabcbacabbccaacbcbbcbabccacbaabcbbcabbbababbcbabcbcacbccaccabcacbcbccaccabbbcbcccbbbcbaabcacbccccbaaacabcbccbcbbbaaaacbabbbbbacbbcacbcbbacabcbcbaaacbccabcbbccbbbcacccbbcaaaabbbbaabbcbccabcccababbcbbcaacacacabcaaccabaaacaaaacccabaabacccbacabcbbcbbbaabccacabababbbaaabbbcccababccabbcbccacacbbaabbbbcbbaaacabbbbabaaabbcaabccabbacacaaccaacaccbabbcbbacbbbabbaacbbabbbccacbcabcbbcbcaaccabacac\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"acabcbbaabbaabcbbaabaaabaacabbcbbbcaacccabcccababcabcbcacacbcbcccabbcbbcccaacacbccacbbbaaacbabbcabcbccbbcbbbccbbbbaccacccbaaaaabccccbbacaacaabcabbccababacabbccbcbaacaacbcccbbcbcacaccccabbabaaacaaccbcabbaaabaccccccacaababaaacbaccbaaccbbabcbbcbacaccbaacccaabaabcbaccbcabcaaacbbbccabbccbbacabbabbaccabbbcbbcccbbbacbcabbbccaacccbbbcbabcbacaaaaaababbbaaabccacbacccaaaccabaabbabbcaabcacaacbcacaabbcccaacaacbacacbbccaabbcbcbacbbbaccccbaabaccbcbccbbbccbaabcabcabcccbbabcabaccbbabbbccaccacaabacbabbbbcacabbaabcbbbabbbaccbccbacacbbbcababcbcbacaaabcabcabacaccabcacbbbbcbccaccabbccccbbccbabbacccaccaccabbbabacabcabcabab\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"acabcbcbbacccccabcabacabbaccbcaabbbaabcaaccccacbbbaaacbcbaaacaacbcaabaaccacabacbcacacacabbbacabcbbcbbcacbbcbcbbcabaccbaacbacbbccbccccaabcbaacbbaaaabcbcabcbbacbcacccaacaabbbabbcbcbabccacaaaacbbbbbccbccacacccaacccaacbcacacccabacccbbccbabcbbacaccbccbabbaaabbaccabbccbcbbaabbabacabcbabaccccbbabacaccaaaabcaccbcaabcacbaaccbaaaabbaacccccccabacbbbccabbbacacccaaabccbbacbaabcabbbabacacbaabcacbbbabbbabcaacbbbbbbacaaabaaacacbbcccabcbacacbbaabacbcaccccabaaabacbccbacababaabbbbabbbbbaacabccaabbccacbcaabaacababcbcabbcccccbcaacabaaccbcbabbbbabcabbccaaabbbbaaaabbccbacabcaabbaaacabbcbabbcbccaabbababaaabcaccaabcabacbcaacbbbbbacbabcabaaacabbcbbacccabbcbabaccbccaacacacaccaacbacbccbacc\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cbabbbabbbccacaccacccacaabcccbbbaccbbabbcacaccaaaccbaccbcbccaacccabbcbaababcbcbbabcabcacbcaccacaccaabbccacbcabaabbacbcacaabbccaabaaaaaccbbccccacbbaabccacacacabbbcabcbbccaacbacbcbaacabaaaccccabbcacbabcbbacbccbbccccbabbcacacbbcbbbccabcabcaabacbbbcbababacacbccbabcaabaaacacbbabacccaacacccabbcacbccccccccbcbcabbabacabcbbaacbcbaabcbccccccbaaacabcbababbacbacbcbbbbaacbbbaacaacbccbcaababcabcbbbbcaaababacccaacbaabcbbbcabcacccacaccabbabaabcbbbaccbcababcaccacaabaaccaccccbaabbbacaacccbcaaccacaccacbbbaabcbbcbbcbcbcabbcabaacbccbcbcbbbabbabaabccbaccabbccbbaabbcbacacbccbcbccbaaccaacaaacabacbbbbbbbbbacaaaacacbaabaabbabcbbcbcbcacacacacbaaacaaacccbbabbabaabbacccacacbaccabaaaabaaabbabbbbcbcabcabacaaaabcabaaacaaccacaaaacbbbccbcbacaaabaacbccaaaaaacacabacbccccbbacaaabbcbcaacbbbbcccabaabaabcaaaaacccabbaaabbbbbbcbaacaacbccaabccabccccaabccbbccaccaacaabacbcccbcabbcbbbaccacaabbbaabcbaa\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"acabbbccaacccbabbacbcbacccabbcaababcacbccaaccaaabbacccbbacaccbcaabbabcbbacabbabbaababbccccccbbababaaccbcbbaaaccbabaaacacbbbbcbbbbbbcaaaaabcabbbcbaccbccbbcababcabaccbabcbaacacbbabbbaabbaabbccacbbbabaccbabacaacacaaaabcaacbacbacbcaacb\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bbcabbcaabbbbcbacbccabacaaccbbcbabccbabbbccabcacaccacbbcbbcacbcaababbccacbbbaabacaaabcccbbcabccabcbaaababcabaaacbbbcbccbbcbcbabbbcbacabcbbaabaccbbbabbccccbaabaababbcbbcbaacbbbbbaccccaacbabcbabbccacccccacbbcaccbaacbabcaaaaabbcccabaaabbabcbbabbcbcccabccaaaaccbbaaaacabaacbabaccabcbbbaacaababbabbbbaccbccabbabbccbaababaacacaabcaaaccbccabbcaabbacaaabbabcccabcbcacbbaccaccbcbaccabbccabbcbabaacbabbabbcacabcbbcacbaaaccaacabbbbbcbbbbbbabcbaaabcabaabbcaabacccbbbbcbbacbbbcacbccbbbbbabcaaccbbcccccaccbcbaabccbaabbbaababbccbbbabccbbbbcaabacacbccbccbacccbabcbbcaabbbbcbbbaccaabcccaacbcaabacaabbcaaabcbbcbcbaababcaabbabcacbccabaacbbcacacacccabbcbccaabbbbbacabbbacccbcbaccabcbbcababccbabcaccbaccbccacaaaabacbcaccbbcccbabbcaacccbababcbcbcbbbcaccbbacacbaabbacaccccbcccbacbcbaacabacabacabbbbcbcbaacacaaabbbcacbbacaaaccaacbccbccbabcaaaabaabbccacccccacaabccccbccaaaaccbaabaaacacaacccabcabccbccbcabaabcbcbbbcbaaccccbcababcabcabcbcbcbbaababcacabbbaaacacbaaccbcacbcabcbcbabb\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bbbcccabccabbcaacaabbccabaccbbabcbbbccccccacaccbbaacccabcaacbabcbbbcacbcbaaabacaccaccccbcccbcaabbabbbababccaaacabbccccbcccbbaacacbaaaaaccbbbbcbcabbabccbbbababaacabccacbccbcaabacabcbbbbbbcbbcacbabcabaaaccccccbaabccacaaaabcabcbcabbaacababccbabbacaacbcbccaaaccbbbaaacccccbbabbccacbbabcbaacaacbbbbbbbbcbbbcabababcbabbcbaabcbaabacacbccccabbbabacaccaccaaaacabacbcbcaccbbcccbacabcbacaccbccbbabcaabbbabaaacbcbbcbabccbbbabaacbbccacbacbabcbacccabacccb\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  }
+]

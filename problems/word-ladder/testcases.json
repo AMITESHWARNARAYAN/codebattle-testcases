@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[\"hit\",\"cog\",[\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"]]",
+    "expectedOutput": "5",
+    "isHidden": false
+  },
+  {
+    "input": "[\"hit\",\"cog\",[\"hot\",\"dot\",\"dog\",\"lot\",\"log\"]]",
+    "expectedOutput": "0",
+    "isHidden": false
+  },
+  {
+    "input": "[\"hit\",\"pan\",[\"pan\",\"hat\",\"fit\",\"cog\",\"cat\",\"fan\"]]",
+    "expectedOutput": "0",
+    "isHidden": false
+  },
+  {
+    "input": "[\"hit\",\"bet\",[\"pit\",\"bet\",\"dot\"]]",
+    "expectedOutput": "0",
+    "isHidden": false
+  },
+  {
+    "input": "[\"hit\",\"bet\",[\"pig\",\"fig\",\"bet\",\"bat\"]]",
+    "expectedOutput": "0",
+    "isHidden": false
+  },
+  {
+    "input": "[\"hit\",\"hat\",[\"hat\",\"dog\",\"pit\",\"bet\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"hot\",[\"dot\",\"hot\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"hat\",[\"dot\",\"pin\",\"cat\",\"hat\",\"bet\",\"hot\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"cat\",[\"dot\",\"cat\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"dig\",[\"dig\",\"hat\",\"bat\",\"pet\",\"sit\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"bat\",[\"pig\",\"pet\",\"bat\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pit\",[\"fan\",\"pit\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"get\",[\"get\",\"hot\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"log\",[\"pig\",\"fan\",\"sit\",\"log\",\"cat\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"fan\",[\"pig\",\"fan\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"hat\",[\"dot\",\"fit\",\"cat\",\"log\",\"fig\",\"hat\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"get\",[\"get\",\"hot\",\"cog\",\"dog\",\"log\",\"cat\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"dog\",[\"bet\",\"dog\",\"hot\",\"pit\",\"bat\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"dot\",[\"pit\",\"dot\",\"fig\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"cat\",[\"hot\",\"cat\",\"cog\",\"fig\",\"pan\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"hot\",[\"pig\",\"fan\",\"hot\",\"cat\",\"get\",\"dig\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pet\",[\"pet\",\"dig\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"hot\",[\"cat\",\"lot\",\"log\",\"bat\",\"hot\",\"hat\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"sit\",[\"pin\",\"hat\",\"pet\",\"sit\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"bat\",[\"sit\",\"bat\",\"pan\",\"dot\",\"pet\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"dog\",[\"sit\",\"dog\",\"get\",\"bat\",\"hat\",\"pan\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pin\",[\"pin\",\"cog\",\"lot\",\"hat\",\"hot\",\"bat\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"hot\",[\"hot\",\"pet\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pan\",[\"fan\",\"cog\",\"pan\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"fan\",[\"fan\",\"cog\",\"hat\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"log\",[\"cog\",\"fig\",\"log\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pit\",[\"pit\",\"bat\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"dig\",[\"fig\",\"dig\",\"pig\",\"pan\",\"bat\",\"hot\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"dog\",[\"fig\",\"dog\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"fan\",[\"get\",\"dig\",\"pig\",\"fan\",\"cat\",\"dog\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"dig\",[\"get\",\"dig\",\"log\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pin\",[\"fan\",\"pin\",\"hat\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pit\",[\"fan\",\"pit\",\"dog\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pet\",[\"get\",\"pet\",\"pin\",\"fit\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"fit\",[\"fit\",\"pin\",\"pig\",\"log\",\"hot\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"bat\",[\"log\",\"bet\",\"bat\",\"get\",\"dig\",\"pin\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"lot\",[\"hat\",\"get\",\"hot\",\"lot\",\"bat\"]]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"bat\",[\"hot\",\"get\",\"cog\",\"dot\",\"fan\",\"bat\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"fan\",[\"pig\",\"fan\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pan\",[\"pet\",\"dot\",\"pan\",\"fig\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pet\",[\"dot\",\"dog\",\"pet\",\"fig\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"dot\",[\"dig\",\"pet\",\"dot\",\"log\",\"pan\",\"cog\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"lot\",[\"dig\",\"fan\",\"lot\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"dog\",[\"hat\",\"cog\",\"dog\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"cog\",[\"bet\",\"fit\",\"cog\",\"pit\",\"sit\",\"cat\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"cat\",[\"bat\",\"hot\",\"pin\",\"pit\",\"lot\",\"log\",\"cog\",\"sit\",\"fit\",\"fan\",\"get\",\"cat\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"lot\",[\"dog\",\"pit\",\"pin\",\"pet\",\"cog\",\"lot\",\"cat\",\"bat\",\"fig\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"log\",[\"fan\",\"cat\",\"pin\",\"pit\",\"pet\",\"pan\",\"hot\",\"pig\",\"log\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"log\",[\"bat\",\"pit\",\"bet\",\"pig\",\"fan\",\"log\",\"fit\",\"fig\",\"dog\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"hat\",[\"dot\",\"fig\",\"hat\",\"get\",\"bat\",\"pet\",\"log\",\"pit\",\"pin\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"lot\",[\"pan\",\"pet\",\"pin\",\"lot\",\"fit\",\"dot\",\"pit\",\"pig\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"hat\",[\"fan\",\"sit\",\"pan\",\"pet\",\"dot\",\"fig\",\"hat\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pan\",[\"pig\",\"dig\",\"pan\",\"pit\",\"sit\",\"hot\",\"fit\",\"cog\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pit\",[\"pig\",\"cog\",\"bat\",\"log\",\"dog\",\"lot\",\"pit\",\"sit\",\"fig\",\"bet\",\"pan\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"fan\",[\"sit\",\"fan\",\"log\",\"pin\",\"cat\",\"bat\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pet\",[\"pit\",\"dog\",\"pet\",\"bat\",\"fan\",\"log\"]]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"fan\",[\"dig\",\"log\",\"fan\",\"bet\",\"cog\",\"pan\",\"bat\",\"pet\",\"sit\",\"hot\",\"cat\",\"dot\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pet\",[\"pit\",\"pet\",\"bet\",\"lot\",\"fit\",\"sit\",\"hot\",\"log\",\"cat\"]]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"dig\",[\"dig\",\"cat\",\"hot\",\"sit\",\"fan\",\"fig\",\"hat\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"fig\",[\"pan\",\"cog\",\"lot\",\"pig\",\"dot\",\"fig\",\"cat\",\"dig\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"bat\",[\"pan\",\"lot\",\"bet\",\"pit\",\"pig\",\"hat\",\"cat\",\"bat\"]]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"dot\",[\"fig\",\"fit\",\"pan\",\"get\",\"dot\",\"dig\",\"lot\",\"pin\",\"bet\",\"log\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"sit\",[\"fig\",\"fit\",\"dot\",\"sit\",\"log\",\"pin\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pan\",[\"pan\",\"log\",\"get\",\"sit\",\"dot\",\"bet\",\"dig\",\"lot\",\"fit\",\"hot\",\"pet\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"log\",[\"log\",\"sit\",\"hat\",\"hot\",\"cog\",\"pet\",\"bet\",\"get\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"sit\",[\"log\",\"lot\",\"fig\",\"cat\",\"fit\",\"sit\",\"hat\",\"pin\",\"hot\",\"fan\",\"dot\",\"pig\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"log\",[\"pit\",\"dig\",\"pig\",\"pet\",\"log\",\"sit\",\"dot\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"bat\",[\"cat\",\"pit\",\"fig\",\"dig\",\"hat\",\"fan\",\"bat\",\"log\"]]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pit\",[\"cat\",\"pit\",\"log\",\"hot\",\"get\",\"pan\",\"dig\",\"fan\",\"hat\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"bet\",[\"bet\",\"log\",\"sit\",\"pit\",\"dig\",\"cat\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"get\",[\"get\",\"fan\",\"fit\",\"bat\",\"cat\",\"hot\",\"pin\",\"dog\",\"dig\",\"pan\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"dig\",[\"dog\",\"dig\",\"dot\",\"fit\",\"fan\",\"pit\",\"get\",\"cat\",\"lot\",\"hot\",\"pet\"]]",
+    "expectedOutput": "5",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pig\",[\"pet\",\"dog\",\"sit\",\"pin\",\"dig\",\"dot\",\"fan\",\"pan\",\"pig\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"bet\",[\"log\",\"fit\",\"bet\",\"fan\",\"fig\",\"pet\",\"pig\",\"dog\",\"pan\",\"sit\",\"dig\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"fig\",[\"cog\",\"pig\",\"pet\",\"get\",\"dig\",\"dot\",\"sit\",\"fig\",\"lot\",\"fan\",\"bet\",\"bat\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"get\",[\"lot\",\"sit\",\"bat\",\"fit\",\"cog\",\"log\",\"pig\",\"get\",\"cat\",\"pan\",\"pit\",\"hat\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pig\",[\"dot\",\"log\",\"pig\",\"hat\",\"get\",\"lot\",\"fan\",\"pan\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"log\",[\"cog\",\"dot\",\"log\",\"lot\",\"bet\",\"fig\",\"pig\",\"fan\",\"pin\",\"pit\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"dog\",[\"sit\",\"fan\",\"dot\",\"bat\",\"bet\",\"get\",\"hot\",\"dog\"]]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"cat\",[\"sit\",\"fan\",\"log\",\"pan\",\"dig\",\"dot\",\"pig\",\"cat\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"dig\",[\"dig\",\"log\",\"get\",\"fig\",\"pig\",\"pet\",\"fan\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"fig\",[\"hat\",\"hot\",\"fig\",\"bat\",\"dot\",\"fan\",\"dig\",\"bet\",\"pig\",\"cog\",\"log\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"cog\",[\"hat\",\"hot\",\"cat\",\"bet\",\"lot\",\"cog\",\"fit\",\"pig\",\"dog\",\"log\",\"dig\"]]",
+    "expectedOutput": "5",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"dig\",[\"pig\",\"pan\",\"pet\",\"bat\",\"fit\",\"hat\",\"dig\",\"pit\",\"sit\"]]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"log\",[\"bat\",\"pit\",\"hot\",\"hat\",\"lot\",\"pin\",\"fan\",\"log\",\"bet\"]]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"fan\",[\"fan\",\"pin\",\"bet\",\"dot\",\"cat\",\"get\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pet\",[\"pit\",\"lot\",\"cog\",\"fan\",\"hat\",\"pig\",\"fig\",\"pet\",\"dot\",\"pin\",\"fit\"]]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"fan\",[\"cog\",\"fan\",\"fit\",\"pan\",\"dog\",\"pin\",\"cat\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"cog\",[\"cog\",\"fig\",\"pin\",\"hot\",\"fan\",\"cat\",\"dog\",\"dig\",\"get\",\"pet\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"fan\",[\"hot\",\"dot\",\"pig\",\"get\",\"cat\",\"bet\",\"hat\",\"pin\",\"fan\",\"pet\",\"lot\",\"fig\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pan\",[\"hot\",\"fit\",\"bat\",\"dot\",\"get\",\"bet\",\"pig\",\"cat\",\"sit\",\"pan\",\"pit\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"fig\",[\"hot\",\"pet\",\"fit\",\"fig\",\"log\",\"dog\",\"bat\"]]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"hot\",[\"fan\",\"dot\",\"hot\",\"fig\",\"cog\",\"cat\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"hot\",[\"fig\",\"fan\",\"pig\",\"pet\",\"dog\",\"hot\",\"log\",\"pan\",\"lot\",\"dig\",\"sit\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pig\",[\"pin\",\"sit\",\"fig\",\"fan\",\"dog\",\"pig\",\"hot\",\"bat\",\"pan\",\"pit\",\"cog\",\"dig\"]]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"bet\",[\"pig\",\"fig\",\"dig\",\"pet\",\"fan\",\"hat\",\"cat\",\"dot\",\"hot\",\"log\",\"bat\",\"lot\",\"bet\",\"get\",\"dog\",\"pan\",\"sit\",\"fit\"]]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"lot\",[\"lot\",\"pet\",\"get\",\"hat\",\"fan\",\"pit\",\"sit\",\"log\",\"cat\",\"pig\",\"pan\",\"cog\",\"dog\",\"dot\",\"pin\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"fit\",[\"hot\",\"lot\",\"cat\",\"bat\",\"dot\",\"fit\",\"dig\",\"sit\",\"cog\",\"dog\",\"pet\",\"log\",\"pan\",\"hat\",\"pit\",\"pig\",\"get\",\"fig\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"hot\",[\"fit\",\"lot\",\"fig\",\"sit\",\"pit\",\"hot\",\"pan\",\"bat\",\"hat\",\"dot\",\"pig\",\"get\",\"cat\",\"dog\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"log\",[\"fit\",\"log\",\"lot\",\"pig\",\"fan\",\"get\",\"sit\",\"dot\",\"dog\",\"cat\",\"bat\",\"fig\",\"pit\",\"pet\",\"cog\",\"hot\",\"pan\",\"dig\"]]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pit\",[\"get\",\"fig\",\"pig\",\"dog\",\"hot\",\"dig\",\"bat\",\"dot\",\"lot\",\"pin\",\"fan\",\"log\",\"pit\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"cat\",[\"pin\",\"dog\",\"pig\",\"hat\",\"pet\",\"cog\",\"pit\",\"hot\",\"fit\",\"bat\",\"cat\",\"fan\",\"log\",\"bet\",\"dot\"]]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"bat\",[\"pet\",\"dot\",\"get\",\"log\",\"cog\",\"bat\",\"hat\",\"cat\",\"sit\",\"pig\",\"hot\",\"dog\",\"pin\",\"fig\",\"fit\",\"dig\"]]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pet\",[\"pet\",\"dot\",\"fit\",\"lot\",\"cat\",\"fig\",\"dog\",\"hot\",\"dig\",\"sit\",\"log\",\"hat\",\"pin\",\"bet\",\"get\",\"fan\",\"bat\"]]",
+    "expectedOutput": "5",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"sit\",[\"fan\",\"bat\",\"pin\",\"lot\",\"cog\",\"cat\",\"fit\",\"fig\",\"hat\",\"pit\",\"pan\",\"dot\",\"sit\",\"get\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"bat\",[\"dog\",\"log\",\"lot\",\"get\",\"dig\",\"pan\",\"bet\",\"pig\",\"fan\",\"cat\",\"hat\",\"bat\",\"fit\",\"pit\"]]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"bet\",[\"dog\",\"cog\",\"log\",\"pan\",\"pin\",\"hat\",\"hot\",\"cat\",\"pig\",\"bet\",\"fan\",\"fig\",\"dig\",\"sit\",\"bat\",\"get\"]]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"cog\",[\"fig\",\"log\",\"hot\",\"sit\",\"bat\",\"pin\",\"pet\",\"lot\",\"cog\",\"hat\",\"pig\",\"pan\",\"get\"]]",
+    "expectedOutput": "5",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"log\",[\"pet\",\"fig\",\"pin\",\"log\",\"bat\",\"cat\",\"fan\",\"pit\",\"hat\",\"fit\",\"pan\",\"sit\",\"dot\",\"dig\",\"cog\",\"hot\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"dog\",[\"bet\",\"cat\",\"dig\",\"get\",\"pig\",\"hat\",\"lot\",\"pan\",\"pet\",\"fig\",\"pin\",\"log\",\"pit\",\"fan\",\"dog\"]]",
+    "expectedOutput": "5",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pig\",[\"get\",\"pig\",\"cog\",\"fig\",\"fit\",\"fan\",\"hat\",\"cat\",\"sit\",\"hot\",\"dot\",\"bet\",\"pet\",\"pan\",\"log\",\"dig\"]]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pit\",[\"bet\",\"pan\",\"log\",\"lot\",\"get\",\"pet\",\"bat\",\"dig\",\"pig\",\"hat\",\"cog\",\"hot\",\"pin\",\"dot\",\"sit\",\"pit\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"dot\",[\"pet\",\"get\",\"pin\",\"dot\",\"bat\",\"dog\",\"cog\",\"pig\",\"log\",\"bet\",\"sit\",\"lot\",\"hat\",\"fan\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"lot\",[\"sit\",\"pet\",\"get\",\"hat\",\"fig\",\"pit\",\"pin\",\"lot\",\"dot\",\"fan\",\"fit\",\"bat\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"fan\",[\"pit\",\"pig\",\"fig\",\"log\",\"pin\",\"dot\",\"hat\",\"fan\",\"cat\",\"hot\",\"bet\",\"get\",\"pet\",\"bat\",\"sit\",\"fit\",\"dog\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"hot\",[\"dot\",\"sit\",\"dig\",\"pin\",\"get\",\"pet\",\"fan\",\"lot\",\"pan\",\"fit\",\"hot\",\"log\",\"fig\",\"pig\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pin\",[\"pin\",\"hat\",\"dog\",\"bet\",\"sit\",\"pet\",\"hot\",\"pan\",\"fig\",\"pig\",\"cat\",\"pit\",\"dot\",\"fan\",\"get\"]]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"fan\",[\"pin\",\"fit\",\"hat\",\"sit\",\"dig\",\"dog\",\"pet\",\"pit\",\"hot\",\"fan\",\"pan\",\"get\"]]",
+    "expectedOutput": "5",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"cog\",[\"pin\",\"fit\",\"fig\",\"get\",\"hat\",\"cog\",\"pet\",\"log\",\"sit\",\"lot\",\"pan\",\"pit\",\"pig\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"cog\",[\"dig\",\"hat\",\"cog\",\"pan\",\"fit\",\"bat\",\"sit\",\"fig\",\"fan\",\"log\",\"dot\",\"pet\",\"pin\",\"pig\",\"bet\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pet\",[\"get\",\"pet\",\"dot\",\"lot\",\"pan\",\"log\",\"pig\",\"hot\",\"fan\",\"sit\",\"cog\",\"bet\",\"dog\",\"hat\",\"bat\",\"dig\",\"fig\"]]",
+    "expectedOutput": "5",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"log\",[\"pig\",\"log\",\"sit\",\"cog\",\"hot\",\"dog\",\"fan\",\"pan\",\"fit\",\"bat\",\"fig\",\"dig\",\"pin\",\"pit\",\"lot\"]]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pet\",[\"cog\",\"fig\",\"dig\",\"dot\",\"fan\",\"hot\",\"log\",\"pit\",\"pet\",\"get\",\"pan\",\"pig\",\"hat\",\"bet\"]]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"lot\",[\"dot\",\"dig\",\"log\",\"fig\",\"cat\",\"fit\",\"lot\",\"bat\",\"sit\",\"dog\",\"get\",\"bet\"]]",
+    "expectedOutput": "7",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"dog\",[\"dot\",\"pig\",\"cog\",\"bat\",\"hat\",\"hot\",\"bet\",\"dog\",\"pit\",\"pin\",\"fan\",\"lot\",\"dig\",\"fit\",\"fig\",\"log\"]]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"dot\",[\"dog\",\"cat\",\"cog\",\"bat\",\"dot\",\"hat\",\"log\",\"pig\",\"fit\",\"pit\",\"pan\",\"lot\",\"bet\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"dig\",[\"hot\",\"bat\",\"get\",\"pig\",\"dig\",\"dog\",\"log\",\"bet\",\"pit\",\"hat\",\"fit\",\"fig\",\"pet\",\"cat\",\"lot\",\"pan\",\"dot\",\"fan\"]]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pet\",[\"pet\",\"bet\",\"hot\",\"dig\",\"fan\",\"pit\",\"bat\",\"dot\",\"pig\",\"get\",\"fig\",\"hat\",\"pin\",\"sit\",\"dog\"]]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"hat\",[\"pin\",\"dog\",\"dig\",\"cog\",\"hat\",\"bet\",\"hot\",\"log\",\"bat\",\"fan\",\"get\",\"pit\",\"cat\",\"pig\",\"dot\",\"fig\",\"sit\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"bat\",[\"cat\",\"pin\",\"dot\",\"bat\",\"fan\",\"dog\",\"dig\",\"sit\",\"pig\",\"cog\",\"hat\",\"bet\",\"lot\",\"fit\"]]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"pig\",[\"dig\",\"fig\",\"bat\",\"lot\",\"cat\",\"sit\",\"fit\",\"hot\",\"get\",\"hat\",\"pig\",\"fan\",\"dot\",\"pan\",\"bet\",\"pit\",\"cog\"]]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"fan\",[\"dog\",\"lot\",\"log\",\"dig\",\"pig\",\"pet\",\"dot\",\"fan\",\"get\",\"sit\",\"cog\",\"hat\",\"fit\",\"hot\",\"fig\",\"cat\",\"bat\",\"pan\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"fit\",[\"dot\",\"fig\",\"bat\",\"fit\",\"get\",\"pin\",\"hot\",\"hat\",\"cog\",\"dog\",\"pig\",\"bet\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"bat\",[\"dig\",\"log\",\"pig\",\"lot\",\"pin\",\"get\",\"bet\",\"pan\",\"fit\",\"bat\",\"fan\",\"cat\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"fit\",[\"lot\",\"pig\",\"cog\",\"pet\",\"sit\",\"hot\",\"fig\",\"log\",\"dig\",\"bat\",\"bet\",\"dog\",\"hat\",\"fit\",\"get\",\"pin\",\"dot\",\"cat\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"cat\",[\"hot\",\"pig\",\"bet\",\"fig\",\"pit\",\"pet\",\"lot\",\"sit\",\"cog\",\"dog\",\"pin\",\"cat\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"bat\",[\"hot\",\"fig\",\"pig\",\"bet\",\"dog\",\"dig\",\"dot\",\"get\",\"log\",\"fan\",\"pan\",\"bat\",\"pit\",\"hat\",\"lot\"]]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"fig\",[\"dig\",\"hot\",\"fig\",\"pig\",\"pin\",\"lot\",\"cog\",\"pet\",\"pan\",\"bat\",\"fan\",\"fit\"]]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"hot\",[\"pet\",\"pin\",\"fig\",\"get\",\"hot\",\"dog\",\"cog\",\"dig\",\"log\",\"sit\",\"hat\",\"pan\",\"cat\",\"fan\",\"bet\"]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"cat\",[\"pan\",\"sit\",\"bat\",\"hot\",\"dog\",\"cat\",\"pig\",\"log\",\"fan\",\"hat\",\"lot\",\"bet\"]]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"dot\",[\"lot\",\"log\",\"pig\",\"pan\",\"pet\",\"cog\",\"get\",\"bet\",\"pit\",\"dig\",\"dog\",\"hat\",\"sit\",\"cat\",\"dot\",\"fig\",\"hot\"]]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"fig\",[\"fan\",\"fit\",\"hot\",\"log\",\"lot\",\"dig\",\"pet\",\"cog\",\"dog\",\"pit\",\"fig\",\"pan\",\"pig\",\"sit\"]]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"dog\",[\"bet\",\"hot\",\"fit\",\"pan\",\"hat\",\"pet\",\"fan\",\"bat\",\"pin\",\"dot\",\"log\",\"dog\",\"cog\",\"lot\"]]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"dig\",[\"dig\",\"pin\",\"dot\",\"fan\",\"dog\",\"get\",\"pan\",\"fit\",\"hat\",\"cat\",\"sit\",\"pit\",\"bat\",\"hot\",\"pet\",\"pig\"]]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hit\",\"fig\",[\"pin\",\"pet\",\"cat\",\"bet\",\"bat\",\"dot\",\"lot\",\"get\",\"dog\",\"fig\",\"sit\",\"cog\",\"pan\",\"hat\"]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  }
+]

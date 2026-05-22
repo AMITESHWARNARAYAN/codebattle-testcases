@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[3]",
+    "expectedOutput": "\"III\"",
+    "isHidden": false
+  },
+  {
+    "input": "[58]",
+    "expectedOutput": "\"LVIII\"",
+    "isHidden": false
+  },
+  {
+    "input": "[43]",
+    "expectedOutput": "\"XLIII\"",
+    "isHidden": false
+  },
+  {
+    "input": "[37]",
+    "expectedOutput": "\"XXXVII\"",
+    "isHidden": false
+  },
+  {
+    "input": "[27]",
+    "expectedOutput": "\"XXVII\"",
+    "isHidden": false
+  },
+  {
+    "input": "[47]",
+    "expectedOutput": "\"XLVII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[1]",
+    "expectedOutput": "\"I\"",
+    "isHidden": true
+  },
+  {
+    "input": "[38]",
+    "expectedOutput": "\"XXXVIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[24]",
+    "expectedOutput": "\"XXIV\"",
+    "isHidden": true
+  },
+  {
+    "input": "[23]",
+    "expectedOutput": "\"XXIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[42]",
+    "expectedOutput": "\"XLII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[47]",
+    "expectedOutput": "\"XLVII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[22]",
+    "expectedOutput": "\"XXII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[22]",
+    "expectedOutput": "\"XXII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[22]",
+    "expectedOutput": "\"XXII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[42]",
+    "expectedOutput": "\"XLII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[34]",
+    "expectedOutput": "\"XXXIV\"",
+    "isHidden": true
+  },
+  {
+    "input": "[29]",
+    "expectedOutput": "\"XXIX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2]",
+    "expectedOutput": "\"II\"",
+    "isHidden": true
+  },
+  {
+    "input": "[50]",
+    "expectedOutput": "\"L\"",
+    "isHidden": true
+  },
+  {
+    "input": "[20]",
+    "expectedOutput": "\"XX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[14]",
+    "expectedOutput": "\"XIV\"",
+    "isHidden": true
+  },
+  {
+    "input": "[42]",
+    "expectedOutput": "\"XLII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[35]",
+    "expectedOutput": "\"XXXV\"",
+    "isHidden": true
+  },
+  {
+    "input": "[47]",
+    "expectedOutput": "\"XLVII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[38]",
+    "expectedOutput": "\"XXXVIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[9]",
+    "expectedOutput": "\"IX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[23]",
+    "expectedOutput": "\"XXIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[38]",
+    "expectedOutput": "\"XXXVIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[41]",
+    "expectedOutput": "\"XLI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[16]",
+    "expectedOutput": "\"XVI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[42]",
+    "expectedOutput": "\"XLII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[26]",
+    "expectedOutput": "\"XXVI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3]",
+    "expectedOutput": "\"III\"",
+    "isHidden": true
+  },
+  {
+    "input": "[31]",
+    "expectedOutput": "\"XXXI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[6]",
+    "expectedOutput": "\"VI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[10]",
+    "expectedOutput": "\"X\"",
+    "isHidden": true
+  },
+  {
+    "input": "[14]",
+    "expectedOutput": "\"XIV\"",
+    "isHidden": true
+  },
+  {
+    "input": "[6]",
+    "expectedOutput": "\"VI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[29]",
+    "expectedOutput": "\"XXIX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[36]",
+    "expectedOutput": "\"XXXVI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3]",
+    "expectedOutput": "\"III\"",
+    "isHidden": true
+  },
+  {
+    "input": "[41]",
+    "expectedOutput": "\"XLI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2]",
+    "expectedOutput": "\"II\"",
+    "isHidden": true
+  },
+  {
+    "input": "[20]",
+    "expectedOutput": "\"XX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[33]",
+    "expectedOutput": "\"XXXIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[20]",
+    "expectedOutput": "\"XX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[40]",
+    "expectedOutput": "\"XL\"",
+    "isHidden": true
+  },
+  {
+    "input": "[21]",
+    "expectedOutput": "\"XXI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[26]",
+    "expectedOutput": "\"XXVI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[211]",
+    "expectedOutput": "\"CCXI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[227]",
+    "expectedOutput": "\"CCXXVII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[401]",
+    "expectedOutput": "\"CDI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[275]",
+    "expectedOutput": "\"CCLXXV\"",
+    "isHidden": true
+  },
+  {
+    "input": "[449]",
+    "expectedOutput": "\"CDXLIX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[426]",
+    "expectedOutput": "\"CDXXVI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[450]",
+    "expectedOutput": "\"CDL\"",
+    "isHidden": true
+  },
+  {
+    "input": "[434]",
+    "expectedOutput": "\"CDXXXIV\"",
+    "isHidden": true
+  },
+  {
+    "input": "[473]",
+    "expectedOutput": "\"CDLXXIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[370]",
+    "expectedOutput": "\"CCCLXX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[390]",
+    "expectedOutput": "\"CCCXC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[70]",
+    "expectedOutput": "\"LXX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[418]",
+    "expectedOutput": "\"CDXVIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[422]",
+    "expectedOutput": "\"CDXXII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[449]",
+    "expectedOutput": "\"CDXLIX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[174]",
+    "expectedOutput": "\"CLXXIV\"",
+    "isHidden": true
+  },
+  {
+    "input": "[241]",
+    "expectedOutput": "\"CCXLI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[412]",
+    "expectedOutput": "\"CDXII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[209]",
+    "expectedOutput": "\"CCIX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[138]",
+    "expectedOutput": "\"CXXXVIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[488]",
+    "expectedOutput": "\"CDLXXXVIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[203]",
+    "expectedOutput": "\"CCIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[295]",
+    "expectedOutput": "\"CCXCV\"",
+    "isHidden": true
+  },
+  {
+    "input": "[371]",
+    "expectedOutput": "\"CCCLXXI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[368]",
+    "expectedOutput": "\"CCCLXVIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[176]",
+    "expectedOutput": "\"CLXXVI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[453]",
+    "expectedOutput": "\"CDLIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[482]",
+    "expectedOutput": "\"CDLXXXII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[373]",
+    "expectedOutput": "\"CCCLXXIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[106]",
+    "expectedOutput": "\"CVI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[309]",
+    "expectedOutput": "\"CCCIX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[95]",
+    "expectedOutput": "\"XCV\"",
+    "isHidden": true
+  },
+  {
+    "input": "[292]",
+    "expectedOutput": "\"CCXCII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[388]",
+    "expectedOutput": "\"CCCLXXXVIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[152]",
+    "expectedOutput": "\"CLII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[464]",
+    "expectedOutput": "\"CDLXIV\"",
+    "isHidden": true
+  },
+  {
+    "input": "[118]",
+    "expectedOutput": "\"CXVIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[102]",
+    "expectedOutput": "\"CII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[64]",
+    "expectedOutput": "\"LXIV\"",
+    "isHidden": true
+  },
+  {
+    "input": "[395]",
+    "expectedOutput": "\"CCCXCV\"",
+    "isHidden": true
+  },
+  {
+    "input": "[322]",
+    "expectedOutput": "\"CCCXXII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[486]",
+    "expectedOutput": "\"CDLXXXVI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[356]",
+    "expectedOutput": "\"CCCLVI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[352]",
+    "expectedOutput": "\"CCCLII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[105]",
+    "expectedOutput": "\"CV\"",
+    "isHidden": true
+  },
+  {
+    "input": "[376]",
+    "expectedOutput": "\"CCCLXXVI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[392]",
+    "expectedOutput": "\"CCCXCII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[258]",
+    "expectedOutput": "\"CCLVIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[289]",
+    "expectedOutput": "\"CCLXXXIX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[215]",
+    "expectedOutput": "\"CCXV\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3030]",
+    "expectedOutput": "\"MMMXXX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2054]",
+    "expectedOutput": "\"MMLIV\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3702]",
+    "expectedOutput": "\"MMMDCCII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2417]",
+    "expectedOutput": "\"MMCDXVII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[550]",
+    "expectedOutput": "\"DL\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2630]",
+    "expectedOutput": "\"MMDCXXX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3330]",
+    "expectedOutput": "\"MMMCCCXXX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2629]",
+    "expectedOutput": "\"MMDCXXIX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[1832]",
+    "expectedOutput": "\"MDCCCXXXII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[883]",
+    "expectedOutput": "\"DCCCLXXXIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[839]",
+    "expectedOutput": "\"DCCCXXXIX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[1822]",
+    "expectedOutput": "\"MDCCCXXII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[1111]",
+    "expectedOutput": "\"MCXI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[859]",
+    "expectedOutput": "\"DCCCLIX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[1895]",
+    "expectedOutput": "\"MDCCCXCV\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3480]",
+    "expectedOutput": "\"MMMCDLXXX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2056]",
+    "expectedOutput": "\"MMLVI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3613]",
+    "expectedOutput": "\"MMMDCXIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2743]",
+    "expectedOutput": "\"MMDCCXLIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[955]",
+    "expectedOutput": "\"CMLV\"",
+    "isHidden": true
+  },
+  {
+    "input": "[660]",
+    "expectedOutput": "\"DCLX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[1242]",
+    "expectedOutput": "\"MCCXLII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[1849]",
+    "expectedOutput": "\"MDCCCXLIX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3191]",
+    "expectedOutput": "\"MMMCXCI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3548]",
+    "expectedOutput": "\"MMMDXLVIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[527]",
+    "expectedOutput": "\"DXXVII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[551]",
+    "expectedOutput": "\"DLI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3090]",
+    "expectedOutput": "\"MMMXC\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2859]",
+    "expectedOutput": "\"MMDCCCLIX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[1553]",
+    "expectedOutput": "\"MDLIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2570]",
+    "expectedOutput": "\"MMDLXX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2299]",
+    "expectedOutput": "\"MMCCXCIX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3625]",
+    "expectedOutput": "\"MMMDCXXV\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2057]",
+    "expectedOutput": "\"MMLVII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3196]",
+    "expectedOutput": "\"MMMCXCVI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[985]",
+    "expectedOutput": "\"CMLXXXV\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3857]",
+    "expectedOutput": "\"MMMDCCCLVII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2838]",
+    "expectedOutput": "\"MMDCCCXXXVIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3862]",
+    "expectedOutput": "\"MMMDCCCLXII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[1581]",
+    "expectedOutput": "\"MDLXXXI\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3553]",
+    "expectedOutput": "\"MMMDLIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2230]",
+    "expectedOutput": "\"MMCCXXX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2614]",
+    "expectedOutput": "\"MMDCXIV\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2637]",
+    "expectedOutput": "\"MMDCXXXVII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2407]",
+    "expectedOutput": "\"MMCDVII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2677]",
+    "expectedOutput": "\"MMDCLXXVII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3499]",
+    "expectedOutput": "\"MMMCDXCIX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2963]",
+    "expectedOutput": "\"MMCMLXIII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[1532]",
+    "expectedOutput": "\"MDXXXII\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2509]",
+    "expectedOutput": "\"MMDIX\"",
+    "isHidden": true
+  }
+]

@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[\"a1b2\"]",
+    "expectedOutput": "[\"A1B2\",\"A1b2\",\"a1B2\",\"a1b2\"]",
+    "isHidden": false
+  },
+  {
+    "input": "[\"2b\"]",
+    "expectedOutput": "[\"2B\",\"2b\"]",
+    "isHidden": false
+  },
+  {
+    "input": "[\"a21\"]",
+    "expectedOutput": "[\"A21\",\"a21\"]",
+    "isHidden": false
+  },
+  {
+    "input": "[\"2b\"]",
+    "expectedOutput": "[\"2B\",\"2b\"]",
+    "isHidden": false
+  },
+  {
+    "input": "[\"22\"]",
+    "expectedOutput": "[\"22\"]",
+    "isHidden": false
+  },
+  {
+    "input": "[\"112a\"]",
+    "expectedOutput": "[\"112A\",\"112a\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bbb\"]",
+    "expectedOutput": "[\"BBB\",\"BBb\",\"BbB\",\"Bbb\",\"bBB\",\"bBb\",\"bbB\",\"bbb\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2\"]",
+    "expectedOutput": "[\"2\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"b1b1\"]",
+    "expectedOutput": "[\"B1B1\",\"B1b1\",\"b1B1\",\"b1b1\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"b2b\"]",
+    "expectedOutput": "[\"B2B\",\"B2b\",\"b2B\",\"b2b\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2a\"]",
+    "expectedOutput": "[\"2A\",\"2a\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"b22\"]",
+    "expectedOutput": "[\"B22\",\"b22\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aa\"]",
+    "expectedOutput": "[\"AA\",\"Aa\",\"aA\",\"aa\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1a\"]",
+    "expectedOutput": "[\"1A\",\"1a\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"11b\"]",
+    "expectedOutput": "[\"11B\",\"11b\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"a111\"]",
+    "expectedOutput": "[\"A111\",\"a111\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"b\"]",
+    "expectedOutput": "[\"B\",\"b\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1\"]",
+    "expectedOutput": "[\"1\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"a\"]",
+    "expectedOutput": "[\"A\",\"a\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ba1\"]",
+    "expectedOutput": "[\"BA1\",\"Ba1\",\"bA1\",\"ba1\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"a2a2\"]",
+    "expectedOutput": "[\"A2A2\",\"A2a2\",\"a2A2\",\"a2a2\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"112\"]",
+    "expectedOutput": "[\"112\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"112b\"]",
+    "expectedOutput": "[\"112B\",\"112b\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1\"]",
+    "expectedOutput": "[\"1\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1\"]",
+    "expectedOutput": "[\"1\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2a2\"]",
+    "expectedOutput": "[\"2A2\",\"2a2\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"a1b2\"]",
+    "expectedOutput": "[\"A1B2\",\"A1b2\",\"a1B2\",\"a1b2\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1\"]",
+    "expectedOutput": "[\"1\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"11ab\"]",
+    "expectedOutput": "[\"11AB\",\"11Ab\",\"11aB\",\"11ab\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"a\"]",
+    "expectedOutput": "[\"A\",\"a\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2a2\"]",
+    "expectedOutput": "[\"2A2\",\"2a2\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2ab\"]",
+    "expectedOutput": "[\"2AB\",\"2Ab\",\"2aB\",\"2ab\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2bbb\"]",
+    "expectedOutput": "[\"2BBB\",\"2BBb\",\"2BbB\",\"2Bbb\",\"2bBB\",\"2bBb\",\"2bbB\",\"2bbb\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"a1aa\"]",
+    "expectedOutput": "[\"A1AA\",\"A1Aa\",\"A1aA\",\"A1aa\",\"a1AA\",\"a1Aa\",\"a1aA\",\"a1aa\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ba2\"]",
+    "expectedOutput": "[\"BA2\",\"Ba2\",\"bA2\",\"ba2\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"12\"]",
+    "expectedOutput": "[\"12\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2\"]",
+    "expectedOutput": "[\"2\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"12a\"]",
+    "expectedOutput": "[\"12A\",\"12a\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"111a\"]",
+    "expectedOutput": "[\"111A\",\"111a\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2a1\"]",
+    "expectedOutput": "[\"2A1\",\"2a1\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ba\"]",
+    "expectedOutput": "[\"BA\",\"Ba\",\"bA\",\"ba\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ba2\"]",
+    "expectedOutput": "[\"BA2\",\"Ba2\",\"bA2\",\"ba2\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aba\"]",
+    "expectedOutput": "[\"ABA\",\"ABa\",\"AbA\",\"Aba\",\"aBA\",\"aBa\",\"abA\",\"aba\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1b\"]",
+    "expectedOutput": "[\"1B\",\"1b\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2111\"]",
+    "expectedOutput": "[\"2111\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2b1\"]",
+    "expectedOutput": "[\"2B1\",\"2b1\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"b\"]",
+    "expectedOutput": "[\"B\",\"b\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1b\"]",
+    "expectedOutput": "[\"1B\",\"1b\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ba\"]",
+    "expectedOutput": "[\"BA\",\"Ba\",\"bA\",\"ba\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"12b1\"]",
+    "expectedOutput": "[\"12B1\",\"12b1\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"c2eb32c\"]",
+    "expectedOutput": "[\"C2EB32C\",\"C2EB32c\",\"C2Eb32C\",\"C2Eb32c\",\"C2eB32C\",\"C2eB32c\",\"C2eb32C\",\"C2eb32c\",\"c2EB32C\",\"c2EB32c\",\"c2Eb32C\",\"c2Eb32c\",\"c2eB32C\",\"c2eB32c\",\"c2eb32C\",\"c2eb32c\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3cbeb\"]",
+    "expectedOutput": "[\"3CBEB\",\"3CBEb\",\"3CBeB\",\"3CBeb\",\"3CbEB\",\"3CbEb\",\"3CbeB\",\"3Cbeb\",\"3cBEB\",\"3cBEb\",\"3cBeB\",\"3cBeb\",\"3cbEB\",\"3cbEb\",\"3cbeB\",\"3cbeb\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"eced\"]",
+    "expectedOutput": "[\"ECED\",\"ECEd\",\"ECeD\",\"ECed\",\"EcED\",\"EcEd\",\"EceD\",\"Eced\",\"eCED\",\"eCEd\",\"eCeD\",\"eCed\",\"ecED\",\"ecEd\",\"eceD\",\"eced\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"e23c2\"]",
+    "expectedOutput": "[\"E23C2\",\"E23c2\",\"e23C2\",\"e23c2\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"221cc\"]",
+    "expectedOutput": "[\"221CC\",\"221Cc\",\"221cC\",\"221cc\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"13e211\"]",
+    "expectedOutput": "[\"13E211\",\"13e211\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"e2bce1\"]",
+    "expectedOutput": "[\"E2BCE1\",\"E2BCe1\",\"E2BcE1\",\"E2Bce1\",\"E2bCE1\",\"E2bCe1\",\"E2bcE1\",\"E2bce1\",\"e2BCE1\",\"e2BCe1\",\"e2BcE1\",\"e2Bce1\",\"e2bCE1\",\"e2bCe1\",\"e2bcE1\",\"e2bce1\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ba2bbb\"]",
+    "expectedOutput": "[\"BA2BBB\",\"BA2BBb\",\"BA2BbB\",\"BA2Bbb\",\"BA2bBB\",\"BA2bBb\",\"BA2bbB\",\"BA2bbb\",\"Ba2BBB\",\"Ba2BBb\",\"Ba2BbB\",\"Ba2Bbb\",\"Ba2bBB\",\"Ba2bBb\",\"Ba2bbB\",\"Ba2bbb\",\"bA2BBB\",\"bA2BBb\",\"bA2BbB\",\"bA2Bbb\",\"bA2bBB\",\"bA2bBb\",\"bA2bbB\",\"bA2bbb\",\"ba2BBB\",\"ba2BBb\",\"ba2BbB\",\"ba2Bbb\",\"ba2bBB\",\"ba2bBb\",\"ba2bbB\",\"ba2bbb\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"32cee2a\"]",
+    "expectedOutput": "[\"32CEE2A\",\"32CEE2a\",\"32CEe2A\",\"32CEe2a\",\"32CeE2A\",\"32CeE2a\",\"32Cee2A\",\"32Cee2a\",\"32cEE2A\",\"32cEE2a\",\"32cEe2A\",\"32cEe2a\",\"32ceE2A\",\"32ceE2a\",\"32cee2A\",\"32cee2a\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aebe\"]",
+    "expectedOutput": "[\"AEBE\",\"AEBe\",\"AEbE\",\"AEbe\",\"AeBE\",\"AeBe\",\"AebE\",\"Aebe\",\"aEBE\",\"aEBe\",\"aEbE\",\"aEbe\",\"aeBE\",\"aeBe\",\"aebE\",\"aebe\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1dccd\"]",
+    "expectedOutput": "[\"1DCCD\",\"1DCCd\",\"1DCcD\",\"1DCcd\",\"1DcCD\",\"1DcCd\",\"1DccD\",\"1Dccd\",\"1dCCD\",\"1dCCd\",\"1dCcD\",\"1dCcd\",\"1dcCD\",\"1dcCd\",\"1dccD\",\"1dccd\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"beb2bc\"]",
+    "expectedOutput": "[\"BEB2BC\",\"BEB2Bc\",\"BEB2bC\",\"BEB2bc\",\"BEb2BC\",\"BEb2Bc\",\"BEb2bC\",\"BEb2bc\",\"BeB2BC\",\"BeB2Bc\",\"BeB2bC\",\"BeB2bc\",\"Beb2BC\",\"Beb2Bc\",\"Beb2bC\",\"Beb2bc\",\"bEB2BC\",\"bEB2Bc\",\"bEB2bC\",\"bEB2bc\",\"bEb2BC\",\"bEb2Bc\",\"bEb2bC\",\"bEb2bc\",\"beB2BC\",\"beB2Bc\",\"beB2bC\",\"beB2bc\",\"beb2BC\",\"beb2Bc\",\"beb2bC\",\"beb2bc\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2b13\"]",
+    "expectedOutput": "[\"2B13\",\"2b13\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cad1a\"]",
+    "expectedOutput": "[\"CAD1A\",\"CAD1a\",\"CAd1A\",\"CAd1a\",\"CaD1A\",\"CaD1a\",\"Cad1A\",\"Cad1a\",\"cAD1A\",\"cAD1a\",\"cAd1A\",\"cAd1a\",\"caD1A\",\"caD1a\",\"cad1A\",\"cad1a\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aabe3ce\"]",
+    "expectedOutput": "[\"AABE3CE\",\"AABE3Ce\",\"AABE3cE\",\"AABE3ce\",\"AABe3CE\",\"AABe3Ce\",\"AABe3cE\",\"AABe3ce\",\"AAbE3CE\",\"AAbE3Ce\",\"AAbE3cE\",\"AAbE3ce\",\"AAbe3CE\",\"AAbe3Ce\",\"AAbe3cE\",\"AAbe3ce\",\"AaBE3CE\",\"AaBE3Ce\",\"AaBE3cE\",\"AaBE3ce\",\"AaBe3CE\",\"AaBe3Ce\",\"AaBe3cE\",\"AaBe3ce\",\"AabE3CE\",\"AabE3Ce\",\"AabE3cE\",\"AabE3ce\",\"Aabe3CE\",\"Aabe3Ce\",\"Aabe3cE\",\"Aabe3ce\",\"aABE3CE\",\"aABE3Ce\",\"aABE3cE\",\"aABE3ce\",\"aABe3CE\",\"aABe3Ce\",\"aABe3cE\",\"aABe3ce\",\"aAbE3CE\",\"aAbE3Ce\",\"aAbE3cE\",\"aAbE3ce\",\"aAbe3CE\",\"aAbe3Ce\",\"aAbe3cE\",\"aAbe3ce\",\"aaBE3CE\",\"aaBE3Ce\",\"aaBE3cE\",\"aaBE3ce\",\"aaBe3CE\",\"aaBe3Ce\",\"aaBe3cE\",\"aaBe3ce\",\"aabE3CE\",\"aabE3Ce\",\"aabE3cE\",\"aabE3ce\",\"aabe3CE\",\"aabe3Ce\",\"aabe3cE\",\"aabe3ce\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"de2bddc\"]",
+    "expectedOutput": "[\"DE2BDDC\",\"DE2BDDc\",\"DE2BDdC\",\"DE2BDdc\",\"DE2BdDC\",\"DE2BdDc\",\"DE2BddC\",\"DE2Bddc\",\"DE2bDDC\",\"DE2bDDc\",\"DE2bDdC\",\"DE2bDdc\",\"DE2bdDC\",\"DE2bdDc\",\"DE2bddC\",\"DE2bddc\",\"De2BDDC\",\"De2BDDc\",\"De2BDdC\",\"De2BDdc\",\"De2BdDC\",\"De2BdDc\",\"De2BddC\",\"De2Bddc\",\"De2bDDC\",\"De2bDDc\",\"De2bDdC\",\"De2bDdc\",\"De2bdDC\",\"De2bdDc\",\"De2bddC\",\"De2bddc\",\"dE2BDDC\",\"dE2BDDc\",\"dE2BDdC\",\"dE2BDdc\",\"dE2BdDC\",\"dE2BdDc\",\"dE2BddC\",\"dE2Bddc\",\"dE2bDDC\",\"dE2bDDc\",\"dE2bDdC\",\"dE2bDdc\",\"dE2bdDC\",\"dE2bdDc\",\"dE2bddC\",\"dE2bddc\",\"de2BDDC\",\"de2BDDc\",\"de2BDdC\",\"de2BDdc\",\"de2BdDC\",\"de2BdDc\",\"de2BddC\",\"de2Bddc\",\"de2bDDC\",\"de2bDDc\",\"de2bDdC\",\"de2bDdc\",\"de2bdDC\",\"de2bdDc\",\"de2bddC\",\"de2bddc\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3b231\"]",
+    "expectedOutput": "[\"3B231\",\"3b231\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3bd1b2\"]",
+    "expectedOutput": "[\"3BD1B2\",\"3BD1b2\",\"3Bd1B2\",\"3Bd1b2\",\"3bD1B2\",\"3bD1b2\",\"3bd1B2\",\"3bd1b2\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ca31\"]",
+    "expectedOutput": "[\"CA31\",\"Ca31\",\"cA31\",\"ca31\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2d23dc\"]",
+    "expectedOutput": "[\"2D23DC\",\"2D23Dc\",\"2D23dC\",\"2D23dc\",\"2d23DC\",\"2d23Dc\",\"2d23dC\",\"2d23dc\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1be23\"]",
+    "expectedOutput": "[\"1BE23\",\"1Be23\",\"1bE23\",\"1be23\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"31edbee\"]",
+    "expectedOutput": "[\"31EDBEE\",\"31EDBEe\",\"31EDBeE\",\"31EDBee\",\"31EDbEE\",\"31EDbEe\",\"31EDbeE\",\"31EDbee\",\"31EdBEE\",\"31EdBEe\",\"31EdBeE\",\"31EdBee\",\"31EdbEE\",\"31EdbEe\",\"31EdbeE\",\"31Edbee\",\"31eDBEE\",\"31eDBEe\",\"31eDBeE\",\"31eDBee\",\"31eDbEE\",\"31eDbEe\",\"31eDbeE\",\"31eDbee\",\"31edBEE\",\"31edBEe\",\"31edBeE\",\"31edBee\",\"31edbEE\",\"31edbEe\",\"31edbeE\",\"31edbee\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1b31d32\"]",
+    "expectedOutput": "[\"1B31D32\",\"1B31d32\",\"1b31D32\",\"1b31d32\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"d2e11ec\"]",
+    "expectedOutput": "[\"D2E11EC\",\"D2E11Ec\",\"D2E11eC\",\"D2E11ec\",\"D2e11EC\",\"D2e11Ec\",\"D2e11eC\",\"D2e11ec\",\"d2E11EC\",\"d2E11Ec\",\"d2E11eC\",\"d2E11ec\",\"d2e11EC\",\"d2e11Ec\",\"d2e11eC\",\"d2e11ec\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"23d2\"]",
+    "expectedOutput": "[\"23D2\",\"23d2\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"21eacd1\"]",
+    "expectedOutput": "[\"21EACD1\",\"21EACd1\",\"21EAcD1\",\"21EAcd1\",\"21EaCD1\",\"21EaCd1\",\"21EacD1\",\"21Eacd1\",\"21eACD1\",\"21eACd1\",\"21eAcD1\",\"21eAcd1\",\"21eaCD1\",\"21eaCd1\",\"21eacD1\",\"21eacd1\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cddbcd2\"]",
+    "expectedOutput": "[\"CDDBCD2\",\"CDDBCd2\",\"CDDBcD2\",\"CDDBcd2\",\"CDDbCD2\",\"CDDbCd2\",\"CDDbcD2\",\"CDDbcd2\",\"CDdBCD2\",\"CDdBCd2\",\"CDdBcD2\",\"CDdBcd2\",\"CDdbCD2\",\"CDdbCd2\",\"CDdbcD2\",\"CDdbcd2\",\"CdDBCD2\",\"CdDBCd2\",\"CdDBcD2\",\"CdDBcd2\",\"CdDbCD2\",\"CdDbCd2\",\"CdDbcD2\",\"CdDbcd2\",\"CddBCD2\",\"CddBCd2\",\"CddBcD2\",\"CddBcd2\",\"CddbCD2\",\"CddbCd2\",\"CddbcD2\",\"Cddbcd2\",\"cDDBCD2\",\"cDDBCd2\",\"cDDBcD2\",\"cDDBcd2\",\"cDDbCD2\",\"cDDbCd2\",\"cDDbcD2\",\"cDDbcd2\",\"cDdBCD2\",\"cDdBCd2\",\"cDdBcD2\",\"cDdBcd2\",\"cDdbCD2\",\"cDdbCd2\",\"cDdbcD2\",\"cDdbcd2\",\"cdDBCD2\",\"cdDBCd2\",\"cdDBcD2\",\"cdDBcd2\",\"cdDbCD2\",\"cdDbCd2\",\"cdDbcD2\",\"cdDbcd2\",\"cddBCD2\",\"cddBCd2\",\"cddBcD2\",\"cddBcd2\",\"cddbCD2\",\"cddbCd2\",\"cddbcD2\",\"cddbcd2\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1bd1ab\"]",
+    "expectedOutput": "[\"1BD1AB\",\"1BD1Ab\",\"1BD1aB\",\"1BD1ab\",\"1Bd1AB\",\"1Bd1Ab\",\"1Bd1aB\",\"1Bd1ab\",\"1bD1AB\",\"1bD1Ab\",\"1bD1aB\",\"1bD1ab\",\"1bd1AB\",\"1bd1Ab\",\"1bd1aB\",\"1bd1ab\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ebbeadb\"]",
+    "expectedOutput": "[\"EBBEADB\",\"EBBEADb\",\"EBBEAdB\",\"EBBEAdb\",\"EBBEaDB\",\"EBBEaDb\",\"EBBEadB\",\"EBBEadb\",\"EBBeADB\",\"EBBeADb\",\"EBBeAdB\",\"EBBeAdb\",\"EBBeaDB\",\"EBBeaDb\",\"EBBeadB\",\"EBBeadb\",\"EBbEADB\",\"EBbEADb\",\"EBbEAdB\",\"EBbEAdb\",\"EBbEaDB\",\"EBbEaDb\",\"EBbEadB\",\"EBbEadb\",\"EBbeADB\",\"EBbeADb\",\"EBbeAdB\",\"EBbeAdb\",\"EBbeaDB\",\"EBbeaDb\",\"EBbeadB\",\"EBbeadb\",\"EbBEADB\",\"EbBEADb\",\"EbBEAdB\",\"EbBEAdb\",\"EbBEaDB\",\"EbBEaDb\",\"EbBEadB\",\"EbBEadb\",\"EbBeADB\",\"EbBeADb\",\"EbBeAdB\",\"EbBeAdb\",\"EbBeaDB\",\"EbBeaDb\",\"EbBeadB\",\"EbBeadb\",\"EbbEADB\",\"EbbEADb\",\"EbbEAdB\",\"EbbEAdb\",\"EbbEaDB\",\"EbbEaDb\",\"EbbEadB\",\"EbbEadb\",\"EbbeADB\",\"EbbeADb\",\"EbbeAdB\",\"EbbeAdb\",\"EbbeaDB\",\"EbbeaDb\",\"EbbeadB\",\"Ebbeadb\",\"eBBEADB\",\"eBBEADb\",\"eBBEAdB\",\"eBBEAdb\",\"eBBEaDB\",\"eBBEaDb\",\"eBBEadB\",\"eBBEadb\",\"eBBeADB\",\"eBBeADb\",\"eBBeAdB\",\"eBBeAdb\",\"eBBeaDB\",\"eBBeaDb\",\"eBBeadB\",\"eBBeadb\",\"eBbEADB\",\"eBbEADb\",\"eBbEAdB\",\"eBbEAdb\",\"eBbEaDB\",\"eBbEaDb\",\"eBbEadB\",\"eBbEadb\",\"eBbeADB\",\"eBbeADb\",\"eBbeAdB\",\"eBbeAdb\",\"eBbeaDB\",\"eBbeaDb\",\"eBbeadB\",\"eBbeadb\",\"ebBEADB\",\"ebBEADb\",\"ebBEAdB\",\"ebBEAdb\",\"ebBEaDB\",\"ebBEaDb\",\"ebBEadB\",\"ebBEadb\",\"ebBeADB\",\"ebBeADb\",\"ebBeAdB\",\"ebBeAdb\",\"ebBeaDB\",\"ebBeaDb\",\"ebBeadB\",\"ebBeadb\",\"ebbEADB\",\"ebbEADb\",\"ebbEAdB\",\"ebbEAdb\",\"ebbEaDB\",\"ebbEaDb\",\"ebbEadB\",\"ebbEadb\",\"ebbeADB\",\"ebbeADb\",\"ebbeAdB\",\"ebbeAdb\",\"ebbeaDB\",\"ebbeaDb\",\"ebbeadB\",\"ebbeadb\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"d2aad\"]",
+    "expectedOutput": "[\"D2AAD\",\"D2AAd\",\"D2AaD\",\"D2Aad\",\"D2aAD\",\"D2aAd\",\"D2aaD\",\"D2aad\",\"d2AAD\",\"d2AAd\",\"d2AaD\",\"d2Aad\",\"d2aAD\",\"d2aAd\",\"d2aaD\",\"d2aad\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"a11cc\"]",
+    "expectedOutput": "[\"A11CC\",\"A11Cc\",\"A11cC\",\"A11cc\",\"a11CC\",\"a11Cc\",\"a11cC\",\"a11cc\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bc112\"]",
+    "expectedOutput": "[\"BC112\",\"Bc112\",\"bC112\",\"bc112\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"22aaacc\"]",
+    "expectedOutput": "[\"22AAACC\",\"22AAACc\",\"22AAAcC\",\"22AAAcc\",\"22AAaCC\",\"22AAaCc\",\"22AAacC\",\"22AAacc\",\"22AaACC\",\"22AaACc\",\"22AaAcC\",\"22AaAcc\",\"22AaaCC\",\"22AaaCc\",\"22AaacC\",\"22Aaacc\",\"22aAACC\",\"22aAACc\",\"22aAAcC\",\"22aAAcc\",\"22aAaCC\",\"22aAaCc\",\"22aAacC\",\"22aAacc\",\"22aaACC\",\"22aaACc\",\"22aaAcC\",\"22aaAcc\",\"22aaaCC\",\"22aaaCc\",\"22aaacC\",\"22aaacc\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2b21\"]",
+    "expectedOutput": "[\"2B21\",\"2b21\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bdd2a1a\"]",
+    "expectedOutput": "[\"BDD2A1A\",\"BDD2A1a\",\"BDD2a1A\",\"BDD2a1a\",\"BDd2A1A\",\"BDd2A1a\",\"BDd2a1A\",\"BDd2a1a\",\"BdD2A1A\",\"BdD2A1a\",\"BdD2a1A\",\"BdD2a1a\",\"Bdd2A1A\",\"Bdd2A1a\",\"Bdd2a1A\",\"Bdd2a1a\",\"bDD2A1A\",\"bDD2A1a\",\"bDD2a1A\",\"bDD2a1a\",\"bDd2A1A\",\"bDd2A1a\",\"bDd2a1A\",\"bDd2a1a\",\"bdD2A1A\",\"bdD2A1a\",\"bdD2a1A\",\"bdD2a1a\",\"bdd2A1A\",\"bdd2A1a\",\"bdd2a1A\",\"bdd2a1a\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"a3321\"]",
+    "expectedOutput": "[\"A3321\",\"a3321\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3de2ab3\"]",
+    "expectedOutput": "[\"3DE2AB3\",\"3DE2Ab3\",\"3DE2aB3\",\"3DE2ab3\",\"3De2AB3\",\"3De2Ab3\",\"3De2aB3\",\"3De2ab3\",\"3dE2AB3\",\"3dE2Ab3\",\"3dE2aB3\",\"3dE2ab3\",\"3de2AB3\",\"3de2Ab3\",\"3de2aB3\",\"3de2ab3\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2c1a\"]",
+    "expectedOutput": "[\"2C1A\",\"2C1a\",\"2c1A\",\"2c1a\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"e2cd1c\"]",
+    "expectedOutput": "[\"E2CD1C\",\"E2CD1c\",\"E2Cd1C\",\"E2Cd1c\",\"E2cD1C\",\"E2cD1c\",\"E2cd1C\",\"E2cd1c\",\"e2CD1C\",\"e2CD1c\",\"e2Cd1C\",\"e2Cd1c\",\"e2cD1C\",\"e2cD1c\",\"e2cd1C\",\"e2cd1c\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bb1ed\"]",
+    "expectedOutput": "[\"BB1ED\",\"BB1Ed\",\"BB1eD\",\"BB1ed\",\"Bb1ED\",\"Bb1Ed\",\"Bb1eD\",\"Bb1ed\",\"bB1ED\",\"bB1Ed\",\"bB1eD\",\"bB1ed\",\"bb1ED\",\"bb1Ed\",\"bb1eD\",\"bb1ed\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dbe1\"]",
+    "expectedOutput": "[\"DBE1\",\"DBe1\",\"DbE1\",\"Dbe1\",\"dBE1\",\"dBe1\",\"dbE1\",\"dbe1\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"12a3\"]",
+    "expectedOutput": "[\"12A3\",\"12a3\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"a3d3e2\"]",
+    "expectedOutput": "[\"A3D3E2\",\"A3D3e2\",\"A3d3E2\",\"A3d3e2\",\"a3D3E2\",\"a3D3e2\",\"a3d3E2\",\"a3d3e2\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"23121\"]",
+    "expectedOutput": "[\"23121\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cecd223\"]",
+    "expectedOutput": "[\"CECD223\",\"CECd223\",\"CEcD223\",\"CEcd223\",\"CeCD223\",\"CeCd223\",\"CecD223\",\"Cecd223\",\"cECD223\",\"cECd223\",\"cEcD223\",\"cEcd223\",\"ceCD223\",\"ceCd223\",\"cecD223\",\"cecd223\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"c12ae\"]",
+    "expectedOutput": "[\"C12AE\",\"C12Ae\",\"C12aE\",\"C12ae\",\"c12AE\",\"c12Ae\",\"c12aE\",\"c12ae\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"eacdb\"]",
+    "expectedOutput": "[\"EACDB\",\"EACDb\",\"EACdB\",\"EACdb\",\"EAcDB\",\"EAcDb\",\"EAcdB\",\"EAcdb\",\"EaCDB\",\"EaCDb\",\"EaCdB\",\"EaCdb\",\"EacDB\",\"EacDb\",\"EacdB\",\"Eacdb\",\"eACDB\",\"eACDb\",\"eACdB\",\"eACdb\",\"eAcDB\",\"eAcDb\",\"eAcdB\",\"eAcdb\",\"eaCDB\",\"eaCDb\",\"eaCdB\",\"eaCdb\",\"eacDB\",\"eacDb\",\"eacdB\",\"eacdb\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"b1ac3\"]",
+    "expectedOutput": "[\"B1AC3\",\"B1Ac3\",\"B1aC3\",\"B1ac3\",\"b1AC3\",\"b1Ac3\",\"b1aC3\",\"b1ac3\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cbaa\"]",
+    "expectedOutput": "[\"CBAA\",\"CBAa\",\"CBaA\",\"CBaa\",\"CbAA\",\"CbAa\",\"CbaA\",\"Cbaa\",\"cBAA\",\"cBAa\",\"cBaA\",\"cBaa\",\"cbAA\",\"cbAa\",\"cbaA\",\"cbaa\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ceb3\"]",
+    "expectedOutput": "[\"CEB3\",\"CEb3\",\"CeB3\",\"Ceb3\",\"cEB3\",\"cEb3\",\"ceB3\",\"ceb3\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1eaabca\"]",
+    "expectedOutput": "[\"1EAABCA\",\"1EAABCa\",\"1EAABcA\",\"1EAABca\",\"1EAAbCA\",\"1EAAbCa\",\"1EAAbcA\",\"1EAAbca\",\"1EAaBCA\",\"1EAaBCa\",\"1EAaBcA\",\"1EAaBca\",\"1EAabCA\",\"1EAabCa\",\"1EAabcA\",\"1EAabca\",\"1EaABCA\",\"1EaABCa\",\"1EaABcA\",\"1EaABca\",\"1EaAbCA\",\"1EaAbCa\",\"1EaAbcA\",\"1EaAbca\",\"1EaaBCA\",\"1EaaBCa\",\"1EaaBcA\",\"1EaaBca\",\"1EaabCA\",\"1EaabCa\",\"1EaabcA\",\"1Eaabca\",\"1eAABCA\",\"1eAABCa\",\"1eAABcA\",\"1eAABca\",\"1eAAbCA\",\"1eAAbCa\",\"1eAAbcA\",\"1eAAbca\",\"1eAaBCA\",\"1eAaBCa\",\"1eAaBcA\",\"1eAaBca\",\"1eAabCA\",\"1eAabCa\",\"1eAabcA\",\"1eAabca\",\"1eaABCA\",\"1eaABCa\",\"1eaABcA\",\"1eaABca\",\"1eaAbCA\",\"1eaAbCa\",\"1eaAbcA\",\"1eaAbca\",\"1eaaBCA\",\"1eaaBCa\",\"1eaaBcA\",\"1eaaBca\",\"1eaabCA\",\"1eaabCa\",\"1eaabcA\",\"1eaabca\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"e3b4efe\"]",
+    "expectedOutput": "[\"E3B4EFE\",\"E3B4EFe\",\"E3B4EfE\",\"E3B4Efe\",\"E3B4eFE\",\"E3B4eFe\",\"E3B4efE\",\"E3B4efe\",\"E3b4EFE\",\"E3b4EFe\",\"E3b4EfE\",\"E3b4Efe\",\"E3b4eFE\",\"E3b4eFe\",\"E3b4efE\",\"E3b4efe\",\"e3B4EFE\",\"e3B4EFe\",\"e3B4EfE\",\"e3B4Efe\",\"e3B4eFE\",\"e3B4eFe\",\"e3B4efE\",\"e3B4efe\",\"e3b4EFE\",\"e3b4EFe\",\"e3b4EfE\",\"e3b4Efe\",\"e3b4eFE\",\"e3b4eFe\",\"e3b4efE\",\"e3b4efe\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ae3fa3f4f\"]",
+    "expectedOutput": "[\"AE3FA3F4F\",\"AE3FA3F4f\",\"AE3FA3f4F\",\"AE3FA3f4f\",\"AE3Fa3F4F\",\"AE3Fa3F4f\",\"AE3Fa3f4F\",\"AE3Fa3f4f\",\"AE3fA3F4F\",\"AE3fA3F4f\",\"AE3fA3f4F\",\"AE3fA3f4f\",\"AE3fa3F4F\",\"AE3fa3F4f\",\"AE3fa3f4F\",\"AE3fa3f4f\",\"Ae3FA3F4F\",\"Ae3FA3F4f\",\"Ae3FA3f4F\",\"Ae3FA3f4f\",\"Ae3Fa3F4F\",\"Ae3Fa3F4f\",\"Ae3Fa3f4F\",\"Ae3Fa3f4f\",\"Ae3fA3F4F\",\"Ae3fA3F4f\",\"Ae3fA3f4F\",\"Ae3fA3f4f\",\"Ae3fa3F4F\",\"Ae3fa3F4f\",\"Ae3fa3f4F\",\"Ae3fa3f4f\",\"aE3FA3F4F\",\"aE3FA3F4f\",\"aE3FA3f4F\",\"aE3FA3f4f\",\"aE3Fa3F4F\",\"aE3Fa3F4f\",\"aE3Fa3f4F\",\"aE3Fa3f4f\",\"aE3fA3F4F\",\"aE3fA3F4f\",\"aE3fA3f4F\",\"aE3fA3f4f\",\"aE3fa3F4F\",\"aE3fa3F4f\",\"aE3fa3f4F\",\"aE3fa3f4f\",\"ae3FA3F4F\",\"ae3FA3F4f\",\"ae3FA3f4F\",\"ae3FA3f4f\",\"ae3Fa3F4F\",\"ae3Fa3F4f\",\"ae3Fa3f4F\",\"ae3Fa3f4f\",\"ae3fA3F4F\",\"ae3fA3F4f\",\"ae3fA3f4F\",\"ae3fA3f4f\",\"ae3fa3F4F\",\"ae3fa3F4f\",\"ae3fa3f4F\",\"ae3fa3f4f\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ff2341ad\"]",
+    "expectedOutput": "[\"FF2341AD\",\"FF2341Ad\",\"FF2341aD\",\"FF2341ad\",\"Ff2341AD\",\"Ff2341Ad\",\"Ff2341aD\",\"Ff2341ad\",\"fF2341AD\",\"fF2341Ad\",\"fF2341aD\",\"fF2341ad\",\"ff2341AD\",\"ff2341Ad\",\"ff2341aD\",\"ff2341ad\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"caef232\"]",
+    "expectedOutput": "[\"CAEF232\",\"CAEf232\",\"CAeF232\",\"CAef232\",\"CaEF232\",\"CaEf232\",\"CaeF232\",\"Caef232\",\"cAEF232\",\"cAEf232\",\"cAeF232\",\"cAef232\",\"caEF232\",\"caEf232\",\"caeF232\",\"caef232\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ba2bbdc1e3\"]",
+    "expectedOutput": "[\"BA2BBDC1E3\",\"BA2BBDC1e3\",\"BA2BBDc1E3\",\"BA2BBDc1e3\",\"BA2BBdC1E3\",\"BA2BBdC1e3\",\"BA2BBdc1E3\",\"BA2BBdc1e3\",\"BA2BbDC1E3\",\"BA2BbDC1e3\",\"BA2BbDc1E3\",\"BA2BbDc1e3\",\"BA2BbdC1E3\",\"BA2BbdC1e3\",\"BA2Bbdc1E3\",\"BA2Bbdc1e3\",\"BA2bBDC1E3\",\"BA2bBDC1e3\",\"BA2bBDc1E3\",\"BA2bBDc1e3\",\"BA2bBdC1E3\",\"BA2bBdC1e3\",\"BA2bBdc1E3\",\"BA2bBdc1e3\",\"BA2bbDC1E3\",\"BA2bbDC1e3\",\"BA2bbDc1E3\",\"BA2bbDc1e3\",\"BA2bbdC1E3\",\"BA2bbdC1e3\",\"BA2bbdc1E3\",\"BA2bbdc1e3\",\"Ba2BBDC1E3\",\"Ba2BBDC1e3\",\"Ba2BBDc1E3\",\"Ba2BBDc1e3\",\"Ba2BBdC1E3\",\"Ba2BBdC1e3\",\"Ba2BBdc1E3\",\"Ba2BBdc1e3\",\"Ba2BbDC1E3\",\"Ba2BbDC1e3\",\"Ba2BbDc1E3\",\"Ba2BbDc1e3\",\"Ba2BbdC1E3\",\"Ba2BbdC1e3\",\"Ba2Bbdc1E3\",\"Ba2Bbdc1e3\",\"Ba2bBDC1E3\",\"Ba2bBDC1e3\",\"Ba2bBDc1E3\",\"Ba2bBDc1e3\",\"Ba2bBdC1E3\",\"Ba2bBdC1e3\",\"Ba2bBdc1E3\",\"Ba2bBdc1e3\",\"Ba2bbDC1E3\",\"Ba2bbDC1e3\",\"Ba2bbDc1E3\",\"Ba2bbDc1e3\",\"Ba2bbdC1E3\",\"Ba2bbdC1e3\",\"Ba2bbdc1E3\",\"Ba2bbdc1e3\",\"bA2BBDC1E3\",\"bA2BBDC1e3\",\"bA2BBDc1E3\",\"bA2BBDc1e3\",\"bA2BBdC1E3\",\"bA2BBdC1e3\",\"bA2BBdc1E3\",\"bA2BBdc1e3\",\"bA2BbDC1E3\",\"bA2BbDC1e3\",\"bA2BbDc1E3\",\"bA2BbDc1e3\",\"bA2BbdC1E3\",\"bA2BbdC1e3\",\"bA2Bbdc1E3\",\"bA2Bbdc1e3\",\"bA2bBDC1E3\",\"bA2bBDC1e3\",\"bA2bBDc1E3\",\"bA2bBDc1e3\",\"bA2bBdC1E3\",\"bA2bBdC1e3\",\"bA2bBdc1E3\",\"bA2bBdc1e3\",\"bA2bbDC1E3\",\"bA2bbDC1e3\",\"bA2bbDc1E3\",\"bA2bbDc1e3\",\"bA2bbdC1E3\",\"bA2bbdC1e3\",\"bA2bbdc1E3\",\"bA2bbdc1e3\",\"ba2BBDC1E3\",\"ba2BBDC1e3\",\"ba2BBDc1E3\",\"ba2BBDc1e3\",\"ba2BBdC1E3\",\"ba2BBdC1e3\",\"ba2BBdc1E3\",\"ba2BBdc1e3\",\"ba2BbDC1E3\",\"ba2BbDC1e3\",\"ba2BbDc1E3\",\"ba2BbDc1e3\",\"ba2BbdC1E3\",\"ba2BbdC1e3\",\"ba2Bbdc1E3\",\"ba2Bbdc1e3\",\"ba2bBDC1E3\",\"ba2bBDC1e3\",\"ba2bBDc1E3\",\"ba2bBDc1e3\",\"ba2bBdC1E3\",\"ba2bBdC1e3\",\"ba2bBdc1E3\",\"ba2bBdc1e3\",\"ba2bbDC1E3\",\"ba2bbDC1e3\",\"ba2bbDc1E3\",\"ba2bbDc1e3\",\"ba2bbdC1E3\",\"ba2bbdC1e3\",\"ba2bbdc1E3\",\"ba2bbdc1e3\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"31c1e43\"]",
+    "expectedOutput": "[\"31C1E43\",\"31C1e43\",\"31c1E43\",\"31c1e43\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4fde3cd4\"]",
+    "expectedOutput": "[\"4FDE3CD4\",\"4FDE3Cd4\",\"4FDE3cD4\",\"4FDE3cd4\",\"4FDe3CD4\",\"4FDe3Cd4\",\"4FDe3cD4\",\"4FDe3cd4\",\"4FdE3CD4\",\"4FdE3Cd4\",\"4FdE3cD4\",\"4FdE3cd4\",\"4Fde3CD4\",\"4Fde3Cd4\",\"4Fde3cD4\",\"4Fde3cd4\",\"4fDE3CD4\",\"4fDE3Cd4\",\"4fDE3cD4\",\"4fDE3cd4\",\"4fDe3CD4\",\"4fDe3Cd4\",\"4fDe3cD4\",\"4fDe3cd4\",\"4fdE3CD4\",\"4fdE3Cd4\",\"4fdE3cD4\",\"4fdE3cd4\",\"4fde3CD4\",\"4fde3Cd4\",\"4fde3cD4\",\"4fde3cd4\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"acb2b3ec\"]",
+    "expectedOutput": "[\"ACB2B3EC\",\"ACB2B3Ec\",\"ACB2B3eC\",\"ACB2B3ec\",\"ACB2b3EC\",\"ACB2b3Ec\",\"ACB2b3eC\",\"ACB2b3ec\",\"ACb2B3EC\",\"ACb2B3Ec\",\"ACb2B3eC\",\"ACb2B3ec\",\"ACb2b3EC\",\"ACb2b3Ec\",\"ACb2b3eC\",\"ACb2b3ec\",\"AcB2B3EC\",\"AcB2B3Ec\",\"AcB2B3eC\",\"AcB2B3ec\",\"AcB2b3EC\",\"AcB2b3Ec\",\"AcB2b3eC\",\"AcB2b3ec\",\"Acb2B3EC\",\"Acb2B3Ec\",\"Acb2B3eC\",\"Acb2B3ec\",\"Acb2b3EC\",\"Acb2b3Ec\",\"Acb2b3eC\",\"Acb2b3ec\",\"aCB2B3EC\",\"aCB2B3Ec\",\"aCB2B3eC\",\"aCB2B3ec\",\"aCB2b3EC\",\"aCB2b3Ec\",\"aCB2b3eC\",\"aCB2b3ec\",\"aCb2B3EC\",\"aCb2B3Ec\",\"aCb2B3eC\",\"aCb2B3ec\",\"aCb2b3EC\",\"aCb2b3Ec\",\"aCb2b3eC\",\"aCb2b3ec\",\"acB2B3EC\",\"acB2B3Ec\",\"acB2B3eC\",\"acB2B3ec\",\"acB2b3EC\",\"acB2b3Ec\",\"acB2b3eC\",\"acB2b3ec\",\"acb2B3EC\",\"acb2B3Ec\",\"acb2B3eC\",\"acb2B3ec\",\"acb2b3EC\",\"acb2b3Ec\",\"acb2b3eC\",\"acb2b3ec\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"fabcedb41\"]",
+    "expectedOutput": "[\"FABCEDB41\",\"FABCEDb41\",\"FABCEdB41\",\"FABCEdb41\",\"FABCeDB41\",\"FABCeDb41\",\"FABCedB41\",\"FABCedb41\",\"FABcEDB41\",\"FABcEDb41\",\"FABcEdB41\",\"FABcEdb41\",\"FABceDB41\",\"FABceDb41\",\"FABcedB41\",\"FABcedb41\",\"FAbCEDB41\",\"FAbCEDb41\",\"FAbCEdB41\",\"FAbCEdb41\",\"FAbCeDB41\",\"FAbCeDb41\",\"FAbCedB41\",\"FAbCedb41\",\"FAbcEDB41\",\"FAbcEDb41\",\"FAbcEdB41\",\"FAbcEdb41\",\"FAbceDB41\",\"FAbceDb41\",\"FAbcedB41\",\"FAbcedb41\",\"FaBCEDB41\",\"FaBCEDb41\",\"FaBCEdB41\",\"FaBCEdb41\",\"FaBCeDB41\",\"FaBCeDb41\",\"FaBCedB41\",\"FaBCedb41\",\"FaBcEDB41\",\"FaBcEDb41\",\"FaBcEdB41\",\"FaBcEdb41\",\"FaBceDB41\",\"FaBceDb41\",\"FaBcedB41\",\"FaBcedb41\",\"FabCEDB41\",\"FabCEDb41\",\"FabCEdB41\",\"FabCEdb41\",\"FabCeDB41\",\"FabCeDb41\",\"FabCedB41\",\"FabCedb41\",\"FabcEDB41\",\"FabcEDb41\",\"FabcEdB41\",\"FabcEdb41\",\"FabceDB41\",\"FabceDb41\",\"FabcedB41\",\"Fabcedb41\",\"fABCEDB41\",\"fABCEDb41\",\"fABCEdB41\",\"fABCEdb41\",\"fABCeDB41\",\"fABCeDb41\",\"fABCedB41\",\"fABCedb41\",\"fABcEDB41\",\"fABcEDb41\",\"fABcEdB41\",\"fABcEdb41\",\"fABceDB41\",\"fABceDb41\",\"fABcedB41\",\"fABcedb41\",\"fAbCEDB41\",\"fAbCEDb41\",\"fAbCEdB41\",\"fAbCEdb41\",\"fAbCeDB41\",\"fAbCeDb41\",\"fAbCedB41\",\"fAbCedb41\",\"fAbcEDB41\",\"fAbcEDb41\",\"fAbcEdB41\",\"fAbcEdb41\",\"fAbceDB41\",\"fAbceDb41\",\"fAbcedB41\",\"fAbcedb41\",\"faBCEDB41\",\"faBCEDb41\",\"faBCEdB41\",\"faBCEdb41\",\"faBCeDB41\",\"faBCeDb41\",\"faBCedB41\",\"faBCedb41\",\"faBcEDB41\",\"faBcEDb41\",\"faBcEdB41\",\"faBcEdb41\",\"faBceDB41\",\"faBceDb41\",\"faBcedB41\",\"faBcedb41\",\"fabCEDB41\",\"fabCEDb41\",\"fabCEdB41\",\"fabCEdb41\",\"fabCeDB41\",\"fabCeDb41\",\"fabCedB41\",\"fabCedb41\",\"fabcEDB41\",\"fabcEDb41\",\"fabcEdB41\",\"fabcEdb41\",\"fabceDB41\",\"fabceDb41\",\"fabcedB41\",\"fabcedb41\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bbe23f2\"]",
+    "expectedOutput": "[\"BBE23F2\",\"BBE23f2\",\"BBe23F2\",\"BBe23f2\",\"BbE23F2\",\"BbE23f2\",\"Bbe23F2\",\"Bbe23f2\",\"bBE23F2\",\"bBE23f2\",\"bBe23F2\",\"bBe23f2\",\"bbE23F2\",\"bbE23f2\",\"bbe23F2\",\"bbe23f2\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3c22d24\"]",
+    "expectedOutput": "[\"3C22D24\",\"3C22d24\",\"3c22D24\",\"3c22d24\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2213314\"]",
+    "expectedOutput": "[\"2213314\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"44f441f\"]",
+    "expectedOutput": "[\"44F441F\",\"44F441f\",\"44f441F\",\"44f441f\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dec4bddd2d\"]",
+    "expectedOutput": "[\"DEC4BDDD2D\",\"DEC4BDDD2d\",\"DEC4BDDd2D\",\"DEC4BDDd2d\",\"DEC4BDdD2D\",\"DEC4BDdD2d\",\"DEC4BDdd2D\",\"DEC4BDdd2d\",\"DEC4BdDD2D\",\"DEC4BdDD2d\",\"DEC4BdDd2D\",\"DEC4BdDd2d\",\"DEC4BddD2D\",\"DEC4BddD2d\",\"DEC4Bddd2D\",\"DEC4Bddd2d\",\"DEC4bDDD2D\",\"DEC4bDDD2d\",\"DEC4bDDd2D\",\"DEC4bDDd2d\",\"DEC4bDdD2D\",\"DEC4bDdD2d\",\"DEC4bDdd2D\",\"DEC4bDdd2d\",\"DEC4bdDD2D\",\"DEC4bdDD2d\",\"DEC4bdDd2D\",\"DEC4bdDd2d\",\"DEC4bddD2D\",\"DEC4bddD2d\",\"DEC4bddd2D\",\"DEC4bddd2d\",\"DEc4BDDD2D\",\"DEc4BDDD2d\",\"DEc4BDDd2D\",\"DEc4BDDd2d\",\"DEc4BDdD2D\",\"DEc4BDdD2d\",\"DEc4BDdd2D\",\"DEc4BDdd2d\",\"DEc4BdDD2D\",\"DEc4BdDD2d\",\"DEc4BdDd2D\",\"DEc4BdDd2d\",\"DEc4BddD2D\",\"DEc4BddD2d\",\"DEc4Bddd2D\",\"DEc4Bddd2d\",\"DEc4bDDD2D\",\"DEc4bDDD2d\",\"DEc4bDDd2D\",\"DEc4bDDd2d\",\"DEc4bDdD2D\",\"DEc4bDdD2d\",\"DEc4bDdd2D\",\"DEc4bDdd2d\",\"DEc4bdDD2D\",\"DEc4bdDD2d\",\"DEc4bdDd2D\",\"DEc4bdDd2d\",\"DEc4bddD2D\",\"DEc4bddD2d\",\"DEc4bddd2D\",\"DEc4bddd2d\",\"DeC4BDDD2D\",\"DeC4BDDD2d\",\"DeC4BDDd2D\",\"DeC4BDDd2d\",\"DeC4BDdD2D\",\"DeC4BDdD2d\",\"DeC4BDdd2D\",\"DeC4BDdd2d\",\"DeC4BdDD2D\",\"DeC4BdDD2d\",\"DeC4BdDd2D\",\"DeC4BdDd2d\",\"DeC4BddD2D\",\"DeC4BddD2d\",\"DeC4Bddd2D\",\"DeC4Bddd2d\",\"DeC4bDDD2D\",\"DeC4bDDD2d\",\"DeC4bDDd2D\",\"DeC4bDDd2d\",\"DeC4bDdD2D\",\"DeC4bDdD2d\",\"DeC4bDdd2D\",\"DeC4bDdd2d\",\"DeC4bdDD2D\",\"DeC4bdDD2d\",\"DeC4bdDd2D\",\"DeC4bdDd2d\",\"DeC4bddD2D\",\"DeC4bddD2d\",\"DeC4bddd2D\",\"DeC4bddd2d\",\"Dec4BDDD2D\",\"Dec4BDDD2d\",\"Dec4BDDd2D\",\"Dec4BDDd2d\",\"Dec4BDdD2D\",\"Dec4BDdD2d\",\"Dec4BDdd2D\",\"Dec4BDdd2d\",\"Dec4BdDD2D\",\"Dec4BdDD2d\",\"Dec4BdDd2D\",\"Dec4BdDd2d\",\"Dec4BddD2D\",\"Dec4BddD2d\",\"Dec4Bddd2D\",\"Dec4Bddd2d\",\"Dec4bDDD2D\",\"Dec4bDDD2d\",\"Dec4bDDd2D\",\"Dec4bDDd2d\",\"Dec4bDdD2D\",\"Dec4bDdD2d\",\"Dec4bDdd2D\",\"Dec4bDdd2d\",\"Dec4bdDD2D\",\"Dec4bdDD2d\",\"Dec4bdDd2D\",\"Dec4bdDd2d\",\"Dec4bddD2D\",\"Dec4bddD2d\",\"Dec4bddd2D\",\"Dec4bddd2d\",\"dEC4BDDD2D\",\"dEC4BDDD2d\",\"dEC4BDDd2D\",\"dEC4BDDd2d\",\"dEC4BDdD2D\",\"dEC4BDdD2d\",\"dEC4BDdd2D\",\"dEC4BDdd2d\",\"dEC4BdDD2D\",\"dEC4BdDD2d\",\"dEC4BdDd2D\",\"dEC4BdDd2d\",\"dEC4BddD2D\",\"dEC4BddD2d\",\"dEC4Bddd2D\",\"dEC4Bddd2d\",\"dEC4bDDD2D\",\"dEC4bDDD2d\",\"dEC4bDDd2D\",\"dEC4bDDd2d\",\"dEC4bDdD2D\",\"dEC4bDdD2d\",\"dEC4bDdd2D\",\"dEC4bDdd2d\",\"dEC4bdDD2D\",\"dEC4bdDD2d\",\"dEC4bdDd2D\",\"dEC4bdDd2d\",\"dEC4bddD2D\",\"dEC4bddD2d\",\"dEC4bddd2D\",\"dEC4bddd2d\",\"dEc4BDDD2D\",\"dEc4BDDD2d\",\"dEc4BDDd2D\",\"dEc4BDDd2d\",\"dEc4BDdD2D\",\"dEc4BDdD2d\",\"dEc4BDdd2D\",\"dEc4BDdd2d\",\"dEc4BdDD2D\",\"dEc4BdDD2d\",\"dEc4BdDd2D\",\"dEc4BdDd2d\",\"dEc4BddD2D\",\"dEc4BddD2d\",\"dEc4Bddd2D\",\"dEc4Bddd2d\",\"dEc4bDDD2D\",\"dEc4bDDD2d\",\"dEc4bDDd2D\",\"dEc4bDDd2d\",\"dEc4bDdD2D\",\"dEc4bDdD2d\",\"dEc4bDdd2D\",\"dEc4bDdd2d\",\"dEc4bdDD2D\",\"dEc4bdDD2d\",\"dEc4bdDd2D\",\"dEc4bdDd2d\",\"dEc4bddD2D\",\"dEc4bddD2d\",\"dEc4bddd2D\",\"dEc4bddd2d\",\"deC4BDDD2D\",\"deC4BDDD2d\",\"deC4BDDd2D\",\"deC4BDDd2d\",\"deC4BDdD2D\",\"deC4BDdD2d\",\"deC4BDdd2D\",\"deC4BDdd2d\",\"deC4BdDD2D\",\"deC4BdDD2d\",\"deC4BdDd2D\",\"deC4BdDd2d\",\"deC4BddD2D\",\"deC4BddD2d\",\"deC4Bddd2D\",\"deC4Bddd2d\",\"deC4bDDD2D\",\"deC4bDDD2d\",\"deC4bDDd2D\",\"deC4bDDd2d\",\"deC4bDdD2D\",\"deC4bDdD2d\",\"deC4bDdd2D\",\"deC4bDdd2d\",\"deC4bdDD2D\",\"deC4bdDD2d\",\"deC4bdDd2D\",\"deC4bdDd2d\",\"deC4bddD2D\",\"deC4bddD2d\",\"deC4bddd2D\",\"deC4bddd2d\",\"dec4BDDD2D\",\"dec4BDDD2d\",\"dec4BDDd2D\",\"dec4BDDd2d\",\"dec4BDdD2D\",\"dec4BDdD2d\",\"dec4BDdd2D\",\"dec4BDdd2d\",\"dec4BdDD2D\",\"dec4BdDD2d\",\"dec4BdDd2D\",\"dec4BdDd2d\",\"dec4BddD2D\",\"dec4BddD2d\",\"dec4Bddd2D\",\"dec4Bddd2d\",\"dec4bDDD2D\",\"dec4bDDD2d\",\"dec4bDDd2D\",\"dec4bDDd2d\",\"dec4bDdD2D\",\"dec4bDdD2d\",\"dec4bDdd2D\",\"dec4bDdd2d\",\"dec4bdDD2D\",\"dec4bdDD2d\",\"dec4bdDd2D\",\"dec4bdDd2d\",\"dec4bddD2D\",\"dec4bddD2d\",\"dec4bddd2D\",\"dec4bddd2d\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"eafcacfabc\"]",
+    "expectedOutput": "[\"EAFCACFABC\",\"EAFCACFABc\",\"EAFCACFAbC\",\"EAFCACFAbc\",\"EAFCACFaBC\",\"EAFCACFaBc\",\"EAFCACFabC\",\"EAFCACFabc\",\"EAFCACfABC\",\"EAFCACfABc\",\"EAFCACfAbC\",\"EAFCACfAbc\",\"EAFCACfaBC\",\"EAFCACfaBc\",\"EAFCACfabC\",\"EAFCACfabc\",\"EAFCAcFABC\",\"EAFCAcFABc\",\"EAFCAcFAbC\",\"EAFCAcFAbc\",\"EAFCAcFaBC\",\"EAFCAcFaBc\",\"EAFCAcFabC\",\"EAFCAcFabc\",\"EAFCAcfABC\",\"EAFCAcfABc\",\"EAFCAcfAbC\",\"EAFCAcfAbc\",\"EAFCAcfaBC\",\"EAFCAcfaBc\",\"EAFCAcfabC\",\"EAFCAcfabc\",\"EAFCaCFABC\",\"EAFCaCFABc\",\"EAFCaCFAbC\",\"EAFCaCFAbc\",\"EAFCaCFaBC\",\"EAFCaCFaBc\",\"EAFCaCFabC\",\"EAFCaCFabc\",\"EAFCaCfABC\",\"EAFCaCfABc\",\"EAFCaCfAbC\",\"EAFCaCfAbc\",\"EAFCaCfaBC\",\"EAFCaCfaBc\",\"EAFCaCfabC\",\"EAFCaCfabc\",\"EAFCacFABC\",\"EAFCacFABc\",\"EAFCacFAbC\",\"EAFCacFAbc\",\"EAFCacFaBC\",\"EAFCacFaBc\",\"EAFCacFabC\",\"EAFCacFabc\",\"EAFCacfABC\",\"EAFCacfABc\",\"EAFCacfAbC\",\"EAFCacfAbc\",\"EAFCacfaBC\",\"EAFCacfaBc\",\"EAFCacfabC\",\"EAFCacfabc\",\"EAFcACFABC\",\"EAFcACFABc\",\"EAFcACFAbC\",\"EAFcACFAbc\",\"EAFcACFaBC\",\"EAFcACFaBc\",\"EAFcACFabC\",\"EAFcACFabc\",\"EAFcACfABC\",\"EAFcACfABc\",\"EAFcACfAbC\",\"EAFcACfAbc\",\"EAFcACfaBC\",\"EAFcACfaBc\",\"EAFcACfabC\",\"EAFcACfabc\",\"EAFcAcFABC\",\"EAFcAcFABc\",\"EAFcAcFAbC\",\"EAFcAcFAbc\",\"EAFcAcFaBC\",\"EAFcAcFaBc\",\"EAFcAcFabC\",\"EAFcAcFabc\",\"EAFcAcfABC\",\"EAFcAcfABc\",\"EAFcAcfAbC\",\"EAFcAcfAbc\",\"EAFcAcfaBC\",\"EAFcAcfaBc\",\"EAFcAcfabC\",\"EAFcAcfabc\",\"EAFcaCFABC\",\"EAFcaCFABc\",\"EAFcaCFAbC\",\"EAFcaCFAbc\",\"EAFcaCFaBC\",\"EAFcaCFaBc\",\"EAFcaCFabC\",\"EAFcaCFabc\",\"EAFcaCfABC\",\"EAFcaCfABc\",\"EAFcaCfAbC\",\"EAFcaCfAbc\",\"EAFcaCfaBC\",\"EAFcaCfaBc\",\"EAFcaCfabC\",\"EAFcaCfabc\",\"EAFcacFABC\",\"EAFcacFABc\",\"EAFcacFAbC\",\"EAFcacFAbc\",\"EAFcacFaBC\",\"EAFcacFaBc\",\"EAFcacFabC\",\"EAFcacFabc\",\"EAFcacfABC\",\"EAFcacfABc\",\"EAFcacfAbC\",\"EAFcacfAbc\",\"EAFcacfaBC\",\"EAFcacfaBc\",\"EAFcacfabC\",\"EAFcacfabc\",\"EAfCACFABC\",\"EAfCACFABc\",\"EAfCACFAbC\",\"EAfCACFAbc\",\"EAfCACFaBC\",\"EAfCACFaBc\",\"EAfCACFabC\",\"EAfCACFabc\",\"EAfCACfABC\",\"EAfCACfABc\",\"EAfCACfAbC\",\"EAfCACfAbc\",\"EAfCACfaBC\",\"EAfCACfaBc\",\"EAfCACfabC\",\"EAfCACfabc\",\"EAfCAcFABC\",\"EAfCAcFABc\",\"EAfCAcFAbC\",\"EAfCAcFAbc\",\"EAfCAcFaBC\",\"EAfCAcFaBc\",\"EAfCAcFabC\",\"EAfCAcFabc\",\"EAfCAcfABC\",\"EAfCAcfABc\",\"EAfCAcfAbC\",\"EAfCAcfAbc\",\"EAfCAcfaBC\",\"EAfCAcfaBc\",\"EAfCAcfabC\",\"EAfCAcfabc\",\"EAfCaCFABC\",\"EAfCaCFABc\",\"EAfCaCFAbC\",\"EAfCaCFAbc\",\"EAfCaCFaBC\",\"EAfCaCFaBc\",\"EAfCaCFabC\",\"EAfCaCFabc\",\"EAfCaCfABC\",\"EAfCaCfABc\",\"EAfCaCfAbC\",\"EAfCaCfAbc\",\"EAfCaCfaBC\",\"EAfCaCfaBc\",\"EAfCaCfabC\",\"EAfCaCfabc\",\"EAfCacFABC\",\"EAfCacFABc\",\"EAfCacFAbC\",\"EAfCacFAbc\",\"EAfCacFaBC\",\"EAfCacFaBc\",\"EAfCacFabC\",\"EAfCacFabc\",\"EAfCacfABC\",\"EAfCacfABc\",\"EAfCacfAbC\",\"EAfCacfAbc\",\"EAfCacfaBC\",\"EAfCacfaBc\",\"EAfCacfabC\",\"EAfCacfabc\",\"EAfcACFABC\",\"EAfcACFABc\",\"EAfcACFAbC\",\"EAfcACFAbc\",\"EAfcACFaBC\",\"EAfcACFaBc\",\"EAfcACFabC\",\"EAfcACFabc\",\"EAfcACfABC\",\"EAfcACfABc\",\"EAfcACfAbC\",\"EAfcACfAbc\",\"EAfcACfaBC\",\"EAfcACfaBc\",\"EAfcACfabC\",\"EAfcACfabc\",\"EAfcAcFABC\",\"EAfcAcFABc\",\"EAfcAcFAbC\",\"EAfcAcFAbc\",\"EAfcAcFaBC\",\"EAfcAcFaBc\",\"EAfcAcFabC\",\"EAfcAcFabc\",\"EAfcAcfABC\",\"EAfcAcfABc\",\"EAfcAcfAbC\",\"EAfcAcfAbc\",\"EAfcAcfaBC\",\"EAfcAcfaBc\",\"EAfcAcfabC\",\"EAfcAcfabc\",\"EAfcaCFABC\",\"EAfcaCFABc\",\"EAfcaCFAbC\",\"EAfcaCFAbc\",\"EAfcaCFaBC\",\"EAfcaCFaBc\",\"EAfcaCFabC\",\"EAfcaCFabc\",\"EAfcaCfABC\",\"EAfcaCfABc\",\"EAfcaCfAbC\",\"EAfcaCfAbc\",\"EAfcaCfaBC\",\"EAfcaCfaBc\",\"EAfcaCfabC\",\"EAfcaCfabc\",\"EAfcacFABC\",\"EAfcacFABc\",\"EAfcacFAbC\",\"EAfcacFAbc\",\"EAfcacFaBC\",\"EAfcacFaBc\",\"EAfcacFabC\",\"EAfcacFabc\",\"EAfcacfABC\",\"EAfcacfABc\",\"EAfcacfAbC\",\"EAfcacfAbc\",\"EAfcacfaBC\",\"EAfcacfaBc\",\"EAfcacfabC\",\"EAfcacfabc\",\"EaFCACFABC\",\"EaFCACFABc\",\"EaFCACFAbC\",\"EaFCACFAbc\",\"EaFCACFaBC\",\"EaFCACFaBc\",\"EaFCACFabC\",\"EaFCACFabc\",\"EaFCACfABC\",\"EaFCACfABc\",\"EaFCACfAbC\",\"EaFCACfAbc\",\"EaFCACfaBC\",\"EaFCACfaBc\",\"EaFCACfabC\",\"EaFCACfabc\",\"EaFCAcFABC\",\"EaFCAcFABc\",\"EaFCAcFAbC\",\"EaFCAcFAbc\",\"EaFCAcFaBC\",\"EaFCAcFaBc\",\"EaFCAcFabC\",\"EaFCAcFabc\",\"EaFCAcfABC\",\"EaFCAcfABc\",\"EaFCAcfAbC\",\"EaFCAcfAbc\",\"EaFCAcfaBC\",\"EaFCAcfaBc\",\"EaFCAcfabC\",\"EaFCAcfabc\",\"EaFCaCFABC\",\"EaFCaCFABc\",\"EaFCaCFAbC\",\"EaFCaCFAbc\",\"EaFCaCFaBC\",\"EaFCaCFaBc\",\"EaFCaCFabC\",\"EaFCaCFabc\",\"EaFCaCfABC\",\"EaFCaCfABc\",\"EaFCaCfAbC\",\"EaFCaCfAbc\",\"EaFCaCfaBC\",\"EaFCaCfaBc\",\"EaFCaCfabC\",\"EaFCaCfabc\",\"EaFCacFABC\",\"EaFCacFABc\",\"EaFCacFAbC\",\"EaFCacFAbc\",\"EaFCacFaBC\",\"EaFCacFaBc\",\"EaFCacFabC\",\"EaFCacFabc\",\"EaFCacfABC\",\"EaFCacfABc\",\"EaFCacfAbC\",\"EaFCacfAbc\",\"EaFCacfaBC\",\"EaFCacfaBc\",\"EaFCacfabC\",\"EaFCacfabc\",\"EaFcACFABC\",\"EaFcACFABc\",\"EaFcACFAbC\",\"EaFcACFAbc\",\"EaFcACFaBC\",\"EaFcACFaBc\",\"EaFcACFabC\",\"EaFcACFabc\",\"EaFcACfABC\",\"EaFcACfABc\",\"EaFcACfAbC\",\"EaFcACfAbc\",\"EaFcACfaBC\",\"EaFcACfaBc\",\"EaFcACfabC\",\"EaFcACfabc\",\"EaFcAcFABC\",\"EaFcAcFABc\",\"EaFcAcFAbC\",\"EaFcAcFAbc\",\"EaFcAcFaBC\",\"EaFcAcFaBc\",\"EaFcAcFabC\",\"EaFcAcFabc\",\"EaFcAcfABC\",\"EaFcAcfABc\",\"EaFcAcfAbC\",\"EaFcAcfAbc\",\"EaFcAcfaBC\",\"EaFcAcfaBc\",\"EaFcAcfabC\",\"EaFcAcfabc\",\"EaFcaCFABC\",\"EaFcaCFABc\",\"EaFcaCFAbC\",\"EaFcaCFAbc\",\"EaFcaCFaBC\",\"EaFcaCFaBc\",\"EaFcaCFabC\",\"EaFcaCFabc\",\"EaFcaCfABC\",\"EaFcaCfABc\",\"EaFcaCfAbC\",\"EaFcaCfAbc\",\"EaFcaCfaBC\",\"EaFcaCfaBc\",\"EaFcaCfabC\",\"EaFcaCfabc\",\"EaFcacFABC\",\"EaFcacFABc\",\"EaFcacFAbC\",\"EaFcacFAbc\",\"EaFcacFaBC\",\"EaFcacFaBc\",\"EaFcacFabC\",\"EaFcacFabc\",\"EaFcacfABC\",\"EaFcacfABc\",\"EaFcacfAbC\",\"EaFcacfAbc\",\"EaFcacfaBC\",\"EaFcacfaBc\",\"EaFcacfabC\",\"EaFcacfabc\",\"EafCACFABC\",\"EafCACFABc\",\"EafCACFAbC\",\"EafCACFAbc\",\"EafCACFaBC\",\"EafCACFaBc\",\"EafCACFabC\",\"EafCACFabc\",\"EafCACfABC\",\"EafCACfABc\",\"EafCACfAbC\",\"EafCACfAbc\",\"EafCACfaBC\",\"EafCACfaBc\",\"EafCACfabC\",\"EafCACfabc\",\"EafCAcFABC\",\"EafCAcFABc\",\"EafCAcFAbC\",\"EafCAcFAbc\",\"EafCAcFaBC\",\"EafCAcFaBc\",\"EafCAcFabC\",\"EafCAcFabc\",\"EafCAcfABC\",\"EafCAcfABc\",\"EafCAcfAbC\",\"EafCAcfAbc\",\"EafCAcfaBC\",\"EafCAcfaBc\",\"EafCAcfabC\",\"EafCAcfabc\",\"EafCaCFABC\",\"EafCaCFABc\",\"EafCaCFAbC\",\"EafCaCFAbc\",\"EafCaCFaBC\",\"EafCaCFaBc\",\"EafCaCFabC\",\"EafCaCFabc\",\"EafCaCfABC\",\"EafCaCfABc\",\"EafCaCfAbC\",\"EafCaCfAbc\",\"EafCaCfaBC\",\"EafCaCfaBc\",\"EafCaCfabC\",\"EafCaCfabc\",\"EafCacFABC\",\"EafCacFABc\",\"EafCacFAbC\",\"EafCacFAbc\",\"EafCacFaBC\",\"EafCacFaBc\",\"EafCacFabC\",\"EafCacFabc\",\"EafCacfABC\",\"EafCacfABc\",\"EafCacfAbC\",\"EafCacfAbc\",\"EafCacfaBC\",\"EafCacfaBc\",\"EafCacfabC\",\"EafCacfabc\",\"EafcACFABC\",\"EafcACFABc\",\"EafcACFAbC\",\"EafcACFAbc\",\"EafcACFaBC\",\"EafcACFaBc\",\"EafcACFabC\",\"EafcACFabc\",\"EafcACfABC\",\"EafcACfABc\",\"EafcACfAbC\",\"EafcACfAbc\",\"EafcACfaBC\",\"EafcACfaBc\",\"EafcACfabC\",\"EafcACfabc\",\"EafcAcFABC\",\"EafcAcFABc\",\"EafcAcFAbC\",\"EafcAcFAbc\",\"EafcAcFaBC\",\"EafcAcFaBc\",\"EafcAcFabC\",\"EafcAcFabc\",\"EafcAcfABC\",\"EafcAcfABc\",\"EafcAcfAbC\",\"EafcAcfAbc\",\"EafcAcfaBC\",\"EafcAcfaBc\",\"EafcAcfabC\",\"EafcAcfabc\",\"EafcaCFABC\",\"EafcaCFABc\",\"EafcaCFAbC\",\"EafcaCFAbc\",\"EafcaCFaBC\",\"EafcaCFaBc\",\"EafcaCFabC\",\"EafcaCFabc\",\"EafcaCfABC\",\"EafcaCfABc\",\"EafcaCfAbC\",\"EafcaCfAbc\",\"EafcaCfaBC\",\"EafcaCfaBc\",\"EafcaCfabC\",\"EafcaCfabc\",\"EafcacFABC\",\"EafcacFABc\",\"EafcacFAbC\",\"EafcacFAbc\",\"EafcacFaBC\",\"EafcacFaBc\",\"EafcacFabC\",\"EafcacFabc\",\"EafcacfABC\",\"EafcacfABc\",\"EafcacfAbC\",\"EafcacfAbc\",\"EafcacfaBC\",\"EafcacfaBc\",\"EafcacfabC\",\"Eafcacfabc\",\"eAFCACFABC\",\"eAFCACFABc\",\"eAFCACFAbC\",\"eAFCACFAbc\",\"eAFCACFaBC\",\"eAFCACFaBc\",\"eAFCACFabC\",\"eAFCACFabc\",\"eAFCACfABC\",\"eAFCACfABc\",\"eAFCACfAbC\",\"eAFCACfAbc\",\"eAFCACfaBC\",\"eAFCACfaBc\",\"eAFCACfabC\",\"eAFCACfabc\",\"eAFCAcFABC\",\"eAFCAcFABc\",\"eAFCAcFAbC\",\"eAFCAcFAbc\",\"eAFCAcFaBC\",\"eAFCAcFaBc\",\"eAFCAcFabC\",\"eAFCAcFabc\",\"eAFCAcfABC\",\"eAFCAcfABc\",\"eAFCAcfAbC\",\"eAFCAcfAbc\",\"eAFCAcfaBC\",\"eAFCAcfaBc\",\"eAFCAcfabC\",\"eAFCAcfabc\",\"eAFCaCFABC\",\"eAFCaCFABc\",\"eAFCaCFAbC\",\"eAFCaCFAbc\",\"eAFCaCFaBC\",\"eAFCaCFaBc\",\"eAFCaCFabC\",\"eAFCaCFabc\",\"eAFCaCfABC\",\"eAFCaCfABc\",\"eAFCaCfAbC\",\"eAFCaCfAbc\",\"eAFCaCfaBC\",\"eAFCaCfaBc\",\"eAFCaCfabC\",\"eAFCaCfabc\",\"eAFCacFABC\",\"eAFCacFABc\",\"eAFCacFAbC\",\"eAFCacFAbc\",\"eAFCacFaBC\",\"eAFCacFaBc\",\"eAFCacFabC\",\"eAFCacFabc\",\"eAFCacfABC\",\"eAFCacfABc\",\"eAFCacfAbC\",\"eAFCacfAbc\",\"eAFCacfaBC\",\"eAFCacfaBc\",\"eAFCacfabC\",\"eAFCacfabc\",\"eAFcACFABC\",\"eAFcACFABc\",\"eAFcACFAbC\",\"eAFcACFAbc\",\"eAFcACFaBC\",\"eAFcACFaBc\",\"eAFcACFabC\",\"eAFcACFabc\",\"eAFcACfABC\",\"eAFcACfABc\",\"eAFcACfAbC\",\"eAFcACfAbc\",\"eAFcACfaBC\",\"eAFcACfaBc\",\"eAFcACfabC\",\"eAFcACfabc\",\"eAFcAcFABC\",\"eAFcAcFABc\",\"eAFcAcFAbC\",\"eAFcAcFAbc\",\"eAFcAcFaBC\",\"eAFcAcFaBc\",\"eAFcAcFabC\",\"eAFcAcFabc\",\"eAFcAcfABC\",\"eAFcAcfABc\",\"eAFcAcfAbC\",\"eAFcAcfAbc\",\"eAFcAcfaBC\",\"eAFcAcfaBc\",\"eAFcAcfabC\",\"eAFcAcfabc\",\"eAFcaCFABC\",\"eAFcaCFABc\",\"eAFcaCFAbC\",\"eAFcaCFAbc\",\"eAFcaCFaBC\",\"eAFcaCFaBc\",\"eAFcaCFabC\",\"eAFcaCFabc\",\"eAFcaCfABC\",\"eAFcaCfABc\",\"eAFcaCfAbC\",\"eAFcaCfAbc\",\"eAFcaCfaBC\",\"eAFcaCfaBc\",\"eAFcaCfabC\",\"eAFcaCfabc\",\"eAFcacFABC\",\"eAFcacFABc\",\"eAFcacFAbC\",\"eAFcacFAbc\",\"eAFcacFaBC\",\"eAFcacFaBc\",\"eAFcacFabC\",\"eAFcacFabc\",\"eAFcacfABC\",\"eAFcacfABc\",\"eAFcacfAbC\",\"eAFcacfAbc\",\"eAFcacfaBC\",\"eAFcacfaBc\",\"eAFcacfabC\",\"eAFcacfabc\",\"eAfCACFABC\",\"eAfCACFABc\",\"eAfCACFAbC\",\"eAfCACFAbc\",\"eAfCACFaBC\",\"eAfCACFaBc\",\"eAfCACFabC\",\"eAfCACFabc\",\"eAfCACfABC\",\"eAfCACfABc\",\"eAfCACfAbC\",\"eAfCACfAbc\",\"eAfCACfaBC\",\"eAfCACfaBc\",\"eAfCACfabC\",\"eAfCACfabc\",\"eAfCAcFABC\",\"eAfCAcFABc\",\"eAfCAcFAbC\",\"eAfCAcFAbc\",\"eAfCAcFaBC\",\"eAfCAcFaBc\",\"eAfCAcFabC\",\"eAfCAcFabc\",\"eAfCAcfABC\",\"eAfCAcfABc\",\"eAfCAcfAbC\",\"eAfCAcfAbc\",\"eAfCAcfaBC\",\"eAfCAcfaBc\",\"eAfCAcfabC\",\"eAfCAcfabc\",\"eAfCaCFABC\",\"eAfCaCFABc\",\"eAfCaCFAbC\",\"eAfCaCFAbc\",\"eAfCaCFaBC\",\"eAfCaCFaBc\",\"eAfCaCFabC\",\"eAfCaCFabc\",\"eAfCaCfABC\",\"eAfCaCfABc\",\"eAfCaCfAbC\",\"eAfCaCfAbc\",\"eAfCaCfaBC\",\"eAfCaCfaBc\",\"eAfCaCfabC\",\"eAfCaCfabc\",\"eAfCacFABC\",\"eAfCacFABc\",\"eAfCacFAbC\",\"eAfCacFAbc\",\"eAfCacFaBC\",\"eAfCacFaBc\",\"eAfCacFabC\",\"eAfCacFabc\",\"eAfCacfABC\",\"eAfCacfABc\",\"eAfCacfAbC\",\"eAfCacfAbc\",\"eAfCacfaBC\",\"eAfCacfaBc\",\"eAfCacfabC\",\"eAfCacfabc\",\"eAfcACFABC\",\"eAfcACFABc\",\"eAfcACFAbC\",\"eAfcACFAbc\",\"eAfcACFaBC\",\"eAfcACFaBc\",\"eAfcACFabC\",\"eAfcACFabc\",\"eAfcACfABC\",\"eAfcACfABc\",\"eAfcACfAbC\",\"eAfcACfAbc\",\"eAfcACfaBC\",\"eAfcACfaBc\",\"eAfcACfabC\",\"eAfcACfabc\",\"eAfcAcFABC\",\"eAfcAcFABc\",\"eAfcAcFAbC\",\"eAfcAcFAbc\",\"eAfcAcFaBC\",\"eAfcAcFaBc\",\"eAfcAcFabC\",\"eAfcAcFabc\",\"eAfcAcfABC\",\"eAfcAcfABc\",\"eAfcAcfAbC\",\"eAfcAcfAbc\",\"eAfcAcfaBC\",\"eAfcAcfaBc\",\"eAfcAcfabC\",\"eAfcAcfabc\",\"eAfcaCFABC\",\"eAfcaCFABc\",\"eAfcaCFAbC\",\"eAfcaCFAbc\",\"eAfcaCFaBC\",\"eAfcaCFaBc\",\"eAfcaCFabC\",\"eAfcaCFabc\",\"eAfcaCfABC\",\"eAfcaCfABc\",\"eAfcaCfAbC\",\"eAfcaCfAbc\",\"eAfcaCfaBC\",\"eAfcaCfaBc\",\"eAfcaCfabC\",\"eAfcaCfabc\",\"eAfcacFABC\",\"eAfcacFABc\",\"eAfcacFAbC\",\"eAfcacFAbc\",\"eAfcacFaBC\",\"eAfcacFaBc\",\"eAfcacFabC\",\"eAfcacFabc\",\"eAfcacfABC\",\"eAfcacfABc\",\"eAfcacfAbC\",\"eAfcacfAbc\",\"eAfcacfaBC\",\"eAfcacfaBc\",\"eAfcacfabC\",\"eAfcacfabc\",\"eaFCACFABC\",\"eaFCACFABc\",\"eaFCACFAbC\",\"eaFCACFAbc\",\"eaFCACFaBC\",\"eaFCACFaBc\",\"eaFCACFabC\",\"eaFCACFabc\",\"eaFCACfABC\",\"eaFCACfABc\",\"eaFCACfAbC\",\"eaFCACfAbc\",\"eaFCACfaBC\",\"eaFCACfaBc\",\"eaFCACfabC\",\"eaFCACfabc\",\"eaFCAcFABC\",\"eaFCAcFABc\",\"eaFCAcFAbC\",\"eaFCAcFAbc\",\"eaFCAcFaBC\",\"eaFCAcFaBc\",\"eaFCAcFabC\",\"eaFCAcFabc\",\"eaFCAcfABC\",\"eaFCAcfABc\",\"eaFCAcfAbC\",\"eaFCAcfAbc\",\"eaFCAcfaBC\",\"eaFCAcfaBc\",\"eaFCAcfabC\",\"eaFCAcfabc\",\"eaFCaCFABC\",\"eaFCaCFABc\",\"eaFCaCFAbC\",\"eaFCaCFAbc\",\"eaFCaCFaBC\",\"eaFCaCFaBc\",\"eaFCaCFabC\",\"eaFCaCFabc\",\"eaFCaCfABC\",\"eaFCaCfABc\",\"eaFCaCfAbC\",\"eaFCaCfAbc\",\"eaFCaCfaBC\",\"eaFCaCfaBc\",\"eaFCaCfabC\",\"eaFCaCfabc\",\"eaFCacFABC\",\"eaFCacFABc\",\"eaFCacFAbC\",\"eaFCacFAbc\",\"eaFCacFaBC\",\"eaFCacFaBc\",\"eaFCacFabC\",\"eaFCacFabc\",\"eaFCacfABC\",\"eaFCacfABc\",\"eaFCacfAbC\",\"eaFCacfAbc\",\"eaFCacfaBC\",\"eaFCacfaBc\",\"eaFCacfabC\",\"eaFCacfabc\",\"eaFcACFABC\",\"eaFcACFABc\",\"eaFcACFAbC\",\"eaFcACFAbc\",\"eaFcACFaBC\",\"eaFcACFaBc\",\"eaFcACFabC\",\"eaFcACFabc\",\"eaFcACfABC\",\"eaFcACfABc\",\"eaFcACfAbC\",\"eaFcACfAbc\",\"eaFcACfaBC\",\"eaFcACfaBc\",\"eaFcACfabC\",\"eaFcACfabc\",\"eaFcAcFABC\",\"eaFcAcFABc\",\"eaFcAcFAbC\",\"eaFcAcFAbc\",\"eaFcAcFaBC\",\"eaFcAcFaBc\",\"eaFcAcFabC\",\"eaFcAcFabc\",\"eaFcAcfABC\",\"eaFcAcfABc\",\"eaFcAcfAbC\",\"eaFcAcfAbc\",\"eaFcAcfaBC\",\"eaFcAcfaBc\",\"eaFcAcfabC\",\"eaFcAcfabc\",\"eaFcaCFABC\",\"eaFcaCFABc\",\"eaFcaCFAbC\",\"eaFcaCFAbc\",\"eaFcaCFaBC\",\"eaFcaCFaBc\",\"eaFcaCFabC\",\"eaFcaCFabc\",\"eaFcaCfABC\",\"eaFcaCfABc\",\"eaFcaCfAbC\",\"eaFcaCfAbc\",\"eaFcaCfaBC\",\"eaFcaCfaBc\",\"eaFcaCfabC\",\"eaFcaCfabc\",\"eaFcacFABC\",\"eaFcacFABc\",\"eaFcacFAbC\",\"eaFcacFAbc\",\"eaFcacFaBC\",\"eaFcacFaBc\",\"eaFcacFabC\",\"eaFcacFabc\",\"eaFcacfABC\",\"eaFcacfABc\",\"eaFcacfAbC\",\"eaFcacfAbc\",\"eaFcacfaBC\",\"eaFcacfaBc\",\"eaFcacfabC\",\"eaFcacfabc\",\"eafCACFABC\",\"eafCACFABc\",\"eafCACFAbC\",\"eafCACFAbc\",\"eafCACFaBC\",\"eafCACFaBc\",\"eafCACFabC\",\"eafCACFabc\",\"eafCACfABC\",\"eafCACfABc\",\"eafCACfAbC\",\"eafCACfAbc\",\"eafCACfaBC\",\"eafCACfaBc\",\"eafCACfabC\",\"eafCACfabc\",\"eafCAcFABC\",\"eafCAcFABc\",\"eafCAcFAbC\",\"eafCAcFAbc\",\"eafCAcFaBC\",\"eafCAcFaBc\",\"eafCAcFabC\",\"eafCAcFabc\",\"eafCAcfABC\",\"eafCAcfABc\",\"eafCAcfAbC\",\"eafCAcfAbc\",\"eafCAcfaBC\",\"eafCAcfaBc\",\"eafCAcfabC\",\"eafCAcfabc\",\"eafCaCFABC\",\"eafCaCFABc\",\"eafCaCFAbC\",\"eafCaCFAbc\",\"eafCaCFaBC\",\"eafCaCFaBc\",\"eafCaCFabC\",\"eafCaCFabc\",\"eafCaCfABC\",\"eafCaCfABc\",\"eafCaCfAbC\",\"eafCaCfAbc\",\"eafCaCfaBC\",\"eafCaCfaBc\",\"eafCaCfabC\",\"eafCaCfabc\",\"eafCacFABC\",\"eafCacFABc\",\"eafCacFAbC\",\"eafCacFAbc\",\"eafCacFaBC\",\"eafCacFaBc\",\"eafCacFabC\",\"eafCacFabc\",\"eafCacfABC\",\"eafCacfABc\",\"eafCacfAbC\",\"eafCacfAbc\",\"eafCacfaBC\",\"eafCacfaBc\",\"eafCacfabC\",\"eafCacfabc\",\"eafcACFABC\",\"eafcACFABc\",\"eafcACFAbC\",\"eafcACFAbc\",\"eafcACFaBC\",\"eafcACFaBc\",\"eafcACFabC\",\"eafcACFabc\",\"eafcACfABC\",\"eafcACfABc\",\"eafcACfAbC\",\"eafcACfAbc\",\"eafcACfaBC\",\"eafcACfaBc\",\"eafcACfabC\",\"eafcACfabc\",\"eafcAcFABC\",\"eafcAcFABc\",\"eafcAcFAbC\",\"eafcAcFAbc\",\"eafcAcFaBC\",\"eafcAcFaBc\",\"eafcAcFabC\",\"eafcAcFabc\",\"eafcAcfABC\",\"eafcAcfABc\",\"eafcAcfAbC\",\"eafcAcfAbc\",\"eafcAcfaBC\",\"eafcAcfaBc\",\"eafcAcfabC\",\"eafcAcfabc\",\"eafcaCFABC\",\"eafcaCFABc\",\"eafcaCFAbC\",\"eafcaCFAbc\",\"eafcaCFaBC\",\"eafcaCFaBc\",\"eafcaCFabC\",\"eafcaCFabc\",\"eafcaCfABC\",\"eafcaCfABc\",\"eafcaCfAbC\",\"eafcaCfAbc\",\"eafcaCfaBC\",\"eafcaCfaBc\",\"eafcaCfabC\",\"eafcaCfabc\",\"eafcacFABC\",\"eafcacFABc\",\"eafcacFAbC\",\"eafcacFAbc\",\"eafcacFaBC\",\"eafcacFaBc\",\"eafcacFabC\",\"eafcacFabc\",\"eafcacfABC\",\"eafcacfABc\",\"eafcacfAbC\",\"eafcacfAbc\",\"eafcacfaBC\",\"eafcacfaBc\",\"eafcacfabC\",\"eafcacfabc\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4dbbb313\"]",
+    "expectedOutput": "[\"4DBBB313\",\"4DBBb313\",\"4DBbB313\",\"4DBbb313\",\"4DbBB313\",\"4DbBb313\",\"4DbbB313\",\"4Dbbb313\",\"4dBBB313\",\"4dBBb313\",\"4dBbB313\",\"4dBbb313\",\"4dbBB313\",\"4dbBb313\",\"4dbbB313\",\"4dbbb313\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ae12e41b4b\"]",
+    "expectedOutput": "[\"AE12E41B4B\",\"AE12E41B4b\",\"AE12E41b4B\",\"AE12E41b4b\",\"AE12e41B4B\",\"AE12e41B4b\",\"AE12e41b4B\",\"AE12e41b4b\",\"Ae12E41B4B\",\"Ae12E41B4b\",\"Ae12E41b4B\",\"Ae12E41b4b\",\"Ae12e41B4B\",\"Ae12e41B4b\",\"Ae12e41b4B\",\"Ae12e41b4b\",\"aE12E41B4B\",\"aE12E41B4b\",\"aE12E41b4B\",\"aE12E41b4b\",\"aE12e41B4B\",\"aE12e41B4b\",\"aE12e41b4B\",\"aE12e41b4b\",\"ae12E41B4B\",\"ae12E41B4b\",\"ae12E41b4B\",\"ae12E41b4b\",\"ae12e41B4B\",\"ae12e41B4b\",\"ae12e41b4B\",\"ae12e41b4b\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"11b1aedfde\"]",
+    "expectedOutput": "[\"11B1AEDFDE\",\"11B1AEDFDe\",\"11B1AEDFdE\",\"11B1AEDFde\",\"11B1AEDfDE\",\"11B1AEDfDe\",\"11B1AEDfdE\",\"11B1AEDfde\",\"11B1AEdFDE\",\"11B1AEdFDe\",\"11B1AEdFdE\",\"11B1AEdFde\",\"11B1AEdfDE\",\"11B1AEdfDe\",\"11B1AEdfdE\",\"11B1AEdfde\",\"11B1AeDFDE\",\"11B1AeDFDe\",\"11B1AeDFdE\",\"11B1AeDFde\",\"11B1AeDfDE\",\"11B1AeDfDe\",\"11B1AeDfdE\",\"11B1AeDfde\",\"11B1AedFDE\",\"11B1AedFDe\",\"11B1AedFdE\",\"11B1AedFde\",\"11B1AedfDE\",\"11B1AedfDe\",\"11B1AedfdE\",\"11B1Aedfde\",\"11B1aEDFDE\",\"11B1aEDFDe\",\"11B1aEDFdE\",\"11B1aEDFde\",\"11B1aEDfDE\",\"11B1aEDfDe\",\"11B1aEDfdE\",\"11B1aEDfde\",\"11B1aEdFDE\",\"11B1aEdFDe\",\"11B1aEdFdE\",\"11B1aEdFde\",\"11B1aEdfDE\",\"11B1aEdfDe\",\"11B1aEdfdE\",\"11B1aEdfde\",\"11B1aeDFDE\",\"11B1aeDFDe\",\"11B1aeDFdE\",\"11B1aeDFde\",\"11B1aeDfDE\",\"11B1aeDfDe\",\"11B1aeDfdE\",\"11B1aeDfde\",\"11B1aedFDE\",\"11B1aedFDe\",\"11B1aedFdE\",\"11B1aedFde\",\"11B1aedfDE\",\"11B1aedfDe\",\"11B1aedfdE\",\"11B1aedfde\",\"11b1AEDFDE\",\"11b1AEDFDe\",\"11b1AEDFdE\",\"11b1AEDFde\",\"11b1AEDfDE\",\"11b1AEDfDe\",\"11b1AEDfdE\",\"11b1AEDfde\",\"11b1AEdFDE\",\"11b1AEdFDe\",\"11b1AEdFdE\",\"11b1AEdFde\",\"11b1AEdfDE\",\"11b1AEdfDe\",\"11b1AEdfdE\",\"11b1AEdfde\",\"11b1AeDFDE\",\"11b1AeDFDe\",\"11b1AeDFdE\",\"11b1AeDFde\",\"11b1AeDfDE\",\"11b1AeDfDe\",\"11b1AeDfdE\",\"11b1AeDfde\",\"11b1AedFDE\",\"11b1AedFDe\",\"11b1AedFdE\",\"11b1AedFde\",\"11b1AedfDE\",\"11b1AedfDe\",\"11b1AedfdE\",\"11b1Aedfde\",\"11b1aEDFDE\",\"11b1aEDFDe\",\"11b1aEDFdE\",\"11b1aEDFde\",\"11b1aEDfDE\",\"11b1aEDfDe\",\"11b1aEDfdE\",\"11b1aEDfde\",\"11b1aEdFDE\",\"11b1aEdFDe\",\"11b1aEdFdE\",\"11b1aEdFde\",\"11b1aEdfDE\",\"11b1aEdfDe\",\"11b1aEdfdE\",\"11b1aEdfde\",\"11b1aeDFDE\",\"11b1aeDFDe\",\"11b1aeDFdE\",\"11b1aeDFde\",\"11b1aeDfDE\",\"11b1aeDfDe\",\"11b1aeDfdE\",\"11b1aeDfde\",\"11b1aedFDE\",\"11b1aedFDe\",\"11b1aedFdE\",\"11b1aedFde\",\"11b1aedfDE\",\"11b1aedfDe\",\"11b1aedfdE\",\"11b1aedfde\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4cdd13ee\"]",
+    "expectedOutput": "[\"4CDD13EE\",\"4CDD13Ee\",\"4CDD13eE\",\"4CDD13ee\",\"4CDd13EE\",\"4CDd13Ee\",\"4CDd13eE\",\"4CDd13ee\",\"4CdD13EE\",\"4CdD13Ee\",\"4CdD13eE\",\"4CdD13ee\",\"4Cdd13EE\",\"4Cdd13Ee\",\"4Cdd13eE\",\"4Cdd13ee\",\"4cDD13EE\",\"4cDD13Ee\",\"4cDD13eE\",\"4cDD13ee\",\"4cDd13EE\",\"4cDd13Ee\",\"4cDd13eE\",\"4cDd13ee\",\"4cdD13EE\",\"4cdD13Ee\",\"4cdD13eE\",\"4cdD13ee\",\"4cdd13EE\",\"4cdd13Ee\",\"4cdd13eE\",\"4cdd13ee\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1daeaeb\"]",
+    "expectedOutput": "[\"1DAEAEB\",\"1DAEAEb\",\"1DAEAeB\",\"1DAEAeb\",\"1DAEaEB\",\"1DAEaEb\",\"1DAEaeB\",\"1DAEaeb\",\"1DAeAEB\",\"1DAeAEb\",\"1DAeAeB\",\"1DAeAeb\",\"1DAeaEB\",\"1DAeaEb\",\"1DAeaeB\",\"1DAeaeb\",\"1DaEAEB\",\"1DaEAEb\",\"1DaEAeB\",\"1DaEAeb\",\"1DaEaEB\",\"1DaEaEb\",\"1DaEaeB\",\"1DaEaeb\",\"1DaeAEB\",\"1DaeAEb\",\"1DaeAeB\",\"1DaeAeb\",\"1DaeaEB\",\"1DaeaEb\",\"1DaeaeB\",\"1Daeaeb\",\"1dAEAEB\",\"1dAEAEb\",\"1dAEAeB\",\"1dAEAeb\",\"1dAEaEB\",\"1dAEaEb\",\"1dAEaeB\",\"1dAEaeb\",\"1dAeAEB\",\"1dAeAEb\",\"1dAeAeB\",\"1dAeAeb\",\"1dAeaEB\",\"1dAeaEb\",\"1dAeaeB\",\"1dAeaeb\",\"1daEAEB\",\"1daEAEb\",\"1daEAeB\",\"1daEAeb\",\"1daEaEB\",\"1daEaEb\",\"1daEaeB\",\"1daEaeb\",\"1daeAEB\",\"1daeAEb\",\"1daeAeB\",\"1daeAeb\",\"1daeaEB\",\"1daeaEb\",\"1daeaeB\",\"1daeaeb\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2afda1b3c3\"]",
+    "expectedOutput": "[\"2AFDA1B3C3\",\"2AFDA1B3c3\",\"2AFDA1b3C3\",\"2AFDA1b3c3\",\"2AFDa1B3C3\",\"2AFDa1B3c3\",\"2AFDa1b3C3\",\"2AFDa1b3c3\",\"2AFdA1B3C3\",\"2AFdA1B3c3\",\"2AFdA1b3C3\",\"2AFdA1b3c3\",\"2AFda1B3C3\",\"2AFda1B3c3\",\"2AFda1b3C3\",\"2AFda1b3c3\",\"2AfDA1B3C3\",\"2AfDA1B3c3\",\"2AfDA1b3C3\",\"2AfDA1b3c3\",\"2AfDa1B3C3\",\"2AfDa1B3c3\",\"2AfDa1b3C3\",\"2AfDa1b3c3\",\"2AfdA1B3C3\",\"2AfdA1B3c3\",\"2AfdA1b3C3\",\"2AfdA1b3c3\",\"2Afda1B3C3\",\"2Afda1B3c3\",\"2Afda1b3C3\",\"2Afda1b3c3\",\"2aFDA1B3C3\",\"2aFDA1B3c3\",\"2aFDA1b3C3\",\"2aFDA1b3c3\",\"2aFDa1B3C3\",\"2aFDa1B3c3\",\"2aFDa1b3C3\",\"2aFDa1b3c3\",\"2aFdA1B3C3\",\"2aFdA1B3c3\",\"2aFdA1b3C3\",\"2aFdA1b3c3\",\"2aFda1B3C3\",\"2aFda1B3c3\",\"2aFda1b3C3\",\"2aFda1b3c3\",\"2afDA1B3C3\",\"2afDA1B3c3\",\"2afDA1b3C3\",\"2afDA1b3c3\",\"2afDa1B3C3\",\"2afDa1B3c3\",\"2afDa1b3C3\",\"2afDa1b3c3\",\"2afdA1B3C3\",\"2afdA1B3c3\",\"2afdA1b3C3\",\"2afdA1b3c3\",\"2afda1B3C3\",\"2afda1B3c3\",\"2afda1b3C3\",\"2afda1b3c3\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2d23edf\"]",
+    "expectedOutput": "[\"2D23EDF\",\"2D23EDf\",\"2D23EdF\",\"2D23Edf\",\"2D23eDF\",\"2D23eDf\",\"2D23edF\",\"2D23edf\",\"2d23EDF\",\"2d23EDf\",\"2d23EdF\",\"2d23Edf\",\"2d23eDF\",\"2d23eDf\",\"2d23edF\",\"2d23edf\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"f1f3ce1b32\"]",
+    "expectedOutput": "[\"F1F3CE1B32\",\"F1F3CE1b32\",\"F1F3Ce1B32\",\"F1F3Ce1b32\",\"F1F3cE1B32\",\"F1F3cE1b32\",\"F1F3ce1B32\",\"F1F3ce1b32\",\"F1f3CE1B32\",\"F1f3CE1b32\",\"F1f3Ce1B32\",\"F1f3Ce1b32\",\"F1f3cE1B32\",\"F1f3cE1b32\",\"F1f3ce1B32\",\"F1f3ce1b32\",\"f1F3CE1B32\",\"f1F3CE1b32\",\"f1F3Ce1B32\",\"f1F3Ce1b32\",\"f1F3cE1B32\",\"f1F3cE1b32\",\"f1F3ce1B32\",\"f1F3ce1b32\",\"f1f3CE1B32\",\"f1f3CE1b32\",\"f1f3Ce1B32\",\"f1f3Ce1b32\",\"f1f3cE1B32\",\"f1f3cE1b32\",\"f1f3ce1B32\",\"f1f3ce1b32\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"413d4de13\"]",
+    "expectedOutput": "[\"413D4DE13\",\"413D4De13\",\"413D4dE13\",\"413D4de13\",\"413d4DE13\",\"413d4De13\",\"413d4dE13\",\"413d4de13\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"f1eddfffdd\"]",
+    "expectedOutput": "[\"F1EDDFFFDD\",\"F1EDDFFFDd\",\"F1EDDFFFdD\",\"F1EDDFFFdd\",\"F1EDDFFfDD\",\"F1EDDFFfDd\",\"F1EDDFFfdD\",\"F1EDDFFfdd\",\"F1EDDFfFDD\",\"F1EDDFfFDd\",\"F1EDDFfFdD\",\"F1EDDFfFdd\",\"F1EDDFffDD\",\"F1EDDFffDd\",\"F1EDDFffdD\",\"F1EDDFffdd\",\"F1EDDfFFDD\",\"F1EDDfFFDd\",\"F1EDDfFFdD\",\"F1EDDfFFdd\",\"F1EDDfFfDD\",\"F1EDDfFfDd\",\"F1EDDfFfdD\",\"F1EDDfFfdd\",\"F1EDDffFDD\",\"F1EDDffFDd\",\"F1EDDffFdD\",\"F1EDDffFdd\",\"F1EDDfffDD\",\"F1EDDfffDd\",\"F1EDDfffdD\",\"F1EDDfffdd\",\"F1EDdFFFDD\",\"F1EDdFFFDd\",\"F1EDdFFFdD\",\"F1EDdFFFdd\",\"F1EDdFFfDD\",\"F1EDdFFfDd\",\"F1EDdFFfdD\",\"F1EDdFFfdd\",\"F1EDdFfFDD\",\"F1EDdFfFDd\",\"F1EDdFfFdD\",\"F1EDdFfFdd\",\"F1EDdFffDD\",\"F1EDdFffDd\",\"F1EDdFffdD\",\"F1EDdFffdd\",\"F1EDdfFFDD\",\"F1EDdfFFDd\",\"F1EDdfFFdD\",\"F1EDdfFFdd\",\"F1EDdfFfDD\",\"F1EDdfFfDd\",\"F1EDdfFfdD\",\"F1EDdfFfdd\",\"F1EDdffFDD\",\"F1EDdffFDd\",\"F1EDdffFdD\",\"F1EDdffFdd\",\"F1EDdfffDD\",\"F1EDdfffDd\",\"F1EDdfffdD\",\"F1EDdfffdd\",\"F1EdDFFFDD\",\"F1EdDFFFDd\",\"F1EdDFFFdD\",\"F1EdDFFFdd\",\"F1EdDFFfDD\",\"F1EdDFFfDd\",\"F1EdDFFfdD\",\"F1EdDFFfdd\",\"F1EdDFfFDD\",\"F1EdDFfFDd\",\"F1EdDFfFdD\",\"F1EdDFfFdd\",\"F1EdDFffDD\",\"F1EdDFffDd\",\"F1EdDFffdD\",\"F1EdDFffdd\",\"F1EdDfFFDD\",\"F1EdDfFFDd\",\"F1EdDfFFdD\",\"F1EdDfFFdd\",\"F1EdDfFfDD\",\"F1EdDfFfDd\",\"F1EdDfFfdD\",\"F1EdDfFfdd\",\"F1EdDffFDD\",\"F1EdDffFDd\",\"F1EdDffFdD\",\"F1EdDffFdd\",\"F1EdDfffDD\",\"F1EdDfffDd\",\"F1EdDfffdD\",\"F1EdDfffdd\",\"F1EddFFFDD\",\"F1EddFFFDd\",\"F1EddFFFdD\",\"F1EddFFFdd\",\"F1EddFFfDD\",\"F1EddFFfDd\",\"F1EddFFfdD\",\"F1EddFFfdd\",\"F1EddFfFDD\",\"F1EddFfFDd\",\"F1EddFfFdD\",\"F1EddFfFdd\",\"F1EddFffDD\",\"F1EddFffDd\",\"F1EddFffdD\",\"F1EddFffdd\",\"F1EddfFFDD\",\"F1EddfFFDd\",\"F1EddfFFdD\",\"F1EddfFFdd\",\"F1EddfFfDD\",\"F1EddfFfDd\",\"F1EddfFfdD\",\"F1EddfFfdd\",\"F1EddffFDD\",\"F1EddffFDd\",\"F1EddffFdD\",\"F1EddffFdd\",\"F1EddfffDD\",\"F1EddfffDd\",\"F1EddfffdD\",\"F1Eddfffdd\",\"F1eDDFFFDD\",\"F1eDDFFFDd\",\"F1eDDFFFdD\",\"F1eDDFFFdd\",\"F1eDDFFfDD\",\"F1eDDFFfDd\",\"F1eDDFFfdD\",\"F1eDDFFfdd\",\"F1eDDFfFDD\",\"F1eDDFfFDd\",\"F1eDDFfFdD\",\"F1eDDFfFdd\",\"F1eDDFffDD\",\"F1eDDFffDd\",\"F1eDDFffdD\",\"F1eDDFffdd\",\"F1eDDfFFDD\",\"F1eDDfFFDd\",\"F1eDDfFFdD\",\"F1eDDfFFdd\",\"F1eDDfFfDD\",\"F1eDDfFfDd\",\"F1eDDfFfdD\",\"F1eDDfFfdd\",\"F1eDDffFDD\",\"F1eDDffFDd\",\"F1eDDffFdD\",\"F1eDDffFdd\",\"F1eDDfffDD\",\"F1eDDfffDd\",\"F1eDDfffdD\",\"F1eDDfffdd\",\"F1eDdFFFDD\",\"F1eDdFFFDd\",\"F1eDdFFFdD\",\"F1eDdFFFdd\",\"F1eDdFFfDD\",\"F1eDdFFfDd\",\"F1eDdFFfdD\",\"F1eDdFFfdd\",\"F1eDdFfFDD\",\"F1eDdFfFDd\",\"F1eDdFfFdD\",\"F1eDdFfFdd\",\"F1eDdFffDD\",\"F1eDdFffDd\",\"F1eDdFffdD\",\"F1eDdFffdd\",\"F1eDdfFFDD\",\"F1eDdfFFDd\",\"F1eDdfFFdD\",\"F1eDdfFFdd\",\"F1eDdfFfDD\",\"F1eDdfFfDd\",\"F1eDdfFfdD\",\"F1eDdfFfdd\",\"F1eDdffFDD\",\"F1eDdffFDd\",\"F1eDdffFdD\",\"F1eDdffFdd\",\"F1eDdfffDD\",\"F1eDdfffDd\",\"F1eDdfffdD\",\"F1eDdfffdd\",\"F1edDFFFDD\",\"F1edDFFFDd\",\"F1edDFFFdD\",\"F1edDFFFdd\",\"F1edDFFfDD\",\"F1edDFFfDd\",\"F1edDFFfdD\",\"F1edDFFfdd\",\"F1edDFfFDD\",\"F1edDFfFDd\",\"F1edDFfFdD\",\"F1edDFfFdd\",\"F1edDFffDD\",\"F1edDFffDd\",\"F1edDFffdD\",\"F1edDFffdd\",\"F1edDfFFDD\",\"F1edDfFFDd\",\"F1edDfFFdD\",\"F1edDfFFdd\",\"F1edDfFfDD\",\"F1edDfFfDd\",\"F1edDfFfdD\",\"F1edDfFfdd\",\"F1edDffFDD\",\"F1edDffFDd\",\"F1edDffFdD\",\"F1edDffFdd\",\"F1edDfffDD\",\"F1edDfffDd\",\"F1edDfffdD\",\"F1edDfffdd\",\"F1eddFFFDD\",\"F1eddFFFDd\",\"F1eddFFFdD\",\"F1eddFFFdd\",\"F1eddFFfDD\",\"F1eddFFfDd\",\"F1eddFFfdD\",\"F1eddFFfdd\",\"F1eddFfFDD\",\"F1eddFfFDd\",\"F1eddFfFdD\",\"F1eddFfFdd\",\"F1eddFffDD\",\"F1eddFffDd\",\"F1eddFffdD\",\"F1eddFffdd\",\"F1eddfFFDD\",\"F1eddfFFDd\",\"F1eddfFFdD\",\"F1eddfFFdd\",\"F1eddfFfDD\",\"F1eddfFfDd\",\"F1eddfFfdD\",\"F1eddfFfdd\",\"F1eddffFDD\",\"F1eddffFDd\",\"F1eddffFdD\",\"F1eddffFdd\",\"F1eddfffDD\",\"F1eddfffDd\",\"F1eddfffdD\",\"F1eddfffdd\",\"f1EDDFFFDD\",\"f1EDDFFFDd\",\"f1EDDFFFdD\",\"f1EDDFFFdd\",\"f1EDDFFfDD\",\"f1EDDFFfDd\",\"f1EDDFFfdD\",\"f1EDDFFfdd\",\"f1EDDFfFDD\",\"f1EDDFfFDd\",\"f1EDDFfFdD\",\"f1EDDFfFdd\",\"f1EDDFffDD\",\"f1EDDFffDd\",\"f1EDDFffdD\",\"f1EDDFffdd\",\"f1EDDfFFDD\",\"f1EDDfFFDd\",\"f1EDDfFFdD\",\"f1EDDfFFdd\",\"f1EDDfFfDD\",\"f1EDDfFfDd\",\"f1EDDfFfdD\",\"f1EDDfFfdd\",\"f1EDDffFDD\",\"f1EDDffFDd\",\"f1EDDffFdD\",\"f1EDDffFdd\",\"f1EDDfffDD\",\"f1EDDfffDd\",\"f1EDDfffdD\",\"f1EDDfffdd\",\"f1EDdFFFDD\",\"f1EDdFFFDd\",\"f1EDdFFFdD\",\"f1EDdFFFdd\",\"f1EDdFFfDD\",\"f1EDdFFfDd\",\"f1EDdFFfdD\",\"f1EDdFFfdd\",\"f1EDdFfFDD\",\"f1EDdFfFDd\",\"f1EDdFfFdD\",\"f1EDdFfFdd\",\"f1EDdFffDD\",\"f1EDdFffDd\",\"f1EDdFffdD\",\"f1EDdFffdd\",\"f1EDdfFFDD\",\"f1EDdfFFDd\",\"f1EDdfFFdD\",\"f1EDdfFFdd\",\"f1EDdfFfDD\",\"f1EDdfFfDd\",\"f1EDdfFfdD\",\"f1EDdfFfdd\",\"f1EDdffFDD\",\"f1EDdffFDd\",\"f1EDdffFdD\",\"f1EDdffFdd\",\"f1EDdfffDD\",\"f1EDdfffDd\",\"f1EDdfffdD\",\"f1EDdfffdd\",\"f1EdDFFFDD\",\"f1EdDFFFDd\",\"f1EdDFFFdD\",\"f1EdDFFFdd\",\"f1EdDFFfDD\",\"f1EdDFFfDd\",\"f1EdDFFfdD\",\"f1EdDFFfdd\",\"f1EdDFfFDD\",\"f1EdDFfFDd\",\"f1EdDFfFdD\",\"f1EdDFfFdd\",\"f1EdDFffDD\",\"f1EdDFffDd\",\"f1EdDFffdD\",\"f1EdDFffdd\",\"f1EdDfFFDD\",\"f1EdDfFFDd\",\"f1EdDfFFdD\",\"f1EdDfFFdd\",\"f1EdDfFfDD\",\"f1EdDfFfDd\",\"f1EdDfFfdD\",\"f1EdDfFfdd\",\"f1EdDffFDD\",\"f1EdDffFDd\",\"f1EdDffFdD\",\"f1EdDffFdd\",\"f1EdDfffDD\",\"f1EdDfffDd\",\"f1EdDfffdD\",\"f1EdDfffdd\",\"f1EddFFFDD\",\"f1EddFFFDd\",\"f1EddFFFdD\",\"f1EddFFFdd\",\"f1EddFFfDD\",\"f1EddFFfDd\",\"f1EddFFfdD\",\"f1EddFFfdd\",\"f1EddFfFDD\",\"f1EddFfFDd\",\"f1EddFfFdD\",\"f1EddFfFdd\",\"f1EddFffDD\",\"f1EddFffDd\",\"f1EddFffdD\",\"f1EddFffdd\",\"f1EddfFFDD\",\"f1EddfFFDd\",\"f1EddfFFdD\",\"f1EddfFFdd\",\"f1EddfFfDD\",\"f1EddfFfDd\",\"f1EddfFfdD\",\"f1EddfFfdd\",\"f1EddffFDD\",\"f1EddffFDd\",\"f1EddffFdD\",\"f1EddffFdd\",\"f1EddfffDD\",\"f1EddfffDd\",\"f1EddfffdD\",\"f1Eddfffdd\",\"f1eDDFFFDD\",\"f1eDDFFFDd\",\"f1eDDFFFdD\",\"f1eDDFFFdd\",\"f1eDDFFfDD\",\"f1eDDFFfDd\",\"f1eDDFFfdD\",\"f1eDDFFfdd\",\"f1eDDFfFDD\",\"f1eDDFfFDd\",\"f1eDDFfFdD\",\"f1eDDFfFdd\",\"f1eDDFffDD\",\"f1eDDFffDd\",\"f1eDDFffdD\",\"f1eDDFffdd\",\"f1eDDfFFDD\",\"f1eDDfFFDd\",\"f1eDDfFFdD\",\"f1eDDfFFdd\",\"f1eDDfFfDD\",\"f1eDDfFfDd\",\"f1eDDfFfdD\",\"f1eDDfFfdd\",\"f1eDDffFDD\",\"f1eDDffFDd\",\"f1eDDffFdD\",\"f1eDDffFdd\",\"f1eDDfffDD\",\"f1eDDfffDd\",\"f1eDDfffdD\",\"f1eDDfffdd\",\"f1eDdFFFDD\",\"f1eDdFFFDd\",\"f1eDdFFFdD\",\"f1eDdFFFdd\",\"f1eDdFFfDD\",\"f1eDdFFfDd\",\"f1eDdFFfdD\",\"f1eDdFFfdd\",\"f1eDdFfFDD\",\"f1eDdFfFDd\",\"f1eDdFfFdD\",\"f1eDdFfFdd\",\"f1eDdFffDD\",\"f1eDdFffDd\",\"f1eDdFffdD\",\"f1eDdFffdd\",\"f1eDdfFFDD\",\"f1eDdfFFDd\",\"f1eDdfFFdD\",\"f1eDdfFFdd\",\"f1eDdfFfDD\",\"f1eDdfFfDd\",\"f1eDdfFfdD\",\"f1eDdfFfdd\",\"f1eDdffFDD\",\"f1eDdffFDd\",\"f1eDdffFdD\",\"f1eDdffFdd\",\"f1eDdfffDD\",\"f1eDdfffDd\",\"f1eDdfffdD\",\"f1eDdfffdd\",\"f1edDFFFDD\",\"f1edDFFFDd\",\"f1edDFFFdD\",\"f1edDFFFdd\",\"f1edDFFfDD\",\"f1edDFFfDd\",\"f1edDFFfdD\",\"f1edDFFfdd\",\"f1edDFfFDD\",\"f1edDFfFDd\",\"f1edDFfFdD\",\"f1edDFfFdd\",\"f1edDFffDD\",\"f1edDFffDd\",\"f1edDFffdD\",\"f1edDFffdd\",\"f1edDfFFDD\",\"f1edDfFFDd\",\"f1edDfFFdD\",\"f1edDfFFdd\",\"f1edDfFfDD\",\"f1edDfFfDd\",\"f1edDfFfdD\",\"f1edDfFfdd\",\"f1edDffFDD\",\"f1edDffFDd\",\"f1edDffFdD\",\"f1edDffFdd\",\"f1edDfffDD\",\"f1edDfffDd\",\"f1edDfffdD\",\"f1edDfffdd\",\"f1eddFFFDD\",\"f1eddFFFDd\",\"f1eddFFFdD\",\"f1eddFFFdd\",\"f1eddFFfDD\",\"f1eddFFfDd\",\"f1eddFFfdD\",\"f1eddFFfdd\",\"f1eddFfFDD\",\"f1eddFfFDd\",\"f1eddFfFdD\",\"f1eddFfFdd\",\"f1eddFffDD\",\"f1eddFffDd\",\"f1eddFffdD\",\"f1eddFffdd\",\"f1eddfFFDD\",\"f1eddfFFDd\",\"f1eddfFFdD\",\"f1eddfFFdd\",\"f1eddfFfDD\",\"f1eddfFfDd\",\"f1eddfFfdD\",\"f1eddfFfdd\",\"f1eddffFDD\",\"f1eddffFDd\",\"f1eddffFdD\",\"f1eddffFdd\",\"f1eddfffDD\",\"f1eddfffDd\",\"f1eddfffdD\",\"f1eddfffdd\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1dbbe4222\"]",
+    "expectedOutput": "[\"1DBBE4222\",\"1DBBe4222\",\"1DBbE4222\",\"1DBbe4222\",\"1DbBE4222\",\"1DbBe4222\",\"1DbbE4222\",\"1Dbbe4222\",\"1dBBE4222\",\"1dBBe4222\",\"1dBbE4222\",\"1dBbe4222\",\"1dbBE4222\",\"1dbBe4222\",\"1dbbE4222\",\"1dbbe4222\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ba2c4a32a4\"]",
+    "expectedOutput": "[\"BA2C4A32A4\",\"BA2C4A32a4\",\"BA2C4a32A4\",\"BA2C4a32a4\",\"BA2c4A32A4\",\"BA2c4A32a4\",\"BA2c4a32A4\",\"BA2c4a32a4\",\"Ba2C4A32A4\",\"Ba2C4A32a4\",\"Ba2C4a32A4\",\"Ba2C4a32a4\",\"Ba2c4A32A4\",\"Ba2c4A32a4\",\"Ba2c4a32A4\",\"Ba2c4a32a4\",\"bA2C4A32A4\",\"bA2C4A32a4\",\"bA2C4a32A4\",\"bA2C4a32a4\",\"bA2c4A32A4\",\"bA2c4A32a4\",\"bA2c4a32A4\",\"bA2c4a32a4\",\"ba2C4A32A4\",\"ba2C4A32a4\",\"ba2C4a32A4\",\"ba2C4a32a4\",\"ba2c4A32A4\",\"ba2c4A32a4\",\"ba2c4a32A4\",\"ba2c4a32a4\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aa3232bd\"]",
+    "expectedOutput": "[\"AA3232BD\",\"AA3232Bd\",\"AA3232bD\",\"AA3232bd\",\"Aa3232BD\",\"Aa3232Bd\",\"Aa3232bD\",\"Aa3232bd\",\"aA3232BD\",\"aA3232Bd\",\"aA3232bD\",\"aA3232bd\",\"aa3232BD\",\"aa3232Bd\",\"aa3232bD\",\"aa3232bd\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"eaa44f1bf2\"]",
+    "expectedOutput": "[\"EAA44F1BF2\",\"EAA44F1Bf2\",\"EAA44F1bF2\",\"EAA44F1bf2\",\"EAA44f1BF2\",\"EAA44f1Bf2\",\"EAA44f1bF2\",\"EAA44f1bf2\",\"EAa44F1BF2\",\"EAa44F1Bf2\",\"EAa44F1bF2\",\"EAa44F1bf2\",\"EAa44f1BF2\",\"EAa44f1Bf2\",\"EAa44f1bF2\",\"EAa44f1bf2\",\"EaA44F1BF2\",\"EaA44F1Bf2\",\"EaA44F1bF2\",\"EaA44F1bf2\",\"EaA44f1BF2\",\"EaA44f1Bf2\",\"EaA44f1bF2\",\"EaA44f1bf2\",\"Eaa44F1BF2\",\"Eaa44F1Bf2\",\"Eaa44F1bF2\",\"Eaa44F1bf2\",\"Eaa44f1BF2\",\"Eaa44f1Bf2\",\"Eaa44f1bF2\",\"Eaa44f1bf2\",\"eAA44F1BF2\",\"eAA44F1Bf2\",\"eAA44F1bF2\",\"eAA44F1bf2\",\"eAA44f1BF2\",\"eAA44f1Bf2\",\"eAA44f1bF2\",\"eAA44f1bf2\",\"eAa44F1BF2\",\"eAa44F1Bf2\",\"eAa44F1bF2\",\"eAa44F1bf2\",\"eAa44f1BF2\",\"eAa44f1Bf2\",\"eAa44f1bF2\",\"eAa44f1bf2\",\"eaA44F1BF2\",\"eaA44F1Bf2\",\"eaA44F1bF2\",\"eaA44F1bf2\",\"eaA44f1BF2\",\"eaA44f1Bf2\",\"eaA44f1bF2\",\"eaA44f1bf2\",\"eaa44F1BF2\",\"eaa44F1Bf2\",\"eaa44F1bF2\",\"eaa44F1bf2\",\"eaa44f1BF2\",\"eaa44f1Bf2\",\"eaa44f1bF2\",\"eaa44f1bf2\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"afe4fdf\"]",
+    "expectedOutput": "[\"AFE4FDF\",\"AFE4FDf\",\"AFE4FdF\",\"AFE4Fdf\",\"AFE4fDF\",\"AFE4fDf\",\"AFE4fdF\",\"AFE4fdf\",\"AFe4FDF\",\"AFe4FDf\",\"AFe4FdF\",\"AFe4Fdf\",\"AFe4fDF\",\"AFe4fDf\",\"AFe4fdF\",\"AFe4fdf\",\"AfE4FDF\",\"AfE4FDf\",\"AfE4FdF\",\"AfE4Fdf\",\"AfE4fDF\",\"AfE4fDf\",\"AfE4fdF\",\"AfE4fdf\",\"Afe4FDF\",\"Afe4FDf\",\"Afe4FdF\",\"Afe4Fdf\",\"Afe4fDF\",\"Afe4fDf\",\"Afe4fdF\",\"Afe4fdf\",\"aFE4FDF\",\"aFE4FDf\",\"aFE4FdF\",\"aFE4Fdf\",\"aFE4fDF\",\"aFE4fDf\",\"aFE4fdF\",\"aFE4fdf\",\"aFe4FDF\",\"aFe4FDf\",\"aFe4FdF\",\"aFe4Fdf\",\"aFe4fDF\",\"aFe4fDf\",\"aFe4fdF\",\"aFe4fdf\",\"afE4FDF\",\"afE4FDf\",\"afE4FdF\",\"afE4Fdf\",\"afE4fDF\",\"afE4fDf\",\"afE4fdF\",\"afE4fdf\",\"afe4FDF\",\"afe4FDf\",\"afe4FdF\",\"afe4Fdf\",\"afe4fDF\",\"afe4fDf\",\"afe4fdF\",\"afe4fdf\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"d23fd3f2f\"]",
+    "expectedOutput": "[\"D23FD3F2F\",\"D23FD3F2f\",\"D23FD3f2F\",\"D23FD3f2f\",\"D23Fd3F2F\",\"D23Fd3F2f\",\"D23Fd3f2F\",\"D23Fd3f2f\",\"D23fD3F2F\",\"D23fD3F2f\",\"D23fD3f2F\",\"D23fD3f2f\",\"D23fd3F2F\",\"D23fd3F2f\",\"D23fd3f2F\",\"D23fd3f2f\",\"d23FD3F2F\",\"d23FD3F2f\",\"d23FD3f2F\",\"d23FD3f2f\",\"d23Fd3F2F\",\"d23Fd3F2f\",\"d23Fd3f2F\",\"d23Fd3f2f\",\"d23fD3F2F\",\"d23fD3F2f\",\"d23fD3f2F\",\"d23fD3f2f\",\"d23fd3F2F\",\"d23fd3F2f\",\"d23fd3f2F\",\"d23fd3f2f\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"accee11d\"]",
+    "expectedOutput": "[\"ACCEE11D\",\"ACCEE11d\",\"ACCEe11D\",\"ACCEe11d\",\"ACCeE11D\",\"ACCeE11d\",\"ACCee11D\",\"ACCee11d\",\"ACcEE11D\",\"ACcEE11d\",\"ACcEe11D\",\"ACcEe11d\",\"ACceE11D\",\"ACceE11d\",\"ACcee11D\",\"ACcee11d\",\"AcCEE11D\",\"AcCEE11d\",\"AcCEe11D\",\"AcCEe11d\",\"AcCeE11D\",\"AcCeE11d\",\"AcCee11D\",\"AcCee11d\",\"AccEE11D\",\"AccEE11d\",\"AccEe11D\",\"AccEe11d\",\"AcceE11D\",\"AcceE11d\",\"Accee11D\",\"Accee11d\",\"aCCEE11D\",\"aCCEE11d\",\"aCCEe11D\",\"aCCEe11d\",\"aCCeE11D\",\"aCCeE11d\",\"aCCee11D\",\"aCCee11d\",\"aCcEE11D\",\"aCcEE11d\",\"aCcEe11D\",\"aCcEe11d\",\"aCceE11D\",\"aCceE11d\",\"aCcee11D\",\"aCcee11d\",\"acCEE11D\",\"acCEE11d\",\"acCEe11D\",\"acCEe11d\",\"acCeE11D\",\"acCeE11d\",\"acCee11D\",\"acCee11d\",\"accEE11D\",\"accEE11d\",\"accEe11D\",\"accEe11d\",\"acceE11D\",\"acceE11d\",\"accee11D\",\"accee11d\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"b131eaee\"]",
+    "expectedOutput": "[\"B131EAEE\",\"B131EAEe\",\"B131EAeE\",\"B131EAee\",\"B131EaEE\",\"B131EaEe\",\"B131EaeE\",\"B131Eaee\",\"B131eAEE\",\"B131eAEe\",\"B131eAeE\",\"B131eAee\",\"B131eaEE\",\"B131eaEe\",\"B131eaeE\",\"B131eaee\",\"b131EAEE\",\"b131EAEe\",\"b131EAeE\",\"b131EAee\",\"b131EaEE\",\"b131EaEe\",\"b131EaeE\",\"b131Eaee\",\"b131eAEE\",\"b131eAEe\",\"b131eAeE\",\"b131eAee\",\"b131eaEE\",\"b131eaEe\",\"b131eaeE\",\"b131eaee\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1bc3114cb\"]",
+    "expectedOutput": "[\"1BC3114CB\",\"1BC3114Cb\",\"1BC3114cB\",\"1BC3114cb\",\"1Bc3114CB\",\"1Bc3114Cb\",\"1Bc3114cB\",\"1Bc3114cb\",\"1bC3114CB\",\"1bC3114Cb\",\"1bC3114cB\",\"1bC3114cb\",\"1bc3114CB\",\"1bc3114Cb\",\"1bc3114cB\",\"1bc3114cb\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"31c12de\"]",
+    "expectedOutput": "[\"31C12DE\",\"31C12De\",\"31C12dE\",\"31C12de\",\"31c12DE\",\"31c12De\",\"31c12dE\",\"31c12de\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"124e3cbad\"]",
+    "expectedOutput": "[\"124E3CBAD\",\"124E3CBAd\",\"124E3CBaD\",\"124E3CBad\",\"124E3CbAD\",\"124E3CbAd\",\"124E3CbaD\",\"124E3Cbad\",\"124E3cBAD\",\"124E3cBAd\",\"124E3cBaD\",\"124E3cBad\",\"124E3cbAD\",\"124E3cbAd\",\"124E3cbaD\",\"124E3cbad\",\"124e3CBAD\",\"124e3CBAd\",\"124e3CBaD\",\"124e3CBad\",\"124e3CbAD\",\"124e3CbAd\",\"124e3CbaD\",\"124e3Cbad\",\"124e3cBAD\",\"124e3cBAd\",\"124e3cBaD\",\"124e3cBad\",\"124e3cbAD\",\"124e3cbAd\",\"124e3cbaD\",\"124e3cbad\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"e314e4fe\"]",
+    "expectedOutput": "[\"E314E4FE\",\"E314E4Fe\",\"E314E4fE\",\"E314E4fe\",\"E314e4FE\",\"E314e4Fe\",\"E314e4fE\",\"E314e4fe\",\"e314E4FE\",\"e314E4Fe\",\"e314E4fE\",\"e314E4fe\",\"e314e4FE\",\"e314e4Fe\",\"e314e4fE\",\"e314e4fe\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1faeed2e\"]",
+    "expectedOutput": "[\"1FAEED2E\",\"1FAEED2e\",\"1FAEEd2E\",\"1FAEEd2e\",\"1FAEeD2E\",\"1FAEeD2e\",\"1FAEed2E\",\"1FAEed2e\",\"1FAeED2E\",\"1FAeED2e\",\"1FAeEd2E\",\"1FAeEd2e\",\"1FAeeD2E\",\"1FAeeD2e\",\"1FAeed2E\",\"1FAeed2e\",\"1FaEED2E\",\"1FaEED2e\",\"1FaEEd2E\",\"1FaEEd2e\",\"1FaEeD2E\",\"1FaEeD2e\",\"1FaEed2E\",\"1FaEed2e\",\"1FaeED2E\",\"1FaeED2e\",\"1FaeEd2E\",\"1FaeEd2e\",\"1FaeeD2E\",\"1FaeeD2e\",\"1Faeed2E\",\"1Faeed2e\",\"1fAEED2E\",\"1fAEED2e\",\"1fAEEd2E\",\"1fAEEd2e\",\"1fAEeD2E\",\"1fAEeD2e\",\"1fAEed2E\",\"1fAEed2e\",\"1fAeED2E\",\"1fAeED2e\",\"1fAeEd2E\",\"1fAeEd2e\",\"1fAeeD2E\",\"1fAeeD2e\",\"1fAeed2E\",\"1fAeed2e\",\"1faEED2E\",\"1faEED2e\",\"1faEEd2E\",\"1faEEd2e\",\"1faEeD2E\",\"1faEeD2e\",\"1faEed2E\",\"1faEed2e\",\"1faeED2E\",\"1faeED2e\",\"1faeEd2E\",\"1faeEd2e\",\"1faeeD2E\",\"1faeeD2e\",\"1faeed2E\",\"1faeed2e\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"faa313b24e\"]",
+    "expectedOutput": "[\"FAA313B24E\",\"FAA313B24e\",\"FAA313b24E\",\"FAA313b24e\",\"FAa313B24E\",\"FAa313B24e\",\"FAa313b24E\",\"FAa313b24e\",\"FaA313B24E\",\"FaA313B24e\",\"FaA313b24E\",\"FaA313b24e\",\"Faa313B24E\",\"Faa313B24e\",\"Faa313b24E\",\"Faa313b24e\",\"fAA313B24E\",\"fAA313B24e\",\"fAA313b24E\",\"fAA313b24e\",\"fAa313B24E\",\"fAa313B24e\",\"fAa313b24E\",\"fAa313b24e\",\"faA313B24E\",\"faA313B24e\",\"faA313b24E\",\"faA313b24e\",\"faa313B24E\",\"faa313B24e\",\"faa313b24E\",\"faa313b24e\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1314e43ab\"]",
+    "expectedOutput": "[\"1314E43AB\",\"1314E43Ab\",\"1314E43aB\",\"1314E43ab\",\"1314e43AB\",\"1314e43Ab\",\"1314e43aB\",\"1314e43ab\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cdd3e3c\"]",
+    "expectedOutput": "[\"CDD3E3C\",\"CDD3E3c\",\"CDD3e3C\",\"CDD3e3c\",\"CDd3E3C\",\"CDd3E3c\",\"CDd3e3C\",\"CDd3e3c\",\"CdD3E3C\",\"CdD3E3c\",\"CdD3e3C\",\"CdD3e3c\",\"Cdd3E3C\",\"Cdd3E3c\",\"Cdd3e3C\",\"Cdd3e3c\",\"cDD3E3C\",\"cDD3E3c\",\"cDD3e3C\",\"cDD3e3c\",\"cDd3E3C\",\"cDd3E3c\",\"cDd3e3C\",\"cDd3e3c\",\"cdD3E3C\",\"cdD3E3c\",\"cdD3e3C\",\"cdD3e3c\",\"cdd3E3C\",\"cdd3E3c\",\"cdd3e3C\",\"cdd3e3c\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1fc1eacbfd\"]",
+    "expectedOutput": "[\"1FC1EACBFD\",\"1FC1EACBFd\",\"1FC1EACBfD\",\"1FC1EACBfd\",\"1FC1EACbFD\",\"1FC1EACbFd\",\"1FC1EACbfD\",\"1FC1EACbfd\",\"1FC1EAcBFD\",\"1FC1EAcBFd\",\"1FC1EAcBfD\",\"1FC1EAcBfd\",\"1FC1EAcbFD\",\"1FC1EAcbFd\",\"1FC1EAcbfD\",\"1FC1EAcbfd\",\"1FC1EaCBFD\",\"1FC1EaCBFd\",\"1FC1EaCBfD\",\"1FC1EaCBfd\",\"1FC1EaCbFD\",\"1FC1EaCbFd\",\"1FC1EaCbfD\",\"1FC1EaCbfd\",\"1FC1EacBFD\",\"1FC1EacBFd\",\"1FC1EacBfD\",\"1FC1EacBfd\",\"1FC1EacbFD\",\"1FC1EacbFd\",\"1FC1EacbfD\",\"1FC1Eacbfd\",\"1FC1eACBFD\",\"1FC1eACBFd\",\"1FC1eACBfD\",\"1FC1eACBfd\",\"1FC1eACbFD\",\"1FC1eACbFd\",\"1FC1eACbfD\",\"1FC1eACbfd\",\"1FC1eAcBFD\",\"1FC1eAcBFd\",\"1FC1eAcBfD\",\"1FC1eAcBfd\",\"1FC1eAcbFD\",\"1FC1eAcbFd\",\"1FC1eAcbfD\",\"1FC1eAcbfd\",\"1FC1eaCBFD\",\"1FC1eaCBFd\",\"1FC1eaCBfD\",\"1FC1eaCBfd\",\"1FC1eaCbFD\",\"1FC1eaCbFd\",\"1FC1eaCbfD\",\"1FC1eaCbfd\",\"1FC1eacBFD\",\"1FC1eacBFd\",\"1FC1eacBfD\",\"1FC1eacBfd\",\"1FC1eacbFD\",\"1FC1eacbFd\",\"1FC1eacbfD\",\"1FC1eacbfd\",\"1Fc1EACBFD\",\"1Fc1EACBFd\",\"1Fc1EACBfD\",\"1Fc1EACBfd\",\"1Fc1EACbFD\",\"1Fc1EACbFd\",\"1Fc1EACbfD\",\"1Fc1EACbfd\",\"1Fc1EAcBFD\",\"1Fc1EAcBFd\",\"1Fc1EAcBfD\",\"1Fc1EAcBfd\",\"1Fc1EAcbFD\",\"1Fc1EAcbFd\",\"1Fc1EAcbfD\",\"1Fc1EAcbfd\",\"1Fc1EaCBFD\",\"1Fc1EaCBFd\",\"1Fc1EaCBfD\",\"1Fc1EaCBfd\",\"1Fc1EaCbFD\",\"1Fc1EaCbFd\",\"1Fc1EaCbfD\",\"1Fc1EaCbfd\",\"1Fc1EacBFD\",\"1Fc1EacBFd\",\"1Fc1EacBfD\",\"1Fc1EacBfd\",\"1Fc1EacbFD\",\"1Fc1EacbFd\",\"1Fc1EacbfD\",\"1Fc1Eacbfd\",\"1Fc1eACBFD\",\"1Fc1eACBFd\",\"1Fc1eACBfD\",\"1Fc1eACBfd\",\"1Fc1eACbFD\",\"1Fc1eACbFd\",\"1Fc1eACbfD\",\"1Fc1eACbfd\",\"1Fc1eAcBFD\",\"1Fc1eAcBFd\",\"1Fc1eAcBfD\",\"1Fc1eAcBfd\",\"1Fc1eAcbFD\",\"1Fc1eAcbFd\",\"1Fc1eAcbfD\",\"1Fc1eAcbfd\",\"1Fc1eaCBFD\",\"1Fc1eaCBFd\",\"1Fc1eaCBfD\",\"1Fc1eaCBfd\",\"1Fc1eaCbFD\",\"1Fc1eaCbFd\",\"1Fc1eaCbfD\",\"1Fc1eaCbfd\",\"1Fc1eacBFD\",\"1Fc1eacBFd\",\"1Fc1eacBfD\",\"1Fc1eacBfd\",\"1Fc1eacbFD\",\"1Fc1eacbFd\",\"1Fc1eacbfD\",\"1Fc1eacbfd\",\"1fC1EACBFD\",\"1fC1EACBFd\",\"1fC1EACBfD\",\"1fC1EACBfd\",\"1fC1EACbFD\",\"1fC1EACbFd\",\"1fC1EACbfD\",\"1fC1EACbfd\",\"1fC1EAcBFD\",\"1fC1EAcBFd\",\"1fC1EAcBfD\",\"1fC1EAcBfd\",\"1fC1EAcbFD\",\"1fC1EAcbFd\",\"1fC1EAcbfD\",\"1fC1EAcbfd\",\"1fC1EaCBFD\",\"1fC1EaCBFd\",\"1fC1EaCBfD\",\"1fC1EaCBfd\",\"1fC1EaCbFD\",\"1fC1EaCbFd\",\"1fC1EaCbfD\",\"1fC1EaCbfd\",\"1fC1EacBFD\",\"1fC1EacBFd\",\"1fC1EacBfD\",\"1fC1EacBfd\",\"1fC1EacbFD\",\"1fC1EacbFd\",\"1fC1EacbfD\",\"1fC1Eacbfd\",\"1fC1eACBFD\",\"1fC1eACBFd\",\"1fC1eACBfD\",\"1fC1eACBfd\",\"1fC1eACbFD\",\"1fC1eACbFd\",\"1fC1eACbfD\",\"1fC1eACbfd\",\"1fC1eAcBFD\",\"1fC1eAcBFd\",\"1fC1eAcBfD\",\"1fC1eAcBfd\",\"1fC1eAcbFD\",\"1fC1eAcbFd\",\"1fC1eAcbfD\",\"1fC1eAcbfd\",\"1fC1eaCBFD\",\"1fC1eaCBFd\",\"1fC1eaCBfD\",\"1fC1eaCBfd\",\"1fC1eaCbFD\",\"1fC1eaCbFd\",\"1fC1eaCbfD\",\"1fC1eaCbfd\",\"1fC1eacBFD\",\"1fC1eacBFd\",\"1fC1eacBfD\",\"1fC1eacBfd\",\"1fC1eacbFD\",\"1fC1eacbFd\",\"1fC1eacbfD\",\"1fC1eacbfd\",\"1fc1EACBFD\",\"1fc1EACBFd\",\"1fc1EACBfD\",\"1fc1EACBfd\",\"1fc1EACbFD\",\"1fc1EACbFd\",\"1fc1EACbfD\",\"1fc1EACbfd\",\"1fc1EAcBFD\",\"1fc1EAcBFd\",\"1fc1EAcBfD\",\"1fc1EAcBfd\",\"1fc1EAcbFD\",\"1fc1EAcbFd\",\"1fc1EAcbfD\",\"1fc1EAcbfd\",\"1fc1EaCBFD\",\"1fc1EaCBFd\",\"1fc1EaCBfD\",\"1fc1EaCBfd\",\"1fc1EaCbFD\",\"1fc1EaCbFd\",\"1fc1EaCbfD\",\"1fc1EaCbfd\",\"1fc1EacBFD\",\"1fc1EacBFd\",\"1fc1EacBfD\",\"1fc1EacBfd\",\"1fc1EacbFD\",\"1fc1EacbFd\",\"1fc1EacbfD\",\"1fc1Eacbfd\",\"1fc1eACBFD\",\"1fc1eACBFd\",\"1fc1eACBfD\",\"1fc1eACBfd\",\"1fc1eACbFD\",\"1fc1eACbFd\",\"1fc1eACbfD\",\"1fc1eACbfd\",\"1fc1eAcBFD\",\"1fc1eAcBFd\",\"1fc1eAcBfD\",\"1fc1eAcBfd\",\"1fc1eAcbFD\",\"1fc1eAcbFd\",\"1fc1eAcbfD\",\"1fc1eAcbfd\",\"1fc1eaCBFD\",\"1fc1eaCBFd\",\"1fc1eaCBfD\",\"1fc1eaCBfd\",\"1fc1eaCbFD\",\"1fc1eaCbFd\",\"1fc1eaCbfD\",\"1fc1eaCbfd\",\"1fc1eacBFD\",\"1fc1eacBFd\",\"1fc1eacBfD\",\"1fc1eacBfd\",\"1fc1eacbFD\",\"1fc1eacbFd\",\"1fc1eacbfD\",\"1fc1eacbfd\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dfcdec2\"]",
+    "expectedOutput": "[\"DFCDEC2\",\"DFCDEc2\",\"DFCDeC2\",\"DFCDec2\",\"DFCdEC2\",\"DFCdEc2\",\"DFCdeC2\",\"DFCdec2\",\"DFcDEC2\",\"DFcDEc2\",\"DFcDeC2\",\"DFcDec2\",\"DFcdEC2\",\"DFcdEc2\",\"DFcdeC2\",\"DFcdec2\",\"DfCDEC2\",\"DfCDEc2\",\"DfCDeC2\",\"DfCDec2\",\"DfCdEC2\",\"DfCdEc2\",\"DfCdeC2\",\"DfCdec2\",\"DfcDEC2\",\"DfcDEc2\",\"DfcDeC2\",\"DfcDec2\",\"DfcdEC2\",\"DfcdEc2\",\"DfcdeC2\",\"Dfcdec2\",\"dFCDEC2\",\"dFCDEc2\",\"dFCDeC2\",\"dFCDec2\",\"dFCdEC2\",\"dFCdEc2\",\"dFCdeC2\",\"dFCdec2\",\"dFcDEC2\",\"dFcDEc2\",\"dFcDeC2\",\"dFcDec2\",\"dFcdEC2\",\"dFcdEc2\",\"dFcdeC2\",\"dFcdec2\",\"dfCDEC2\",\"dfCDEc2\",\"dfCDeC2\",\"dfCDec2\",\"dfCdEC2\",\"dfCdEc2\",\"dfCdeC2\",\"dfCdec2\",\"dfcDEC2\",\"dfcDEc2\",\"dfcDeC2\",\"dfcDec2\",\"dfcdEC2\",\"dfcdEc2\",\"dfcdeC2\",\"dfcdec2\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"21f41caff\"]",
+    "expectedOutput": "[\"21F41CAFF\",\"21F41CAFf\",\"21F41CAfF\",\"21F41CAff\",\"21F41CaFF\",\"21F41CaFf\",\"21F41CafF\",\"21F41Caff\",\"21F41cAFF\",\"21F41cAFf\",\"21F41cAfF\",\"21F41cAff\",\"21F41caFF\",\"21F41caFf\",\"21F41cafF\",\"21F41caff\",\"21f41CAFF\",\"21f41CAFf\",\"21f41CAfF\",\"21f41CAff\",\"21f41CaFF\",\"21f41CaFf\",\"21f41CafF\",\"21f41Caff\",\"21f41cAFF\",\"21f41cAFf\",\"21f41cAfF\",\"21f41cAff\",\"21f41caFF\",\"21f41caFf\",\"21f41cafF\",\"21f41caff\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"db1fb2142\"]",
+    "expectedOutput": "[\"DB1FB2142\",\"DB1Fb2142\",\"DB1fB2142\",\"DB1fb2142\",\"Db1FB2142\",\"Db1Fb2142\",\"Db1fB2142\",\"Db1fb2142\",\"dB1FB2142\",\"dB1Fb2142\",\"dB1fB2142\",\"dB1fb2142\",\"db1FB2142\",\"db1Fb2142\",\"db1fB2142\",\"db1fb2142\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"e2231ef\"]",
+    "expectedOutput": "[\"E2231EF\",\"E2231Ef\",\"E2231eF\",\"E2231ef\",\"e2231EF\",\"e2231Ef\",\"e2231eF\",\"e2231ef\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"d2c1ac3\"]",
+    "expectedOutput": "[\"D2C1AC3\",\"D2C1Ac3\",\"D2C1aC3\",\"D2C1ac3\",\"D2c1AC3\",\"D2c1Ac3\",\"D2c1aC3\",\"D2c1ac3\",\"d2C1AC3\",\"d2C1Ac3\",\"d2C1aC3\",\"d2C1ac3\",\"d2c1AC3\",\"d2c1Ac3\",\"d2c1aC3\",\"d2c1ac3\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"d3d42fb\"]",
+    "expectedOutput": "[\"D3D42FB\",\"D3D42Fb\",\"D3D42fB\",\"D3D42fb\",\"D3d42FB\",\"D3d42Fb\",\"D3d42fB\",\"D3d42fb\",\"d3D42FB\",\"d3D42Fb\",\"d3D42fB\",\"d3D42fb\",\"d3d42FB\",\"d3d42Fb\",\"d3d42fB\",\"d3d42fb\"]",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dd24dd3d4d\"]",
+    "expectedOutput": "[\"DD24DD3D4D\",\"DD24DD3D4d\",\"DD24DD3d4D\",\"DD24DD3d4d\",\"DD24Dd3D4D\",\"DD24Dd3D4d\",\"DD24Dd3d4D\",\"DD24Dd3d4d\",\"DD24dD3D4D\",\"DD24dD3D4d\",\"DD24dD3d4D\",\"DD24dD3d4d\",\"DD24dd3D4D\",\"DD24dd3D4d\",\"DD24dd3d4D\",\"DD24dd3d4d\",\"Dd24DD3D4D\",\"Dd24DD3D4d\",\"Dd24DD3d4D\",\"Dd24DD3d4d\",\"Dd24Dd3D4D\",\"Dd24Dd3D4d\",\"Dd24Dd3d4D\",\"Dd24Dd3d4d\",\"Dd24dD3D4D\",\"Dd24dD3D4d\",\"Dd24dD3d4D\",\"Dd24dD3d4d\",\"Dd24dd3D4D\",\"Dd24dd3D4d\",\"Dd24dd3d4D\",\"Dd24dd3d4d\",\"dD24DD3D4D\",\"dD24DD3D4d\",\"dD24DD3d4D\",\"dD24DD3d4d\",\"dD24Dd3D4D\",\"dD24Dd3D4d\",\"dD24Dd3d4D\",\"dD24Dd3d4d\",\"dD24dD3D4D\",\"dD24dD3D4d\",\"dD24dD3d4D\",\"dD24dD3d4d\",\"dD24dd3D4D\",\"dD24dd3D4d\",\"dD24dd3d4D\",\"dD24dd3d4d\",\"dd24DD3D4D\",\"dd24DD3D4d\",\"dd24DD3d4D\",\"dd24DD3d4d\",\"dd24Dd3D4D\",\"dd24Dd3D4d\",\"dd24Dd3d4D\",\"dd24Dd3d4d\",\"dd24dD3D4D\",\"dd24dD3D4d\",\"dd24dD3d4D\",\"dd24dD3d4d\",\"dd24dd3D4D\",\"dd24dd3D4d\",\"dd24dd3d4D\",\"dd24dd3d4d\"]",
+    "isHidden": true
+  }
+]

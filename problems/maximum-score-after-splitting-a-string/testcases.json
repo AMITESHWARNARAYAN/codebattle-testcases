@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[\"011101\"]",
+    "expectedOutput": "5",
+    "isHidden": false
+  },
+  {
+    "input": "[\"1111\"]",
+    "expectedOutput": "3",
+    "isHidden": false
+  },
+  {
+    "input": "[\"11101\"]",
+    "expectedOutput": "3",
+    "isHidden": false
+  },
+  {
+    "input": "[\"000\"]",
+    "expectedOutput": "2",
+    "isHidden": false
+  },
+  {
+    "input": "[\"010\"]",
+    "expectedOutput": "2",
+    "isHidden": false
+  },
+  {
+    "input": "[\"10110\"]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"10100\"]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1111\"]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"100010\"]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[\"010110\"]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[\"11\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"111100\"]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"101110\"]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1001\"]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1111\"]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1010\"]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"0011\"]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[\"111001\"]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"10\"]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1000\"]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"001\"]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"10010\"]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"00111\"]",
+    "expectedOutput": "5",
+    "isHidden": true
+  },
+  {
+    "input": "[\"011110\"]",
+    "expectedOutput": "5",
+    "isHidden": true
+  },
+  {
+    "input": "[\"10\"]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"101011\"]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[\"001\"]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"10\"]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1000\"]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"10\"]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1100\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"0101\"]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"01\"]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"10110\"]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"10\"]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"100011\"]",
+    "expectedOutput": "5",
+    "isHidden": true
+  },
+  {
+    "input": "[\"00\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"001\"]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"00101\"]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[\"011001\"]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[\"01101\"]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[\"0010\"]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"110\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"0001\"]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[\"110\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"01\"]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[\"11001\"]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"10\"]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[\"100\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"11\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"0001010\"]",
+    "expectedOutput": "5",
+    "isHidden": true
+  },
+  {
+    "input": "[\"111111000110001000000000\"]",
+    "expectedOutput": "14",
+    "isHidden": true
+  },
+  {
+    "input": "[\"010110111101\"]",
+    "expectedOutput": "9",
+    "isHidden": true
+  },
+  {
+    "input": "[\"10111010010010011111\"]",
+    "expectedOutput": "13",
+    "isHidden": true
+  },
+  {
+    "input": "[\"001000001111101000\"]",
+    "expectedOutput": "13",
+    "isHidden": true
+  },
+  {
+    "input": "[\"00011101011\"]",
+    "expectedOutput": "9",
+    "isHidden": true
+  },
+  {
+    "input": "[\"101000001110011\"]",
+    "expectedOutput": "11",
+    "isHidden": true
+  },
+  {
+    "input": "[\"0011001100011\"]",
+    "expectedOutput": "9",
+    "isHidden": true
+  },
+  {
+    "input": "[\"011010\"]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[\"10001000000000\"]",
+    "expectedOutput": "11",
+    "isHidden": true
+  },
+  {
+    "input": "[\"0000011110100\"]",
+    "expectedOutput": "10",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1111001100100011010111010\"]",
+    "expectedOutput": "14",
+    "isHidden": true
+  },
+  {
+    "input": "[\"10001111\"]",
+    "expectedOutput": "7",
+    "isHidden": true
+  },
+  {
+    "input": "[\"00111011111000\"]",
+    "expectedOutput": "10",
+    "isHidden": true
+  },
+  {
+    "input": "[\"0101100111011110110\"]",
+    "expectedOutput": "13",
+    "isHidden": true
+  },
+  {
+    "input": "[\"0100011010001011\"]",
+    "expectedOutput": "11",
+    "isHidden": true
+  },
+  {
+    "input": "[\"110001000011\"]",
+    "expectedOutput": "9",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1000111110100100111110001\"]",
+    "expectedOutput": "16",
+    "isHidden": true
+  },
+  {
+    "input": "[\"001101110001\"]",
+    "expectedOutput": "8",
+    "isHidden": true
+  },
+  {
+    "input": "[\"01011110101100001110111\"]",
+    "expectedOutput": "15",
+    "isHidden": true
+  },
+  {
+    "input": "[\"0110111100101\"]",
+    "expectedOutput": "9",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1111110100101010\"]",
+    "expectedOutput": "9",
+    "isHidden": true
+  },
+  {
+    "input": "[\"10110011110\"]",
+    "expectedOutput": "7",
+    "isHidden": true
+  },
+  {
+    "input": "[\"10010000111000010111101\"]",
+    "expectedOutput": "16",
+    "isHidden": true
+  },
+  {
+    "input": "[\"0110100010010\"]",
+    "expectedOutput": "8",
+    "isHidden": true
+  },
+  {
+    "input": "[\"0011010111110000001000011\"]",
+    "expectedOutput": "16",
+    "isHidden": true
+  },
+  {
+    "input": "[\"000101100110\"]",
+    "expectedOutput": "8",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1111111000100010000\"]",
+    "expectedOutput": "9",
+    "isHidden": true
+  },
+  {
+    "input": "[\"000001110010\"]",
+    "expectedOutput": "9",
+    "isHidden": true
+  },
+  {
+    "input": "[\"0001110101010\"]",
+    "expectedOutput": "9",
+    "isHidden": true
+  },
+  {
+    "input": "[\"011101110001101100\"]",
+    "expectedOutput": "11",
+    "isHidden": true
+  },
+  {
+    "input": "[\"011010100\"]",
+    "expectedOutput": "5",
+    "isHidden": true
+  },
+  {
+    "input": "[\"110011110\"]",
+    "expectedOutput": "6",
+    "isHidden": true
+  },
+  {
+    "input": "[\"00100110010\"]",
+    "expectedOutput": "7",
+    "isHidden": true
+  },
+  {
+    "input": "[\"01011001\"]",
+    "expectedOutput": "5",
+    "isHidden": true
+  },
+  {
+    "input": "[\"000001001\"]",
+    "expectedOutput": "8",
+    "isHidden": true
+  },
+  {
+    "input": "[\"01001100\"]",
+    "expectedOutput": "5",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1001111111110100000010001\"]",
+    "expectedOutput": "14",
+    "isHidden": true
+  },
+  {
+    "input": "[\"0000010\"]",
+    "expectedOutput": "6",
+    "isHidden": true
+  },
+  {
+    "input": "[\"010100\"]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[\"01000000\"]",
+    "expectedOutput": "6",
+    "isHidden": true
+  },
+  {
+    "input": "[\"00001110001100100110111\"]",
+    "expectedOutput": "16",
+    "isHidden": true
+  },
+  {
+    "input": "[\"0011011001010110101\"]",
+    "expectedOutput": "12",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1111111100110\"]",
+    "expectedOutput": "9",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1111110\"]",
+    "expectedOutput": "5",
+    "isHidden": true
+  },
+  {
+    "input": "[\"11111110001000110110100\"]",
+    "expectedOutput": "12",
+    "isHidden": true
+  },
+  {
+    "input": "[\"000101\"]",
+    "expectedOutput": "5",
+    "isHidden": true
+  },
+  {
+    "input": "[\"0111011100\"]",
+    "expectedOutput": "7",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1100100011001101001\"]",
+    "expectedOutput": "11",
+    "isHidden": true
+  },
+  {
+    "input": "[\"11100101010010110\"]",
+    "expectedOutput": "9",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1111000111101010100011001000111100101101111000110000110010000011110100001001001010100110110011110001\"]",
+    "expectedOutput": "54",
+    "isHidden": true
+  },
+  {
+    "input": "[\"111111000011001001101100001011010100011110000100010001100\"]",
+    "expectedOutput": "31",
+    "isHidden": true
+  },
+  {
+    "input": "[\"0000001011110110001110010100000011110011101000100010011011010000111111101100010100010001\"]",
+    "expectedOutput": "50",
+    "isHidden": true
+  },
+  {
+    "input": "[\"111100111011011110011101110000010000101110010000001000101111101000010011001101000\"]",
+    "expectedOutput": "41",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1000000100010100010110010110\"]",
+    "expectedOutput": "19",
+    "isHidden": true
+  },
+  {
+    "input": "[\"000110000000110010111011000000101100100111000110100011100110010010100101111\"]",
+    "expectedOutput": "46",
+    "isHidden": true
+  },
+  {
+    "input": "[\"010001111010101010100101001100111110011111111101110100000001011110110110111111101100000000011100111\"]",
+    "expectedOutput": "59",
+    "isHidden": true
+  },
+  {
+    "input": "[\"100110100101010011011000111011101011011110111111000111010101111111101011100101111011110001\"]",
+    "expectedOutput": "59",
+    "isHidden": true
+  },
+  {
+    "input": "[\"011100000010010000000011111010101000010001111100001100110011001001010100000\"]",
+    "expectedOutput": "45",
+    "isHidden": true
+  },
+  {
+    "input": "[\"00001000010100000110000010011011110101001010100110011010\"]",
+    "expectedOutput": "37",
+    "isHidden": true
+  },
+  {
+    "input": "[\"00110101110001101001101100111010000000111011101000001101101101001100001\"]",
+    "expectedOutput": "38",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1110111010101011010101011001100001010000011011001111000110\"]",
+    "expectedOutput": "31",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1110111011100010010000100110011110010110001000101010111010110110001010001000100010101\"]",
+    "expectedOutput": "46",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1000000111100100100110100000100111001000001001111000000010111001000000111100110111110010\"]",
+    "expectedOutput": "57",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1000001110101001100011110101001001110110100000111110011000011001011001100111111000\"]",
+    "expectedOutput": "45",
+    "isHidden": true
+  },
+  {
+    "input": "[\"111010010010101110100000110110100000010001001010111101101010110000001011110001111011001\"]",
+    "expectedOutput": "50",
+    "isHidden": true
+  },
+  {
+    "input": "[\"0101101110100001101011000110000111000000111001101100101010010110110101011110100011100\"]",
+    "expectedOutput": "48",
+    "isHidden": true
+  },
+  {
+    "input": "[\"11100000000010000100111011011101110001100110111010110110000100001001101110100010100100000100\"]",
+    "expectedOutput": "51",
+    "isHidden": true
+  },
+  {
+    "input": "[\"01101110111001011110101000111100101100011100000101100100110001111101000001100000111100111011011110\"]",
+    "expectedOutput": "54",
+    "isHidden": true
+  },
+  {
+    "input": "[\"011110000110001001000101101001100101110110000001010000010101100000001110000001000110101100000100\"]",
+    "expectedOutput": "59",
+    "isHidden": true
+  },
+  {
+    "input": "[\"0101000000011011011101100101011011100110110101110000110011101000011111110001010011010101011\"]",
+    "expectedOutput": "55",
+    "isHidden": true
+  },
+  {
+    "input": "[\"111001001110101000100010011000\"]",
+    "expectedOutput": "16",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1001000000001001110000000010111010011110100100100011000100011110111100010111101100001\"]",
+    "expectedOutput": "54",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1011011100110001010000001111111001100101101\"]",
+    "expectedOutput": "27",
+    "isHidden": true
+  },
+  {
+    "input": "[\"01101000110000010001110001001000001101000101101\"]",
+    "expectedOutput": "31",
+    "isHidden": true
+  },
+  {
+    "input": "[\"001010011110110110011111110001110111110100011100\"]",
+    "expectedOutput": "32",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1010100101100110001001011011101100101110010001100111\"]",
+    "expectedOutput": "30",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1010010010111000110001111010011110100111100001101111110011111110110110\"]",
+    "expectedOutput": "45",
+    "isHidden": true
+  },
+  {
+    "input": "[\"10110111100000010101100101110100000001000101010111001110010011101100010\"]",
+    "expectedOutput": "40",
+    "isHidden": true
+  },
+  {
+    "input": "[\"10000010001000110100110100110001101011101011001000101110011001\"]",
+    "expectedOutput": "37",
+    "isHidden": true
+  },
+  {
+    "input": "[\"00011101101110010111011101001011011101000011\"]",
+    "expectedOutput": "28",
+    "isHidden": true
+  },
+  {
+    "input": "[\"10101100101001000110010000100\"]",
+    "expectedOutput": "17",
+    "isHidden": true
+  },
+  {
+    "input": "[\"10000010001000000111101100100001111\"]",
+    "expectedOutput": "25",
+    "isHidden": true
+  },
+  {
+    "input": "[\"101101111001010000101110111011101111111110010010001111000011101001010000011111000011110\"]",
+    "expectedOutput": "49",
+    "isHidden": true
+  },
+  {
+    "input": "[\"101111000001001100101111011011100100100001111100000110111000100101010111100011001110000001\"]",
+    "expectedOutput": "47",
+    "isHidden": true
+  },
+  {
+    "input": "[\"0011011100011110110100100001111101011000001\"]",
+    "expectedOutput": "24",
+    "isHidden": true
+  },
+  {
+    "input": "[\"0000101011000100111100000100000110000111011001000011111010011101000011\"]",
+    "expectedOutput": "44",
+    "isHidden": true
+  },
+  {
+    "input": "[\"0010101000101001011101011011111010011001101001011010011110011010001010111010010101010011110\"]",
+    "expectedOutput": "53",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1011010101110111111000000011\"]",
+    "expectedOutput": "16",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1111010010110101011101001010001000001111010101111001000100100110010110101101001\"]",
+    "expectedOutput": "42",
+    "isHidden": true
+  },
+  {
+    "input": "[\"11100011000011010111110111001001011\"]",
+    "expectedOutput": "22",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1011100000010101100101111010101101000111000000011010100101\"]",
+    "expectedOutput": "32",
+    "isHidden": true
+  },
+  {
+    "input": "[\"11000011111010110110101110001011011001111110100000001000001101000111110\"]",
+    "expectedOutput": "39",
+    "isHidden": true
+  },
+  {
+    "input": "[\"101010001001010010110000000\"]",
+    "expectedOutput": "17",
+    "isHidden": true
+  },
+  {
+    "input": "[\"00110001111110101011101010100110101100011111010011\"]",
+    "expectedOutput": "32",
+    "isHidden": true
+  },
+  {
+    "input": "[\"110101011000010010111000101110000001100101001011\"]",
+    "expectedOutput": "28",
+    "isHidden": true
+  },
+  {
+    "input": "[\"011100110010100101111100010110000101101110100001010011001\"]",
+    "expectedOutput": "30",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1011001001001100111100100000111001010101111101110011011001011100000101110011110110001100000111\"]",
+    "expectedOutput": "53",
+    "isHidden": true
+  },
+  {
+    "input": "[\"10110010101000011111100111110110001000111000010110111000001110101011110101010011001101110000101\"]",
+    "expectedOutput": "53",
+    "isHidden": true
+  },
+  {
+    "input": "[\"01100000100010111001111011\"]",
+    "expectedOutput": "19",
+    "isHidden": true
+  }
+]

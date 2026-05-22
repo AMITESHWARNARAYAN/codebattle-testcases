@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[1,2]",
+    "expectedOutput": "\"0.5\"",
+    "isHidden": false
+  },
+  {
+    "input": "[2,1]",
+    "expectedOutput": "\"2\"",
+    "isHidden": false
+  },
+  {
+    "input": "[4,333]",
+    "expectedOutput": "\"0.(012)\"",
+    "isHidden": false
+  },
+  {
+    "input": "[57,-33]",
+    "expectedOutput": "\"-1.(72)\"",
+    "isHidden": false
+  },
+  {
+    "input": "[46,-42]",
+    "expectedOutput": "\"-1.(095238)\"",
+    "isHidden": false
+  },
+  {
+    "input": "[59,-18]",
+    "expectedOutput": "\"-3.2(7)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-24,13]",
+    "expectedOutput": "\"-1.(846153)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-57,43]",
+    "expectedOutput": "\"-1.(325581395348837209302)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-72,28]",
+    "expectedOutput": "\"-2.(571428)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[53,28]",
+    "expectedOutput": "\"1.89(285714)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-41,27]",
+    "expectedOutput": "\"-1.(518)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[53,16]",
+    "expectedOutput": "\"3.3125\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-90,18]",
+    "expectedOutput": "\"-5\"",
+    "isHidden": true
+  },
+  {
+    "input": "[32,23]",
+    "expectedOutput": "\"1.(3913043478260869565217)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[56,-40]",
+    "expectedOutput": "\"-1.4\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-91,-25]",
+    "expectedOutput": "\"3.64\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-25,-9]",
+    "expectedOutput": "\"2.(7)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[15,-23]",
+    "expectedOutput": "\"-0.(6521739130434782608695)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-24,25]",
+    "expectedOutput": "\"-0.96\"",
+    "isHidden": true
+  },
+  {
+    "input": "[43,-33]",
+    "expectedOutput": "\"-1.(30)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-7,44]",
+    "expectedOutput": "\"-0.15(90)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-71,-28]",
+    "expectedOutput": "\"2.53(571428)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[43,4]",
+    "expectedOutput": "\"10.75\"",
+    "isHidden": true
+  },
+  {
+    "input": "[54,-1]",
+    "expectedOutput": "\"-54\"",
+    "isHidden": true
+  },
+  {
+    "input": "[74,-32]",
+    "expectedOutput": "\"-2.3125\"",
+    "isHidden": true
+  },
+  {
+    "input": "[79,-1]",
+    "expectedOutput": "\"-79\"",
+    "isHidden": true
+  },
+  {
+    "input": "[84,19]",
+    "expectedOutput": "\"4.(421052631578947368)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-51,9]",
+    "expectedOutput": "\"-5.(6)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-68,-28]",
+    "expectedOutput": "\"2.(428571)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-59,49]",
+    "expectedOutput": "\"-1.(204081632653061224489795918367346938775510)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2,-42]",
+    "expectedOutput": "\"-0.(047619)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[34,40]",
+    "expectedOutput": "\"0.85\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-80,-15]",
+    "expectedOutput": "\"5.(3)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[38,25]",
+    "expectedOutput": "\"1.52\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-8,34]",
+    "expectedOutput": "\"-0.(2352941176470588)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[77,-10]",
+    "expectedOutput": "\"-7.7\"",
+    "isHidden": true
+  },
+  {
+    "input": "[34,19]",
+    "expectedOutput": "\"1.(789473684210526315)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-19,50]",
+    "expectedOutput": "\"-0.38\"",
+    "isHidden": true
+  },
+  {
+    "input": "[68,16]",
+    "expectedOutput": "\"4.25\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-67,-6]",
+    "expectedOutput": "\"11.1(6)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-86,26]",
+    "expectedOutput": "\"-3.(307692)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[21,-41]",
+    "expectedOutput": "\"-0.(51219)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[14,-39]",
+    "expectedOutput": "\"-0.(358974)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[13,-48]",
+    "expectedOutput": "\"-0.2708(3)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[78,38]",
+    "expectedOutput": "\"2.(052631578947368421)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[90,-13]",
+    "expectedOutput": "\"-6.(923076)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-25,37]",
+    "expectedOutput": "\"-0.(675)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-50,49]",
+    "expectedOutput": "\"-1.(020408163265306122448979591836734693877551)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-50,4]",
+    "expectedOutput": "\"-12.5\"",
+    "isHidden": true
+  },
+  {
+    "input": "[4,37]",
+    "expectedOutput": "\"0.(108)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-79,48]",
+    "expectedOutput": "\"-1.6458(3)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-3,1]",
+    "expectedOutput": "\"-3\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-33,-33]",
+    "expectedOutput": "\"1\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-78,-15]",
+    "expectedOutput": "\"5.2\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-20,49]",
+    "expectedOutput": "\"-0.(408163265306122448979591836734693877551020)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[33,-17]",
+    "expectedOutput": "\"-1.(9411764705882352)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[73,7]",
+    "expectedOutput": "\"10.(428571)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[95,-36]",
+    "expectedOutput": "\"-2.63(8)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-52,35]",
+    "expectedOutput": "\"-1.4(857142)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-67,-50]",
+    "expectedOutput": "\"1.34\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-78,14]",
+    "expectedOutput": "\"-5.(571428)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-21,-15]",
+    "expectedOutput": "\"1.4\"",
+    "isHidden": true
+  },
+  {
+    "input": "[9,42]",
+    "expectedOutput": "\"0.2(142857)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[75,-2]",
+    "expectedOutput": "\"-37.5\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-22,36]",
+    "expectedOutput": "\"-0.6(1)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-76,-13]",
+    "expectedOutput": "\"5.(846153)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[5,3]",
+    "expectedOutput": "\"1.(6)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[7,34]",
+    "expectedOutput": "\"0.2(0588235294117647)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[42,-2]",
+    "expectedOutput": "\"-21\"",
+    "isHidden": true
+  },
+  {
+    "input": "[96,-49]",
+    "expectedOutput": "\"-1.(959183673469387755102040816326530612244897)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[45,45]",
+    "expectedOutput": "\"1\"",
+    "isHidden": true
+  },
+  {
+    "input": "[0,-13]",
+    "expectedOutput": "\"0\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-70,6]",
+    "expectedOutput": "\"-11.(6)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[27,47]",
+    "expectedOutput": "\"0.(5744680851063829787234042553191489361702127659)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-65,-11]",
+    "expectedOutput": "\"5.(90)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-53,10]",
+    "expectedOutput": "\"-5.3\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-42,-23]",
+    "expectedOutput": "\"1.(8260869565217391304347)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[23,-26]",
+    "expectedOutput": "\"-0.8(846153)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[20,-44]",
+    "expectedOutput": "\"-0.(45)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-24,-21]",
+    "expectedOutput": "\"1.(142857)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-49,20]",
+    "expectedOutput": "\"-2.45\"",
+    "isHidden": true
+  },
+  {
+    "input": "[11,-50]",
+    "expectedOutput": "\"-0.22\"",
+    "isHidden": true
+  },
+  {
+    "input": "[85,19]",
+    "expectedOutput": "\"4.(473684210526315789)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-75,-25]",
+    "expectedOutput": "\"3\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-68,-43]",
+    "expectedOutput": "\"1.(581395348837209302325)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-7,-42]",
+    "expectedOutput": "\"0.1(6)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[8,-13]",
+    "expectedOutput": "\"-0.(615384)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-88,-6]",
+    "expectedOutput": "\"14.(6)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-61,44]",
+    "expectedOutput": "\"-1.38(63)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[30,15]",
+    "expectedOutput": "\"2\"",
+    "isHidden": true
+  },
+  {
+    "input": "[82,-25]",
+    "expectedOutput": "\"-3.28\"",
+    "isHidden": true
+  },
+  {
+    "input": "[34,12]",
+    "expectedOutput": "\"2.8(3)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[81,36]",
+    "expectedOutput": "\"2.25\"",
+    "isHidden": true
+  },
+  {
+    "input": "[7,-11]",
+    "expectedOutput": "\"-0.(63)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[87,-37]",
+    "expectedOutput": "\"-2.(351)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[34,-28]",
+    "expectedOutput": "\"-1.2(142857)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-29,-49]",
+    "expectedOutput": "\"0.(591836734693877551020408163265306122448979)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-10,26]",
+    "expectedOutput": "\"-0.(384615)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[58,-37]",
+    "expectedOutput": "\"-1.(567)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-57,-20]",
+    "expectedOutput": "\"2.85\"",
+    "isHidden": true
+  },
+  {
+    "input": "[42,-30]",
+    "expectedOutput": "\"-1.4\"",
+    "isHidden": true
+  },
+  {
+    "input": "[28,-23]",
+    "expectedOutput": "\"-1.(2173913043478260869565)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[52,1]",
+    "expectedOutput": "\"52\"",
+    "isHidden": true
+  },
+  {
+    "input": "[20,34]",
+    "expectedOutput": "\"0.(5882352941176470)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[73,-23]",
+    "expectedOutput": "\"-3.(1739130434782608695652)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[59,-8]",
+    "expectedOutput": "\"-7.375\"",
+    "isHidden": true
+  },
+  {
+    "input": "[88,31]",
+    "expectedOutput": "\"2.(838709677419354)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-64,-22]",
+    "expectedOutput": "\"2.(90)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-47,32]",
+    "expectedOutput": "\"-1.46875\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-23,40]",
+    "expectedOutput": "\"-0.575\"",
+    "isHidden": true
+  },
+  {
+    "input": "[41,-1]",
+    "expectedOutput": "\"-41\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-33,-21]",
+    "expectedOutput": "\"1.(571428)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-70,-17]",
+    "expectedOutput": "\"4.(1176470588235294)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[38,-5]",
+    "expectedOutput": "\"-7.6\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-49,31]",
+    "expectedOutput": "\"-1.(580645161290322)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[28,-29]",
+    "expectedOutput": "\"-0.(9655172413793103448275862068)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[13,-40]",
+    "expectedOutput": "\"-0.325\"",
+    "isHidden": true
+  },
+  {
+    "input": "[90,4]",
+    "expectedOutput": "\"22.5\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-51,-41]",
+    "expectedOutput": "\"1.(24390)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[96,39]",
+    "expectedOutput": "\"2.(461538)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[77,14]",
+    "expectedOutput": "\"5.5\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-66,-34]",
+    "expectedOutput": "\"1.(9411764705882352)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-37,41]",
+    "expectedOutput": "\"-0.(90243)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[9,-31]",
+    "expectedOutput": "\"-0.(290322580645161)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[41,-28]",
+    "expectedOutput": "\"-1.46(428571)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-49,-46]",
+    "expectedOutput": "\"1.0(6521739130434782608695)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[85,20]",
+    "expectedOutput": "\"4.25\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-23,-22]",
+    "expectedOutput": "\"1.0(45)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3,-9]",
+    "expectedOutput": "\"-0.(3)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[39,-2]",
+    "expectedOutput": "\"-19.5\"",
+    "isHidden": true
+  },
+  {
+    "input": "[24,4]",
+    "expectedOutput": "\"6\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-51,-27]",
+    "expectedOutput": "\"1.(8)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[77,49]",
+    "expectedOutput": "\"1.(571428)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-9,22]",
+    "expectedOutput": "\"-0.4(09)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-46,37]",
+    "expectedOutput": "\"-1.(243)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[10,-16]",
+    "expectedOutput": "\"-0.625\"",
+    "isHidden": true
+  },
+  {
+    "input": "[1,-34]",
+    "expectedOutput": "\"-0.0(2941176470588235)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[20,6]",
+    "expectedOutput": "\"3.(3)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-86,4]",
+    "expectedOutput": "\"-21.5\"",
+    "isHidden": true
+  },
+  {
+    "input": "[75,-16]",
+    "expectedOutput": "\"-4.6875\"",
+    "isHidden": true
+  },
+  {
+    "input": "[55,48]",
+    "expectedOutput": "\"1.1458(3)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[52,24]",
+    "expectedOutput": "\"2.1(6)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-35,-47]",
+    "expectedOutput": "\"0.(7446808510638297872340425531914893617021276595)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[28,-30]",
+    "expectedOutput": "\"-0.9(3)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-79,29]",
+    "expectedOutput": "\"-2.(7241379310344827586206896551)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[94,39]",
+    "expectedOutput": "\"2.(410256)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[-73,23]",
+    "expectedOutput": "\"-3.(1739130434782608695652)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[9,-9]",
+    "expectedOutput": "\"-1\"",
+    "isHidden": true
+  },
+  {
+    "input": "[87,13]",
+    "expectedOutput": "\"6.(692307)\"",
+    "isHidden": true
+  },
+  {
+    "input": "[85,2]",
+    "expectedOutput": "\"42.5\"",
+    "isHidden": true
+  }
+]

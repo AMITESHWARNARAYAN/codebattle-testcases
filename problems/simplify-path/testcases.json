@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[\"/home/\"]",
+    "expectedOutput": "\"/home\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"/../\"]",
+    "expectedOutput": "\"/\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"/home//foo/\"]",
+    "expectedOutput": "\"/home/foo\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"/a/./b/../../c/\"]",
+    "expectedOutput": "\"/c\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"/d/.dc//..aa.cbfcaddd../b/.bfd.cdaffebbddb.\"]",
+    "expectedOutput": "\"/d/.dc/..aa.cbfcaddd../b/.bfd.cdaffebbddb.\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"/faebe.fad.cdd..b.a.ddbad.cfeeabb../.cf.febfe\"]",
+    "expectedOutput": "\"/faebe.fad.cdd..b.a.ddbad.cfeeabb../.cf.febfe\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/ce\"]",
+    "expectedOutput": "\"/ce\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/ad..af/aacf//db/.b/acefdaecdba\"]",
+    "expectedOutput": "\"/ad..af/aacf/db/.b/acefdaecdba\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/ac/aed//aaee\"]",
+    "expectedOutput": "\"/ac/aed/aaee\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/..eba.de.dff/.e.a.\"]",
+    "expectedOutput": "\"/..eba.de.dff/.e.a.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"//ccbcf/ffecf/fccfcaebffd..bdc/\"]",
+    "expectedOutput": "\"/ccbcf/ffecf/fccfcaebffd..bdc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/deeac.ad./fdcb.cfc..eabef.badbabd.eced/bcb..\"]",
+    "expectedOutput": "\"/deeac.ad./fdcb.cfc..eabef.badbabd.eced/bcb..\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/.e/.d./dbedb.cedcdfda.d//a.eba/b/ddbea/dccf.d\"]",
+    "expectedOutput": "\"/.e/.d./dbedb.cedcdfda.d/a.eba/b/ddbea/dccf.d\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/.ac/.caffeac/e/b./\"]",
+    "expectedOutput": "\"/.ac/.caffeac/e/b.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/bfbfbbe.feafdcfb.babd.b.c/bf/fa/.dfaf..db/ef.\"]",
+    "expectedOutput": "\"/bfbfbbe.feafdcfb.babd.b.c/bf/fa/.dfaf..db/ef.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/.b\"]",
+    "expectedOutput": "\"/.b\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/.feb.fedd...ee.fc.edccdea.cda.f./..b/b..ab../fd.\"]",
+    "expectedOutput": "\"/.feb.fedd...ee.fc.edccdea.cda.f./..b/b..ab../fd.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/fcedd\"]",
+    "expectedOutput": "\"/fcedd\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/fb./cebae/bcb\"]",
+    "expectedOutput": "\"/fb./cebae/bcb\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/dd./d/dd/e.dacbfacd\"]",
+    "expectedOutput": "\"/dd./d/dd/e.dacbfacd\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/cfffa..../abae.a.f.cdcdf.ef/bbec/e\"]",
+    "expectedOutput": "\"/cfffa..../abae.a.f.cdcdf.ef/bbec/e\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/aca.eadbe.ddbbdbced/.a/fea.a\"]",
+    "expectedOutput": "\"/aca.eadbe.ddbbdbced/.a/fea.a\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/...efe\"]",
+    "expectedOutput": "\"/...efe\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/e.fbff/.bda/aafbe..bdf.a..b.dd/fae./c/f.fe/.\"]",
+    "expectedOutput": "\"/e.fbff/.bda/aafbe..bdf.a..b.dd/fae./c/f.fe\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/faf.d.cd.\"]",
+    "expectedOutput": "\"/faf.d.cd.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/a....//aedd/fdb//.decba/c\"]",
+    "expectedOutput": "\"/a..../aedd/fdb/.decba/c\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/./..b//ad./ccda///.dd.fb/ac.cee/ab//cdcfea/afcc.\"]",
+    "expectedOutput": "\"/..b/ad./ccda/.dd.fb/ac.cee/ab/cdcfea/afcc.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/efbfa.f.bce..c/.ff/e/ea/dacefe\"]",
+    "expectedOutput": "\"/efbfa.f.bce..c/.ff/e/ea/dacefe\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/b.f/a.f//a.daaacbfad.cfdb../.\"]",
+    "expectedOutput": "\"/b.f/a.f/a.daaacbfad.cfdb..\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/.//dd/d.eb.fed..f\"]",
+    "expectedOutput": "\"/dd/d.eb.fed..f\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/.fd..c...febf//.cea.cc.b.cee.\"]",
+    "expectedOutput": "\"/.fd..c...febf/.cea.cc.b.cee.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/feca.caeec.a.b/bbe\"]",
+    "expectedOutput": "\"/feca.caeec.a.b/bbe\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/bcc.b.c\"]",
+    "expectedOutput": "\"/bcc.b.c\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/.e.c.fddd.//.aded.c.\"]",
+    "expectedOutput": "\"/.e.c.fddd./.aded.c.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/bbe/fcbbfc.cfdfba\"]",
+    "expectedOutput": "\"/bbe/fcbbfc.cfdfba\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/df..fbef.e\"]",
+    "expectedOutput": "\"/df..fbef.e\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/.fb./e..b.d//fa/ce.e/adfcc.b.//.\"]",
+    "expectedOutput": "\"/.fb./e..b.d/fa/ce.e/adfcc.b.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/b/e.af./ccf///a.a..cf\"]",
+    "expectedOutput": "\"/b/e.af./ccf/a.a..cf\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/e/bddcef//aafe/\"]",
+    "expectedOutput": "\"/e/bddcef/aafe\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/afddd/db.cf..beddede./.bfa/a.d.\"]",
+    "expectedOutput": "\"/afddd/db.cf..beddede./.bfa/a.d.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/d/f..abd.dc/a.cc.a/c.edb.dfd.f..ea..c/feaf.df.b\"]",
+    "expectedOutput": "\"/d/f..abd.dc/a.cc.a/c.edb.dfd.f..ea..c/feaf.df.b\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"//eeeeefbcdaefe/.ab.eebfa../fccdeda/\"]",
+    "expectedOutput": "\"/eeeeefbcdaefe/.ab.eebfa../fccdeda\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"//bde./ed.bc.dfdcdfbfff.eadb/ecbadad\"]",
+    "expectedOutput": "\"/bde./ed.bc.dfdcdfbfff.eadb/ecbadad\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/.cb/ded\"]",
+    "expectedOutput": "\"/.cb/ded\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/bfe.cef.ee..bebbee/d.ee.dfda\"]",
+    "expectedOutput": "\"/bfe.cef.ee..bebbee/d.ee.dfda\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/c..a//c/cd./d./.ac/de/badebb....baf./\"]",
+    "expectedOutput": "\"/c..a/c/cd./d./.ac/de/badebb....baf.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/c/.fb.bcd.ddcd......f.cbcb.aef/edcd.fa.cc./ffbfda\"]",
+    "expectedOutput": "\"/c/.fb.bcd.ddcd......f.cbcb.aef/edcd.fa.cc./ffbfda\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/eabbfa\"]",
+    "expectedOutput": "\"/eabbfa\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/.ccfbdeaeacabad.bce/cfbadf/edda./\"]",
+    "expectedOutput": "\"/.ccfbdeaeacabad.bce/cfbadf/edda.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/de.e.c..fbeffc.f.fa.ef/a.ffba./dfe.\"]",
+    "expectedOutput": "\"/de.e.c..fbeffc.f.fa.ef/a.ffba./dfe.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/a/.cbd.faddc/ebced/f.bc.adcff.ddbf.fafd/..cb.c.ead.fababf/b.fadb/f/.dc/fabe//dca/f\"]",
+    "expectedOutput": "\"/a/.cbd.faddc/ebced/f.bc.adcff.ddbf.fafd/..cb.c.ead.fababf/b.fadb/f/.dc/fabe/dca/f\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/c.faaa..a.ce.bddf.a.cf.da/fdf/cab.b.abab.//d/df.a.bd.e//...fcdef/bf..eeefce./fb/ade.e/fdf/dadfef/cfddc.\"]",
+    "expectedOutput": "\"/c.faaa..a.ce.bddf.a.cf.da/fdf/cab.b.abab./d/df.a.bd.e/...fcdef/bf..eeefce./fb/ade.e/fdf/dadfef/cfddc.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"//dbdbaaebcff.bf/c./ce.fbdec.dbdfbbfde/dbaab/a.bcfc...acef.ad.f.f/aac/..cdf.e....fecc.bbef\"]",
+    "expectedOutput": "\"/dbdbaaebcff.bf/c./ce.fbdec.dbdfbbfde/dbaab/a.bcfc...acef.ad.f.f/aac/..cdf.e....fecc.bbef\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/f/faca.b/c.bab.bedd.cbdcba.cdede.bff..fd./b.d//c.e./e.dc.beb..ae/fbabdcb.fdc./da..fbcac/d.//be.fd./..bb..dffa./.aaa.../b/feacb\"]",
+    "expectedOutput": "\"/f/faca.b/c.bab.bedd.cbdcba.cdede.bff..fd./b.d/c.e./e.dc.beb..ae/fbabdcb.fdc./da..fbcac/d./be.fd./..bb..dffa./.aaa.../b/feacb\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/b.aded.cebca..f.d.bdb..d//ee/bb/.da../.cbdcdcddbeb.bdde.c.ef..a.ffbb.ce.bcfe/abeea/e.bcbffbaebd.fbcdcf/e/bbfdac..de./.dcfcabb.d.aeefbc..cdcd/df.ecaba./efec\"]",
+    "expectedOutput": "\"/b.aded.cebca..f.d.bdb..d/ee/bb/.da../.cbdcdcddbeb.bdde.c.ef..a.ffbb.ce.bcfe/abeea/e.bcbffbaebd.fbcdcf/e/bbfdac..de./.dcfcabb.d.aeefbc..cdcd/df.ecaba./efec\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/.././cb.ab.dab..e.f.ab.ecaa.../fb/ae./.bfca/bc...ecaff.//.aaaaeaec/b/bb..cbade/de/ffdd/acbebcbd.eaca/.efcaf./ed/.cc/ecb./dbc.ccf..ea./.fcd/dee.bfe.dcb.ff/d.\"]",
+    "expectedOutput": "\"/cb.ab.dab..e.f.ab.ecaa.../fb/ae./.bfca/bc...ecaff./.aaaaeaec/b/bb..cbade/de/ffdd/acbebcbd.eaca/.efcaf./ed/.cc/ecb./dbc.ccf..ea./.fcd/dee.bfe.dcb.ff/d.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/ccc.f.fdfa.da...e.b./eddbecb.aaede/..fffccf.b/fbccdeedeffe..da..fbf.fabe..cdea../efedeeacb/cafdbf.af.ae/.....c/edd..ea.a...a.dc.fc.fa../.c/dbb/\"]",
+    "expectedOutput": "\"/ccc.f.fdfa.da...e.b./eddbecb.aaede/..fffccf.b/fbccdeedeffe..da..fbf.fabe..cdea../efedeeacb/cafdbf.af.ae/.....c/edd..ea.a...a.dc.fc.fa../.c/dbb\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/e.f..cdcafdfd..ed.c//ac..cffe..f....acfafcefacbcccd/cebe/bcbdfdeeafafccd....eaf/fb/dcbe.c/ddb.bdd.bc/.e/abfcc.a.f/aa/ee.c.eca../e..de.baeef\"]",
+    "expectedOutput": "\"/e.f..cdcafdfd..ed.c/ac..cffe..f....acfafcefacbcccd/cebe/bcbdfdeeafafccd....eaf/fb/dcbe.c/ddb.bdd.bc/.e/abfcc.a.f/aa/ee.c.eca../e..de.baeef\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/a.afacfa..bcdadf.afc/d/dbb..fb.ffbc.fe.bb/cd/b.acce/edef/beeb/.edefa/.b/.e.daf.c.dfb.eea//aebee.bf/eacec...d..afdbcea/dbbababea..fc.f.a/.dab/f//cba/bae..aafdea.ae.e.e/b..\"]",
+    "expectedOutput": "\"/a.afacfa..bcdadf.afc/d/dbb..fb.ffbc.fe.bb/cd/b.acce/edef/beeb/.edefa/.b/.e.daf.c.dfb.eea/aebee.bf/eacec...d..afdbcea/dbbababea..fc.f.a/.dab/f/cba/bae..aafdea.ae.e.e/b..\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/.cca.d..eccf/c.a.cdcbaa./aeda././.f/a/abaa.d.bba.e.fcbdebabad\"]",
+    "expectedOutput": "\"/.cca.d..eccf/c.a.cdcbaa./aeda./.f/a/abaa.d.bba.e.fcbdebabad\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"//b///ceeff.c/c/eff/eaaf/fefdfc/fbccd.bccc.dae/bfb...ea..ac/ae/cb.bdc.ef\"]",
+    "expectedOutput": "\"/b/ceeff.c/c/eff/eaaf/fefdfc/fbccd.bccc.dae/bfb...ea..ac/ae/cb.bdc.ef\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/.bbb.eeae.faec/dfefdc.adccdeda.e.ccd.c.d/.aaffb/faea.fbfafdea.b.be/bd./.ece\"]",
+    "expectedOutput": "\"/.bbb.eeae.faec/dfefdc.adccdeda.e.ccd.c.d/.aaffb/faea.fbfafdea.b.be/bd./.ece\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/febfe.feec.fa/.dda/d/.e.bfba.d.b/d.b//eee/c.f.eae.feefabdf.b.d\"]",
+    "expectedOutput": "\"/febfe.feec.fa/.dda/d/.e.bfba.d.b/d.b/eee/c.f.eae.feefabdf.b.d\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"//da.b.dd.bbda.dc/bfdf.cbcebbf...aeb/abcc..fcc.d.f..bbae/fdd/cccdcceacbc/.e/.bcc.b.c....aefcf.ef\"]",
+    "expectedOutput": "\"/da.b.dd.bbda.dc/bfdf.cbcebbf...aeb/abcc..fcc.d.f..bbae/fdd/cccdcceacbc/.e/.bcc.b.c....aefcf.ef\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/bedab//ae./.cbaba/dfbf//beba.cdefb/ddbdea/..bcdeadc/ca.cb.faf/feb/bf.cabaacb.df.f.fcfcbc..aedbcbb./.bcebecbddffdf.b/cabda/e.ceb/a/a/fc./ecafeaaaad.e./f.b.fef/d..e\"]",
+    "expectedOutput": "\"/bedab/ae./.cbaba/dfbf/beba.cdefb/ddbdea/..bcdeadc/ca.cb.faf/feb/bf.cabaacb.df.f.fcfcbc..aedbcbb./.bcebecbddffdf.b/cabda/e.ceb/a/a/fc./ecafeaaaad.e./f.b.fef/d..e\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/.ec/.add.f.d/adfb/c//c/.ffbb/f.e/.abe.eefaddc./bacda.ddaceee//.b/.cc..f.cacadf/.d.cdeefa..ac..a//b.ec.dde/af/cbae.d.d\"]",
+    "expectedOutput": "\"/.ec/.add.f.d/adfb/c/c/.ffbb/f.e/.abe.eefaddc./bacda.ddaceee/.b/.cc..f.cacadf/.d.cdeefa..ac..a/b.ec.dde/af/cbae.d.d\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/f..beb.d.becdabda./fc.e.b.e/f/bbb/ccde.ea/aaeaafc.ca.fdcb/d.e.dccd/ef../ad/fcabdfceaaccbfb.d./.e/cbdaeff.c..ff.b.c/.../.a..daa.dc./bb.ba.fcdea/a.e.c//dbcafead...ee\"]",
+    "expectedOutput": "\"/f..beb.d.becdabda./fc.e.b.e/f/bbb/ccde.ea/aaeaafc.ca.fdcb/d.e.dccd/ef../ad/fcabdfceaaccbfb.d./.e/cbdaeff.c..ff.b.c/.../.a..daa.dc./bb.ba.fcdea/a.e.c/dbcafead...ee\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/.f.cbaab...ead./..f.bacc/b..a.eaf/cac.//.b.cfcd.cf/a././.b//cd.aeb.da.cb.a.cfa/fdcfdee.ad/.aaae.d/bef.ae..dafd..ba.ed..b..ffa.aaebabc.e...eee.dafcd../fd.fc/.cc.eb.bcaefeefdb.//c../d\"]",
+    "expectedOutput": "\"/.f.cbaab...ead./..f.bacc/b..a.eaf/cac./.b.cfcd.cf/a./.b/cd.aeb.da.cb.a.cfa/fdcfdee.ad/.aaae.d/bef.ae..dafd..ba.ed..b..ffa.aaebabc.e...eee.dafcd../fd.fc/.cc.eb.bcaefeefdb./c../d\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"//ce./fdbec/.e..d/..feedb.dfe.bbfd/f/befffdb..acfccc.fbdfdcaff.af/b/ebd.abbebae/.e/ebcb.b/.c..dba...bf.e...aa.f.c/bbf.beeddfce.ebcdecda/a...cdefeb.f.d.aa.deadea.//f.c/a.ba\"]",
+    "expectedOutput": "\"/ce./fdbec/.e..d/..feedb.dfe.bbfd/f/befffdb..acfccc.fbdfdcaff.af/b/ebd.abbebae/.e/ebcb.b/.c..dba...bf.e...aa.f.c/bbf.beeddfce.ebcdecda/a...cdefeb.f.d.aa.deadea./f.c/a.ba\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/.eeffbdb.f/a.fccaebc/bb..cbdccc.f.f/.ca.bebacdceffed/a/.e.f.cadc.f.b/./af.f..febaca/c/.dcca/fd/c./adbadfcb/bfdec./e./e/bfce.bf./\"]",
+    "expectedOutput": "\"/.eeffbdb.f/a.fccaebc/bb..cbdccc.f.f/.ca.bebacdceffed/a/.e.f.cadc.f.b/af.f..febaca/c/.dcca/fd/c./adbadfcb/bfdec./e./e/bfce.bf.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/bd/aabde.//ccbdfd.ff.af..beb.e.de.f/eb.dbeaa.bdff.af.bf.ac./bd/.eeabac.fbddef.a./bdedec.f/.fac/ceef.bae//ee/ef.fed.c./\"]",
+    "expectedOutput": "\"/bd/aabde./ccbdfd.ff.af..beb.e.de.f/eb.dbeaa.bdff.af.bf.ac./bd/.eeabac.fbddef.a./bdedec.f/.fac/ceef.bae/ee/ef.fed.c.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/cef.ae.e..bfbbebcaea/b.c.bf.//beed.d.fceffcfd.c/dafabdf./....f/d.e.acf/b.cdeae//dfddefcfe....e/.bb.ecab/cfaaadcfedb./a/.eddbbe.c.e/fecbc/ee.addb.ddcbf...abcdbfceef.eecefeaae.fb.\"]",
+    "expectedOutput": "\"/cef.ae.e..bfbbebcaea/b.c.bf./beed.d.fceffcfd.c/dafabdf./....f/d.e.acf/b.cdeae/dfddefcfe....e/.bb.ecab/cfaaadcfedb./a/.eddbbe.c.e/fecbc/ee.addb.ddcbf...abcdbfceef.eecefeaae.fb.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/ab././e.e//edafaaf/c/afcaafbea/f.dcc.fb.bac/edcaeecdbcbb/aee/d.ba.d.b/d/c.eb.e.c...e..e.b.cff/ed.e/beccba..da/.ced./bab.dbfab.fd..e\"]",
+    "expectedOutput": "\"/ab./e.e/edafaaf/c/afcaafbea/f.dcc.fb.bac/edcaeecdbcbb/aee/d.ba.d.b/d/c.eb.e.c...e..e.b.cff/ed.e/beccba..da/.ced./bab.dbfab.fd..e\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/cf/ae..aafb.fede.c..eeaff/a.b../ecebc./c/ecbffaa...fdd.ba.e/daa/decffecf/db.cd..eb.fee/e.fe../..ddfff.../fe\"]",
+    "expectedOutput": "\"/cf/ae..aafb.fede.c..eeaff/a.b../ecebc./c/ecbffaa...fdd.ba.e/daa/decffecf/db.cd..eb.fee/e.fe../..ddfff.../fe\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/ccd.eed./fbdabee../.a.d.//.a/ba/dacd/efcaf./dfdd.b/c/a/baabfa.edd..cba/bec/.da..bcefee.e/.ffccacd.fdcdea.aaeb./fbe/ef/a.f/./b/dac..d/fe\"]",
+    "expectedOutput": "\"/ccd.eed./fbdabee../.a.d./.a/ba/dacd/efcaf./dfdd.b/c/a/baabfa.edd..cba/bec/.da..bcefee.e/.ffccacd.fdcdea.aaeb./fbe/ef/a.f/b/dac..d/fe\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"//eba/.bccae.e/..c/b.d/b..cc.ae.a.b/.bfffcefaad/...bf.d/.b.dda.b/.eb..cfcabc//.ba.a//ddabbbcdfcada.ef./ae/b/df/bea.bc/..eecc/bfce.ff/.e.e.dbdfbbbcbda..f.d/dae.../dfb\"]",
+    "expectedOutput": "\"/eba/.bccae.e/..c/b.d/b..cc.ae.a.b/.bfffcefaad/...bf.d/.b.dda.b/.eb..cfcabc/.ba.a/ddabbbcdfcada.ef./ae/b/df/bea.bc/..eecc/bfce.ff/.e.e.dbdfbbbcbda..f.d/dae.../dfb\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/bacacab.bd/.f.d/e.afd.ece/c/abdcdd.cbb.ade..da.f/e.f.dce.cf/c/\"]",
+    "expectedOutput": "\"/bacacab.bd/.f.d/e.afd.ece/c/abdcdd.cbb.ade..da.f/e.f.dce.cf/c\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/a/d/ca.dd.dbe.e.bf/eddddcd/d.bae/ead/eba..dcdfb...aac/e.cc.efb.c.//\"]",
+    "expectedOutput": "\"/a/d/ca.dd.dbe.e.bf/eddddcd/d.bae/ead/eba..dcdfb...aac/e.cc.efb.c.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/cdabe..ecdfd/a.f.ba.f./f.f/dd.dd.//../d.d.dbe.bda/edeec...fee...d/d/df.a.acfc.//b/bdafac.dbafbbc/b.dfeea/f..ecdcdec./e.dedafed.e/faaa.adcd.f.cdc/\"]",
+    "expectedOutput": "\"/cdabe..ecdfd/a.f.ba.f./f.f/d.d.dbe.bda/edeec...fee...d/d/df.a.acfc./b/bdafac.dbafbbc/b.dfeea/f..ecdcdec./e.dedafed.e/faaa.adcd.f.cdc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"//bdca.fcc.f/.b/d.bfed/deae./bacacdb..b..beccbabfbdbedd.a/..faefa.cfaf.a/c/fa/c/fcafffee/e/ec.//.afcabdf.abf//ca.ecada.d.cdd..cd..c.edf.\"]",
+    "expectedOutput": "\"/bdca.fcc.f/.b/d.bfed/deae./bacacdb..b..beccbabfbdbedd.a/..faefa.cfaf.a/c/fa/c/fcafffee/e/ec./.afcabdf.abf/ca.ecada.d.cdd..cd..c.edf.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/bfdb.eced.dde.da.cfed.fafbf.be.cbd.e/d..c.cddcdc.caee/f..cfb..c/../ebbfbbccbabbf.b/fcdd.bdef/fbdedaaeacc.bfcac.e/ca.ab/c..cc/df.c/f.//a//d..eb.bfff./b/d..fbebb/cbd/f.c.d../.e.be..ddffbfbecc/b.fa\"]",
+    "expectedOutput": "\"/bfdb.eced.dde.da.cfed.fafbf.be.cbd.e/d..c.cddcdc.caee/ebbfbbccbabbf.b/fcdd.bdef/fbdedaaeacc.bfcac.e/ca.ab/c..cc/df.c/f./a/d..eb.bfff./b/d..fbebb/cbd/f.c.d../.e.be..ddffbfbecc/b.fa\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/dcf.edcfdae.//a.ddddddeaa/f..bc/ececb.a.d./e./a/.//ccef.fea/./.afeede.cb./f/.de.ac.f.fcd.b.e..\"]",
+    "expectedOutput": "\"/dcf.edcfdae./a.ddddddeaa/f..bc/ececb.a.d./e./a/ccef.fea/.afeede.cb./f/.de.ac.f.fcd.b.e..\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/b/ab..aba.efc..fe.afe/cefca.db/a.effbdddece//a..dd/ecbbba././effab.fcda.c.ddcfcecbcbff.b/a..ad/a/fbfb.cae..dcb.f/de.f//d.eb.f.ef.d/bd/c.ebeef.b.aebe\"]",
+    "expectedOutput": "\"/b/ab..aba.efc..fe.afe/cefca.db/a.effbdddece/a..dd/ecbbba./effab.fcda.c.ddcfcecbcbff.b/a..ad/a/fbfb.cae..dcb.f/de.f/d.eb.f.ef.d/bd/c.ebeef.b.aebe\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"//e..ce.fb.ffdf/./bf.b/...cad..defefff/f./d.d.e/bafabcfcbba//dcaf.accfca/df/b.//fdaabc/.dab//b/cceb.e/febb/../b/.be.f/c/e//e/bbe.bf/fde.d/aaddafbbbe\"]",
+    "expectedOutput": "\"/e..ce.fb.ffdf/bf.b/...cad..defefff/f./d.d.e/bafabcfcbba/dcaf.accfca/df/b./fdaabc/.dab/b/cceb.e/b/.be.f/c/e/e/bbe.bf/fde.d/aaddafbbbe\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/dc/dea.ecbdafceffc./.c/..b/.be/ab.aadeacccbdb/.bf.ad.e/dddcaccfac.b.eef.eee.ca/./bf/cbdcef.fcd.faedeaeb//f/a.cbbe./.b.a/.aed/c./.dfaffed.e.ccbfb.ac/fcfb.\"]",
+    "expectedOutput": "\"/dc/dea.ecbdafceffc./.c/..b/.be/ab.aadeacccbdb/.bf.ad.e/dddcaccfac.b.eef.eee.ca/bf/cbdcef.fcd.faedeaeb/f/a.cbbe./.b.a/.aed/c./.dfaffed.e.ccbfb.ac/fcfb.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/e//adfd.d.abc/f/acee.adbccac/.../cabe...ccc.e.a/ca/.ba/\"]",
+    "expectedOutput": "\"/e/adfd.d.abc/f/acee.adbccac/.../cabe...ccc.e.a/ca/.ba\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/fd.fefae..d/bf...d./a/a.eabecda/ddaecb.feeb.dbbfe...ac/c/aabbe.ceaec..e/adfb.//effc/d//bcdbf/a/c//a.d./da././bddf\"]",
+    "expectedOutput": "\"/fd.fefae..d/bf...d./a/a.eabecda/ddaecb.feeb.dbbfe...ac/c/aabbe.ceaec..e/adfb./effc/d/bcdbf/a/c/a.d./da./bddf\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/fde/fd.eda/b/..caf.ce.feca/fa/.dbedd/b.dfa.e.../aadcc/aba//bee/.ebe\"]",
+    "expectedOutput": "\"/fde/fd.eda/b/..caf.ce.feca/fa/.dbedd/b.dfa.e.../aadcc/aba/bee/.ebe\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/...b..e.......c/faecaed/bea./.fdb./dbfae.bcedacba./dc.e..fa\"]",
+    "expectedOutput": "\"/...b..e.......c/faecaed/bea./.fdb./dbfae.bcedacba./dc.e..fa\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"//ced/e.adb..dd/.af.f..ad/a.ff.ac..dd..efa/c./.a/..edbb../cdfbf.dddfbbc/.da.de./cdf.cdcea..abfd..cddc/dc.d./f.f//.efd.addface.ef/aed.bd.cac/bcdb\"]",
+    "expectedOutput": "\"/ced/e.adb..dd/.af.f..ad/a.ff.ac..dd..efa/c./.a/..edbb../cdfbf.dddfbbc/.da.de./cdf.cdcea..abfd..cddc/dc.d./f.f/.efd.addface.ef/aed.bd.cac/bcdb\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/.b/.dd./fafd/e.f/ece./.e/e.....a/c..efbbadeccd.df.ce.c.dc/bf..ead.bced/cdc/b.cf/c/d/.eabffa/.d..a/fe.dc\"]",
+    "expectedOutput": "\"/.b/.dd./fafd/e.f/ece./.e/e.....a/c..efbbadeccd.df.ce.c.dc/bf..ead.bced/cdc/b.cf/c/d/.eabffa/.d..a/fe.dc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/dd/.fe//.c./bffeebceddbbffddf/cbc./eadd.feacb.dfaefefed.abcd/.ff/dbafd//.dddfca.e/f..baeeabb.acfe.afd/caece.fcbcddbee/.dbdfebea/a.a.b.dd.ea..ef.acf.b/dccbedfadae/c\"]",
+    "expectedOutput": "\"/dd/.fe/.c./bffeebceddbbffddf/cbc./eadd.feacb.dfaefefed.abcd/.ff/dbafd/.dddfca.e/f..baeeabb.acfe.afd/caece.fcbcddbee/.dbdfebea/a.a.b.dd.ea..ef.acf.b/dccbedfadae/c\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/..fac.fb.ffc...//e.b.faad/afacbffe./efab/b.bd../c./eff.b/aceda/fb/ce.c.ed/befa..beb./.fe.a/daca////bdbbc.c.e//f..adcad/\"]",
+    "expectedOutput": "\"/..fac.fb.ffc.../e.b.faad/afacbffe./efab/b.bd../c./eff.b/aceda/fb/ce.c.ed/befa..beb./.fe.a/daca/bdbbc.c.e/f..adcad\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/bd/.f...bfbfecaadb./dbb./d.a/.bbbbced.c.aa/bfba./.ed/fcf/fab.aaaca...bfbacc./cb..c.db.ab.d.cec.e/eb/a/e.bf.c.../badcddb/ef\"]",
+    "expectedOutput": "\"/bd/.f...bfbfecaadb./dbb./d.a/.bbbbced.c.aa/bfba./.ed/fcf/fab.aaaca...bfbacc./cb..c.db.ab.d.cec.e/eb/a/e.bf.c.../badcddb/ef\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"//ecedfceb/.eed.b..d.facc.ef.a./b.b./facc.ccca/cff..e./af..dd//ee.c..e.cf/\"]",
+    "expectedOutput": "\"/ecedfceb/.eed.b..d.facc.ef.a./b.b./facc.ccca/cff..e./af..dd/ee.c..e.cf\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/e.abd....b/.cece.fcd.b.bc..bccac.ffdbc.e/.././.abc/..fc..f/e..dfaf.adeca.fdecc..eadbc/a.ccabdf.aabc.ad.b.a\"]",
+    "expectedOutput": "\"/e.abd....b/.abc/..fc..f/e..dfaf.adeca.fdecc..eadbc/a.ccabdf.aabc.ad.b.a\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/fbf...f/d...daeba.b..d/fccb.bc/dbaddfdb.fca.cf/...bb.b/e.b./cdcc.ccda.faedb/d/.bf.a/.ddcf//f.a.cdecbc.b/fe.ebb.edffa.bcc.acf.caebbf.fdeda/dda/fa..ddd.e.aa\"]",
+    "expectedOutput": "\"/fbf...f/d...daeba.b..d/fccb.bc/dbaddfdb.fca.cf/...bb.b/e.b./cdcc.ccda.faedb/d/.bf.a/.ddcf/f.a.cdecbc.b/fe.ebb.edffa.bcc.acf.caebbf.fdeda/dda/fa..ddd.e.aa\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/bee.acafacd.e/c/daeecc.cdcfc//ecaa/dcb..f.fc/.ca.fc..abef..f...e.d/e.f.\"]",
+    "expectedOutput": "\"/bee.acafacd.e/c/daeecc.cdcfc/ecaa/dcb..f.fc/.ca.fc..abef..f...e.d/e.f.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/e.a/ee.da/efafcbe.e..fdf./cdbd//cff.db.cdfdf..da..e.../.cdfaa.bcc.edfb.efecffacaeaa.bcf..b.fdebbab./aecbfdf/fe../.fafcaaaa./c/ca/ddebd.b./..e.edafdcc.e\"]",
+    "expectedOutput": "\"/e.a/ee.da/efafcbe.e..fdf./cdbd/cff.db.cdfdf..da..e.../.cdfaa.bcc.edfb.efecffacaeaa.bcf..b.fdebbab./aecbfdf/fe../.fafcaaaa./c/ca/ddebd.b./..e.edafdcc.e\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/.ed//f/.cad..f.dd/e.fddeaaae.f.e.f//f..d.adffceeadc/f.bf.f.fcaed.fed/aba..eeef.cadb./aebb.dcd/.befacc.ea./.d./fee\"]",
+    "expectedOutput": "\"/.ed/f/.cad..f.dd/e.fddeaaae.f.e.f/f..d.adffceeadc/f.bf.f.fcaed.fed/aba..eeef.cadb./aebb.dcd/.befacc.ea./.d./fee\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"//df.f./ccd.fcbaaa..ead/a.dadcddfacfcf.bea.ee.e.c.e.efeb.e./...cdeaea.c.bbed.cccdaf./.bffe.df.bf.dacea/aca.bebbafa.c.dabf/dfdb/.cfeddcfc..../e//ec.cc/ba./ededbfabfdebfae.df.e/./c.b.eaef..e/b/..ae//d..c/aa.ddfb./.af/c.efcadefeeef.a..e.bce.bbdc.bacddb.././ba.f/cacccaeaaff/cbf.eb./cdb.cb.bdce/.cc.bbecafbb/cf.eeff./e..c/a/eb/fddfdfc.dfba.cdcc../....dce.c.dbed.f../.e..e.aaeea.d.ee.b.eebacfcbebbefed.bba.dffb..bfd/.b.abbc/faabcf.dddfcfa.dabbeffcdccedac/d./.../dbdbf.daedeee..ebddcea/.fd.fbebd./b.fbe..eab.cbdc.cd/facbcbd.d.fca/dfac.cc./df/cf/cfaa..b/.eaf//bba/ea./ebebddaabac/fbfefbde..beb/a.aecd.a/cc/df.ebeaf//edad./dbcdc./e.c.f//.baf.b/ab.fb..ea/.cbfdeaa./bca./dddcd..b...afa./.b.ba...ef.ebdb../.bac.fccb/afc.b//d/./.afbaffddad../a.e.ded..c./bc.cfdaacac.ddeae/ae.a.e\"]",
+    "expectedOutput": "\"/df.f./ccd.fcbaaa..ead/a.dadcddfacfcf.bea.ee.e.c.e.efeb.e./...cdeaea.c.bbed.cccdaf./.bffe.df.bf.dacea/aca.bebbafa.c.dabf/dfdb/.cfeddcfc..../e/ec.cc/ba./ededbfabfdebfae.df.e/c.b.eaef..e/b/..ae/d..c/aa.ddfb./.af/c.efcadefeeef.a..e.bce.bbdc.bacddb../ba.f/cacccaeaaff/cbf.eb./cdb.cb.bdce/.cc.bbecafbb/cf.eeff./e..c/a/eb/fddfdfc.dfba.cdcc../....dce.c.dbed.f../.e..e.aaeea.d.ee.b.eebacfcbebbefed.bba.dffb..bfd/.b.abbc/faabcf.dddfcfa.dabbeffcdccedac/d./.../dbdbf.daedeee..ebddcea/.fd.fbebd./b.fbe..eab.cbdc.cd/facbcbd.d.fca/dfac.cc./df/cf/cfaa..b/.eaf/bba/ea./ebebddaabac/fbfefbde..beb/a.aecd.a/cc/df.ebeaf/edad./dbcdc./e.c.f/.baf.b/ab.fb..ea/.cbfdeaa./bca./dddcd..b...afa./.b.ba...ef.ebdb../.bac.fccb/afc.b/d/.afbaffddad../a.e.ded..c./bc.cfdaacac.ddeae/ae.a.e\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/ae/.a.abcdf/a/ad/daeb.d.f.edfda..f.df.f.dc.e./fde..fd./a/bed..fea.acbcae/..ad.acccdcfcacb.f.c.deb.eafe...bb/ee..fa.dbddaeadb...efff.f.bf./bebeaddad/.ada./f./bb.dbcc///.dff..a.ba/a/.fca/ff..abbee/ca/a./f..ad./d..adcffeeaf/fafbaff.c/bfae.ba/e./cb.fcf..a..fdcc.d/f.ae.ebfd.dcbd/bbfedd/.fd./ec.aee/addbcfecfd./eaab/ad.ea..ca.a..cddcbeedc/a../.ea.b.dfabc/babcbcaffab././bfc..aaabdaeff./db.cad../..eaca.ccfe./ba/b..e.ce.ebe./cc/../.ddbabb.ff..e.dd.f./.febcc.e//af/bf..\"]",
+    "expectedOutput": "\"/ae/.a.abcdf/a/ad/daeb.d.f.edfda..f.df.f.dc.e./fde..fd./a/bed..fea.acbcae/..ad.acccdcfcacb.f.c.deb.eafe...bb/ee..fa.dbddaeadb...efff.f.bf./bebeaddad/.ada./f./bb.dbcc/.dff..a.ba/a/.fca/ff..abbee/ca/a./f..ad./d..adcffeeaf/fafbaff.c/bfae.ba/e./cb.fcf..a..fdcc.d/f.ae.ebfd.dcbd/bbfedd/.fd./ec.aee/addbcfecfd./eaab/ad.ea..ca.a..cddcbeedc/a../.ea.b.dfabc/babcbcaffab./bfc..aaabdaeff./db.cad../..eaca.ccfe./ba/b..e.ce.ebe./.ddbabb.ff..e.dd.f./.febcc.e/af/bf..\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/bcfebbd/cd./.f/fd./ceacbbb.ad/bab.ced.a.f.b.fffdefcc/.b/bbfacfb/e.bfcbdab/f.debc.eda./ffb.b..f.b./daaaeec/eeafbdecee/ffbeeeff//.fb/cbc.df.af.dbba//c./f../e/aeb.deac./b.e/fbaf.ffbe.a.f.c.fc.a.fc.bbbebffa..a//acbc.ce.cbe/febbdc/ef/..bfabbef//f//..faa./af.cc//ebaa.fe//ecf/.ced.becfea./fee.eceda/ff/dc/.ea/efa//.b.fc.c.eaf./../a.bf.c.dd.eedccf/..ad/b.f..ab.aedb.c....febe/.e/bffeffd.ddcacc//e..ed.ffbabc./ef../e.daaa.//aa.././/feceedfefe...ec/ff.feeec//c.dadbdfe/fc..b.\"]",
+    "expectedOutput": "\"/bcfebbd/cd./.f/fd./ceacbbb.ad/bab.ced.a.f.b.fffdefcc/.b/bbfacfb/e.bfcbdab/f.debc.eda./ffb.b..f.b./daaaeec/eeafbdecee/ffbeeeff/.fb/cbc.df.af.dbba/c./f../e/aeb.deac./b.e/fbaf.ffbe.a.f.c.fc.a.fc.bbbebffa..a/acbc.ce.cbe/febbdc/ef/..bfabbef/f/..faa./af.cc/ebaa.fe/ecf/.ced.becfea./fee.eceda/ff/dc/.ea/efa/a.bf.c.dd.eedccf/..ad/b.f..ab.aedb.c....febe/.e/bffeffd.ddcacc/e..ed.ffbabc./ef../e.daaa./aa../feceedfefe...ec/ff.feeec/c.dadbdfe/fc..b.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/aa....fcaa/ebce.a/beaea.ca.b.//cba/fecbb./eefec.e/febb..eaef/....daf..fcb.a..d//cbaedd//bbba/df.ada.ed/.dd.cd/ecbe/bc.cb/.bed/ef./fc/..d.dbba.ba./ebccccd/.e./.c/.ddf..f.b/ac.cdd.ae//..cc.bba.fd..ea.ff./.b..eeadaaf..a.bea/bbfab/bf/dccdfe/c.b.b.bd.f.ed...eed/faa.ae.bc.cdecf../.e.faaccdcbeddf.dae.aacb..bb..cafc/feddc/.../fdead/.cb.././ca.befb.f./c.cbe.bdbbcfac./afebf/.bfcdcd/f.abfcd/.a/.ed.f/a.cedabffc/dbcb.ceaf.bb..ebdabdc/d/bdafcdb/bbbcf.efdff/.fdc.db..cc./.de.dce...dfedc...c.eec/cf/ddbfd..abeeeebaa..cae.aba/eb.b/b...fb/cd.fbcf.b.e.c/b.cdd..e.ebc/cac/dfacefbcd.b.dfdebaafe.c.ccdeacce.cdcfca.c/dbc.aebecd/.e/.ecdc/.aefc..a.c.ccadbf..dad./fbfaad...dc.b.b.f/.d.ddfcd/...c.e.cbd/\"]",
+    "expectedOutput": "\"/aa....fcaa/ebce.a/beaea.ca.b./cba/fecbb./eefec.e/febb..eaef/....daf..fcb.a..d/cbaedd/bbba/df.ada.ed/.dd.cd/ecbe/bc.cb/.bed/ef./fc/..d.dbba.ba./ebccccd/.e./.c/.ddf..f.b/ac.cdd.ae/..cc.bba.fd..ea.ff./.b..eeadaaf..a.bea/bbfab/bf/dccdfe/c.b.b.bd.f.ed...eed/faa.ae.bc.cdecf../.e.faaccdcbeddf.dae.aacb..bb..cafc/feddc/.../fdead/.cb../ca.befb.f./c.cbe.bdbbcfac./afebf/.bfcdcd/f.abfcd/.a/.ed.f/a.cedabffc/dbcb.ceaf.bb..ebdabdc/d/bdafcdb/bbbcf.efdff/.fdc.db..cc./.de.dce...dfedc...c.eec/cf/ddbfd..abeeeebaa..cae.aba/eb.b/b...fb/cd.fbcf.b.e.c/b.cdd..e.ebc/cac/dfacefbcd.b.dfdebaafe.c.ccdeacce.cdcfca.c/dbc.aebecd/.e/.ecdc/.aefc..a.c.ccadbf..dad./fbfaad...dc.b.b.f/.d.ddfcd/...c.e.cbd\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/bb/.defffbadcbbcf.cadfcaeacbfdaaace..ada.abf/.f/.cecab//d.d..a.a.f.f.b/ced..de..a./eeaeffbbffdbaa.e.cce.e..dfffbcebdc/cbd.fff.aee.ce/./ad./c.f/d./bcab.aae..cbce./fb.d/e..bffaf/aebee.ba.ecdafedf.b.fd.fb./bda...c.ebce/d./d/aa/.eaebadd.fb...bda..d./.eb./..b..bb.dcaf./cacefd./d.fbadefdeb/./e.adcae.cae.ece.ebbcad.ff.ccf.fdef.a.e/ac.c/dbc/..dea/fd...b/efdfef..abac.f/...b/da.ebae.c/ddeafcffae.//bc..fbdfcdadfa/.cee.a///.e/./.fddfe./c.//af/e/..dcaccd.afafcdeaeb.ef.b/fb.aac.dd.ebfd.eedc..daefee/ebccdab/f..e.a//aaf.bacedde/dffd/.c..b.//e.d/df.d//dccecece..ffeffe.dbbb/fec.b.cf..dd..eadea/e./..b/f/e.b.bcc.d/b.ebd.c/d.bfe.d/..a/bcdf.aa.baa..d.b..bca.cabb//cdea.afcdcccfcfbcde./af.fd.baeffd/defad/e/fadaaaf.aadce.dbfda.faf/\"]",
+    "expectedOutput": "\"/bb/.defffbadcbbcf.cadfcaeacbfdaaace..ada.abf/.f/.cecab/d.d..a.a.f.f.b/ced..de..a./eeaeffbbffdbaa.e.cce.e..dfffbcebdc/cbd.fff.aee.ce/ad./c.f/d./bcab.aae..cbce./fb.d/e..bffaf/aebee.ba.ecdafedf.b.fd.fb./bda...c.ebce/d./d/aa/.eaebadd.fb...bda..d./.eb./..b..bb.dcaf./cacefd./d.fbadefdeb/e.adcae.cae.ece.ebbcad.ff.ccf.fdef.a.e/ac.c/dbc/..dea/fd...b/efdfef..abac.f/...b/da.ebae.c/ddeafcffae./bc..fbdfcdadfa/.cee.a/.e/.fddfe./c./af/e/..dcaccd.afafcdeaeb.ef.b/fb.aac.dd.ebfd.eedc..daefee/ebccdab/f..e.a/aaf.bacedde/dffd/.c..b./e.d/df.d/dccecece..ffeffe.dbbb/fec.b.cf..dd..eadea/e./..b/f/e.b.bcc.d/b.ebd.c/d.bfe.d/..a/bcdf.aa.baa..d.b..bca.cabb/cdea.afcdcccfcfbcde./af.fd.baeffd/defad/e/fadaaaf.aadce.dbfda.faf\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"//c.fba.ec/ca.ce.bdcdfdde./f.a/fe.ae/.c.e/ffa.aaba/./..f.dbfc.cae/.cf.b//.e.ecf/./cb.cbbefed/.a../dc.e...bdeeeed.afbbf.bdf/ea/d.fedebedfd/c.acfadf/ad/eda.c/cdddcc.efe.c/b.cd......afa.ddcddb/.dcceb/fdea/..afd.bdb/.db.f.f.bfceadd/c/fcb/eabd.b.feb.dc./cfd..cec.dbf/af..c.edff.bb/.a/afc./eee.fcefb.eccbb/.ccadd./f/.ebbe/b.c.cc.cbcf/f..fbcccca.eea../afdceca.d.cab.dc.cfe.cdafaaea/fec/bf.f..ddeedfcdfe../acc.bbbdee.cc/ba.ab/ffbc.ccfd/..//f.c./ee.dfbdfcaccdbe/a/ccd/cfa/ef/...e.bcfecbfe//dfccf./df.bddb.a.a.cd.d.af..d/e./e.d.afcb.a.fabb./ef.e.ca./aceabef.d\"]",
+    "expectedOutput": "\"/c.fba.ec/ca.ce.bdcdfdde./f.a/fe.ae/.c.e/ffa.aaba/..f.dbfc.cae/.cf.b/.e.ecf/cb.cbbefed/.a../dc.e...bdeeeed.afbbf.bdf/ea/d.fedebedfd/c.acfadf/ad/eda.c/cdddcc.efe.c/b.cd......afa.ddcddb/.dcceb/fdea/..afd.bdb/.db.f.f.bfceadd/c/fcb/eabd.b.feb.dc./cfd..cec.dbf/af..c.edff.bb/.a/afc./eee.fcefb.eccbb/.ccadd./f/.ebbe/b.c.cc.cbcf/f..fbcccca.eea../afdceca.d.cab.dc.cfe.cdafaaea/fec/bf.f..ddeedfcdfe../acc.bbbdee.cc/ba.ab/f.c./ee.dfbdfcaccdbe/a/ccd/cfa/ef/...e.bcfecbfe/dfccf./df.bddb.a.a.cd.d.af..d/e./e.d.afcb.a.fabb./ef.e.ca./aceabef.d\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/d/.fb./aaffeadb.a/dceca/.af/d..f.d/f./.a./e/ca//fbafcc..a//...be./b...b...dd/.facefdae/f/b.ceebafdad/.cfc/c..b..cceaddf//cbcc.e..ba//bfbfebdabdbdbe..ffbb/daaa.abcb.edf/ca/f.cfb/..ecbcae..be../ceff/add.bdeea.f/dbe.a/.cf./ef.aebf/bf.c/.d.cf.dd.ffaebbade...ad//fdbec..fce.abeef.b/.b.dabd..cccf..ffd/./dac.d.a..af./f.cfae/b../fae.beefdf../d.a./eb../fbf/dfe.ab.be/ecb./c.edcd.ec.a/faaafddd.ad.bfab/.eb/fea/bff.ecccfe/.ebfbdb.abaedae.effe.ce.df.ee/dbdcde.eaafccacae/f/b.daa..cfe.ffc/fd/..afe/cc/da.fdbdf..d./de..\"]",
+    "expectedOutput": "\"/d/.fb./aaffeadb.a/dceca/.af/d..f.d/f./.a./e/ca/fbafcc..a/...be./b...b...dd/.facefdae/f/b.ceebafdad/.cfc/c..b..cceaddf/cbcc.e..ba/bfbfebdabdbdbe..ffbb/daaa.abcb.edf/ca/f.cfb/..ecbcae..be../ceff/add.bdeea.f/dbe.a/.cf./ef.aebf/bf.c/.d.cf.dd.ffaebbade...ad/fdbec..fce.abeef.b/.b.dabd..cccf..ffd/dac.d.a..af./f.cfae/b../fae.beefdf../d.a./eb../fbf/dfe.ab.be/ecb./c.edcd.ec.a/faaafddd.ad.bfab/.eb/fea/bff.ecccfe/.ebfbdb.abaedae.effe.ce.df.ee/dbdcde.eaafccacae/f/b.daa..cfe.ffc/fd/..afe/cc/da.fdbdf..d./de..\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/cffeeee.///ccdbc./eeeebf/e.ce.be..beceecdabea..//c./dd///cacaececfba./..eaafffe.c..e/abea.b.abeeecafddee.f/cfeedeafedfcbbe.c.cbcdaad.b..bdecdc./e/./..ebcda.f/.fafcbbd.f/f./.ed.ed..b/ba..cdef..c.aabaa.faddeca.d.fb.faa.aaac/cbbedba/debdc..b.ba/ecfc/.bbdae.dbb.b./a.dff.\"]",
+    "expectedOutput": "\"/cffeeee./ccdbc./eeeebf/e.ce.be..beceecdabea../c./dd/cacaececfba./..eaafffe.c..e/abea.b.abeeecafddee.f/cfeedeafedfcbbe.c.cbcdaad.b..bdecdc./e/..ebcda.f/.fafcbbd.f/f./.ed.ed..b/ba..cdef..c.aabaa.faddeca.d.fb.faa.aaac/cbbedba/debdc..b.ba/ecfc/.bbdae.dbb.b./a.dff.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/.e./ea.f/adba.d.f/.ef..c.bba.af..dcab/d/fde..cdeaad.fa.ea.d.efdbacb/bfb/f.bdebde/bebab.efece/e./d.cafbebdafd.b/faabfabfff.dfacc.fbeb.e.afaadbbfff..ef.efb/a.b.c/a..dbcda.b.e.dad/faeedba.f...cedf/ebbca..a.e.d.//eec./adc./bc.d/..fb.//bbbde/cfdfdc.de....daadade..a/aa.../..dc.baed/.b./faa/b.f.ca/.cdcaabffbbcf/ec/cdaad./afaaa/b.b.dbb.cf.decdecb.dc.f.cfbab..fcd.e/ea./be/.a.eb.cff.aafeefb.febc/cbfebdf.cabecfbb.ef.bfd.ececdcedeefadafbd/.d./bc..bd./.bbaacdd.f...adc./fbdee./.c.befede.aebe.aca..ddf/f.cb..fc.dbb/acebcd./bc./b.fc/ef/b..b/db/c.e.e/aac/b/efbccdbfecb//adc/a/af.cfac/fabedde/b.ca.c.b.c..c.fee.ff.ad/e..e..afe...a.add.eeded...aaccbf.a.bcfdcaf.b....f.cce/ea/c....a./e.ac/b.dda.b.fb.ed.feebe.d.ecc....c.f/fedad/b.aa/aaafb/c\"]",
+    "expectedOutput": "\"/.e./ea.f/adba.d.f/.ef..c.bba.af..dcab/d/fde..cdeaad.fa.ea.d.efdbacb/bfb/f.bdebde/bebab.efece/e./d.cafbebdafd.b/faabfabfff.dfacc.fbeb.e.afaadbbfff..ef.efb/a.b.c/a..dbcda.b.e.dad/faeedba.f...cedf/ebbca..a.e.d./eec./adc./bc.d/..fb./bbbde/cfdfdc.de....daadade..a/aa.../..dc.baed/.b./faa/b.f.ca/.cdcaabffbbcf/ec/cdaad./afaaa/b.b.dbb.cf.decdecb.dc.f.cfbab..fcd.e/ea./be/.a.eb.cff.aafeefb.febc/cbfebdf.cabecfbb.ef.bfd.ececdcedeefadafbd/.d./bc..bd./.bbaacdd.f...adc./fbdee./.c.befede.aebe.aca..ddf/f.cb..fc.dbb/acebcd./bc./b.fc/ef/b..b/db/c.e.e/aac/b/efbccdbfecb/adc/a/af.cfac/fabedde/b.ca.c.b.c..c.fee.ff.ad/e..e..afe...a.add.eeded...aaccbf.a.bcfdcaf.b....f.cce/ea/c....a./e.ac/b.dda.b.fb.ed.feebe.d.ecc....c.f/fedad/b.aa/aaafb/c\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/d.cdb/.dcddf.dec.ffedef.cccefdddebdfe/addd/eadde.aecd.fc/e.fcaaafbe.a/fceae.ebe/.cdfcaf/f/a/fea.cf/dbbf..cbfe.dc.//....feddbc.fa.b/.ccfeefcf.f//..fba.adad/fd//aff./..ecfcfff/ec/cb.cdafdf.eceac..facbdf.eae/a./fbaf/e..acbbfbf//b.fd/bbce.cadce.f/.dad.dfcbab.f./fcc/.cf....b..f/.efc/aa.aadef/.ba.c.becabdc.efdaac.dd.e/be.b/cfacfaa//fe/adfbb/.ddbf..b.aa.fae..ccaea../bc.fdcc....f.fa.fcadad/b/bacea/.deaef.a/bf.ffbb.a/ddc.baeb.de.e/cfdcfb.fad.a.cf..aaf.eeaac/..eedd..e.fe.ebeacdeac.ab..f.dbfeea./cbc.eaacf.bba.ef\"]",
+    "expectedOutput": "\"/d.cdb/.dcddf.dec.ffedef.cccefdddebdfe/addd/eadde.aecd.fc/e.fcaaafbe.a/fceae.ebe/.cdfcaf/f/a/fea.cf/dbbf..cbfe.dc./....feddbc.fa.b/.ccfeefcf.f/..fba.adad/fd/aff./..ecfcfff/ec/cb.cdafdf.eceac..facbdf.eae/a./fbaf/e..acbbfbf/b.fd/bbce.cadce.f/.dad.dfcbab.f./fcc/.cf....b..f/.efc/aa.aadef/.ba.c.becabdc.efdaac.dd.e/be.b/cfacfaa/fe/adfbb/.ddbf..b.aa.fae..ccaea../bc.fdcc....f.fa.fcadad/b/bacea/.deaef.a/bf.ffbb.a/ddc.baeb.de.e/cfdcfb.fad.a.cf..aaf.eeaac/..eedd..e.fe.ebeacdeac.ab..f.dbfeea./cbc.eaacf.bba.ef\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/c..b.f.a..b.faf.fcfdc/afbe./dbbfad.efae/f/fe.dbedd.cd.d.ebe/.a.bbab.badbe.afeaaae..bbd.e.bdfde.cdc/....fd/e.f.d..e..c.fbc.e....ad/a.ddcaabbb.a.e.fadcac.f./b/eccd.b/a./.c../eacb.deeffbfa.efcdece/.f.fb..fdcb/beebdfd...dfebe.././cdf/ab../bdc/fcdddadd/a..e/.acbbcbbdbfe./.aa.ccecf..fa.ca/bfdfffa/effdb/b./c.c.fdce.cfb./fce/.f../eeddaba.eacefc./d/fbb/ed/a/.cfdadf.ed.d.ce.b.ece...ff./e/f/./ace/ffacdb.c.db.ae.dbf.cf.bdccb.d/feeabdffcd.efdf.cbff/cb.e.fccd/bbfc/daabeff.beec\"]",
+    "expectedOutput": "\"/c..b.f.a..b.faf.fcfdc/afbe./dbbfad.efae/f/fe.dbedd.cd.d.ebe/.a.bbab.badbe.afeaaae..bbd.e.bdfde.cdc/....fd/e.f.d..e..c.fbc.e....ad/a.ddcaabbb.a.e.fadcac.f./b/eccd.b/a./.c../eacb.deeffbfa.efcdece/.f.fb..fdcb/beebdfd...dfebe../cdf/ab../bdc/fcdddadd/a..e/.acbbcbbdbfe./.aa.ccecf..fa.ca/bfdfffa/effdb/b./c.c.fdce.cfb./fce/.f../eeddaba.eacefc./d/fbb/ed/a/.cfdadf.ed.d.ce.b.ece...ff./e/f/ace/ffacdb.c.db.ae.dbf.cf.bdccb.d/feeabdffcd.efdf.cbff/cb.e.fccd/bbfc/daabeff.beec\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/feeedf.deeff.baacfd.ac/.efb/baeb/a./adda.f/.ec/c.adedcbab..bfeda.cfc/.bfcfacbbac.bccbfca.cf/.efedc.a..e/bfe.b.b/dbffb/..ac.becb.d.e//d.e.f//cf//bb/a..c.a.//fcfa/edccf/dfcb/d.d.cafafdf.fbdfafcdf.ce/b/beb..ed/e.bfdde//.ffedf.abddedd.ab.bab./bbe./abc/fbbca/.fdb.abe/ff.e..ffab/.a/fb..dfea/e..baeebfd/fabe.f..ce/a.cd..e.edeed.d.bda./ccd.b.c.bbabe.bc.e.bfebcdeccf...../a.cbb//f..acadefb...ca..cd/bf.fbfcbbafdeb.a./c.fc.bb.ee.aa/e.fd.a.ac.df/.dc/.ea..c.eddfbac/e//b.cebb.ac./bb/deaef.dd../a.fdecdef.bbafdb..fc.c.fbab.fae.bdffe.de.b.bf/c..cddca//a/a..eedd//b..f.d/cfe/cfffeaf/..edaadecfd.ba.dd.b/abbd/eddbeddaccaeed.e.bc/.cfcdae/e/./fcbdccc..f.ef....e.ad.beb./b/...c..d/.f..fdd...ca.f//fdab.cc.e.db..aeb.cc.bb.bf..f/.///..bf/d.e./eef\"]",
+    "expectedOutput": "\"/feeedf.deeff.baacfd.ac/.efb/baeb/a./adda.f/.ec/c.adedcbab..bfeda.cfc/.bfcfacbbac.bccbfca.cf/.efedc.a..e/bfe.b.b/dbffb/..ac.becb.d.e/d.e.f/cf/bb/a..c.a./fcfa/edccf/dfcb/d.d.cafafdf.fbdfafcdf.ce/b/beb..ed/e.bfdde/.ffedf.abddedd.ab.bab./bbe./abc/fbbca/.fdb.abe/ff.e..ffab/.a/fb..dfea/e..baeebfd/fabe.f..ce/a.cd..e.edeed.d.bda./ccd.b.c.bbabe.bc.e.bfebcdeccf...../a.cbb/f..acadefb...ca..cd/bf.fbfcbbafdeb.a./c.fc.bb.ee.aa/e.fd.a.ac.df/.dc/.ea..c.eddfbac/e/b.cebb.ac./bb/deaef.dd../a.fdecdef.bbafdb..fc.c.fbab.fae.bdffe.de.b.bf/c..cddca/a/a..eedd/b..f.d/cfe/cfffeaf/..edaadecfd.ba.dd.b/abbd/eddbeddaccaeed.e.bc/.cfcdae/e/fcbdccc..f.ef....e.ad.beb./b/...c..d/.f..fdd...ca.f/fdab.cc.e.db..aeb.cc.bb.bf..f/..bf/d.e./eef\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"//eb.e.fd/beef..bdfe.cccafccaa//c//.d.cf/bfd./e.ebbe.afecc.eccc..d.a.ae.aafd./.fdeeee/.b..c./.a.da/..e...bb...a.b/c/e//.cba//da/cfff/fbd./.fdaffe.deeb/dbaaebaecac.dedf/f/.eccf/c/b.acffb.ad.bdebdbdf/.ecb/df...ac..ba.ecacfb.e.beccadd/decfdc/d.f.b.f.//fdc.ed/f.a.fcbe.b.a...feaaf.ffdd.bbf//ebfd//./accdaceed/deeecfd.afed/cfffe.a/.c/aeceffaeddaab..adeddbcfcc//c..ecbfdacf.cff/eff/befafac.ae.f.bdff/..defae..bcc../cfa.cc...cb/aaeb.af/f./f.accaff.bb..fe./afacbc.ebfb.ae..d.cfaaf.e.cbbacdebbbba.aceba./c.bedb.c.//.dbf/a.aceaeb..fcea/.ff.ce.dc.dcd//fffabc.dde\"]",
+    "expectedOutput": "\"/eb.e.fd/beef..bdfe.cccafccaa/c/.d.cf/bfd./e.ebbe.afecc.eccc..d.a.ae.aafd./.fdeeee/.b..c./.a.da/..e...bb...a.b/c/e/.cba/da/cfff/fbd./.fdaffe.deeb/dbaaebaecac.dedf/f/.eccf/c/b.acffb.ad.bdebdbdf/.ecb/df...ac..ba.ecacfb.e.beccadd/decfdc/d.f.b.f./fdc.ed/f.a.fcbe.b.a...feaaf.ffdd.bbf/ebfd/accdaceed/deeecfd.afed/cfffe.a/.c/aeceffaeddaab..adeddbcfcc/c..ecbfdacf.cff/eff/befafac.ae.f.bdff/..defae..bcc../cfa.cc...cb/aaeb.af/f./f.accaff.bb..fe./afacbc.ebfb.ae..d.cfaaf.e.cbbacdebbbba.aceba./c.bedb.c./.dbf/a.aceaeb..fcea/.ff.ce.dc.dcd/fffabc.dde\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/b.e.b...d./efdabdacedcaccbbf.a/acddccbdfff.ebbbbc.c.eaaefe...adfb/ccea.dbd.//dafbc.f//dde.a..acece..ddf.b..ebccd/.cef.deeae.daca.d..bcdfea.c.f.fcb.bfedfeeadab./.cdcaf/d.ab.b.c/aeadfd..aecef/a/./bc..ca/....c.fca.fd..fc.ce../c.aebb/bedd.a.ec.dec..c/..fb.acfe/..ddaeba.aecbaf.bee//aefbefc.fc/ccee..//.aefcfadfbaeedb.bd/./ad.f/cc.d/e/cccbddb..ecdafe.a/c.ffdfa.e.cbadc/ee.bc.d.b..db../dbdaeb..ba/e/ccfcf/.cdbef.cad/afe/cdffcbabcbb..c.e/.fcc.ebcbbe...ffce./fc..fdcc.fab.efcf/aafafafcfb..b.f.d.cb/fca.fb/bfb/ead.abdfd.fefbfa.fee/adb/.abfbdbafad.a/adfa/befb/.fbc.ffb.cf.d..e../.b/e...bd.f..b.ac//.ccddce.//be..c/d..fcefaadba.d/b/aabb.bbe..afad..cec.dd/....f.aef././ff.fcddffcfcc...caf/.d..//be.bcbf..efabfdafc.cfded/b..c/ad/aefa.\"]",
+    "expectedOutput": "\"/b.e.b...d./efdabdacedcaccbbf.a/acddccbdfff.ebbbbc.c.eaaefe...adfb/ccea.dbd./dafbc.f/dde.a..acece..ddf.b..ebccd/.cef.deeae.daca.d..bcdfea.c.f.fcb.bfedfeeadab./.cdcaf/d.ab.b.c/aeadfd..aecef/a/bc..ca/....c.fca.fd..fc.ce../c.aebb/bedd.a.ec.dec..c/..fb.acfe/..ddaeba.aecbaf.bee/aefbefc.fc/ccee../.aefcfadfbaeedb.bd/ad.f/cc.d/e/cccbddb..ecdafe.a/c.ffdfa.e.cbadc/ee.bc.d.b..db../dbdaeb..ba/e/ccfcf/.cdbef.cad/afe/cdffcbabcbb..c.e/.fcc.ebcbbe...ffce./fc..fdcc.fab.efcf/aafafafcfb..b.f.d.cb/fca.fb/bfb/ead.abdfd.fefbfa.fee/adb/.abfbdbafad.a/adfa/befb/.fbc.ffb.cf.d..e../.b/e...bd.f..b.ac/.ccddce./be..c/d..fcefaadba.d/b/aabb.bbe..afad..cec.dd/....f.aef./ff.fcddffcfcc...caf/.d../be.bcbf..efabfdafc.cfded/b..c/ad/aefa.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/a.a.fdfeb.eb..c.ecaf./bfec.f..//c.fdbe/fce//ade.ddc...dfab/aa..da.baebfae.e/b.eadc/ea/bba/df/./daf.b.d/./b.ba.ba.cabaecdfbf.a.a.f.a.cc./.aa.b..cecf/b..bab/aca/bd./c./././/d./f.//f.b/b../afda.a/.ea.a/df.afb.abc///dcb.b..eae./c/ece...c/afb./ffce.dc/.b.faaaf..d./fcb.ac.dfcdea../d.b..abcca.fb.d.dfa.a.fcdf/.baaf/a/eeb/c/d////....ca/cebcef..a//dd.dbaba./...../.fed..///b.df.afacffed.bc.edfc./d.cac/ffd.ecf.db/eacaa..eb...aa//ad.addbff.cdc.ca/c//e.f/c/e.fce/ffbfc./c.da/.//e/af../dce.adb.d.b.dd/dea.dbcaaeacc.cb/ccc/ab.//cd/ac....a.edb/f.e/f.faffaafbceccca.aa/dacb/a..befbefb./eb.cbaedefbddfbac..\"]",
+    "expectedOutput": "\"/a.a.fdfeb.eb..c.ecaf./bfec.f../c.fdbe/fce/ade.ddc...dfab/aa..da.baebfae.e/b.eadc/ea/bba/df/daf.b.d/b.ba.ba.cabaecdfbf.a.a.f.a.cc./.aa.b..cecf/b..bab/aca/bd./c./d./f./f.b/b../afda.a/.ea.a/df.afb.abc/dcb.b..eae./c/ece...c/afb./ffce.dc/.b.faaaf..d./fcb.ac.dfcdea../d.b..abcca.fb.d.dfa.a.fcdf/.baaf/a/eeb/c/d/....ca/cebcef..a/dd.dbaba./...../.fed../b.df.afacffed.bc.edfc./d.cac/ffd.ecf.db/eacaa..eb...aa/ad.addbff.cdc.ca/c/e.f/c/e.fce/ffbfc./c.da/e/af../dce.adb.d.b.dd/dea.dbcaaeacc.cb/ccc/ab./cd/ac....a.edb/f.e/f.faffaafbceccca.aa/dacb/a..befbefb./eb.cbaedefbddfbac..\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/b.dfbed.fd..c.b.e.a/fe./ebdceb.bc/..faf.f.ed.a/cbac/b/fc/fcbaf.beca.bbecbbab/bacdeede..aadbcca.a.acac.aaebe./fdcdac.c/dbcbcbe//cfdda.ccbf.e./c/.de.bcebdf.bc..a/..b/..abeacdcf/.bdf.db/eeabacabfdcf.bfaf.fd.b...beef.d.dce.acaba/./d.....eaadedafff...abbe/df.f.f.//aea.eea.aabef.c.ae.bde.a..deee..db/eab.dfad.db/a/...ad..c.affe/dbe.edabb.c.ef.eaefec.c.c.fcf..bd..fb.edfabc.fc./.f/.faa.f...fbc.b/../dcccecea.c/cdcf//bd./.eaf./b/f/ebff/bb.cb/b/e.ea/ac/bda.e./.dc/a.f.bccdcae/ebeeb.ddb.aecfbca./ebedbfef.eeecf/aceaad../cdded..afdee/.ff./..fbe/dcca./.e.acbeeb./d//..e/.ddde../c..ed.d./af.ddbf.ddceb../aaff..fd/c/dafe.b.b/.fabed...effaadeda/..d/eeb/fa..dabfa/dbd.b.eca.cceb.cb.ccec/eaa/bb./fd/d...//df/df/d..bdbcba.ff/eeb.cd.e.dcfcff.c/dfabbcd.dbbabf.eb../..acf.fb/d.c/...a.dd/.ec....c.ec.e./..a.bdc.ab.bdd//fb.d....dabc.ce.db.efb/.faaae..ffe./.ffc/ae/ed./ddbb.eaccdf.e.c//.db..be.f.d.babf./.be/ceeccbdcdc/dffbed/.a..effc...cc..c.d...bddbad..e.f.bfd./af/ebafa..ccdd.fcfe.fbec..d..fffffec//..c\"]",
+    "expectedOutput": "\"/b.dfbed.fd..c.b.e.a/fe./ebdceb.bc/..faf.f.ed.a/cbac/b/fc/fcbaf.beca.bbecbbab/bacdeede..aadbcca.a.acac.aaebe./fdcdac.c/dbcbcbe/cfdda.ccbf.e./c/.de.bcebdf.bc..a/..b/..abeacdcf/.bdf.db/eeabacabfdcf.bfaf.fd.b...beef.d.dce.acaba/d.....eaadedafff...abbe/df.f.f./aea.eea.aabef.c.ae.bde.a..deee..db/eab.dfad.db/a/...ad..c.affe/dbe.edabb.c.ef.eaefec.c.c.fcf..bd..fb.edfabc.fc./.f/dcccecea.c/cdcf/bd./.eaf./b/f/ebff/bb.cb/b/e.ea/ac/bda.e./.dc/a.f.bccdcae/ebeeb.ddb.aecfbca./ebedbfef.eeecf/aceaad../cdded..afdee/.ff./..fbe/dcca./.e.acbeeb./d/..e/.ddde../c..ed.d./af.ddbf.ddceb../aaff..fd/c/dafe.b.b/.fabed...effaadeda/..d/eeb/fa..dabfa/dbd.b.eca.cceb.cb.ccec/eaa/bb./fd/d.../df/df/d..bdbcba.ff/eeb.cd.e.dcfcff.c/dfabbcd.dbbabf.eb../..acf.fb/d.c/...a.dd/.ec....c.ec.e./..a.bdc.ab.bdd/fb.d....dabc.ce.db.efb/.faaae..ffe./.ffc/ae/ed./ddbb.eaccdf.e.c/.db..be.f.d.babf./.be/ceeccbdcdc/dffbed/.a..effc...cc..c.d...bddbad..e.f.bfd./af/ebafa..ccdd.fcfe.fbec..d..fffffec/..c\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/.efce/fdabec//f//...fd/b..aabfcd.acbf./ce//bffea.ba..edeaaa/cefe/f./d/.cccad.da/aa...cef.fefaa/db/aacff.fcb.abec/de/a/bf.cc/.fa.ab...cffb.d.a.dd..dd.d..ac..fceaa.de./f..ddbecb..ffcae/..e.db.../.aeaadeaabf.c.bbddf.d.c/ab../ef../cdaecf//ee.aaaf/e.a.dc.e./.efdb.bfa.ddeca/..//a.d.e..aee/eadfcfac/fbfaeecad.ceed.ef.f.aaedbe.dce/ea///..faca/bceca.b/cfdaf...c.cdfaddeeb.fba.df/.c.c.debe.fbbacedcb..acddccdbab.df//ffbbbd.caedc.afbceb..bef.aeaefcb.eaf.\"]",
+    "expectedOutput": "\"/.efce/fdabec/f/...fd/b..aabfcd.acbf./ce/bffea.ba..edeaaa/cefe/f./d/.cccad.da/aa...cef.fefaa/db/aacff.fcb.abec/de/a/bf.cc/.fa.ab...cffb.d.a.dd..dd.d..ac..fceaa.de./f..ddbecb..ffcae/..e.db.../.aeaadeaabf.c.bbddf.d.c/ab../ef../cdaecf/ee.aaaf/e.a.dc.e./a.d.e..aee/eadfcfac/fbfaeecad.ceed.ef.f.aaedbe.dce/ea/..faca/bceca.b/cfdaf...c.cdfaddeeb.fba.df/.c.c.debe.fbbacedcb..acddccdbab.df/ffbbbd.caedc.afbceb..bef.aeaefcb.eaf.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/ddcdfe.f.b/.d.bd/f/fefab/d.fed.eedef/ff.bf..df.affacefdbbe...f/faeaaf//a.fa.eed.eed.e/bb.fec..a.aaa/ce/ded/./.ddc.dcbebfbddbac.cdc./c/...cd.ad.cfc.abc.b/dbc.cbded.ee/ff.cff././eaac/febadfed/eaffd.adce.a..ebbeba.../ecd./eeff/./fa.dfbb.f/cdb/d.d..de./f.cf/.bfd.fcc.ebbe.ad...c.b.///.ec..e.ca./.ffdf.cf/a.d.bddaaeebb..f/bd.aaccbabb/e/./ebbc./abffee/.cdf./ce.f.de.eedd...d/f/.cfbcd./ddc/.e/.fd./d.eb/eeb/ceeeaaf/f.ebeff.c./f.fa/.cc.fa.cade.bdcad.bae//fdf..bbcbf.e.de.bfc..dce./ea..aba/bbabaad/.ec./fef.\"]",
+    "expectedOutput": "\"/ddcdfe.f.b/.d.bd/f/fefab/d.fed.eedef/ff.bf..df.affacefdbbe...f/faeaaf/a.fa.eed.eed.e/bb.fec..a.aaa/ce/ded/.ddc.dcbebfbddbac.cdc./c/...cd.ad.cfc.abc.b/dbc.cbded.ee/ff.cff./eaac/febadfed/eaffd.adce.a..ebbeba.../ecd./eeff/fa.dfbb.f/cdb/d.d..de./f.cf/.bfd.fcc.ebbe.ad...c.b./.ec..e.ca./.ffdf.cf/a.d.bddaaeebb..f/bd.aaccbabb/e/ebbc./abffee/.cdf./ce.f.de.eedd...d/f/.cfbcd./ddc/.e/.fd./d.eb/eeb/ceeeaaf/f.ebeff.c./f.fa/.cc.fa.cade.bdcad.bae/fdf..bbcbf.e.de.bfc..dce./ea..aba/bbabaad/.ec./fef.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/ce/f/.e/adbe.f/.ab/ea/.d//a..bcbc.c.db.dc/ec../bdeccd..fac..d.af.fb.b.eeafaaf.acde.ae/bdebf/b/d/.a/cf.ec.ed.e.d/c.bdf./fc/eeb/abebfccb//a/.ab.b/bfe.de/.cbdea.e//ccdac.bfcbc/baa//f.ddeb/a.fa.b.a..afcb/.db.aecf.bfb..f/fce.a./f.dbdeab../dccbbfdfbd.c.aca.a.cabcd.f/b./..dbc.d/ada.c/decabedbcccadbbcddc.b.eea/b.be/d/fb..a/.fa.ec/./da.ff.db.c/de.cfcd//.c.e./d.bfffa..f/fcbc..e.bbe.ddbcfcd//bfedef..eeabded.bf.c./be.dd.fcd.ff./cfbfde.b.bebf..ffde.ccbcaecdefad.ffedfb.b.efdbccc.aabddb/.eca.cbceaaab/.b.cb.aacecacdbfde.af/ddbe.eafe.dd./fdd.dabc.././c/a..ddb.ae.b./fcedc//.ab.ec.bfeddca//a..f/bc./bed./fffec.e.a/facfcb./.f//ba.cafb.dade/.bcedb/eedfce..fa.a/dadf//fe.bbc/dfc/ad./af.ce.cc.cdfbb/.dda/aa.f.a.b//e../.ceacebeefcbfeafcbdc/d/ff.e/c/e..ddd.e.f.dccebe.f.deebcb.afe.c\"]",
+    "expectedOutput": "\"/ce/f/.e/adbe.f/.ab/ea/.d/a..bcbc.c.db.dc/ec../bdeccd..fac..d.af.fb.b.eeafaaf.acde.ae/bdebf/b/d/.a/cf.ec.ed.e.d/c.bdf./fc/eeb/abebfccb/a/.ab.b/bfe.de/.cbdea.e/ccdac.bfcbc/baa/f.ddeb/a.fa.b.a..afcb/.db.aecf.bfb..f/fce.a./f.dbdeab../dccbbfdfbd.c.aca.a.cabcd.f/b./..dbc.d/ada.c/decabedbcccadbbcddc.b.eea/b.be/d/fb..a/.fa.ec/da.ff.db.c/de.cfcd/.c.e./d.bfffa..f/fcbc..e.bbe.ddbcfcd/bfedef..eeabded.bf.c./be.dd.fcd.ff./cfbfde.b.bebf..ffde.ccbcaecdefad.ffedfb.b.efdbccc.aabddb/.eca.cbceaaab/.b.cb.aacecacdbfde.af/ddbe.eafe.dd./fdd.dabc../c/a..ddb.ae.b./fcedc/.ab.ec.bfeddca/a..f/bc./bed./fffec.e.a/facfcb./.f/ba.cafb.dade/.bcedb/eedfce..fa.a/dadf/fe.bbc/dfc/ad./af.ce.cc.cdfbb/.dda/aa.f.a.b/e../.ceacebeefcbfeafcbdc/d/ff.e/c/e..ddd.e.f.dccebe.f.deebcb.afe.c\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/febd/..cadbedadf//e.dfe.eb./a/be/ea.b..e/.cb/fe/d/fe/d./fee.cdef.f/.c.fbdbd/b.fdd.bbbeed/.cd.cdbf.bea/../d/./.ffbadc/.fddba/.cfd./e/de.cf..e/bdaacefbdfcbcd.d/afb.aadfe.ebfed/faa/./eadbbf/ccfabf.f..ca.acf/a.d.d/ecdbababedb.bfacaadff.beacad/f/c.beafbbbbc..ce.ce..ca.deff.acfcc.ba.a/c.aaefa./.aaf/ec/.ddfc/.ee.cafcc.e.ce/.\"]",
+    "expectedOutput": "\"/febd/..cadbedadf/e.dfe.eb./a/be/ea.b..e/.cb/fe/d/fe/d./fee.cdef.f/.c.fbdbd/b.fdd.bbbeed/d/.ffbadc/.fddba/.cfd./e/de.cf..e/bdaacefbdfcbcd.d/afb.aadfe.ebfed/faa/eadbbf/ccfabf.f..ca.acf/a.d.d/ecdbababedb.bfacaadff.beacad/f/c.beafbbbbc..ce.ce..ca.deff.acfcc.ba.a/c.aaefa./.aaf/ec/.ddfc/.ee.cafcc.e.ce\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/.add.ebe..cf/.f/cbfbbbede/ccbe.beee/add.d.dffda/.df.e..faabb.fda.b..fe..ecdc..f/a./caafbec//c//ef.cb.ea/..bbffddeb...//aaed/.//bfdadc.faccbae/.cd/c/eda/effcececdb.aad.b.aabccc//da..dbba..b/fcfd.bd.fdd/fdd.cedec.bfc.fd.a/abcfb.ebc.c.bf.afb.a/daa.baddacfda/.c/bfc/bbdfc/fbbe.a../a/.f.ddf.e.d..ed/cda//./bc....c/a.ffcf..fef...dcc.d.ef/db..dfcaa.ceeafe.f/eaae/fb.aefbfd/f..bb/db.f../fbfeac.da//cffaecd.f//f..fcabfa..ddd.c.fccaef./cdebebae.dbcb.be/fc.acf./dda.c..c/c.fdbc/db.ffdaeccad.bccd/ce.f/ecf.\"]",
+    "expectedOutput": "\"/.add.ebe..cf/.f/cbfbbbede/ccbe.beee/add.d.dffda/.df.e..faabb.fda.b..fe..ecdc..f/a./caafbec/c/ef.cb.ea/..bbffddeb.../aaed/bfdadc.faccbae/.cd/c/eda/effcececdb.aad.b.aabccc/da..dbba..b/fcfd.bd.fdd/fdd.cedec.bfc.fd.a/abcfb.ebc.c.bf.afb.a/daa.baddacfda/.c/bfc/bbdfc/fbbe.a../a/.f.ddf.e.d..ed/cda/bc....c/a.ffcf..fef...dcc.d.ef/db..dfcaa.ceeafe.f/eaae/fb.aefbfd/f..bb/db.f../fbfeac.da/cffaecd.f/f..fcabfa..ddd.c.fccaef./cdebebae.dbcb.be/fc.acf./dda.c..c/c.fdbc/db.ffdaeccad.bccd/ce.f/ecf.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/d./febadce.bbb.dd/./a.a./ca...ebbca.bc.cfd//.ffbc.ad//.//ec/bac./fafcaac.acbeaeefef.dfbfea.cdebbd.f/d/e.fcbdaf.dbdb/eaee./..b./.dcd//fdafcdb/cabcbb../a///c..fbf.f.bacfde.fadfe/...fa./cca.a//ddedefebeb.bae.e.ebcba..efafc\"]",
+    "expectedOutput": "\"/d./febadce.bbb.dd/a.a./ca...ebbca.bc.cfd/.ffbc.ad/ec/bac./fafcaac.acbeaeefef.dfbfea.cdebbd.f/d/e.fcbdaf.dbdb/eaee./..b./.dcd/fdafcdb/cabcbb../a/c..fbf.f.bacfde.fadfe/...fa./cca.a/ddedefebeb.bae.e.ebcba..efafc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"///eef.c./e.e/..b/ceb/./ff.ffd/caa.bf.ecebbad.b.//fbf.f.bdcc/ac.facdcecd/b.../fadfbdf/.bee.ef.caa.cfc.d.c.f/.ecbbdadef/.a././.cb/..e.cc.a.ae/b/ea.dafa.df/ffcac/ffebfaeb/abf.b...eaab.a/fe/.afaacfeba.dfe.e./cfaacae.bb/cca.ed.a...a.ce/ac..bcc/bc.ef.bc/eb.dbcda//.e.dd/ebbb.fac.ccedcbdb/ec.ead.c/.bde/c/d./cc.bf.bd.f/bebcda.fcd.cdbedacbe/f./fafeb.e/d/efbde/e/f.../c.ecae/.bfe...//fcb.afcceaecc//faffab..babeee....cbc/ad.be..f..abe/fe.///cb./cb/f..ac.eeaf.fffec.cb/ccc.\"]",
+    "expectedOutput": "\"/eef.c./e.e/..b/ceb/ff.ffd/caa.bf.ecebbad.b./fbf.f.bdcc/ac.facdcecd/b.../fadfbdf/.bee.ef.caa.cfc.d.c.f/.ecbbdadef/.a./.cb/..e.cc.a.ae/b/ea.dafa.df/ffcac/ffebfaeb/abf.b...eaab.a/fe/.afaacfeba.dfe.e./cfaacae.bb/cca.ed.a...a.ce/ac..bcc/bc.ef.bc/eb.dbcda/.e.dd/ebbb.fac.ccedcbdb/ec.ead.c/.bde/c/d./cc.bf.bd.f/bebcda.fcd.cdbedacbe/f./fafeb.e/d/efbde/e/f.../c.ecae/.bfe.../fcb.afcceaecc/faffab..babeee....cbc/ad.be..f..abe/fe./cb./cb/f..ac.eeaf.fffec.cb/ccc.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/f/bfd/dd.d.dfeab./.ccd.acff/.cccfeabdfd.fedce.d..ab/..bcbf.ebde/cc..a.c.bac.c.caf/e.d/ecc.b.afb..d/fb/.fcffecced/bb.ffc/cb/cb/aafb./c..e.bbe.e.ecf/af/ff.fa/be.dca.acacfdf.bac//bd.eb.c/f.d.bbb./ce.ed./db.cb/a/dced.f.b.ab.b.aaaeffb.f/e.ccccdffafe.ae.dbcebfbe.ef.aea.aedfded.adf.faafdd.e/caeb.bfdfdb./c.dababced/bcaf.d/fac.eeb/.eef.dabfccb/d.c..bb.afac//.ad/..ba.dcb.c.e.ffef/dbeedccfefeecdeeffb...fc.e/eeab.//.ebdaa.b/ce.a.d///db.e.bfaceff.daab//f.dfbbc.e/a/ad.ecfac..de./b.c/.affdb.eeb.ab.aeedb/.b.babacce.eea/f.cddf.cfbfe.ea.be.fd.cccc/bf.e.b.b./.bddeebdeebccaafca/bddbcbe.ecf/b..a..acac../ea.adfab.c.ddfff//da/bcba.f.//c.fc.ceccdddff.ecbc.eefcb.ebf/ced.dbadb.c/aaedecc/cecab.e.c.f..dbf/ffabb//a/fbbef.ad/fccdfdab.d/ae.a.dda..dd.c.ee.ce.efbb/.c/dd..f.ffcac//baecfaa.e./.cefbdda\"]",
+    "expectedOutput": "\"/f/bfd/dd.d.dfeab./.ccd.acff/.cccfeabdfd.fedce.d..ab/..bcbf.ebde/cc..a.c.bac.c.caf/e.d/ecc.b.afb..d/fb/.fcffecced/bb.ffc/cb/cb/aafb./c..e.bbe.e.ecf/af/ff.fa/be.dca.acacfdf.bac/bd.eb.c/f.d.bbb./ce.ed./db.cb/a/dced.f.b.ab.b.aaaeffb.f/e.ccccdffafe.ae.dbcebfbe.ef.aea.aedfded.adf.faafdd.e/caeb.bfdfdb./c.dababced/bcaf.d/fac.eeb/.eef.dabfccb/d.c..bb.afac/.ad/..ba.dcb.c.e.ffef/dbeedccfefeecdeeffb...fc.e/eeab./.ebdaa.b/ce.a.d/db.e.bfaceff.daab/f.dfbbc.e/a/ad.ecfac..de./b.c/.affdb.eeb.ab.aeedb/.b.babacce.eea/f.cddf.cfbfe.ea.be.fd.cccc/bf.e.b.b./.bddeebdeebccaafca/bddbcbe.ecf/b..a..acac../ea.adfab.c.ddfff/da/bcba.f./c.fc.ceccdddff.ecbc.eefcb.ebf/ced.dbadb.c/aaedecc/cecab.e.c.f..dbf/ffabb/a/fbbef.ad/fccdfdab.d/ae.a.dda..dd.c.ee.ce.efbb/.c/dd..f.ffcac/baecfaa.e./.cefbdda\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/eedbccf./ba/aefbfd/a.eb..c.bfcd./d/b.aa.fabbfdcaf/.b./.fec/.f//d...b/..e///.de/./dfcaee./././a.f.ec.b.c.bb....bcbab.baaecb/c.....b/../aa/ea.aaabeeaa/eb.f/.a.a.d/.dcffceebebc.b.dece.c.f./db.c/bbececbd.effcde/eff./f/..ddedac.fc.d.bb.b.bdf.ae/ed/cdc./eb.b.f.e../bbbcdd..f.a/f/fe.ca.d.cbcfbbd/dfaebbf.a.fc.cad/bcea.f.bbade..a..af/a.adf/fd.f.f..edaba..ced.dcafeb.fcfc...ec...a/.defcbdf/cabebecf.edeaed/.ea.cc.d/eedcad./eb.affe..ec.bce.eebbedd.ae/c./ff.d/c/..d/acd.bdbeda./aeed../d/dfbfaaea..bc.bbcfa.ca..c..dff/ca/c//be.ae./e..b/d.bcebd.d.a.beb/f.d/bdbec/abba.b.eadd..db/c.\"]",
+    "expectedOutput": "\"/eedbccf./ba/aefbfd/a.eb..c.bfcd./d/b.aa.fabbfdcaf/.b./.fec/.f/d...b/..e/.de/dfcaee./a.f.ec.b.c.bb....bcbab.baaecb/aa/ea.aaabeeaa/eb.f/.a.a.d/.dcffceebebc.b.dece.c.f./db.c/bbececbd.effcde/eff./f/..ddedac.fc.d.bb.b.bdf.ae/ed/cdc./eb.b.f.e../bbbcdd..f.a/f/fe.ca.d.cbcfbbd/dfaebbf.a.fc.cad/bcea.f.bbade..a..af/a.adf/fd.f.f..edaba..ced.dcafeb.fcfc...ec...a/.defcbdf/cabebecf.edeaed/.ea.cc.d/eedcad./eb.affe..ec.bce.eebbedd.ae/c./ff.d/c/..d/acd.bdbeda./aeed../d/dfbfaaea..bc.bbcfa.ca..c..dff/ca/c/be.ae./e..b/d.bcebd.d.a.beb/f.d/bdbec/abba.b.eadd..db/c.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/fd///.f/dcb/d.fdd.d.fee.e./f.dfff/fac/da.f//.a..ae/d/.bad...beaaa.ffead.c.e.fa.f/....a..aee.fe.bedfdbcdf/d.e/...fcfccef.f/fd.ddf.fb.eff..f.f/./a.edbc/cdf/dfadadbfaf.be./ea//c/d/c..be.eeaaedcdb.dfeab.e//d../d./cf.dbfefa../ddc.c.f/.d.d.b.f.cc.a.b.e...de/d.ebdf..aafbab.a/ec./e./ef/....fdbdaaafd..db.dc.f.cfabddeab/bed.b/bfb.ce/bce/b.fa/...cd/ecce.dfba/badfcead.caaedcc/cfbfdcf//c.db.ca.aa/./a..ed.b.fe/cc./a.bc.dccccbdaad....f.adab//cdf/caffdbacfbbe/d.bbbcc/bbaccd/becc/e/e.e.b.bb.b.e./eb...../.faadeffaefcd.f/ffa./.ebd.f.cf/./.fcf.d.ddca..b./c..fc.ace.afb./.c/addac/caa.c.fbd.//.b.e.bc..bbaeddcdfdcdcadbdafef./fbef../..db.f/.//.f/dd.ebbab/.dc.baba/fdbef.c/\"]",
+    "expectedOutput": "\"/fd/.f/dcb/d.fdd.d.fee.e./f.dfff/fac/da.f/.a..ae/d/.bad...beaaa.ffead.c.e.fa.f/....a..aee.fe.bedfdbcdf/d.e/...fcfccef.f/fd.ddf.fb.eff..f.f/a.edbc/cdf/dfadadbfaf.be./ea/c/d/c..be.eeaaedcdb.dfeab.e/d../d./cf.dbfefa../ddc.c.f/.d.d.b.f.cc.a.b.e...de/d.ebdf..aafbab.a/ec./e./ef/....fdbdaaafd..db.dc.f.cfabddeab/bed.b/bfb.ce/bce/b.fa/...cd/ecce.dfba/badfcead.caaedcc/cfbfdcf/c.db.ca.aa/a..ed.b.fe/cc./a.bc.dccccbdaad....f.adab/cdf/caffdbacfbbe/d.bbbcc/bbaccd/becc/e/e.e.b.bb.b.e./eb...../.faadeffaefcd.f/ffa./.ebd.f.cf/.fcf.d.ddca..b./c..fc.ace.afb./.c/addac/caa.c.fbd./.b.e.bc..bbaeddcdfdcdcadbdafef./fbef../..db.f/.f/dd.ebbab/.dc.baba/fdbef.c\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/eddbaefbbbbba....bd.be.babbced..a.ecc.dc.dbafeb.bbf.cd.a..d/bcc.fedd.aadba..d///e//.ced..e.//fd.faadc.acbc/./.e.fedbdba/bbfaa..ce..//ecceceea/fd..ee..a.cb.ceb/ffe/.ff.c/.daeedc..aede/ffdea/eaa.ffb.aba..d.c.a/.d.//.addedce.ce.bbab.ddf/fe/.ea.//....e..ad.fccf/..eeae.bec./bbdeeaeeab.c.fdafffe/.c/.cf./c.b..ba/aea.c/.ddb/.f/.bfcb/eda.cd/cfee/f/.edabcaf/eeb...dca..d...c.f.e..ae/bc.ca.dfaa./\"]",
+    "expectedOutput": "\"/eddbaefbbbbba....bd.be.babbced..a.ecc.dc.dbafeb.bbf.cd.a..d/bcc.fedd.aadba..d/e/.ced..e./fd.faadc.acbc/.e.fedbdba/bbfaa..ce../ecceceea/fd..ee..a.cb.ceb/ffe/.ff.c/.daeedc..aede/ffdea/eaa.ffb.aba..d.c.a/.d./.addedce.ce.bbab.ddf/fe/.ea./....e..ad.fccf/..eeae.bec./bbdeeaeeab.c.fdafffe/.c/.cf./c.b..ba/aea.c/.ddb/.f/.bfcb/eda.cd/cfee/f/.edabcaf/eeb...dca..d...c.f.e..ae/bc.ca.dfaa.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/fc.d.ea/ec./e../.ccd.cd../c.ec/.bc.fee..d./.de.ddcdc../eefcdfc.f.ef.//d.cc.ac/ffbadee.ebb.bdeeab.cf.abacb../f..aaadc/..ddfddcfbdaba/ca/ded/f./fdaba/.a/.d..dfddaddb.daad/adee.a.edeabfbe.e.fb.../.c..cdf/dde.f.cb/affdcb.dfc/.....fdbaaa/ab.be.ef.ffcc/ebaffdc.efb/d.aafd/cdbf.dabddcda.adf/e.d/.bcb/.ccacbe//cdade.c/bc.fadd.bc/b/.eda.b/cfbacea.bd.af./d././a.../eaf//..bdef/.aac.bdfac/f.fcbd/c.c.bde///e/aacec.fddd.a./e/d...dfaf/aecdd.bec./ddbbe.ab.aebf.dd./ba/eaec/aaccddedb.e...bc.edf/dc.febd./c./.bab..cfddfafa../..eb..dbeb/.efddac../.eadb/bdddbcf./cff.feb/cf/a.eba.c.ebcb.edfd.b/ce.d.ebe/cfb.b.fbbaedcaa/.cecef..eaca/.edd..adcd/f/d.cade.///.acad.dd/..e.dccde.b/f..b/acb..e.//./...e/bb//ffc.d.f.fe.bedc/de..d./.bdf.f/dfbbeca/fafeb.fefcab.cfea.febe/../bcead.b.edefea/f/aefb.db/...adfcccacef/cbef.adcfafcfc///c.feffaffadd..eaeee.acf.feb/bdfaccdda.cdc.d/aa..b./c/.ea.bc.d.edfb.b.daead/eb.fcaae.db..a.eaea.bdcc.bceba.da.//./fccbceabd.a/efbaf/c...cc\"]",
+    "expectedOutput": "\"/fc.d.ea/ec./e../.ccd.cd../c.ec/.bc.fee..d./.de.ddcdc../eefcdfc.f.ef./d.cc.ac/ffbadee.ebb.bdeeab.cf.abacb../f..aaadc/..ddfddcfbdaba/ca/ded/f./fdaba/.a/.d..dfddaddb.daad/adee.a.edeabfbe.e.fb.../.c..cdf/dde.f.cb/affdcb.dfc/.....fdbaaa/ab.be.ef.ffcc/ebaffdc.efb/d.aafd/cdbf.dabddcda.adf/e.d/.bcb/.ccacbe/cdade.c/bc.fadd.bc/b/.eda.b/cfbacea.bd.af./d./a.../eaf/..bdef/.aac.bdfac/f.fcbd/c.c.bde/e/aacec.fddd.a./e/d...dfaf/aecdd.bec./ddbbe.ab.aebf.dd./ba/eaec/aaccddedb.e...bc.edf/dc.febd./c./.bab..cfddfafa../..eb..dbeb/.efddac../.eadb/bdddbcf./cff.feb/cf/a.eba.c.ebcb.edfd.b/ce.d.ebe/cfb.b.fbbaedcaa/.cecef..eaca/.edd..adcd/f/d.cade./.acad.dd/..e.dccde.b/f..b/acb..e./...e/bb/ffc.d.f.fe.bedc/de..d./.bdf.f/dfbbeca/bcead.b.edefea/f/aefb.db/...adfcccacef/cbef.adcfafcfc/c.feffaffadd..eaeee.acf.feb/bdfaccdda.cdc.d/aa..b./c/.ea.bc.d.edfb.b.daead/eb.fcaae.db..a.eaea.bdcc.bceba.da./fccbceabd.a/efbaf/c...cc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"//bdcd../ffaaebcd./dc..c.dcbcfcebeece.f/efdf./e/.ebd.b.ffaa.eb.d..bbad.bc.db/bda.e.d./fe.d...ffebbfeeaa./acb.facded..aba.f/.f/a..//.//be./.accb.afaf/fdfa./ebbdab.cbecf.d./dae.b..bcbf...acdf.de/cfcfeb/.cdef/adcaf.fc.acfced/f..ee/fd.fa.bd./a..aedb.bbaec./fdabeccb.aabc//e.fce.ee.caef..edcdcb.aaebb.acbae.eceefe.f/.f../bd..fecae/c/fafcb./f/.ecfad.f.c.d.cdeab.fdeb/e.edcad./.cbbbefc./ea..af.a.aadcfdab/fee.bbbb/a.fed./eba.ce.//cfc.badee/bddafb/bce.b/fae.bbbcdf.dfabe/..c../dbef.dc/e.ad/fffbd/.bf../f./caadc/ec.abb./bb.befc.db.e/ac..babfeaeefee..de.a.cbab.cdcd/c.caeecbffc.edf.bce/.ba.aa./acebcbae/.f/eefcddbe/eefcadfcfcfb.bfddc/dbedb.b./ac.f..fe..f.fb/./f.ccb/..b.cbdb..efafafcceffe.bdc/bdc..e./e./dcdd/./aaa/ea.ef/af.d/dffdf//bb.a.dee/bdbaf./.e.e/.edeb/bcbeebb.ba.a.ef./f.ecc.bbde./b/fff/.ee/d//be../cd\"]",
+    "expectedOutput": "\"/bdcd../ffaaebcd./dc..c.dcbcfcebeece.f/efdf./e/.ebd.b.ffaa.eb.d..bbad.bc.db/bda.e.d./fe.d...ffebbfeeaa./acb.facded..aba.f/.f/a../be./.accb.afaf/fdfa./ebbdab.cbecf.d./dae.b..bcbf...acdf.de/cfcfeb/.cdef/adcaf.fc.acfced/f..ee/fd.fa.bd./a..aedb.bbaec./fdabeccb.aabc/e.fce.ee.caef..edcdcb.aaebb.acbae.eceefe.f/.f../bd..fecae/c/fafcb./f/.ecfad.f.c.d.cdeab.fdeb/e.edcad./.cbbbefc./ea..af.a.aadcfdab/fee.bbbb/a.fed./eba.ce./cfc.badee/bddafb/bce.b/fae.bbbcdf.dfabe/..c../dbef.dc/e.ad/fffbd/.bf../f./caadc/ec.abb./bb.befc.db.e/ac..babfeaeefee..de.a.cbab.cdcd/c.caeecbffc.edf.bce/.ba.aa./acebcbae/.f/eefcddbe/eefcadfcfcfb.bfddc/dbedb.b./ac.f..fe..f.fb/f.ccb/..b.cbdb..efafafcceffe.bdc/bdc..e./e./dcdd/aaa/ea.ef/af.d/dffdf/bb.a.dee/bdbaf./.e.e/.edeb/bcbeebb.ba.a.ef./f.ecc.bbde./b/fff/.ee/d/be../cd\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"//./d.bdcfdefdbaeba//ac..f..ba.a.cbcffec....dc.b..d/ab.ee/fac/.efd/bfb.a.fa/ff..ebfbca/bace.../f.c.././c..c../bbdb.e/.faccfdebfffbaebbcc../daeb./afe.bf.e.a/a/b/d/...effe.d.dfe..c..bf.bec/..bebfd.eb/dc.b.dc../be.b.e/dceed/./fd.aadfcddbae/feabb./.bfcedfffd..dbed.b/dbaae./bcd/.a.ed.c....f/ff/e....fa/ee...c.bafecbbabee//d.ad.f.e./.ef.f.a.b.ca/a.f.d.e/eef/daafaeaaeecdd.daf.bed.bb..ea/bbeb/cfe.ae/b.e.edaf//ec.b.ccb.ddaeac.f..e//bd..aa.adbdd../.ccecf..aa.aadcff.e.a.ccbc//./e./f...ff.//e.cb/cb.b.edbcda.c\"]",
+    "expectedOutput": "\"/d.bdcfdefdbaeba/ac..f..ba.a.cbcffec....dc.b..d/ab.ee/fac/.efd/bfb.a.fa/ff..ebfbca/bace.../f.c../c..c../bbdb.e/.faccfdebfffbaebbcc../daeb./afe.bf.e.a/a/b/d/...effe.d.dfe..c..bf.bec/..bebfd.eb/dc.b.dc../be.b.e/dceed/fd.aadfcddbae/feabb./.bfcedfffd..dbed.b/dbaae./bcd/.a.ed.c....f/ff/e....fa/ee...c.bafecbbabee/d.ad.f.e./.ef.f.a.b.ca/a.f.d.e/eef/daafaeaaeecdd.daf.bed.bb..ea/bbeb/cfe.ae/b.e.edaf/ec.b.ccb.ddaeac.f..e/bd..aa.adbdd../.ccecf..aa.aadcff.e.a.ccbc/e./f...ff./e.cb/cb.b.edbcda.c\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/caf.b../a./f..dca.c.aabedc.e/d.bba.b...ca/abebedf.e.fa.f..ceff.cf.f/f.f/./e.a/.ad.adea.bbb.cee.bff.b.....bed/.a.dcceba.cb/cec/eccebb.ed.fb/.//febedcccbcfcdbad.dbbeeec...daccbaeed.cee.ed.a.fd/..db//efba.aadfb.a.bdb/.a/ece/feacb/.cdd/eba/.dccff.f.cff.d/bbaadeae.aec.dda/dbbac.f.bb.defabbbcdf/caddedaebbba.be.e..d/.fd/e.d./f.b/aba.b/c/b.d./cb.eefbfbaddd.edbca.bbffebe...b.faecc.ceb/d./.c/bdedacee/ae.ef..fe.a.dcbb.f/ba..ba..b.d/facbf.e/fabfd.ba.b../..e//..b.e/d/ecad////.facafef.f/.ecedc.ccdbb..afaefbfb.b..dcae.de/fb./b.be.e.a..//ec/.bbaf..e./e./.bee.aef..dc..f/b/efaa.ad/afc/ac.cead/a.efcef..cffdcce..e.eab..fcdc.c/dcf./eb/ca.eafd.b.d/..cbe.dab/baafb..f..b/a.d.de/ebadd/./f.ac../e//d.bb/b.dfbdcc.baeeaa../f//ccedbdf..ebe.dffcdbfbcfecbb...fdbbfdd/dbdce.decbfa/ddc/b.ecb.e/bc/.ceecfdeb.d/.af/c.fca/.baedadbebd.eba.a/bcb/b/.ba/aabf.abc..febab/af/./fbaeee/a..d.fbdfd.bbdd..becd.ffbfea....ce./d/afebc.eefced..ccd.b/c./f.ace.a.../f.fbceeefdeb./e/.a.dbb./dfccbdbbbfadf.de.cb./b../ebdbeb.//a.d/b/eaabcf//..e\"]",
+    "expectedOutput": "\"/caf.b../a./f..dca.c.aabedc.e/d.bba.b...ca/abebedf.e.fa.f..ceff.cf.f/f.f/e.a/.ad.adea.bbb.cee.bff.b.....bed/.a.dcceba.cb/cec/eccebb.ed.fb/febedcccbcfcdbad.dbbeeec...daccbaeed.cee.ed.a.fd/..db/efba.aadfb.a.bdb/.a/ece/feacb/.cdd/eba/.dccff.f.cff.d/bbaadeae.aec.dda/dbbac.f.bb.defabbbcdf/caddedaebbba.be.e..d/.fd/e.d./f.b/aba.b/c/b.d./cb.eefbfbaddd.edbca.bbffebe...b.faecc.ceb/d./.c/bdedacee/ae.ef..fe.a.dcbb.f/ba..ba..b.d/facbf.e/fabfd.ba.b../..e/..b.e/d/ecad/.facafef.f/.ecedc.ccdbb..afaefbfb.b..dcae.de/fb./b.be.e.a../ec/.bbaf..e./e./.bee.aef..dc..f/b/efaa.ad/afc/ac.cead/a.efcef..cffdcce..e.eab..fcdc.c/dcf./eb/ca.eafd.b.d/..cbe.dab/baafb..f..b/a.d.de/ebadd/f.ac../e/d.bb/b.dfbdcc.baeeaa../f/ccedbdf..ebe.dffcdbfbcfecbb...fdbbfdd/dbdce.decbfa/ddc/b.ecb.e/bc/.ceecfdeb.d/.af/c.fca/.baedadbebd.eba.a/bcb/b/.ba/aabf.abc..febab/af/fbaeee/a..d.fbdfd.bbdd..becd.ffbfea....ce./d/afebc.eefced..ccd.b/c./f.ace.a.../f.fbceeefdeb./e/.a.dbb./dfccbdbbbfadf.de.cb./b../ebdbeb./a.d/b/eaabcf/..e\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/d.daa.dacfe.a.bebe.f/bfe/a./baa./aafe/b.f/.eefbebdbdbdacbbdbbd.fd.ff.dde.cea/.a/aeda/ecb..ca//cc.becbf.a.ddcc...afbdb.deaedfcd.cfc/e.//c.f.cbccbaab./eefbd.edfe.dcad.c.ffa.b.f/ffad//e/aa/e/fcdbaa.ffac.de/daddc//d.cbbfc.ebf.cff./ec/..cd.bbabdfac/da/fbdbffbee.cddb.cf.af/dec.ca.affcccfe//deedb.d.fdda.cdbfdf/fceabc\"]",
+    "expectedOutput": "\"/d.daa.dacfe.a.bebe.f/bfe/a./baa./aafe/b.f/.eefbebdbdbdacbbdbbd.fd.ff.dde.cea/.a/aeda/ecb..ca/cc.becbf.a.ddcc...afbdb.deaedfcd.cfc/e./c.f.cbccbaab./eefbd.edfe.dcad.c.ffa.b.f/ffad/e/aa/e/fcdbaa.ffac.de/daddc/d.cbbfc.ebf.cff./ec/..cd.bbabdfac/da/fbdbffbee.cddb.cf.af/dec.ca.affcccfe/deedb.d.fdda.cdbfdf/fceabc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/bdbea./c/baf.d.//fbc/a.cafb/.cebfacaefbb/a..c.cffacfaa.eda/a.cfc../..a/fa...c.eebadde.///.bdfe...d.efc/.eafbbecac.bdd/d/ffd..d.b./feb/.eabdd.fbcbcbb...fc..d.eddf.ea.dfed.add/dbfd.fe.cb/ced/ecf.fe.ede.dcc.e..b/fab.bc/..cca.dba...eeaf/fea.b/c.ffa.fec.cb//a./beff.f.cffdb.abdc/fa.ceef.aedde..ef.e.ade/edccd.ce//cef.c..ff/e.cbbc.eb.fc..f.ae//e.abf//cbf./.fcc.ca.bffb/a..ebdbfca..ccc.bbdcbcfe.addbf/af.be.eeadfceecabceadeae/abd/..df.ebab..baf.bf.dfaf/.abd.ec/de..ec//cc.f/baa..a/cdeb.cfb//def/.cc.b/e/fabfdfbfecd/acefedcc.dcf../fffacacee./.acbc.bcbf/.aee.ab..dc.ced.ffdbae//.fbdafc.edcb.be/...ca.fada..f/.dbca.efc..eaecfd.f/dabbdd.fdd...daa./adffdae..f/efb.....c//dfccfdc.fbe/.c/cf.ea/e///bb.beffeca..a.db/ffedb/a.eb/a/ce/beae/f.d.cb/ce.ebeda//.bb.//aaeddbed.d./..cbdbedc..c.\"]",
+    "expectedOutput": "\"/bdbea./c/baf.d./fbc/a.cafb/.cebfacaefbb/a..c.cffacfaa.eda/a.cfc../..a/fa...c.eebadde./.bdfe...d.efc/.eafbbecac.bdd/d/ffd..d.b./feb/.eabdd.fbcbcbb...fc..d.eddf.ea.dfed.add/dbfd.fe.cb/ced/ecf.fe.ede.dcc.e..b/fab.bc/..cca.dba...eeaf/fea.b/c.ffa.fec.cb/a./beff.f.cffdb.abdc/fa.ceef.aedde..ef.e.ade/edccd.ce/cef.c..ff/e.cbbc.eb.fc..f.ae/e.abf/cbf./.fcc.ca.bffb/a..ebdbfca..ccc.bbdcbcfe.addbf/af.be.eeadfceecabceadeae/abd/..df.ebab..baf.bf.dfaf/.abd.ec/de..ec/cc.f/baa..a/cdeb.cfb/def/.cc.b/e/fabfdfbfecd/acefedcc.dcf../fffacacee./.acbc.bcbf/.aee.ab..dc.ced.ffdbae/.fbdafc.edcb.be/...ca.fada..f/.dbca.efc..eaecfd.f/dabbdd.fdd...daa./adffdae..f/efb.....c/dfccfdc.fbe/.c/cf.ea/e/bb.beffeca..a.db/ffedb/a.eb/a/ce/beae/f.d.cb/ce.ebeda/.bb./aaeddbed.d./..cbdbedc..c.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/a.aa./bff.e...d../dcbe.b...ca..b.efb.ff/fbaa.fdff/..bdfbdba/abff/f..ddbd//e.c.c.cab.dba/.babda.fda.b.ffcc//./a.fcb.bcbbbbfbbe.affa.dbe/.a/c.d.a..effc..fceabb.....cabfc/cdd../bdc.e.ec.c.cf.f.d..dafccd/aabdbcfbffcbccccaac.e.ff.a..../fd/.d.f.f.cf.dfbbc.c./dfaf..afc..ca//dae.a./.f/d..d.b.cbe.aea./d.c.eaeaabdc.f.baaac.a.bbc.bbd//fd/ae./bb/fcafc.fc.f..edb./a./.cebf..da.eece..dcabccdbe...e.a./e/f.fadc.ea/f.dcf/febe./d/ee..fcea..d/.c./.ebcf./ff/eeb..efdcbfd/eccae.d/c.bfabbf.dbc.adc.db.bca.fdafeb/e.ec.eebb.a./b/fc.bcbdebd/bade.eddbeafa/a/b/bff.f.dc.bdee/afadd/ef.dfaca//e/ad.f/bfaeedc/afaeadad/c/dd/cddcccdcfabc/ec.c/ccba.adc.c/.ea/aedabeebb.bde..bcb.d..b.bcf/ca.adfcc.dfdef.ae.f/d./c.a.ad./abaa.ade/f.ecc/d...dae.af....adbb/ffdcfe./b/b..bcad//edadfafdc.beafa.b.de/.eadcf..faea..f..ec.cabfabda.c.dddbeffeb\"]",
+    "expectedOutput": "\"/a.aa./bff.e...d../dcbe.b...ca..b.efb.ff/fbaa.fdff/..bdfbdba/abff/f..ddbd/e.c.c.cab.dba/.babda.fda.b.ffcc/a.fcb.bcbbbbfbbe.affa.dbe/.a/c.d.a..effc..fceabb.....cabfc/cdd../bdc.e.ec.c.cf.f.d..dafccd/aabdbcfbffcbccccaac.e.ff.a..../fd/.d.f.f.cf.dfbbc.c./dfaf..afc..ca/dae.a./.f/d..d.b.cbe.aea./d.c.eaeaabdc.f.baaac.a.bbc.bbd/fd/ae./bb/fcafc.fc.f..edb./a./.cebf..da.eece..dcabccdbe...e.a./e/f.fadc.ea/f.dcf/febe./d/ee..fcea..d/.c./.ebcf./ff/eeb..efdcbfd/eccae.d/c.bfabbf.dbc.adc.db.bca.fdafeb/e.ec.eebb.a./b/fc.bcbdebd/bade.eddbeafa/a/b/bff.f.dc.bdee/afadd/ef.dfaca/e/ad.f/bfaeedc/afaeadad/c/dd/cddcccdcfabc/ec.c/ccba.adc.c/.ea/aedabeebb.bde..bcb.d..b.bcf/ca.adfcc.dfdef.ae.f/d./c.a.ad./abaa.ade/f.ecc/d...dae.af....adbb/ffdcfe./b/b..bcad/edadfafdc.beafa.b.de/.eadcf..faea..f..ec.cabfabda.c.dddbeffeb\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/bc.cbfc..df/..de.d.dcd/ee/.bdee/.ceeb/abd/b/./ee/ccfe....e.bea.bf.d.ebdd.febbbeedafabcef/cff.ab.affd.../bdde/.bd.ffbb.bfaabeb/.b.ff.f.bddcf.bd.fee/fc..edfcbebef....d...ebd./b.e.b.afb.edef.aabbfcbaebfcae.bcce.e/f.cedbefebdcdcdbcaeffae.b//.be../f.a/.eaded/.ddb...cdbd.cec.abccbeaa/aa.fbcbeae/a.d/...ee.deda/d...efadead/cbbdca..bbcbccf.d/.dae..aa.dadb./ced.bccfd/aeaa/f/dac.ad..d.f.d/b.a/fedbe./.bdade/c.ae.ebaffc/eb.decd.fdcf...b.\"]",
+    "expectedOutput": "\"/bc.cbfc..df/..de.d.dcd/ee/.bdee/.ceeb/abd/b/ee/ccfe....e.bea.bf.d.ebdd.febbbeedafabcef/cff.ab.affd.../bdde/.bd.ffbb.bfaabeb/.b.ff.f.bddcf.bd.fee/fc..edfcbebef....d...ebd./b.e.b.afb.edef.aabbfcbaebfcae.bcce.e/f.cedbefebdcdcdbcaeffae.b/.be../f.a/.eaded/.ddb...cdbd.cec.abccbeaa/aa.fbcbeae/a.d/...ee.deda/d...efadead/cbbdca..bbcbccf.d/.dae..aa.dadb./ced.bccfd/aeaa/f/dac.ad..d.f.d/b.a/fedbe./.bdade/c.ae.ebaffc/eb.decd.fdcf...b.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/./fa/b./c.cdf./fdffbdc/bdc.debb.f.dbaa.e/d/cfef..ba..fadf./dfd.b/ff.ede.//ffa.b.af.aec..fd./caff.fdc/ccd/ebdea.ccb.bc.fc.d/beefbaeb.../eaed..acfce...a./abecafcfe/cd./dd/.dc.a/d/f/b/de...e/bbe.ccad.cdcdfe.df..cdefc.edebbdc.ebe./b/fff/./.ccec.a.bac/ddecaeabac./f.cc.bbd.d/eac/.c../e.fbcffe.ee.f.adfbcb/fa/..c.cfdef.fe.bbeca.c./efaeef/ada///ef/ab///cecf/bd/db.ecdb/d..eecbfce.fefceacada..bcdbcbccbbe.ee..dbdefa/fe.df./aba/b/..ccdcbaee.f.b.ca/edae/ebebd.d..f.acee.f/f./..cf.cb.c/f.c.cbfbce..cb.cdffb.ca/eb.de.ec.a.cedbaa..d..fbdcdafccb.ac.fc..dc..d.edcba.b.cbfee/f.d.b./c.aabbba.b/.//..d\"]",
+    "expectedOutput": "\"/fa/b./c.cdf./fdffbdc/bdc.debb.f.dbaa.e/d/cfef..ba..fadf./dfd.b/ff.ede./ffa.b.af.aec..fd./caff.fdc/ccd/ebdea.ccb.bc.fc.d/beefbaeb.../eaed..acfce...a./abecafcfe/cd./dd/.dc.a/d/f/b/de...e/bbe.ccad.cdcdfe.df..cdefc.edebbdc.ebe./b/fff/.ccec.a.bac/ddecaeabac./f.cc.bbd.d/eac/.c../e.fbcffe.ee.f.adfbcb/fa/..c.cfdef.fe.bbeca.c./efaeef/ada/ef/ab/cecf/bd/db.ecdb/d..eecbfce.fefceacada..bcdbcbccbbe.ee..dbdefa/fe.df./aba/b/..ccdcbaee.f.b.ca/edae/ebebd.d..f.acee.f/f./..cf.cb.c/f.c.cbfbce..cb.cdffb.ca/eb.de.ec.a.cedbaa..d..fbdcdafccb.ac.fc..dc..d.edcba.b.cbfee/f.d.b./c.aabbba.b/..d\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/b/b.c/bf..b.aceee../aac.f.ef..d.ffbbbe.efaed..e/.ca./.c..a.febbea.fc.bfd/bc//b.aedc.cfce.e/bcbfbf/ddbcacc/d./cac/cdfeacea.ddead./d..acf.b./fd.f.ecbcde//c.fe.dcc.b.fc..eafffac.c/fbdecb.bfaafcabbb/......b/dd/.edca/a.debfe./d/./abfc.fa.fd./e.bfaaadb./ccbd./db/d/.d..c/f.ce.e.ac.a..dfaae/.b/ccfe.efa/ade.e.ba..aff/f..ddaeeaaafda/ae.cbdf/cede./b./efff..d.f.a...ec.af/ca/d/./c/d/bdfec..f/fc./e..dac./.bf./db..d.a..e/.da/b/bfd/b.ecbd/e.bdaca..c..b.ffeaceaf./c.caea/ec.abbcefe.b.e/.dbaad.aff..d..cf/deebeadbbcfbf/b.fdbb./.bbf./a.cddf.bfb../...ebe.afc..cfbf.c/.a/aacbdbdbedc..cecc.afe/afebabc.b..dffa.bafd.abb..cccfa.fd.bc..faefa.fc.f../dcd.b.dcfa.f/a.a.beac..faada/b.//c.bbaaecfd.e.ffad.cfba.dffbc.ede/.e/b/bd.../ef..ed../c/..afda..ecc...dcc/df/..e..b.ce.../.ca.dfe..bca.ffffddabdaffabee/faf..cbcd..dbdfdfddaf//b//../a/eefc.bd/..bdbcc.bba.dbef/...fbae.c.efdcf.dffa.ebe.f.fb.eac./eff/bcc.daf..c../.cddcc/ca.debab///.feadccbde.beaf.bafb/ea.afdcc\"]",
+    "expectedOutput": "\"/b/b.c/bf..b.aceee../aac.f.ef..d.ffbbbe.efaed..e/.ca./.c..a.febbea.fc.bfd/bc/b.aedc.cfce.e/bcbfbf/ddbcacc/d./cac/cdfeacea.ddead./d..acf.b./fd.f.ecbcde/c.fe.dcc.b.fc..eafffac.c/fbdecb.bfaafcabbb/......b/dd/.edca/a.debfe./d/abfc.fa.fd./e.bfaaadb./ccbd./db/d/.d..c/f.ce.e.ac.a..dfaae/.b/ccfe.efa/ade.e.ba..aff/f..ddaeeaaafda/ae.cbdf/cede./b./efff..d.f.a...ec.af/ca/d/c/d/bdfec..f/fc./e..dac./.bf./db..d.a..e/.da/b/bfd/b.ecbd/e.bdaca..c..b.ffeaceaf./c.caea/ec.abbcefe.b.e/.dbaad.aff..d..cf/deebeadbbcfbf/b.fdbb./.bbf./a.cddf.bfb../...ebe.afc..cfbf.c/.a/aacbdbdbedc..cecc.afe/afebabc.b..dffa.bafd.abb..cccfa.fd.bc..faefa.fc.f../dcd.b.dcfa.f/a.a.beac..faada/b./c.bbaaecfd.e.ffad.cfba.dffbc.ede/.e/b/bd.../ef..ed../c/..afda..ecc...dcc/df/..e..b.ce.../.ca.dfe..bca.ffffddabdaffabee/faf..cbcd..dbdfdfddaf/a/eefc.bd/..bdbcc.bba.dbef/...fbae.c.efdcf.dffa.ebe.f.fb.eac./eff/bcc.daf..c../.cddcc/ca.debab/.feadccbde.beaf.bafb/ea.afdcc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/eac.df.cbdffdc/faafbdfbbd/ff/.bfcb.e/ec/ff.ab/cccb/.dceaeb.f..ea/ac/ecbfd.aeddbabbbcdfaeb.dd/c.c.cc//e.aeaeacffec/.b.dbeedac/f//.bd....e/f..dedb.fbbedfc//...edf.c/eba/bd.f.b../d..bdefd/ac.a.f.ece.bfaafac/cba.f/f.bcbbd//af/bedaed.eddc.caf/.bca/f.d/..bdf/de..a/faccdbff/a.fbcbafeafcd.cfacbdab./dc/f../..bbdeed.fefce/..af.edffeb.c.db.cea.dcece.afda.e/dfcba.e/daac.e.df/.bf/dda..bafb/dcba/.eea/dcfef.e/dc.b\"]",
+    "expectedOutput": "\"/eac.df.cbdffdc/faafbdfbbd/ff/.bfcb.e/ec/ff.ab/cccb/.dceaeb.f..ea/ac/ecbfd.aeddbabbbcdfaeb.dd/c.c.cc/e.aeaeacffec/.b.dbeedac/f/.bd....e/f..dedb.fbbedfc/...edf.c/eba/bd.f.b../d..bdefd/ac.a.f.ece.bfaafac/cba.f/f.bcbbd/af/bedaed.eddc.caf/.bca/f.d/..bdf/de..a/faccdbff/a.fbcbafeafcd.cfacbdab./dc/f../..bbdeed.fefce/..af.edffeb.c.db.cea.dcece.afda.e/dfcba.e/daac.e.df/.bf/dda..bafb/dcba/.eea/dcfef.e/dc.b\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/aa.ff.aaa..dec//fddaa.b/ade.dacdfbf/efcadcc/..ebb/bcfe//f./da/ebf..d.dfba/.bdcfcfdccfbece./b./dcdaeea.da.a//d.//fa/bf./ccbc.ae.afda./f.f////b..bf.ad/cdfe/dddbfd.af.ce.ab.df///ff/d/.ef./dcba/.ee.c/.ccfa.bd.afbdf/.cadffdf/a/b.d.cf..abadfbddecef..bfcecaccbbfac/.bb..b.ce.acc/ddc...a....f.dd./f.fcafe...bca/cdfacbbbbdec.caabfcd./e./ebab/d/bc\"]",
+    "expectedOutput": "\"/aa.ff.aaa..dec/fddaa.b/ade.dacdfbf/efcadcc/..ebb/bcfe/f./da/ebf..d.dfba/.bdcfcfdccfbece./b./dcdaeea.da.a/d./fa/bf./ccbc.ae.afda./f.f/b..bf.ad/cdfe/dddbfd.af.ce.ab.df/ff/d/.ef./dcba/.ee.c/.ccfa.bd.afbdf/.cadffdf/a/b.d.cf..abadfbddecef..bfcecaccbbfac/.bb..b.ce.acc/ddc...a....f.dd./f.fcafe...bca/cdfacbbbbdec.caabfcd./e./ebab/d/bc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/cc.b.afef.eda.e/fffaffd...c.fefd/..ceddfefd.bbcc/.adeddaeb.aadd.d.dc/.ea//f.e.a..b/bcb/.cf//ceac/a/acaa..edaa/cfdbe/.cddbedfa/b/.afbddd.ed/dd..ccf/dc.edaeeaefcf/afb/eddddffefbcb.f/baddedbfc..f.//c.fceea.db..eefc.ada.ebc.b.eddd.fbdc..da.c.d.cfd/aba.d/fdaacfaeb.c/ccbad...ee/f./d/a/ff.e/cccba//acd.febae./aec.a.\"]",
+    "expectedOutput": "\"/cc.b.afef.eda.e/fffaffd...c.fefd/..ceddfefd.bbcc/.adeddaeb.aadd.d.dc/.ea/f.e.a..b/bcb/.cf/ceac/a/acaa..edaa/cfdbe/.cddbedfa/b/.afbddd.ed/dd..ccf/dc.edaeeaefcf/afb/eddddffefbcb.f/baddedbfc..f./c.fceea.db..eefc.ada.ebc.b.eddd.fbdc..da.c.d.cfd/aba.d/fdaacfaeb.c/ccbad...ee/f./d/a/ff.e/cccba/acd.febae./aec.a.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"//ebcfdfcaedfcd.af/dbefa...ba/a.a/cb.db.b.ac/aa/c./b/./dbbccdcbdb/.daecffd//dc/...be/bbfeed..f/a/fef//..dff/e/ff.db/ba.bcade.aec.dbce/.a..e.e.f/aafdc//afe.b...bd/d..cad.cc/.dff.e/cc...a./a.abf/ebda../ffe/d.eb.e/ce/b..cfbdfdbdf..eeebdbc.cf/e.ecbacbdc/aedcc.ddabfcce..ac.cdbec..e.b/febdfaa//ac.aabb/e/.feef.cfcbeab.e.ffc.a/fc../dfcfcee./cabdaeffeecedacbf./da.ecaf/e/...aaedefd.dbfdb.ae.c/e/c.ab.afbd/c/dece/b.d/ba..fcdd..e.d/a.ebfac.e.b.fcbafce.a//acaafb.//fcf.fe.eb..c.cdec.acffeaaeadefdaeaabe..e.dddc/.ecdba.f/acfb./bcfcbbfbfabd/cfefbfdb.db/fcadadedcaba.ab./ef.eb.fff.bfe/.dea.fea.b.b/bbcecbb/ddcecbd..bcdaa/d.e./ea.babd.def/ecbc.dea..c..dbbbe/./.ce/d.caefcaedc.adcac/d/c./e..dfad.bdef/b/bd.ec/effca./ddcba.ce/abfa.e.e.afbff.fbd/fbd.adeeeab.ab/./fabbd.bcca.fb..ddc/.caaddee/b/f.d.cc.f/.da/.e/\"]",
+    "expectedOutput": "\"/ebcfdfcaedfcd.af/dbefa...ba/a.a/cb.db.b.ac/aa/c./b/dbbccdcbdb/.daecffd/dc/...be/bbfeed..f/a/fef/..dff/e/ff.db/ba.bcade.aec.dbce/.a..e.e.f/aafdc/afe.b...bd/d..cad.cc/.dff.e/cc...a./a.abf/ebda../ffe/d.eb.e/ce/b..cfbdfdbdf..eeebdbc.cf/e.ecbacbdc/aedcc.ddabfcce..ac.cdbec..e.b/febdfaa/ac.aabb/e/.feef.cfcbeab.e.ffc.a/fc../dfcfcee./cabdaeffeecedacbf./da.ecaf/e/...aaedefd.dbfdb.ae.c/e/c.ab.afbd/c/dece/b.d/ba..fcdd..e.d/a.ebfac.e.b.fcbafce.a/acaafb./fcf.fe.eb..c.cdec.acffeaaeadefdaeaabe..e.dddc/.ecdba.f/acfb./bcfcbbfbfabd/cfefbfdb.db/fcadadedcaba.ab./ef.eb.fff.bfe/.dea.fea.b.b/bbcecbb/ddcecbd..bcdaa/d.e./ea.babd.def/ecbc.dea..c..dbbbe/.ce/d.caefcaedc.adcac/d/c./e..dfad.bdef/b/bd.ec/effca./ddcba.ce/abfa.e.e.afbff.fbd/fbd.adeeeab.ab/fabbd.bcca.fb..ddc/.caaddee/b/f.d.cc.f/.da/.e\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"//dcffc.aebacd..a.ebbd.e/f..add/..adbacc.ceec.a.c.bc.bc.af.ef..dafe.ffbd/fcff/c..fcc.dcdf.cbfed.cd..dd.efbfb/..efb...e.dfbcdcaead../ac.bee/edbdaefdedb.bb/fcd.bef.cbfc.f./dfaacfc.ddfdeafe//ebbabc.a.//e.//f..bdb.fe..adaac.bfbde....cfec/abdf.//a/afe/ea/fbe.bbe/cee/.a./.df.ac.aeabdbd.cdf.dfa./ebacfcbef/..c/.\"]",
+    "expectedOutput": "\"/dcffc.aebacd..a.ebbd.e/f..add/..adbacc.ceec.a.c.bc.bc.af.ef..dafe.ffbd/fcff/c..fcc.dcdf.cbfed.cd..dd.efbfb/..efb...e.dfbcdcaead../ac.bee/edbdaefdedb.bb/fcd.bef.cbfc.f./dfaacfc.ddfdeafe/ebbabc.a./e./f..bdb.fe..adaac.bfbde....cfec/abdf./a/afe/ea/fbe.bbe/cee/.a./.df.ac.aeabdbd.cdf.dfa./ebacfcbef/..c\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/bbeecc.fe.c/fc..cbeb/..d..edf./db.bb.b..e.ccd/cbaac/de/.adac..././dcbbe..ed.fc.fcca.abebeb.ea/...d.f...d.abf/ef/.eaba/f.fe..bfc/bbb.dfdbd././febcaaeed./..a.ce.a.c/.abeaf.accde..dff...cc.ecc/cd./aa..c../dfcb.c.cd.a.a/cf/c/f.ce..be.d/f.cfedb.bb.cae.bdca/a..ebdc/f.ac./dc/.fcdbfbb.efeebceebabceabf.dbfcedfb.bfec..f.fadc.//de./ac...cbdb/ee/..dadcbaec...fc/.fcfe.fdcf.b.ccd.c/a/fbed/b.c/eba/d.fdb.a..dd.bb./..aee.ff.fe/eedd/fc./c.ba/ecbfcadbab.b..fbaa/c..d.ebdcaefa..../..cbb.bdfcdffbd/ebbbabd/fcfaae.db.f/ffbfaceee//bec/de..bad.dcff.c.d.f/..accb/..ebfc...dabcdabc.dfeeae..f.e/ffb.abadb./.fb.e//..df.efe/c/..face/e/e..cc.c.//eec/d.\"]",
+    "expectedOutput": "\"/bbeecc.fe.c/fc..cbeb/..d..edf./db.bb.b..e.ccd/cbaac/de/.adac.../dcbbe..ed.fc.fcca.abebeb.ea/...d.f...d.abf/ef/.eaba/f.fe..bfc/bbb.dfdbd./febcaaeed./..a.ce.a.c/.abeaf.accde..dff...cc.ecc/cd./aa..c../dfcb.c.cd.a.a/cf/c/f.ce..be.d/f.cfedb.bb.cae.bdca/a..ebdc/f.ac./dc/.fcdbfbb.efeebceebabceabf.dbfcedfb.bfec..f.fadc./de./ac...cbdb/ee/..dadcbaec...fc/.fcfe.fdcf.b.ccd.c/a/fbed/b.c/eba/d.fdb.a..dd.bb./..aee.ff.fe/eedd/fc./c.ba/ecbfcadbab.b..fbaa/c..d.ebdcaefa..../..cbb.bdfcdffbd/ebbbabd/fcfaae.db.f/ffbfaceee/bec/de..bad.dcff.c.d.f/..accb/..ebfc...dabcdabc.dfeeae..f.e/ffb.abadb./.fb.e/..df.efe/c/..face/e/e..cc.c./eec/d.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/fcdcebe.fdeaecbbd.b.b.c.aeab/..aece/da..d/d./fde.fa.cbe.ae.fdbfcac.ac.ee.a./...bace.ffed.bbbb/fd.e.c/feabdc/e.d.//.fdbdc/a./ad.d/.ebbff.b.deccf././dbedf./e.ebdfbd.f..c/cccb/b//adca.b..../.af.fbcbb/..../cfdcffeb/fcced.dcdcb.cf.ca/.ec.fdbfefe.eb/ece.a.def/bb.d/.bbbd.d./b/b.ffe.ded/ebea.ea.ee/eaedab./eefcaeadfb.bebeadf..cf/deefcfcb/./aadee.a.dc//.cffceecadeea./fd/d/.bccf.db.fbc.a.fb/ccaca.c.e.d.d/cadcd//b..e.b..//dbde/d.a..aae/.c//edd/aabf./d..ad/.bc/.bb.ff.ddbeececeaaad.aa//edc.f.adc.cdd.e.a./dbd..c..adf/ceedffbf/fa/cfacd.b.fa.efacc.ccdea.dbdb...f.ea..fcffbb/cabcbaad/fffaded/.c.cab/dbfde.addae.adbcdce.fbccd/./bffb//aaa/fadcf.adcb.fdb.cedfba/.ed...fefde.c.bcf./.d.bd.fbe.cb.f.f...bfadfad.b.db..d.ec.dc.dbda.f.fe/eedde..f/./fcb.badf..ba.ca./e..ace...abed.c..../cff./aab.a.daacaefffaf/feacfebf.b.adbdafb.fbf/..d.//adad//.cadbfee/.e.bfc/b./..cfb..feddfa./eeaedadc.efddb.\"]",
+    "expectedOutput": "\"/fcdcebe.fdeaecbbd.b.b.c.aeab/..aece/da..d/d./fde.fa.cbe.ae.fdbfcac.ac.ee.a./...bace.ffed.bbbb/fd.e.c/feabdc/e.d./.fdbdc/a./ad.d/.ebbff.b.deccf./dbedf./e.ebdfbd.f..c/cccb/b/adca.b..../.af.fbcbb/..../cfdcffeb/fcced.dcdcb.cf.ca/.ec.fdbfefe.eb/ece.a.def/bb.d/.bbbd.d./b/b.ffe.ded/ebea.ea.ee/eaedab./eefcaeadfb.bebeadf..cf/deefcfcb/aadee.a.dc/.cffceecadeea./fd/d/.bccf.db.fbc.a.fb/ccaca.c.e.d.d/cadcd/b..e.b../dbde/d.a..aae/.c/edd/aabf./d..ad/.bc/.bb.ff.ddbeececeaaad.aa/edc.f.adc.cdd.e.a./dbd..c..adf/ceedffbf/fa/cfacd.b.fa.efacc.ccdea.dbdb...f.ea..fcffbb/cabcbaad/fffaded/.c.cab/dbfde.addae.adbcdce.fbccd/bffb/aaa/fadcf.adcb.fdb.cedfba/.ed...fefde.c.bcf./.d.bd.fbe.cb.f.f...bfadfad.b.db..d.ec.dc.dbda.f.fe/eedde..f/fcb.badf..ba.ca./e..ace...abed.c..../cff./aab.a.daacaefffaf/feacfebf.b.adbdafb.fbf/..d./adad/.cadbfee/.e.bfc/b./..cfb..feddfa./eeaedadc.efddb.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"//e./af..b/.c.efdb.e/efa.afecfb//c..bcbf.dbdfdb./addf/de.df/.fbb/.fcd..dac.a.f.b/bd.c/d...fbdcef./.aaac.ad/cbfff/..de.c.ccdcbc/fca.cd/.bfcceee.ecd/.ecdd/b/.ebdbcb.cedbf/e..dacc./.dfdef../.effb.ceca...aa./ba.aadae.adffecbacdfdcbbacde..//.dff.dfcfd..bfcdf.cebeaacab..ab.ad.bf.e..ea.a.d//c.cccd.d.b.dfcfdebeaacef.eb.f../e//bbbfbeacbe.f.cbefd...ad/.e./bbfaabe/fc.c.abadf/ced..ba./ad/c../cbaf.bfbabafee/c/d..e/.fc.fdf/e.ade.e/c./adaca//eac.bbe/eebf.fe./acbdeb.ffee.eee.cffd.b.dc..af....beea.cac/.bcab.df.a/.d..db///ccfbeaaca.e./ebca/bfb.eaff../.a.e.a./e..fd/e//...cbafcffbad./e.fd..d/.b/cba.a/.def/.dae./ebc/.d/aefc.beebc/ddcbe/fddd.c.c.aceaaebbccdcfe/fedba.af/.db/./a/...a.e.b.df.e..aa///acee/.cebffbe/./a..aebfe.dbfdec..bf...a.af.f./ec.e..c..a.edeba.fbbfddfadc.dcd./..abef//eebfa/af.a.e/feaaa/dcae.dedeaedff/cb.df/.f/.eda/eb.b//dbcfdd/df/c.aff/dbb.cc../ebe.fbae..a.adcbe/.efbda.ebfacb/dceee/f/fcefecdaa/.ecbbffcf/cc/c.c/ab/da.../cb./fb..cdfc/e.aaae.c.//ac/d/e./cdbcaa.bd\"]",
+    "expectedOutput": "\"/e./af..b/.c.efdb.e/efa.afecfb/c..bcbf.dbdfdb./addf/de.df/.fbb/.fcd..dac.a.f.b/bd.c/d...fbdcef./.aaac.ad/cbfff/..de.c.ccdcbc/fca.cd/.bfcceee.ecd/.ecdd/b/.ebdbcb.cedbf/e..dacc./.dfdef../.effb.ceca...aa./ba.aadae.adffecbacdfdcbbacde../.dff.dfcfd..bfcdf.cebeaacab..ab.ad.bf.e..ea.a.d/c.cccd.d.b.dfcfdebeaacef.eb.f../e/bbbfbeacbe.f.cbefd...ad/.e./bbfaabe/fc.c.abadf/ced..ba./ad/c../cbaf.bfbabafee/c/d..e/.fc.fdf/e.ade.e/c./adaca/eac.bbe/eebf.fe./acbdeb.ffee.eee.cffd.b.dc..af....beea.cac/.bcab.df.a/.d..db/ccfbeaaca.e./ebca/bfb.eaff../.a.e.a./e..fd/e/...cbafcffbad./e.fd..d/.b/cba.a/.def/.dae./ebc/.d/aefc.beebc/ddcbe/fddd.c.c.aceaaebbccdcfe/fedba.af/.db/a/...a.e.b.df.e..aa/acee/.cebffbe/a..aebfe.dbfdec..bf...a.af.f./ec.e..c..a.edeba.fbbfddfadc.dcd./..abef/eebfa/af.a.e/feaaa/dcae.dedeaedff/cb.df/.f/.eda/eb.b/dbcfdd/df/c.aff/dbb.cc../ebe.fbae..a.adcbe/.efbda.ebfacb/dceee/f/fcefecdaa/.ecbbffcf/cc/c.c/ab/da.../cb./fb..cdfc/e.aaae.c./ac/d/e./cdbcaa.bd\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/..fcfcc.ed/abc/b.ecb/ed..aacfdd..ac..aebd.ac/bd.b.dc.f.a/.f/abde.ee.fb../.adefedc./ed.ebedef./bf.dbba.ebda/ad.a.ba./d/dbaeebdfaca.bba.f/.c//ff.bbb.bbb..d.a.f/d.debcddbba.d.daab..bbe/df/ada//aa/bd.bdfe.ae//ada.e.ffaabf/bbff.e...a.acc./eaebc.fd.fae/e.ac/.dcefb.cea.cac.ddad.cb.de.fae/..\"]",
+    "expectedOutput": "\"/..fcfcc.ed/abc/b.ecb/ed..aacfdd..ac..aebd.ac/bd.b.dc.f.a/.f/abde.ee.fb../.adefedc./ed.ebedef./bf.dbba.ebda/ad.a.ba./d/dbaeebdfaca.bba.f/.c/ff.bbb.bbb..d.a.f/d.debcddbba.d.daab..bbe/df/ada/aa/bd.bdfe.ae/ada.e.ffaabf/bbff.e...a.acc./eaebc.fd.fae/e.ac\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/c/ecde/afccfce./.b..cd.fdf.e/ccfafdfa/ad/.d.aaefaaac..ebf/f.de.fa..ae.a./.bab/dde..edfc./ddbb/.aefda.c//d.f.cd.e.f../.eaaeddca../debd.ec.aaeec.daafedcc.dd.//c.bdfdea.c.adfc.eb/.f..b/d/baa.beefd./b.ce..fc.f.e..dccafacdfef.c.c.a.e/.e.b.aeeb.dcaaadc.db...a/.ec.ddb.efcfec.d/f././bffccabaeb/.ced.b/dcf.b..ff/..fb.c.cd..c//edd././.d/.dc/eced.e/cbbebdafea/c.d/.f/daa.eaccd/ccdf...acaf/ecaea.dbac.cf.beb.cc./cccdba.cbfbc/f//.cbefcfdaea/.dccd.b.fd.//ebdfd..c.ecee..c.fabebb.d///cb/ecca.f/caeb/b.ebaa/./.decedac/eeff.defde.....af..../e/fdfe.d..ebbbc.e/ad.b/.f.adbba.cec/.cccb.fb/ddbbcce/c//aa//c//.adf/ebc.eddbd.edacb/a.a.b.e.bbf/cccbbdb/d//f./bb.df..cbbbda.cce.eaafb.eedabfac.ba.cca.ebdf.ef/.bfa/./adb./db..edecc..d.d./b/fdf./cadb/.../.bd.edc/.a/b/dbf.a...\"]",
+    "expectedOutput": "\"/c/ecde/afccfce./.b..cd.fdf.e/ccfafdfa/ad/.d.aaefaaac..ebf/f.de.fa..ae.a./.bab/dde..edfc./ddbb/.aefda.c/d.f.cd.e.f../.eaaeddca../debd.ec.aaeec.daafedcc.dd./c.bdfdea.c.adfc.eb/.f..b/d/baa.beefd./b.ce..fc.f.e..dccafacdfef.c.c.a.e/.e.b.aeeb.dcaaadc.db...a/.ec.ddb.efcfec.d/f./bffccabaeb/.ced.b/dcf.b..ff/..fb.c.cd..c/edd./.d/.dc/eced.e/cbbebdafea/c.d/.f/daa.eaccd/ccdf...acaf/ecaea.dbac.cf.beb.cc./cccdba.cbfbc/f/.cbefcfdaea/.dccd.b.fd./ebdfd..c.ecee..c.fabebb.d/cb/ecca.f/caeb/b.ebaa/.decedac/eeff.defde.....af..../e/fdfe.d..ebbbc.e/ad.b/.f.adbba.cec/.cccb.fb/ddbbcce/c/aa/c/.adf/ebc.eddbd.edacb/a.a.b.e.bbf/cccbbdb/d/f./bb.df..cbbbda.cce.eaafb.eedabfac.ba.cca.ebdf.ef/.bfa/adb./db..edecc..d.d./b/fdf./cadb/.../.bd.edc/.a/b/dbf.a...\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/bbffaaadeef/afbacfcd...e..a.d/.f.eb.df...a/dfa./be..dedebba/a.dcbdefacacdb.b.ee....cbdefaf..ed//bac.fcd...afccfa../.eb.fb.a.../fbefe.f.cfb.e.edf.cdffdf..e/b..cd/b.f.../cb.aacaee/e.dcdfaae.dacda.e.dbc//ac/..affc.afbd/ca.b.ecfc/.././bae/.fdd.b.fcf.dd/a.df/fd.bfdced/.bcfc./...ae/baad.f.e.e/eff/.df/cac.afefbe.//f.e.da/f..../ccbf..a.dbeb.bc.af.f..ffd/..c.bfa.eb.cddc./ddbf/bd.e/fef/d.e./c/./ba....cfe/fede/cc.b.cfdb/ddee.a.cdd/..aaeec/////eccaaebc./fcf.fceaf.c/.babc../daa/ddbaadbefbbf.c/a..cdabca/efc.dff/c.a.d.dfdaadcd/d.ac.bca/ca./ae./.db...f/d/a.acee.///be/fa.//.ecc.debdadb/f.bcdd.acdadaeaf.f/fe/fcfdc/ddcb/./...daa.eefeff/.da/.bbf/.abfaedbffeb./acef/ace...ecc.ab/b..abff..ab.dfaff..afc/d.cbb/fe..df//.bfdc///.eafe/e.abeff.b.ab.b\"]",
+    "expectedOutput": "\"/bbffaaadeef/afbacfcd...e..a.d/.f.eb.df...a/dfa./be..dedebba/a.dcbdefacacdb.b.ee....cbdefaf..ed/bac.fcd...afccfa../.eb.fb.a.../fbefe.f.cfb.e.edf.cdffdf..e/b..cd/b.f.../cb.aacaee/e.dcdfaae.dacda.e.dbc/ac/..affc.afbd/bae/.fdd.b.fcf.dd/a.df/fd.bfdced/.bcfc./...ae/baad.f.e.e/eff/.df/cac.afefbe./f.e.da/f..../ccbf..a.dbeb.bc.af.f..ffd/..c.bfa.eb.cddc./ddbf/bd.e/fef/d.e./c/ba....cfe/fede/cc.b.cfdb/ddee.a.cdd/..aaeec/eccaaebc./fcf.fceaf.c/.babc../daa/ddbaadbefbbf.c/a..cdabca/efc.dff/c.a.d.dfdaadcd/d.ac.bca/ca./ae./.db...f/d/a.acee./be/fa./.ecc.debdadb/f.bcdd.acdadaeaf.f/fe/fcfdc/ddcb/...daa.eefeff/.da/.bbf/.abfaedbffeb./acef/ace...ecc.ab/b..abff..ab.dfaff..afc/d.cbb/fe..df/.bfdc/.eafe/e.abeff.b.ab.b\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"//efbaabfeaabf.//.b.bac.fbec..ccd/.cedddedcebbb.ecbcb.fc/caab/dbc...aebf/c/ff.babfce/fab/./../cdedbfabfeb/c./c...a.fa.//.de.aa.af.../eccdeecd..b//edf.cfbbbfdfbbdafbcc...a.fcc.b.acaa/a/.cb/bebcd.cdcbffa/b.e/ebd./a.ccdccf..e.cba.aac.e.a.ccb/aee.acedc.fcbeb/.dfbdd.b.c.ebffb.b.aa/.fcaaeec.bbebd.acbc.b.da./feff/.bfc/f.//a.eb.f/e..ccf/ec.fa..d.f//.ef.bf/a...a.f/f.d/.c/ff/efdc.eab/..c.be/c.b/.d/cde/c.a.ba.af.b.db..f..f.b/dafb..dfa/eadbdb..e/b/.f..fee.aeb.df.cd.dd.cea/.eec/ff/ceb/b.bd..ae/....abadb.b/aebd.bcca/cbdaafbbba...ccdc/fdc/fce.bfc.e.fded/c.acf.affbed/bac.dcbcc.afd/.c.ed.f/e.ec/ec\"]",
+    "expectedOutput": "\"/efbaabfeaabf./.b.bac.fbec..ccd/.cedddedcebbb.ecbcb.fc/caab/dbc...aebf/c/ff.babfce/cdedbfabfeb/c./c...a.fa./.de.aa.af.../eccdeecd..b/edf.cfbbbfdfbbdafbcc...a.fcc.b.acaa/a/.cb/bebcd.cdcbffa/b.e/ebd./a.ccdccf..e.cba.aac.e.a.ccb/aee.acedc.fcbeb/.dfbdd.b.c.ebffb.b.aa/.fcaaeec.bbebd.acbc.b.da./feff/.bfc/f./a.eb.f/e..ccf/ec.fa..d.f/.ef.bf/a...a.f/f.d/.c/ff/efdc.eab/..c.be/c.b/.d/cde/c.a.ba.af.b.db..f..f.b/dafb..dfa/eadbdb..e/b/.f..fee.aeb.df.cd.dd.cea/.eec/ff/ceb/b.bd..ae/....abadb.b/aebd.bcca/cbdaafbbba...ccdc/fdc/fce.bfc.e.fded/c.acf.affbed/bac.dcbcc.afd/.c.ed.f/e.ec/ec\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"/.e.f.f.b...a//ae./.edf.aa/bcdddea..ecfd/.de//a..ddad./edb//dedb.bbd.db.f.b.fad.dcec.d//eaded..cecefcbdfcfedafa/fe.b.cdfdbd.be././effddfffc.dfdacb.a/fa.f./d/ffd/./..d/f.cd../a/aded/.ec/edf..dcade//ec.eb/dfeadaea/ababfcd..b/faad//ec/.adcb//c.feff/fe.cbec//ddfbdba.fd/aedec/.b/.bc/.dacd.aa./.aa.b/.ab.e/bfdb.bff.aa/ca/dd/.bdcec.cba..ace..ae.fbe/cfecabfaeaeabdabc.a...dfd./ee.f.dcedbedfeaebbafece/b//feb.adfcfcbc.cfdfb..bdbbd.e...//...e/b.ab/bd.e/ea..f/cd.edc..edd/b.ccfeb.dd//ecd.ecec.def.bca.c.aaaddf/c.ca.abcc./.cb.b.ecc/e/cadb..../f/acee/..fe.aafd./cd./ebeacfbc/e//...aec/ecf/b.e/b..a.ec.f.bbc..db///d.dfd.be/..bd...fd.ccad.ff.fd//d/e/.fcdb.f.ca...d/.d..cfa.cff.ee..e.ce.b.fd.b/.baf./dafdf/.ee.ba/.ebe/eee.e/.dfc../eb...b/fbdccce.acc.ee..ac.abad.bbaece./cc.bcfdafbef./c.dfabdad.eadd.c/.efcebdefbaacbdb.d/..dcc.bd/.eecbcc..bffa.fd//ebf./c.ffaefc/.fd.\"]",
+    "expectedOutput": "\"/.e.f.f.b...a/ae./.edf.aa/bcdddea..ecfd/.de/a..ddad./edb/dedb.bbd.db.f.b.fad.dcec.d/eaded..cecefcbdfcfedafa/fe.b.cdfdbd.be./effddfffc.dfdacb.a/fa.f./d/ffd/..d/f.cd../a/aded/.ec/edf..dcade/ec.eb/dfeadaea/ababfcd..b/faad/ec/.adcb/c.feff/fe.cbec/ddfbdba.fd/aedec/.b/.bc/.dacd.aa./.aa.b/.ab.e/bfdb.bff.aa/ca/dd/.bdcec.cba..ace..ae.fbe/cfecabfaeaeabdabc.a...dfd./ee.f.dcedbedfeaebbafece/b/feb.adfcfcbc.cfdfb..bdbbd.e.../...e/b.ab/bd.e/ea..f/cd.edc..edd/b.ccfeb.dd/ecd.ecec.def.bca.c.aaaddf/c.ca.abcc./.cb.b.ecc/e/cadb..../f/acee/..fe.aafd./cd./ebeacfbc/e/...aec/ecf/b.e/b..a.ec.f.bbc..db/d.dfd.be/..bd...fd.ccad.ff.fd/d/e/.fcdb.f.ca...d/.d..cfa.cff.ee..e.ce.b.fd.b/.baf./dafdf/.ee.ba/.ebe/eee.e/.dfc../eb...b/fbdccce.acc.ee..ac.abad.bbaece./cc.bcfdafbef./c.dfabdad.eadd.c/.efcebdefbaacbdb.d/..dcc.bd/.eecbcc..bffa.fd/ebf./c.ffaefc/.fd.\"",
+    "isHidden": true
+  }
+]

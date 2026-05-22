@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[31,8,2019]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": false
+  },
+  {
+    "input": "[4,10,2090]",
+    "expectedOutput": "\"Wednesday\"",
+    "isHidden": false
+  },
+  {
+    "input": "[26,12,1973]",
+    "expectedOutput": "\"Wednesday\"",
+    "isHidden": false
+  },
+  {
+    "input": "[6,7,2076]",
+    "expectedOutput": "\"Monday\"",
+    "isHidden": false
+  },
+  {
+    "input": "[8,8,2022]",
+    "expectedOutput": "\"Monday\"",
+    "isHidden": false
+  },
+  {
+    "input": "[13,1,2024]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[12,11,2073]",
+    "expectedOutput": "\"Sunday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[30,8,2008]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[12,10,2066]",
+    "expectedOutput": "\"Tuesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[28,2,2064]",
+    "expectedOutput": "\"Thursday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[27,7,2012]",
+    "expectedOutput": "\"Friday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[9,11,2034]",
+    "expectedOutput": "\"Thursday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[23,9,2029]",
+    "expectedOutput": "\"Sunday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[4,6,2050]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[21,12,2002]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[20,3,1992]",
+    "expectedOutput": "\"Friday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[17,3,2074]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[22,6,2014]",
+    "expectedOutput": "\"Sunday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[9,3,2039]",
+    "expectedOutput": "\"Wednesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[29,8,2058]",
+    "expectedOutput": "\"Thursday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[22,12,2097]",
+    "expectedOutput": "\"Sunday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[22,3,2095]",
+    "expectedOutput": "\"Tuesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[8,2,2068]",
+    "expectedOutput": "\"Wednesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[8,7,2089]",
+    "expectedOutput": "\"Friday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[19,8,1974]",
+    "expectedOutput": "\"Monday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[6,12,2083]",
+    "expectedOutput": "\"Monday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[27,1,1981]",
+    "expectedOutput": "\"Tuesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[15,3,2095]",
+    "expectedOutput": "\"Tuesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[11,12,1999]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[15,9,2015]",
+    "expectedOutput": "\"Tuesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[1,12,2089]",
+    "expectedOutput": "\"Thursday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[31,1,2033]",
+    "expectedOutput": "\"Monday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[30,9,2001]",
+    "expectedOutput": "\"Sunday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[18,2,2037]",
+    "expectedOutput": "\"Wednesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[5,1,2019]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[15,9,2043]",
+    "expectedOutput": "\"Tuesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2,8,2047]",
+    "expectedOutput": "\"Friday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[27,7,2060]",
+    "expectedOutput": "\"Tuesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[4,3,2038]",
+    "expectedOutput": "\"Thursday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[25,4,2057]",
+    "expectedOutput": "\"Wednesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[29,11,2048]",
+    "expectedOutput": "\"Sunday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[15,12,1991]",
+    "expectedOutput": "\"Sunday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[17,12,2057]",
+    "expectedOutput": "\"Monday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[9,2,2022]",
+    "expectedOutput": "\"Wednesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[28,1,2012]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[28,6,2090]",
+    "expectedOutput": "\"Wednesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[6,6,1983]",
+    "expectedOutput": "\"Monday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[16,2,2094]",
+    "expectedOutput": "\"Tuesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2,6,1986]",
+    "expectedOutput": "\"Monday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[29,10,2009]",
+    "expectedOutput": "\"Thursday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[16,3,1971]",
+    "expectedOutput": "\"Tuesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[20,1,1988]",
+    "expectedOutput": "\"Wednesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[18,10,2019]",
+    "expectedOutput": "\"Friday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[13,12,1992]",
+    "expectedOutput": "\"Sunday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[25,6,2091]",
+    "expectedOutput": "\"Monday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[8,3,2023]",
+    "expectedOutput": "\"Wednesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[6,6,2077]",
+    "expectedOutput": "\"Sunday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[25,12,2096]",
+    "expectedOutput": "\"Tuesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[1,5,2077]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[8,9,1982]",
+    "expectedOutput": "\"Wednesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[6,6,2007]",
+    "expectedOutput": "\"Wednesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[16,1,2009]",
+    "expectedOutput": "\"Friday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[16,8,2075]",
+    "expectedOutput": "\"Friday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[26,7,1997]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[19,10,2042]",
+    "expectedOutput": "\"Sunday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[9,1,1982]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[5,6,2058]",
+    "expectedOutput": "\"Wednesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[13,8,1975]",
+    "expectedOutput": "\"Wednesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[9,12,2001]",
+    "expectedOutput": "\"Sunday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[22,5,2066]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[18,9,1982]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[28,9,2026]",
+    "expectedOutput": "\"Monday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[15,9,2031]",
+    "expectedOutput": "\"Monday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[4,12,2055]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2,6,2073]",
+    "expectedOutput": "\"Friday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[13,3,2085]",
+    "expectedOutput": "\"Tuesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[28,3,2070]",
+    "expectedOutput": "\"Friday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[14,12,2000]",
+    "expectedOutput": "\"Thursday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[5,7,2075]",
+    "expectedOutput": "\"Friday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3,3,2000]",
+    "expectedOutput": "\"Friday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[16,2,2043]",
+    "expectedOutput": "\"Monday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[20,6,1998]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[18,8,2090]",
+    "expectedOutput": "\"Friday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[21,9,2097]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[25,10,1978]",
+    "expectedOutput": "\"Wednesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[12,10,2027]",
+    "expectedOutput": "\"Tuesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[18,1,2046]",
+    "expectedOutput": "\"Thursday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[26,11,2074]",
+    "expectedOutput": "\"Monday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[14,4,2019]",
+    "expectedOutput": "\"Sunday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[25,11,2023]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[7,12,2031]",
+    "expectedOutput": "\"Sunday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[6,2,2011]",
+    "expectedOutput": "\"Sunday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[6,4,2023]",
+    "expectedOutput": "\"Thursday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[13,5,2079]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[15,11,2027]",
+    "expectedOutput": "\"Monday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[1,4,2069]",
+    "expectedOutput": "\"Monday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[7,2,2020]",
+    "expectedOutput": "\"Friday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[8,4,1974]",
+    "expectedOutput": "\"Monday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[21,9,2063]",
+    "expectedOutput": "\"Friday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[29,3,2058]",
+    "expectedOutput": "\"Friday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[23,9,2066]",
+    "expectedOutput": "\"Thursday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[7,9,2099]",
+    "expectedOutput": "\"Monday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[27,2,2019]",
+    "expectedOutput": "\"Wednesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[24,5,1975]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[14,12,2084]",
+    "expectedOutput": "\"Thursday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[16,3,1994]",
+    "expectedOutput": "\"Wednesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[7,5,2079]",
+    "expectedOutput": "\"Sunday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[30,6,2037]",
+    "expectedOutput": "\"Tuesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[28,1,2029]",
+    "expectedOutput": "\"Sunday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[9,11,1999]",
+    "expectedOutput": "\"Tuesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[15,1,2068]",
+    "expectedOutput": "\"Sunday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[11,3,2087]",
+    "expectedOutput": "\"Tuesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[7,8,2035]",
+    "expectedOutput": "\"Tuesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[19,12,2079]",
+    "expectedOutput": "\"Tuesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[14,4,2027]",
+    "expectedOutput": "\"Wednesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[29,1,2009]",
+    "expectedOutput": "\"Thursday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3,5,2014]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[21,5,2064]",
+    "expectedOutput": "\"Wednesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[4,6,2025]",
+    "expectedOutput": "\"Wednesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[7,4,2063]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[8,7,2035]",
+    "expectedOutput": "\"Sunday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[4,12,2062]",
+    "expectedOutput": "\"Monday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[20,2,2074]",
+    "expectedOutput": "\"Tuesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[23,2,2056]",
+    "expectedOutput": "\"Wednesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[4,8,1978]",
+    "expectedOutput": "\"Friday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[10,6,1993]",
+    "expectedOutput": "\"Thursday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[26,2,2094]",
+    "expectedOutput": "\"Friday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[11,10,2009]",
+    "expectedOutput": "\"Sunday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3,1,2056]",
+    "expectedOutput": "\"Monday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[11,11,1973]",
+    "expectedOutput": "\"Sunday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[12,1,2076]",
+    "expectedOutput": "\"Sunday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[5,10,2010]",
+    "expectedOutput": "\"Tuesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[27,12,2037]",
+    "expectedOutput": "\"Sunday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[29,1,2060]",
+    "expectedOutput": "\"Thursday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[18,6,2018]",
+    "expectedOutput": "\"Monday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[22,4,2065]",
+    "expectedOutput": "\"Wednesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[26,8,2008]",
+    "expectedOutput": "\"Tuesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[4,9,1977]",
+    "expectedOutput": "\"Sunday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[26,10,2083]",
+    "expectedOutput": "\"Tuesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2,5,2093]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[5,10,1996]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[16,5,2051]",
+    "expectedOutput": "\"Tuesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[24,12,2055]",
+    "expectedOutput": "\"Friday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[8,3,2059]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[13,10,2000]",
+    "expectedOutput": "\"Friday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[6,9,2060]",
+    "expectedOutput": "\"Monday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[24,2,1975]",
+    "expectedOutput": "\"Monday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[7,8,2049]",
+    "expectedOutput": "\"Saturday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[21,9,2055]",
+    "expectedOutput": "\"Tuesday\"",
+    "isHidden": true
+  },
+  {
+    "input": "[24,5,2000]",
+    "expectedOutput": "\"Wednesday\"",
+    "isHidden": true
+  }
+]

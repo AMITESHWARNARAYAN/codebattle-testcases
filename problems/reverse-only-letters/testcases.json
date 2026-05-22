@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[\"ab-cd\"]",
+    "expectedOutput": "\"dc-ba\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"a-bC-dEf-ghIj\"]",
+    "expectedOutput": "\"j-Ih-gfE-dCba\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"Test1ng-Leet=code-Q!\"]",
+    "expectedOutput": "\"Qedo1ct-eeLg=ntse-T!\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"a\"]",
+    "expectedOutput": "\"a\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"---\"]",
+    "expectedOutput": "\"---\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"abcdef\"]",
+    "expectedOutput": "\"fedcba\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"AUmItlJSV__agbVJ@wN-KcCPwHIvAw-dCxrgmgCkKb_a\"]",
+    "expectedOutput": "\"abKkCgmgr__xCdwA@vI-HwPCcKNwJV-bgaVSJltImU_A\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"odaTO@zrgKz@WrGaE_eCibFkD@JfMEidUSmg#KDBA\"]",
+    "expectedOutput": "\"ABDKg@mSUdi@EMfJD_kFbiCeE@aGrWzKgrzO#Tado\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"zzl_adBJlNM-ytBMHVrICGqkwju_Fsos\"]",
+    "expectedOutput": "\"sos_FujwkqG-CIrVHMBtyMNlJBd_alzz\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"UsLVonazih\"]",
+    "expectedOutput": "\"hizanoVLsU\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"de@CmEgeQki_NyuNvGZqimuhE!cU\"]",
+    "expectedOutput": "\"Uc@EhumiqZG_vNuyNikQegEmC!ed\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"YYRGNBlNIgkviiAHIntazEjVmvdZZgxitiDVg\"]",
+    "expectedOutput": "\"gVDitixgZZdvmVjEzatnIHAiivkgINlBNGRYY\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"MAqtyg@GKlMBsOZXRpbv\"]",
+    "expectedOutput": "\"vbpRXZ@OsBMlKGgytqAM\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"j!lFikaJvOPFLwmVJRhaahkLEELYIOmPghglT_dWBkDppCQdmH\"]",
+    "expectedOutput": "\"H!mdQCppDkBWdTlghgPmOIYLEELkhaahRJVmw_LFPOvJakiFlj\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"MUdRegDIgpHFNspganU-sNBdQxTtu\"]",
+    "expectedOutput": "\"utTxQdBNsUnagpsNFHp-gIDgeRdUM\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cItIocmKYZXoG#eJbV_NeCxELorGcE!L_Ia!J@Psf!@\"]",
+    "expectedOutput": "\"fsPJaILEcGroL#ExCe_NVbJeGoXZYK!m_co!I@tIc!@\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"JXVUsDLsNMVGXxIK\"]",
+    "expectedOutput": "\"KIxXGVMNsLDsUVXJ\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"Krfz-XCygoAHIUdvDC!APgNojn\"]",
+    "expectedOutput": "\"njoN-gPACDvdUIHAog!yCXzfrK\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"rvF_Y!BJQlqa\"]",
+    "expectedOutput": "\"aql_Q!JBYFvr\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"YtOkKhyYHlamdTfAMrqqVHSzPoBLMA##eTkjzXYGJAsa\"]",
+    "expectedOutput": "\"asAJGYXzjkTeAMLBoPzSHVqqrMAfTd##malHYyhKkOtY\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BMGIFYHTakLRMmub\"]",
+    "expectedOutput": "\"bumMRLkaTHYFIGMB\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"wNa_FCNJKAtECOYn-XnHKiHCQ#\"]",
+    "expectedOutput": "\"QCH_iKHnXnYOCEtA-KJNCFaNw#\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"YmuxzjDLtCRzAM#D-RKVN@Ca#\"]",
+    "expectedOutput": "\"aCNVKRDMAzRCtL#D-jzxu@mY#\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"jX-XsuAge!VBdychmqvSAASpfTHOVfvMmgJDzoOuAivBA\"]",
+    "expectedOutput": "\"AB-viAuOo!zDJgmMvfVOHTfpSAASvqmhcydBVegAusXXj\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"eUSE_Hy\"]",
+    "expectedOutput": "\"yHES_Ue\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"W!zAAyseGkfslu-pJjMM#!X_jDgxmHxs\"]",
+    "expectedOutput": "\"s!xHmxgDjXMMjJ-pulsf#!k_GesyAAzW\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"xkFiKynUMyYfUU@cUg-kX\"]",
+    "expectedOutput": "\"XkgUcUUfYyMUny@KiF-kx\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"U@QLSELikXGx\"]",
+    "expectedOutput": "\"x@GXkiLESLQU\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"JZRgF#kkeF\"]",
+    "expectedOutput": "\"FekkF#gRZJ\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"uUiM!NjAtvdXbPgItvRBuWLMdkq-zJkiQdbgbftCW\"]",
+    "expectedOutput": "\"WCtf!bgbdQikJzqkdMLWuBRvtIg-PbXdvtAjNMiUu\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"xzgit@fXPmdA\"]",
+    "expectedOutput": "\"AdmPX@ftigzx\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"d@vCZxp#vdiHjIREuOOHxVEal\"]",
+    "expectedOutput": "\"l@aEVxH#OOuERIjHidvpxZCvd\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cIzgsiKFI#HUNLXFTsCbRpeodJfjvUbnLHUj\"]",
+    "expectedOutput": "\"jUHLnbUvj#fJdoepRbCsTFXLNUHIFKisgzIc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"WkQyJupjSfX!\"]",
+    "expectedOutput": "\"XfSjpuJyQkW!\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"mO_-OribiLUBkSkldb\"]",
+    "expectedOutput": "\"bd_-lkSkBULibirOOm\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"tYZY@jh_nc_GsW!!iUDiZGQEPbk_e-!crJUqGsFrRGODam-F\"]",
+    "expectedOutput": "\"FmaD@OG_Rr_FsG!!qUJrcekbPEQ_G-!ZiDUiWsGcnhjYZY-t\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ycFpweklDU@nrONjOpDJdMsDxH#QRKMuHEXvbikc\"]",
+    "expectedOutput": "\"ckibvXEHuM@KRQHxDsMdJDpOjN#OrnUDlkewpFcy\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"p#ZGViNlrlhZ-QIOUyQoHCqrD_wHqSUkVxLbryZwOg\"]",
+    "expectedOutput": "\"g#OwZyrbLxVk-USqHwDrqCHoQ_yUOIQZhlrlNiVGZp\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ZuClUklhx@KuYviYgwHWNINHbAOMgLSkBJ#xXa#\"]",
+    "expectedOutput": "\"aXxJBkSLg@MOAbHNINWHwgYivYuKxhlkUl#CuZ#\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"iYaPwh-oYguETldsjvFkEgbIh\"]",
+    "expectedOutput": "\"hIbgEk-FvjsdlTEugYohwPaYi\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"J-rMDL!Cm##rvvdt#wJpeceQOZeMeyCj\"]",
+    "expectedOutput": "\"j-CyeM!eZ##OQece#pJwtdvvrmCLDMrJ\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"p@VsYBHHJMnLJtrIBLnO\"]",
+    "expectedOutput": "\"O@nLBIrtJLnMJHHBYsVp\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"vRPjcUryUNghZpNJQLjTO_MQafWFRJHNaqOIrxKa!#\"]",
+    "expectedOutput": "\"aKxrIOqaNHJRFWfaQMOTj_LQJNpZhgNUyrUcjPRv!#\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"iv\"]",
+    "expectedOutput": "\"vi\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"axO#UI-mCBjXT\"]",
+    "expectedOutput": "\"TXj#BC-mIUOxa\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aspElGEakrp@#CnnuaVvwIHQPujeVSXyhHKhuvum#\"]",
+    "expectedOutput": "\"muvuhKHhyXS@#VejuPQHIwvVaunnCprkaEGlEpsa#\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"iYJgBQcSICn_mCcyqKQZp-vV!QfzzH\"]",
+    "expectedOutput": "\"HzzfQVvpZQK_qycCmnCIS-cQ!BgJYi\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"PlnGPpFrNPMoYgNHON\"]",
+    "expectedOutput": "\"NOHNgYoMPNrFpPGnlP\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"kotDsBjDABVa-KEbMaJjnZnDUtUMEZPZbUME\"]",
+    "expectedOutput": "\"EMUbZPZEMUtU-DnZnjJaMbEKaVBADjBsDtok\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"olIKvS_aM-D!mFSTcZOABcjmVVCHdmVvUX-r-nh@OK-Ql@\"]",
+    "expectedOutput": "\"lQKOhn_rX-U!vVmdHCVVmjcBAOZcTSFmDM-a-Sv@KI-lo@\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ea.b!a!Fc!-aEBED!fDdc?cE.FdfA?.-Ed-C-AbcDFcCdcBCCB-.C\"]",
+    "expectedOutput": "\"CB.C!C!Bc!-dCcFD!cbAC?dE.AfdF?.-Ec-c-dDfDEBEacFaba-.e\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"effeffbCE?cA.E?aFE.bAD-abecC?-fDF!EAAcAdAaDf.BcfCFbcff!!-!AdEfea\"]",
+    "expectedOutput": "\"aefEdAffc?bF.C?fcB.fDa-AdAcA?-AEF!DfCcebaDAb.EFaEAcECb!!-!ffeffe\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"FfEDCBFDFadEa?edEbEeddb-ceCcdD!BF?fce-c??EdcaaEbbdeACBF???Bf?e-.E\"]",
+    "expectedOutput": "\"EefBFBCAedbbE?aacdEcecf-FBDdcC!ec?bdd-e??EbEdeaEdaFDFBC???DE?f-.F\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"FBFcb.Ebc?Bf?E?eFEaEFCadeEdE?edFF!b...?EadCDffd?!dA.?Ca?ddf.ecE\"]",
+    "expectedOutput": "\"Ecefd.daC?Ad?d?ffDCdaEbFFdeE?dEed!a...?CFEaEFeE?!fB.?cb?Ebc.FBF\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\".BAeAcFEE?f?ea?-BcfDEEfF?!Cb!deAdaEeEaC?DaFf?CbbBf\"]",
+    "expectedOutput": "\".fBbbCfFa?D?Ca?-EeEadAed?!bC!FfEEDfcBae?fEEF?cAeAB\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cdFbcceADcCfdabda!fdFC!DcedB?Ebdbccbac?cfa?AeFDbBAAAbdDAcAccd\"]",
+    "expectedOutput": "\"dccAcADdbAAABbDFe!Aafc!cabcc?bdbEBdecD?CFd?fadbadfCcDAeccbFdc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"fF!D-BCD.!ddCd...ffCaAaadacedfDdDD-A.acBDddEdD-aBDce!Af-\"]",
+    "expectedOutput": "\"fA!e-cDB.!aDdE...ddDBcaADDdDfdecad-a.aAaCffdCd-dDCBD!Ff-\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"FfaBeF.!BCfcdDEFBfC?A!!.!EBAb.?D-FBCeDCbbBBd.FadBFf-fcF?BCAF?!c.BeeCFaDaaAdD-\"]",
+    "expectedOutput": "\"DdAaaD.!aFCeeBcFACB?F!!.!cffF.?B-daFdBBbbCDe.CBFDbA-BEA?CfBF?!E.DdcfCBFeBafF-\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"f!edBBbbcafB.bccCADAd?daB-cb?A?EeDbeBDFC.DE-?b-BFE?ceC.AFF.BE\"]",
+    "expectedOutput": "\"E!BFFACecEFB.bEDCFDBe?bDe-EA?b?cBaddADAC.cc-?b-Bfa?cbb.BBd.ef\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"c.?.??!E?B-Dc.CF-bCa??.?!D!CFEe-cDa-D-dd-dCBFDeA.cbD\"]",
+    "expectedOutput": "\"D.?.??!b?c-Ae.DF-BCd??.?!d!dDaD-ceE-F-CD-aCbFCcD.BEc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"EF?!EdEbeCDae-cBaE!de-?aFdD-dDF-Ceff?C?fDA?.EeAceBeD.ADAec-acE\"]",
+    "expectedOutput": "\"Ec?!aceADADeB-ecAe!EA-?DfCf-feC-FDdD?d?Fae?.dEaBceaD.CebEd-EFE\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"!dd!CBbDeDfbCaFec!cA-FfC.Ec-f-?bEfdA.-fcccEf!ef??A-e-FdACF?cb!-dc.A.?a.-bFDB-\"]",
+    "expectedOutput": "\"!BD!FbaAcdbcFCAdF!eA-fef.Ec-c-?cfAdf.-EbfcEC!fF??A-c-ceFaC?bf!-De.D.?b.-BCdd-\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abdd.E.DCC!!f?a!.DbDdE!cd?Cd.D!daa.Af!B.EecDeeED!aEFb!ADBaA!ECB?D\"]",
+    "expectedOutput": "\"DBCE.A.aBD!!A?b!.FEaDE!ee?Dc.e!EBf.Aa!a.dDdCdcEd!DbDa!fCCDE!ddb?a\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"DE.DB?F!f??!-?eecFBBBfF?b-Ddf.FCeFE!EbEFDadAbde?bcbd!?FeAEfa.Abb\"]",
+    "expectedOutput": "\"bb.Aa?f!E??!-?AeFdbcbed?b-Ada.DFEbE!EFeCFfdDbFf?BBBF!?ceefFB.DED\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bDDB?fDfdcfffadE-.dAB?BaEb.dd?A----?cBFBeEd!bBDDAaeffDfFFF?F.?DcB?F!fC-dDf-\"]",
+    "expectedOutput": "\"fDdC?fFBcDFFFFfD-.ffe?aADD.Bb?d----?EeBFBcA!ddbEaBBAdEdaff?f.?cdf?D!fB-DDb-\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"Fe-Dcddebd!DbFffeCfCce-e.edcE.CAAAdBFbb?A?A.ECAeD-BdA!EF!-dc!!eAB-C\"]",
+    "expectedOutput": "\"CB-AecdFEA!dBDeACEAAbb-F.BdAA.ACEcdeeec?C?f.CeffF-bDd!be!-dd!!cDe-F\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"-aCE?bCcBBA-AEbeFdaf.Ba.efBDbf?F-dDaFa.cbBAB.!?cfE-eEc\"]",
+    "expectedOutput": "\"-cEe?EfcBAB-bcaFaDdF.fb.DBfeaB?f-adFeb.EAABB.!?cCb-ECa\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"FFCDFB!-bcAAca-Fc.Cdf.CDAf!AFDE-DbBccEce?fb.?ffa.AADCfbbAfaA\"]",
+    "expectedOutput": "\"AafAbb!-fCDAAa-ff.bfe.cEcc!BbDE-DFAfADCf?dC.?cFa.cAAcbBFDCFF\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"?ecC?.A!FAFeDCC!-!e.!f.BaddaC.FcE.eCF.bcCd---dF.-E!-fBd\"]",
+    "expectedOutput": "\"?dBf?.E!FddCcbF!-!C.!e.EcFCad.daB.feC.CDeF---AF.-A!-Cce\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\".ffAC!FaB?Fc.bEeACEBC-a!f-fB.!e-D!eBCAC?DcaeaaD.?f-D\"]",
+    "expectedOutput": "\".DfDa!aea?cD.CACBeDeB-f!f-aC.!B-E!CAeEb?cFBaFCA.?f-f\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"DBc!bDdCB.E-DE?B?edDc?.FA?Fdbea-BC.Ab.FDBEfeefA.dbb!fD.CD?bB?beBEaa?da.?-\"]",
+    "expectedOutput": "\"ada!aEBeb.B-bD?C?Dfbb?.dA?feefE-BD.Fb.ACBaebdFA.FcD!de.BE?DE?BCdDbc?BD.?-\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"!.BAdDEabaFb.CbBA!a!?-DEBaEc!EfAaBf!BdBEb?.CC-E?E!caDC..cD!Ecf?FBA\"]",
+    "expectedOutput": "\"!.ABFfcEDcCD.acEE!C!?-CbEBdB!fBaAfE!cEaBE?.Da-A?B!bCbF..ab!aED?dAB\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"eefaCA!CdFCeeABb.AccbeaDbFacfaDfF!fCcf?FCccddFDeddDCff.b?D?E-d!e?b.e\"]",
+    "expectedOutput": "\"ebedED!bffCDddeD.FddccCFfcCfFfDaf!caFb?DaebccAbBAeeCFd.C?A?C-a!f?e.e\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"A.Cd!Bd--CEfaEE.BddA.E--FcBcC.bfce!BE-?Bf!Bccdec-cEC-cDfcBeAb?DfCecd-fAea-.!ad\"]",
+    "expectedOutput": "\"d.aa!eA--fdceCf.DbAe.B--cfDcC.Ecce!dc-?cB!fBEBec-fbC-cBcFEAdd?BEEafE-CdBd-.!CA\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bd-AcCADaA?ebDfD-cCea!C?.E!B.dbB!C??-f-adBbf-f!-E?\"]",
+    "expectedOutput": "\"Ef-fbBdafC?BbdBE-CaeC!c?.D!f.Dbe!A??-a-DACcA-d!-b?\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"!AeFFCB?dDd.DCbfE!adaDdff?d-ead?A!AdeFbc-EFB-e!a!bC..Ba-!D.?adB\"]",
+    "expectedOutput": "\"!BdaDaB?Cba.eBFEc!bFedAAd?a-edf?f!dDadaE-fbC-D!d!Dd..BC-!F.?FeA\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"c!CB-fCFD!F-??aFe-Ebab?d?AFDcDABdfC!eFA.Eb?CaAE-A.!EEf!b!dAbA\"]",
+    "expectedOutput": "\"A!bA-dbfE!E-??AEA-aCbE?A?FeCfdBADcD!FAd.ba?bEeF-a.!FDF!C!fBCc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"?Ac?EEbC?BF-.-cc?Cc?D-aC?CafFFdAc?!a?a?CbE-D!ef-ecabb!cc.\"]",
+    "expectedOutput": "\"?cc?bbac?ef-.-eD?Eb?C-aa?cAdFFfaC?!C?a?DcC-c!cF-BCbEE!cA.\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"CED!D.defecE.bdd!b?AFBCaaDeb?--EfEDd-.?Dd.-ad-fEACc-dE-fffeBEC?bf?DAFCA!D!Cd--A\"]",
+    "expectedOutput": "\"AdC!D.ACFADf.bCE!B?efffEdcCA?--Efdad-.?Dd.-DE-fEbeD-aa-CBFAbdd?bE?cefed!D!DE--C\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BdaD-DbFeCFdDF?EfeC!cdC!.DD.edBbeA!fCD.!e?B!dfAd.AfCdedcf?af?AeC-Eb!cB!.EE!ed-\"]",
+    "expectedOutput": "\"deEE-BcbECeAfa?fcde!dCf!.Ad.AfdBeD!CfA.!e?b!BdeD.DCdcCefE?FD?dFC-eF!bD!.Da!dB-\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"E-e.bFAfB-FAcDaCDAbbb-bb-?Ebaee!BD.CAC!DBFEbB?bbFC?cDaeaD\"]",
+    "expectedOutput": "\"D-a.eaDcC-FbbBbEFBDCA-CD-?Beeab!Eb.bbb!bADCaD?cAFB?fAFbeE\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"fDbAc??cfbefCE?FECa-c-Ce.b-a-fEB!aBCaebBBbDCC??E..bb?Cfb?\"]",
+    "expectedOutput": "\"bfCbb??ECCDbBB?beaC-B-aB.E-f-abe!CcaCEFECfebf??c..cA?bDf?\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"FEcfF!bBBB!FdCaAbaFFd?ADDAEd-bafDEeAAcdEef-DDc-dDd.Cff!-!acbDdC?bea--dfaEeF?dCf\"]",
+    "expectedOutput": "\"fCdFe!Eafd!aebCdDbcaf?fCdDdc-DDfeEdcAAeEDf-abd-EAD.DAd!-!FFabAa?CdF--BBBbFf?cEF\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bAB-E!?!caFdc-c-C?.AAecafe!Cac?bcBbdbb.!Caf?AC?faD\"]",
+    "expectedOutput": "\"Daf-C!?!AfaCb-b-d?.bBcbcaC!efa?ceAACcc.!dFa?cE?BAb\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"Ec!A!C?CcBA?.DCceaFa--DfC--e.?cbE.!daCBF?BdAFcdcCeFa.-?afFBFacBf?CebaADDFcD!?dDE\"]",
+    "expectedOutput": "\"ED!d!D?cFDD?.AabeCfB--caF--B.?Ffa.!aFeCc?dcFAdBFBCad.-?EbceCfDaF?aecCDABcCC!?AcE\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"FCE!C!?eeBCfeaA?-bBe-EE-CbafBE.EE?aEBcecdc.CcAaD-fCEAab\"]",
+    "expectedOutput": "\"baA!E!?CfDaAcCc?-dce-cB-EaEEEB.fa?bCEEeBbA.aefCB-eeCECF\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cadecEDeACFdF.b!!.ccA.!!ADEDd.Fd.FceeaF!Cf.F-DF!BEbec?fE?aeEf-?FA\"]",
+    "expectedOutput": "\"AFfEeaEfcebEB.F!!.DFf.!!CFaee.cF.dFdDED!AA.c-cb!FdFCA?eD?Eced-?ac\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BCFfaEE?bcbAdbF.C!Fbea?cAECFE.De.?fbddebAaFc!dFa!c-?a\"]",
+    "expectedOutput": "\"acaFdcF?aAbeddb.f!eDEF?CEAcae.bF.?CFbdAbcbEE!afF!C-?B\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"-!efBE-F.A-!CB.d!ccEFdECCAD-d?-.DFFCE?C.bdbcac-Ea-bbFbCCFdcBBEABbBE-Cde-f?b.a\"]",
+    "expectedOutput": "\"-!abfe-d.C-!EB.b!BAEBBcdFCC-b?-.FbbaE?c.acbdbC-EC-FFDdDACCEdFEccdBC-AFE-B?f.e\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"FdAAA.dd.cb.dEEBC.-dFfB-fc?CeEb.?D!aFFb!F.-aADA!?Bf?ABDbB.-bAcC\"]",
+    "expectedOutput": "\"CcAbB.bD.BA.fBADA.-aFbF-Fa?DbEe.?C!cfBf!F.-dCBE!?Ed?bcddA.-AAdF\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"EdddDDebca!E!eDEAACEf!!F.bFDcbDf!C.beaE-?E??f-BB?CEc\"]",
+    "expectedOutput": "\"cECBBfEEae!b!CfDbcDFb!!F.fECAAED!e.Eacb-?e??D-Dd?ddE\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"BecA-bCDD-EeFb-BaA.B?adcfDE-C!aA!eEe.Df.ca?.EbdEf.FFcFaEeeEf!?BbebcFfdaabB..f-\"]",
+    "expectedOutput": "\"fBba-adfF-cbeb-BfE.e?eEaFcF-F!fE!dbE.ac.fD?.eEeAa.CEDfcdaBAa!?BbFeEDDCbAce..B-\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"e!AeCa.eF.DbdeBbF!fdCeeD-C!-afb!B.CcaeaF?Bc..!!.!AD\"]",
+    "expectedOutput": "\"D!AcBF.ae.acCBbfa!CDeeCd-f!-FbB!e.dbDFea?Ce..!!.!Ae\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"FcbebDe!ac!EAcadCd.!eED.?EAe?F-?BdebfdBEECAdeDad?DDBc-aB?d-..BaDE.FbaCAE!\"]",
+    "expectedOutput": "\"EACabFE!Da!BdBacBD.!Dda.?Ded?A-?CEEBdfbedBFeAEDE?edCd-ac?A-..Ecae.DbebcF!\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aeA-f--eCcEDcBfF.BFD!dEf.B?.eB.!BeddCc.DcDf!ddFdce.EF!D!ebeFcCEdA!B-E\"]",
+    "expectedOutput": "\"EBA-d--ECcFebeDF.Eec!dFd.d?.fD.!cDcCdd.eBBe!BfEdDF.BF!f!BcDEcCefA!e-a\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"Ea-D.!.fcd.C.ab?eAFcacD.d.cCbADbEA?E!D!b.df!AAdAaEDbdc?aF-.eEfBa-BFe?\"]",
+    "expectedOutput": "\"eF-B.!.aBf.E.eF?acdbDEa.A.dAAfdbDE?A!E!b.DA!bCcdDcacFA?eb-.aCdcf-DaE?\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"c!B!ff!bFdec!Df.aFef!c!EEAaDECFaacaFCAaBEEBCCaeDBDe.-?-c?EdDFb-Ae!?!Ad.eCA\"]",
+    "expectedOutput": "\"A!C!ed!AeAbF!Dd.EceD!B!DeaCCBEEBaACFacaaFCEDaAEEcfe.-?-F?afDce-dF!?!bf.fBc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\".dCcA?bBE?AFdfdcbdFefAd-d?CAEdaDA.?feF.fCCec!.eDce!bfC?cdCD?-E.bddee-D.DE\"]",
+    "expectedOutput": "\".EDDe?edd?bEDCdcCfbecDe-c?eCCfFef.?ADa.dEACd!.dAfe!Fdb?cdfd?-F.AEBbA-c.Cd\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"D!efFcbEE?aabFfCFAFaAeE!A-deafEAb?DfFb.!-DeCddD?dAADDe\"]",
+    "expectedOutput": "\"e!DDAAdDd?dCeDbFfDbAEfa!e-dAEeAaF?AFCf.!-FbaaEE?bcFfeD\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"!?-!FCEDAaDfdcCaCCCAFBf-b!eD?eAC-eDa?.f.E.DeDBCbAEFf!.c.De.CFb!\"]",
+    "expectedOutput": "\"!?-!bFCeDcfFEAbCBDeDEfa-D!eC?AeD-ebf?.B.F.ACCCaCcdfD!.a.AD.ECF!\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aYY3c1!aX21-1Z3b21b2Zb1XcbZZYcb!b2c3a-2-c1Ycbcc2cY1-3!ZYZcY!Xb!X!!ccZ3b1ZY2ZcYaY-333aaYYb!Z!2a3a!-3Z\"]",
+    "expectedOutput": "\"Zaa3Z1!bY21-1Y3a21a2Ya1YcZYZbZc!c2X3b-2-X1YcZYZ2Yc1-3!ccbcY!ca!c!!bbc3Y1ZZ2bcXbZ-333bbZXa!c!2Y3Y!-3a\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1Z2--X-1-2Z!acZ2Ybc2c3Xb!bYbXY12Z-X23-3!1cb!a21YaaX!1b!2a3YXXYZ13ab2Ya13-cY33b-!Y1X3\"]",
+    "expectedOutput": "\"1X2--Y-1-2b!Yca2Yba2Z3YX!XYabX12a-a23-3!1Ya!b21cXZY!1X!2b3YbbXc13cb2YZ13-ca33Z-!X1Z3\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"Z22Ybc!-cX2-1c!3a-Yc--a31YZa11YX3bZ1X1!YZ2X2X!!Y2b!-!Y2ba3b21YZX2!cca1-!--Y2aYb1XX32-1!-Yc\"]",
+    "expectedOutput": "\"c22YXX!-bY2-1a!3Y-ac--c31XZY11ba3bY1b1!YX2X2Z!!Y2X!-!Z2bX3Y21aZY2!acY1-!--a2cXc1cb32-1!-YZ\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"X!22!YX!aX1!Y-ZZ-Z!1bc2ZY-Ya!2cZ!22!2a!Zb!-!-Yc2Y!2Yb2a-cY-2XZ123221aYZY-!bXaZ-1a-2\"]",
+    "expectedOutput": "\"a!22!Za!Xb1!Y-ZY-a!1ZX2Yc-ab!2YY!22!2c!Yb!-!-Za2Z!2ca2Y-YZ-2cb123221ZZZY-!XaXY-1X-2\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bY22!2cb3--Y1bX23b2XY2cc32-ZcZa3X132!33ZZX!!XbZa1-Z-XZ3aY3!2-Xa--1Z-!2XccX!-1-cZ1XZ\"]",
+    "expectedOutput": "\"ZX22!2Zc3--X1cc23X2Za2XY32-aZXZ3a132!33ZbX!!XZZX1-a-Zc3Zc3!2-cY--1X-!2bXbY!-1-bc1Yb\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"c!2-ac23baZYc3!cZb2!b-Ya3Z1bX32b2Y2!X3c--313caZcYaZa22X31!1-!-Y13c!-!XaXZXZXZXY-b!3b\"]",
+    "expectedOutput": "\"b!2-bY23XZXZX3!ZXa2!X-cY3X1aZ32a2Y2!c3Z--313accXYbXb22Z31!1-!-a13Y!-!bbZccYZabc-a!3c\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1b!!21-2YYXaaZ3b1Y!ZZ3aXX-!c!YY!Z3!3c2-!-3YYY3!32Z!aYb1XaaXc-bXYYZX13cc-!1abXXXZ-X\"]",
+    "expectedOutput": "\"1X!!21-2ZXXXba3c1c!XZ3YYX-!b!cX!a3!3a2-!-3XbY3!32a!ZYY1YcZYY-cXXaZZ13Yb-!1ZaaXYY-b\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2b2X3aYcYc2X3XbZbaZ-XY-!Z21X-32ZY-!2b-12X!bcZ--Y3-bYY1-bZX33bc33X-1a22baaZbab232Y3\"]",
+    "expectedOutput": "\"2Y2b3abZaa2b3aXcbXZ-bY-!Y21b-32YZ-!2c-12b!XbY--Z3-XZY1-XZa33bZ33b-1X22XcYcYaX232b3\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3--b-bc3cb1XbaYX!X1b313XaZa3bZ---2a-1c213a-3YacZY133aZ!Y32Z33bY1c2a11YXZXbcYabY!YZa22XcY!aY\"]",
+    "expectedOutput": "\"3--Y-aY3cX1aZYYb!a1Y313cbXZ3XY---2a-1c213Y-3bZYZa133YZ!c32a33Ya1c2a11ZbaZaXbXXY!abX22bcc!bb\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"321!Yca3abYb1Z!Zb-2a1bXZ!-!XY1bbZXZ3-2Z!1Z2-3Y-1baX3ac212aZ!baYa3!!YXYbb-X!c2Z!3Xb3!3a\"]",
+    "expectedOutput": "\"321!abX3ZcXb1b!YX-2Y1aYa!-!bZ1acaXa3-2b!1Y2-3Z-1ZZX3Zb212bY!XZXb3!!abZZb-Y!b2a!3ac3!3Y\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"b-aY3Y!ZcZb1acZcc2aZZ!1c-XaZaab3ZXcbYX!Ya3!2a2YaZY3Y1X2Xb33b2Zca1ZZab311aa1!aZY--cYZZbXbX-2bY1cb\"]",
+    "expectedOutput": "\"b-cY3b!XbXb1ZZYcY2Zaa!1a-baZZac3ZbbXXY!YZ3!2a2YaaY3X1Y2bc33X2Zba1aZaX311cZ1!Zac--cZcabZcZ-2YY1ab\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1!!X!!a-Zcb2-aZ!-Y-aX312!Y!3YZcbX1-12c3Y-23bcX2c!XX3cZ31bYYba3a2!-1Zb3cXYab-2Y2b2!bXb!2!\"]",
+    "expectedOutput": "\"1!!b!!X-bbY2-ba!-Y-Xc312!b!3ZaabY1-12Y3b-23ZcX2X!cX3cb31YcXbc3Z2!-1YY3XaYZa-2b2c2!ZaX!2!\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aa2-1b2ZbXYZZa3Xa1baXbbb233Xbbaa!3XY1bY!112!3b32bbY-c12Zb1XZca!3Y!!XY3Y3!b3c2XcZZY3ZXYZ22cbZYbb\"]",
+    "expectedOutput": "\"bb2-1Y2ZbcZYXZ3YZ1ZcXcbY233YXYac!3ZX1bZ!112!3c32Ybb-b12Yb1YXaa!3b!!bX3b3!b3b2XabaX3aZZY22XbZbaa\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aa1212-baZb1Z3X11!-2Y1aZabaXbaaXY1!!Y233-aZY22!31c3!3acYYbcaa1YX-!cZb1XZb-1ba!-Z1Z--Y1Y\"]",
+    "expectedOutput": "\"YY1212-ZZab1b3Z11!-2X1bZcXYaacbYY1!!c233-acY22!31Z3!3aYYXaabX1ab-!aZa1YXZ-1bZ!-a1b--a1a\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"Y3!b-XYb-3Y1b3cX2b2a!bZ1c3121!1-c!b3Z!3ZYYbc-11-Z1-2X!XYa12232XbY!2bab!YcaZ!ab2bY!21X!1YZ!112Z3!3\"]",
+    "expectedOutput": "\"Z3!Z-YXY-3b1b3aZ2a2c!Yb1a3121!1-b!Y3b!3XaYXX-11-Z1-2c!bYY12232ZZb!2ccZ!babX!cb2Yb!21Y!1Xb!112Y3!3\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2-aZ3YXYY!3Y!aX-!a!X!Yca13-c3-c23ZX!YZa-1323XaX331-!Z32ZYXZZ!Y!!b3bXbba2Yc11Z!c3aY-3Yb--b1YYa13\"]",
+    "expectedOutput": "\"2-aY3YbbY!3Y!ac-!Z!c!Yab13-b3-X23bb!YZZ-1323XYZ331-!Z32XaXaZ!Y!!X3Zccac2YX11a!X3aY-3YY--X1YZa13\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"-Ya2c!b-XYb2-Y3Y!12a-ba1!bY3c3111XZX2!XZ-1cbZ1!23aXYbb3Z!11XbbcYbZYY2ac!331X!Z3!11Z\"]",
+    "expectedOutput": "\"-ZZ2X!c-aYY2-Z3b!12Y-cb1!bX3Z3111bbY2!Xa-1Zbc1!23ZXXZX3c!11YbabaYYbY2Xb!331c!a3!11Y\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1a-Y-a-Xcab21Y2b!babZ31caZZ23YXZ33c2a3ca!2Y1!!abc2ZX!!32!Y2XaYba1-!Z3bYbXZ-bX32ba!2bc321b\"]",
+    "expectedOutput": "\"1b-c-b-abXb21Z2X!bYbZ31abYa23XYX33Z2c3ba!2Y1!!aca2cZ!!32!X2YZZac1-!Z3babbY-ba32cX!2aY321a\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"-2Za2-aY--!bY1!c-2ZYY2!c2Z2X!3Y-X3-Y3YXYb1Ycc2aXX!!1caY!-3a33X3a23!a12bc!bXbZ2ZX31cc-YY\"]",
+    "expectedOutput": "\"-2YY2-cc--!XZ1!Z-2bXb2!c2b2a!3a-X3-a3YacX1Xac2cYb!!1YXY!-3Y33X3Y23!X12Zc!YYZc2Yb31Ya-aZ\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ab!!a1-XZXcc2ccc!!1Z112Zb!32!XZac!aacbb3b1-1c2Z!c-YbYX1X2caYaZab3a1Z1aZXX31ZYc3-b!1b1bb2Y3c-Y!\"]",
+    "expectedOutput": "\"Yc!!Y1-bbbbc2YZX!!1X112Za!32!Zaba!ZaYac3X1-1X2Y!b-YcZc1b2bbcaaca3Z1X1bZZc31ccc3-c!1X1ZX2a3b-a!\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"Z112XaXbccbYZ!YZ1Y2YZ1Z3Y1aZZX3b3!Z-XXb3X2!1Zc2!b!ZZZbZ3!!3X!cYZZ-b1bZ2-Z!b23-3!3Y\"]",
+    "expectedOutput": "\"Y112bZZbbZZYc!XZ1b2ZZ1Z3b1cZXb3X3!X-ZbX3Z2!1Za2!Y!ZZYYZ3!!3Y!ZYbc-c1bX2-a!X23-3!3Z\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"b!!aY!b1X321-YaYbc1Y3ZY!123Xa!3bYbY221-!caa1YX23Xb22bb1a!ZZXYY!c13b-XX31a213-32-ZbYXYa-Y!X2ZYYZ-\"]",
+    "expectedOutput": "\"Z!!YY!Z1X321-YaYXY1b3Za!123XX!3bcYY221-!XZZ1ab23bb22XX1Y!aacYb!Y13b-aX31Y213-32-ZYcbYa-Y!X2bYab-\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bZ2Yaa1X32bbYabXXX13a32!XbZX-b22cc-aX3ab2!-a!31Y1cc-c1Za-1b13!22ZX-X3ba2X2c33a2b2!Za212-!X2!Y!\"]",
+    "expectedOutput": "\"YX2aZb1a32cXabXXZb13a32!Zccc-Y22ab-aX3ac2!-c!31b1XZ-b1Xa-1X13!22XX-b3aY2b2b33X2a2!aY212-!Z2!b!\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"-Z--2X-c!bccYaa3cbZ3-2cYYa1b-Y-21-111!-b2Xc!c!XYaZ!3Ya1cY322!ba12ZZ-11bb1ZX2aY3ZZ1\"]",
+    "expectedOutput": "\"-Z--2Z-Y!aXZbbZ3Zab3-2YcaY1Z-a-21-111!-Y2Xc!c!XbYb!3aY1Yc322!Zb12ca-11aY1cc2bc3XZ1\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"-11YZZ1!Zc!-!XccYbc2b!-32Z!11!bY2a3-b3c3ba1Za2Z2cZ!-Za333X2-21aZ1cZ2aaZYXb!XbZcbaYcbbc2bZ-ac\"]",
+    "expectedOutput": "\"-11caZ1!bc!-!bbcYab2c!-32Z!11!bX2b3-X3Y3Za1aZ2c2Za!-Xa333Z2-21Zc1Za2Zabcba!YbZbcbYccXc2ZZ-ZY\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"c23ZbYb!Y1!-a-cacb-11ZbaZY3323333cYcZ322c-c2ZYcbZ-cZ!11ZcYY!X1Y-ZZZ221!-YbabbaXZ1b3bX\"]",
+    "expectedOutput": "\"X23bbZX!a1!-b-babY-11ZZZYX3323333YYcZ322Z-c2ZbcYZ-cc!11ZcYc!Y1Z-abZ221!-bcacaYbY1b3Zc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"c!!caY2baX1!caZZXYZX1-YacbX31cXYXXcZZc2Z1X!--222Z!-c1YY1YacaZ33b31-Yb12aX3ZZ!Za3aZXa!-!YX-b!b3bb2!XY\"]",
+    "expectedOutput": "\"Y!!Xbb2bbX1!YaXZaaZZ1-ZXabY31bZacaYYYc2Z1X!--222Z!-c1ZZ1cXXYX33c31-Xb12ca3YX!ZY3XZZa!-!cX-a!b3Ya2!cc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3-a1ZcYbaZ1YZY-!caX2ZZ33a!-ZYYa23Yb!X!-ZccXa2a-c1c22!YX3a1YaZ3-XZ31b!3aXacY!Y313abY!a!332ZZ\"]",
+    "expectedOutput": "\"3-Z1ZaYbaY1Yca-!Xab2ZX33Z!-aYaX23Yc!c!-aaXcc2Z-X1b22!Ya3Y1YZa3-ZZ31X!3acYZY!Z313abY!c!332Za\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"Y!bbc-Zbbc!Xa2b-Z1!3Y3cXcc33ac2b!c3XXa!321bZYX-!-1YZ-Zb!2ZYcb-1aY!-bZ1!aYZY!X2b3ZYYcaZaYa12!b3YXYb\"]",
+    "expectedOutput": "\"b!YXY-baYa!Za2c-Y1!3Y3ZbXY33ZY2a!Z3bYa!321bcYZ-!-1bZ-ZY!2XYZb-1aX!-Xc1!bcac!c2X3cYZbaXcbb12!Z3cbbY\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"-!bZaYb!bYb2Z2cXc1Z3YZb1cZbX2-c-bc3ZXacc1!b!X21cZ-b-X3Zb-X3YacbX12c-ZXYYY!Y!cbY2ZXZZY1bcYZ3YZ--!bXY\"]",
+    "expectedOutput": "\"-!YXbZY!ZYc2b2YZZ1X3ZYb1cYYY2-Y-XZ3cXbca1!Y!X21bZ-X-b3Zc-X3bccaX12Z-cbcXb!Z!cbZ2YZcXc1ZbYb3bY--!aZb\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"X2b12c-2Za-a!XaY-3!a2ca1-!ccXaab-YbZZ2aZ!ZXZ312Z2XZ12---ab1bX2311X3-baXc3ca1Z22bZ23ab!XZb\"]",
+    "expectedOutput": "\"b2Z12X-2ba-Z!bZa-3!c2cX1-!abXXbb-aZXZ2ZX!ZZa312Z2Zb12---Yb1aa2311X3-ccac3aY1a22Xa23aZ!cbX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3Y--!bcY1XYbaYb-c313-a2X-X-a!!cZYc2121YYa2YcX2Ya-3cXZX233YZca1XZ!ZZZXaa32!-!211Z-b1Y31cZ2cb-1X3XaY!1\"]",
+    "expectedOutput": "\"3Y--!aXX1bcZcYb-Z313-a2a-X-Z!!ZZZX2121acZ2YXZ2Xc-3aYXc233YaYY1cY!ZcaXXa32!-!211c-b1Y31ab2YX-1Y3cbY!1\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"Y!2Y!1ZX3XcaZ33YY2-2!2X2caY!!bc!c22Y1!aa3b!1Z1-cZY1-YZ-caZ1c2331aaaY2!a1c-bc-ca!2--\"]",
+    "expectedOutput": "\"a!2c!1cb3caYa33aa2-2!2c2Zac!!ZY!Y22Z1!cZ3b!1a1-aYc1-cb-Yac1X2331YYZa2!c1X-XZ-YY!2--\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"-cZbcbbc-Zc1YabYaa2c1c1Yaa32a!131b213bZ!a21a!--!ZcZccbZb3!X2Xc113---YX!a1!b!2Y3XZZ\"]",
+    "expectedOutput": "\"-ZZXYbaX-Yc1XXbZbc2c1Z1cZa32a!131Z213bb!a21a!--!aYccaaYb3!a2Yc113---Zc!b1!b!2c3bZc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"-a2Z-!a-baZ1-Xaa3a2Y!!Zb3cb1cYZaaX2aa21YX!aZ33cX22XaZ-!3!Z2b2-bXZ-X-c!b3bc!Z3aZ1!ZcYc2b-32-a-!!cYbZ\"]",
+    "expectedOutput": "\"-Z2b-!Y-cab1-cYc3Z2Z!!aZ3cb1bcXZXb2bZ21Za!XX33cZ22aXY-!3!a2a2-Xaa-Z-Y!c3bc!b3ZY1!aaaX2Z-32-a-!!baZa\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3!ZXa21YbYaZXc2bcYXZ1!X33XaZc-2aYc!2a32aZY3Y-Z-a2bZ1Zb2baY-ZY3aaa1-2Y-Z3Z13!Z--2\"]",
+    "expectedOutput": "\"3!ZZZ21YaaaYZY2abbZZ1!b33aZYY-2Zaa!2c32Yac3Z-a-X2XZ1XY2cbc-XZ3aYb1-2Y-a3X13!Z--2\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"XZ3YX2XYcb!YZbZc!3ZcacZ2cXZ-1X1cZ--YX12bZc132!-2a1!bb-X2-3cZ-Z-2c1-3Y!2YXZZ!213!!2ZXaZc1XY1-!\"]",
+    "expectedOutput": "\"YX3cZ2aXZZ!ZXYYc!3ZZcXb2bac-1Z1bX--YZ12cXZ132!-2X1!cZ-c2-3ac-Z-2c1-3Z!2bZYb!213!!2cYXXY1ZX1-!\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cXbYb!bYXcZ!3b12cba1aZYbZ3!Za1213Y3aZZ3c3XZ2-YbYaYZXY-aYYX-b3Y333Y-YZ2a3-X!2-c31-b-cZ1b!XXYc-X!\"]",
+    "expectedOutput": "\"XcYXX!bZcbc!3X12aZY1YYbXY3!Ya1213Y3XZY3a3Yb2-YZXcZZaY-aZZb-Y3Z333a-ab2c3-b!2-Z31-c-XY1b!bYbX-c!\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1331-1X2-Xb!2c13ca!33a1!3!b22c2XaZ!YZZ2bYXZ1Z-c2Z2Z23X23X-12b33a-a-2Ya-2ZXaXbaZcZZ33YcY2Y11aZ\"]",
+    "expectedOutput": "\"1331-1Z2-aY!2Y13cY!33Z1!3!Z22c2Zab!XaX2ZaYa1a-b2X2X23Z23Z-12c33Z-Z-2XY-2bZZYZaXcba33acc2b11XX\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"XbX!2Y!1ZaZb-!1X2-c2XYbY3c-13-!22X11aYa1Xb-Z-X3Y!Z1YXZXc!Y1XY3a2ccZa2b1Z!ZX!1b-c\"]",
+    "expectedOutput": "\"cbX!2Z!1ZbaZ-!1c2-c2aYXY3c-13-!22X11ZXY1ZY-X-Z3b!X1aYaXc!Y1bY3X2cXbZ2a1Z!YX!1b-X\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"Yb-a2!Za3ZXb!XYa11cZa3ZZbX3-aZYXY--!!!1bYZ33!a13!Y-bYXXZ!2bX!XY-Z!ZYY-1bcY1Y3Z1Z!1Y1XY!21\"]",
+    "expectedOutput": "\"YX-Y2!ZZ3YYc!bYY11ZZY3XXbZ3-XXYbY--!!!1aZY33!b13!Y-XYZaX!2bZ!Za-Z!caY-1XbX1Z3a1Z!1a1bY!21\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"-Y2XY2bZ-a!31bb1bYZ!X!1cZa2aabYb3ca3b2a3a2!b113Yc!a2ZXXcc3c3X-XYba12aYX33a2Xbb!-a2-!a22!Z3-!2-3Y!YXY\"]",
+    "expectedOutput": "\"-Y2XY2YZ-a!31ab1bXa!X!1Yaa2bYXXc3cc3X2X3Z2!a113cY!b2aabac3b3Y-baaa12ZcX33Z2Ybb!-b2-!a22!Z3-!2-3b!YXY\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"Y-b312!a!ZacZc2YYcYac33cZ21ccaZX3Z!1-!-!13!Y-!X--caYb-X-3X!YXY13!cXYZYc--33c33!2c2X1-aaXYc\"]",
+    "expectedOutput": "\"c-Y312!X!aaXcc2cYZYXc33YX21YXXbY3a!1-!-!13!c-!X--YZXZ-a-3c!cZc13!caYcYY--33c33!2Z2c1-aZabY\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"-1!cY!-Z!3cc11!b22ZZ3!Y21X-3Zc!XY12Z!a2XX-11bY-YXaXYXbacY-Xc2!Y!ZaY!1-!YZ2X-abZb-!bcc--bYa\"]",
+    "expectedOutput": "\"-1!aY!-b!3cc11!b22bZ3!b21a-3XZ!YY12a!Z2Yc-11XY-cabXYXaXYY-bX2!X!aZY!1-!Xc2Z-XYZZ-!bcc--ZYc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"32XYaY1b3a-bbX!c1Z3c2!X-X3Z-1cc--3Xb!Y!cZ!-cX2XcaY!Y-3aX-X3bY3Z2XY1cY11-1YabXa!-!-XYc1aX-Xa12X23b2-\"]",
+    "expectedOutput": "\"32bXaX1X3a-cYX!a1X3b2!a-Y3Y-1cY--3XZ!Y!bX!-Xa2YYac!X-3Xc-Z3cY3b2Xc1cZ11-1XXcZc!-!-Xbb1ab-Ya12Y23X2-\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"332caca-ZY-a3YY-a2Y!-3c!2Xa31-bZ-cbX!Y22Za!1-!X1c2X1-Y-aY2bbac21c31X!3X-YbY-Y!--1YYa!11YaX1!YX3Z1!12\"]",
+    "expectedOutput": "\"332ZXYX-aY-a3YY-Y2Y!-3b!2YX31-Xc-cab!b22Ya!1-!Y1X2c1-X-aZ2YXbc21Z31b!3a-XcY-a!--1YYa!11YZa1!ca3c1!12\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"-aYXZaXX!bc-3-cYbYbc-!!Y13Za!ba-X!aYXXaY1c3b2!!ZYb-!c2Z31Z1-!Z3-Z1bZacYc32!Y-!c!1a3331\"]",
+    "expectedOutput": "\"-acYcYca!Zb-3-ZZZZcb-!!Y13Zb!cY-a!XXYaXa1b3a2!!ZYc-!b2Y31b1-!Y3-c1cbXXaZ32!X-!Y!1a3331\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"Z1!aa2cYZ2X1aXc3Y-3-bbXcbbcZYYccYXa3Yb1a1c2-!a-accaX3b1YZ1Y!1!Z2XY1X!!c3!32!-!3-bZbYbZ\"]",
+    "expectedOutput": "\"Z1!bY2bZb2c1XYX3Z-3-YZYbXaccaacabYa3XY1c1c2-!Y-YZcbb3c1Xb1b!1!Y2cX1a!!X3!32!-!3-ZYcaaZ\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"Ybc-bcZaZ3-!bZX13!-3baYccac11Z2a!-XYbX1Yb1XYX-32X3!c!a2-1c!31!X2X1ccaaZ2--ZYX!Z!abbc3ZYb31\"]",
+    "expectedOutput": "\"bYZ-cbbaZ3-!XYZ13!-3ZaaccXX11c2a!-cXXY1Xb1YXb-32Y3!X!a2-1Z!31!c2a1ccYab2--XZb!Z!aZcb3cbY31\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bX!33!cbX3aY1-Z1Yb1b1abZ2!!ZYbZb2b1cb1c2Zc!cYZacb31YcX1!Z23bacXb-Ycab-Yb1Ya!1Xb-aX-3!ca--Y\"]",
+    "expectedOutput": "\"Ya!33!cXa3bX1-a1Yb1Y1bac2!!YbXca2b1ZX1c2Yb!caZYcc31Zcb1!c23bbZbY-ZZba-bb1YZ!1Ya-Xb-3!cX--b\"",
+    "isHidden": true
+  }
+]

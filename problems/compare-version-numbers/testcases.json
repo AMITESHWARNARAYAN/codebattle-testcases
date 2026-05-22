@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[\"1.01\",\"1.001\"]",
+    "expectedOutput": "0",
+    "isHidden": false
+  },
+  {
+    "input": "[\"1.0\",\"1.0.0\"]",
+    "expectedOutput": "0",
+    "isHidden": false
+  },
+  {
+    "input": "[\"0.1\",\"1.1\"]",
+    "expectedOutput": "-1",
+    "isHidden": false
+  },
+  {
+    "input": "[\"1.0.1\",\"1\"]",
+    "expectedOutput": "1",
+    "isHidden": false
+  },
+  {
+    "input": "[\"7.5.2.4\",\"7.5.3\"]",
+    "expectedOutput": "-1",
+    "isHidden": false
+  },
+  {
+    "input": "[\"76.96.27.97.83\",\"60\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"17.96\",\"69.79\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"36.97\",\"1.88.92.83.23\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"41.41.55.85\",\"61.1.38.93.70\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"37.6\",\"81.70.79.81.94\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"25.33\",\"27.10.25.53.33\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"20.53\",\"60.36\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"17.13.9\",\"97.90.35.57.77\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"33.56.33\",\"65.77.59.65.28\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"78\",\"32.56.58.32\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"75\",\"48.99.95\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"52.50.47\",\"81.91.61\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"44.63.11\",\"74\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"44.25\",\"3.49.83.10.92\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"54.62.19\",\"48.51.56.58\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"91\",\"29.46.80.90\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"35.83.94.66\",\"78.19.16.26\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"58.59.71\",\"100.83\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"46.30.8.51\",\"77.55.83\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"24.80\",\"43.63.11.60.19\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"68.47.40.3\",\"78.24.31\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"91.30\",\"83\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"93.35.52.88\",\"24.19.4\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"18.79.91\",\"17\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"96.70.87\",\"95.16.77\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"47.95.29.95\",\"15\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"18.91.54.35.31\",\"89\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"67.30\",\"17\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"34.47.38.95\",\"8.94.19\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"23.15.34.62.90\",\"2.96.89.49.60\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"12.87.14.88\",\"61.78\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"67.92.91.92\",\"82.45\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"18.53\",\"13.36.7.16\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2.38.44.49.20\",\"67.52.49.46.74\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"52.16.44.82\",\"88\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"35.21\",\"37.36.63.47\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"27.79.100\",\"25\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"69.20.88.80\",\"75.67\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2.21.11\",\"9.71.12.39.38\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"40.12.63.99.18\",\"77.74.3\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"44.81\",\"87.29.97.5.2\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"40.46\",\"26.5.37.33\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"54.59\",\"48.31\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"97.75\",\"0.53.77\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"32.16.20.37\",\"16\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"53.57\",\"5.24.62\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"79.60\",\"97.26.30.93.28\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"98.36\",\"72.65.100\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"68.70.11.42\",\"43\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"90.60\",\"74\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"96\",\"20\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"62\",\"97.21.70.19.30\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"25.27.11.2.2\",\"71.22\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"63.91.86.48\",\"81.69.60.62\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"7.77.94\",\"4.16\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"69.77.87\",\"34\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"54.4.76\",\"92.66\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"83\",\"42.44.0\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"86.32.24.37.60\",\"19.0.50\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"15.22.77.37.16\",\"50\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"59.38.7\",\"63.11\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"61.46\",\"25.25.62.75.31\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"83.7.5.77.96\",\"54.20.96\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"60.6\",\"69.90\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"32.44\",\"89.22.59\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"17.66.20.72.59\",\"51.23.99.8\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"76.66.70\",\"79.33\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"58\",\"40.94.26.1\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"83\",\"76.29.35\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"60.3.8.40.85\",\"35\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"63\",\"55\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"65.87\",\"80.7\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"81.90\",\"3.93.63\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3.56.62.81\",\"71\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"58.42.8\",\"52.42\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"89.10.91.3\",\"7.40.10\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"96.88.13\",\"29\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"96.10.13.32.79\",\"1.16\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"51.18.54\",\"32.4.75\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"60.98.23.99\",\"44.59.95.10\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"96.82.86\",\"94\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"73.66.66.56.83\",\"92.33.4\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"88.57.24.67.78\",\"59.70.80.56.43\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"14.20.89\",\"60.63.95.30\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"100\",\"94\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"28.9.83\",\"70.49\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"86.4.47\",\"54\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"55.83.77.97\",\"93.98.68.87\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"86\",\"37.63.44.25.16\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"25\",\"54.100.52\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"83.7.27\",\"37.31.96\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"61.1\",\"67.42.61\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"29.81.100.91.47\",\"100.49.75.8\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"44.82.60\",\"54.7.54.26\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"41.34.69.91\",\"50\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"43.77.88.7.30\",\"69.20.18.50.84\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"43.67.9.68\",\"89.48.49.43\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"63.28.2.85\",\"62.8.9.63\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"54.43.89\",\"43.30.85.27.63\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"60.7\",\"10.78\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"81.41.17.22.60\",\"23.90.23\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"51.75.1\",\"24.98\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"60.25\",\"64.76.42.42.42\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"34.98.83.40\",\"46.37.3.69.35\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"7.35\",\"90.61.35.20.29\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3.80.8.1.12\",\"58.81.96.19\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"81.7.2.57.95\",\"90.11\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"15.39.59.74.87\",\"96.55.22.18.100\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"90.2.23.16\",\"93.72.44.48\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"68\",\"44\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"62.23.49.90\",\"65.20.18.76.90\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"85.91.92.30\",\"10\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"98.58.17\",\"32\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"30.56.11.60\",\"71.53\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"7.32.65.73.77\",\"86.22.22.54.17\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"41\",\"56.71.61.27.24\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"62.82.71.15\",\"45.35\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"40\",\"17.49\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"24.82.80\",\"56.50.75.82.55\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"85.96.83.66\",\"59.0.40.21\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"6.9.76.47.80\",\"7.86\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"21.73\",\"67.35.59.19\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5\",\"93.36.64.52\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1.95.1.99.76\",\"51.10.1.54.62\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"29\",\"23.16.73.0\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"82.89.76\",\"84.9.19.45.45\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"59\",\"98.65\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"96.42.8\",\"8\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"82\",\"81.54.72\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"17.31.96.69\",\"38.78.44.23\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2.72\",\"0.95.94.66.14\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"63\",\"41.66\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"56.27.43.16.12\",\"63.84.96\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"15\",\"9\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4.23.3\",\"52.46.72\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"12.93\",\"35.69.46.78\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"83.19.60.35.26\",\"4.26\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"73.32.24.43.95\",\"79\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"17.30.13.81\",\"67.96.1.9.70\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"49.81.95.64.42\",\"69\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"10.27.17\",\"73\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"81.26.84.37\",\"69\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"63.12.15.97.4\",\"57\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"71.9.48.35.66\",\"94.0\"]",
+    "expectedOutput": "-1",
+    "isHidden": true
+  },
+  {
+    "input": "[\"19.0\",\"4.98.81\"]",
+    "expectedOutput": "1",
+    "isHidden": true
+  }
+]

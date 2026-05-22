@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[\"abba\",\"dog cat cat dog\"]",
+    "expectedOutput": "true",
+    "isHidden": false
+  },
+  {
+    "input": "[\"abba\",\"dog cat cat fish\"]",
+    "expectedOutput": "false",
+    "isHidden": false
+  },
+  {
+    "input": "[\"db\",\"bird cat\"]",
+    "expectedOutput": "true",
+    "isHidden": false
+  },
+  {
+    "input": "[\"cc\",\"dog dog\"]",
+    "expectedOutput": "true",
+    "isHidden": false
+  },
+  {
+    "input": "[\"cdd\",\"fish bird bird\"]",
+    "expectedOutput": "true",
+    "isHidden": false
+  },
+  {
+    "input": "[\"cb\",\"bird cat\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"daba\",\"bird fish cat cat\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aa\",\"cat cat\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dcdaa\",\"dog dog cat bird bird\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"daabb\",\"bird cat dog bird cat\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cad\",\"bird cat dog\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cdc\",\"cat cat fish\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"adcd\",\"dog bird cat bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bddc\",\"cat fish dog bird\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"baac\",\"cat bird fish bird\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"addad\",\"cat dog dog cat dog\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abd\",\"cat cat dog\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ca\",\"bird cat\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dbbaa\",\"dog bird bird fish fish\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"acdd\",\"fish dog bird bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"adbd\",\"dog cat bird cat\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"adaca\",\"fish cat cat bird cat\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bdadd\",\"fish bird bird cat dog\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bccaa\",\"dog bird fish fish dog\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dd\",\"bird bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bdcc\",\"cat dog bird bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"caadc\",\"bird fish fish cat bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cdaa\",\"dog bird cat cat\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cac\",\"dog fish bird\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"daddd\",\"fish dog bird cat cat\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cb\",\"dog bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abb\",\"dog cat dog\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bcbb\",\"cat dog cat cat\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"adcd\",\"cat bird fish bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ca\",\"dog cat\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dba\",\"cat dog fish\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bddc\",\"cat bird bird dog\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cdaa\",\"cat fish bird bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ddb\",\"bird bird cat\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dbd\",\"dog bird dog\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dcadc\",\"cat fish dog cat fish\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ba\",\"dog bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aaca\",\"fish dog dog cat\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ac\",\"cat bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bada\",\"fish fish dog bird\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dcccd\",\"fish fish bird cat cat\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bada\",\"dog bird cat bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aa\",\"cat cat\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dabd\",\"dog fish cat dog\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"db\",\"cat bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bccdacd\",\"bird bird dog cat bird dog cat\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cccdabbadd\",\"bird fish fish bird dog cat dog dog fish bird\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cdababbcad\",\"bird cat dog bird cat cat cat dog dog dog\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cbdbadbccb\",\"fish bird dog bird cat dog bird fish fish bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dacdac\",\"bird fish dog bird fish dog\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bccbccbdbc\",\"cat bird bird cat bird bird cat fish cat bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aabbcdb\",\"dog dog cat cat fish bird cat\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cbadcabcdb\",\"bird fish cat dog bird cat fish bird dog fish\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ccaabddb\",\"fish cat cat fish bird fish cat dog\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bbabd\",\"bird bird dog bird fish\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bcccdcb\",\"bird cat bird bird fish fish bird\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cdcacdbacb\",\"cat bird fish cat dog bird bird fish dog fish\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aabccccbbb\",\"dog dog cat fish fish fish fish cat cat cat\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ccccbccab\",\"dog cat fish bird fish dog fish dog bird\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"badaab\",\"fish fish fish dog fish cat\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cacac\",\"cat fish bird bird bird\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"badcbccd\",\"dog fish bird bird dog cat bird cat\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcccc\",\"fish cat bird bird bird bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"accadcbba\",\"dog cat cat dog bird cat fish fish dog\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cbbddabc\",\"cat fish cat cat cat dog cat cat\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abdbc\",\"cat cat cat dog cat\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"acdbd\",\"bird dog cat fish cat\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bdacac\",\"cat dog fish bird fish bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aaddab\",\"dog fish cat cat dog dog\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ddcdcb\",\"dog dog fish dog fish bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"caaabadca\",\"dog cat dog dog dog bird fish cat cat\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dbcbbc\",\"fish bird dog bird bird dog\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aadaab\",\"dog cat cat dog bird bird\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"daccccbcdc\",\"cat dog bird bird bird bird fish bird cat bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aaabbaccaa\",\"bird bird dog cat dog dog bird cat dog dog\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aaacdbdddd\",\"cat fish cat fish fish cat cat fish dog fish\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bdaaab\",\"fish bird cat cat cat fish\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abbdcda\",\"dog dog fish fish bird dog fish\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dccdcda\",\"fish bird bird fish bird fish cat\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abdcaa\",\"dog cat bird fish dog dog\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bbdbbabb\",\"dog dog fish dog dog bird dog dog\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bcbdddbddd\",\"bird cat dog cat dog dog dog dog cat bird\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dbbcbc\",\"fish bird bird cat bird cat\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dbdbbacc\",\"bird fish fish bird bird dog bird cat\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"acadabb\",\"dog cat dog bird dog fish fish\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cbcbd\",\"fish dog bird dog dog\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ddadadbad\",\"cat cat dog cat dog cat fish dog cat\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bbbdbdc\",\"fish fish fish cat fish cat dog\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bdacbcbbb\",\"fish bird cat dog fish dog fish fish fish\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dbdccabaa\",\"cat fish dog fish dog fish cat dog bird\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ccbbda\",\"bird fish bird cat dog fish\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abddb\",\"dog bird cat cat bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bbabdddd\",\"fish fish dog fish bird bird bird bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"acdabc\",\"fish cat bird fish dog cat\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"adabc\",\"fish bird cat dog fish\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cbdcbcddccadbdaaaa\",\"dog fish cat dog fish dog cat cat dog dog bird cat fish cat bird bird bird bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ccbdccacbdacb\",\"dog dog bird fish dog dog cat dog bird fish cat dog bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bcbcddddddcbabd\",\"dog fish dog fish cat cat cat cat cat cat fish dog bird dog cat\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cdcddddacbccaab\",\"bird bird fish cat cat fish dog bird cat cat dog dog fish dog cat\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"acccadcdad\",\"cat fish fish fish cat dog fish dog cat dog\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ddaacaccbd\",\"dog bird fish fish cat cat dog cat fish bird\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dcabadcdddaab\",\"cat cat dog fish dog fish bird fish cat dog bird cat bird\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"accbcbddbdbabaaadddd\",\"bird cat bird fish dog bird bird bird dog cat fish dog bird dog cat fish bird cat dog dog\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bbcdbacdacddbbabdcc\",\"cat cat bird dog cat fish bird dog fish bird dog dog cat cat fish cat dog bird bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dcaadbcbdaabbbbc\",\"bird cat fish fish bird dog cat dog bird fish fish dog dog dog dog cat\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abcaadbdcaacc\",\"cat dog fish cat cat bird dog bird fish cat cat fish fish\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abaddabdbbbdbc\",\"bird cat cat fish fish cat dog bird dog cat cat cat cat dog\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cababbbcabcdbcd\",\"dog bird cat bird cat cat cat dog bird cat dog fish cat dog fish\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dbacdaadba\",\"bird cat dog dog dog dog fish bird bird fish\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dbcbbacbbcd\",\"dog fish bird fish fish cat bird fish fish bird dog\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dacabdcdcbbaccddacd\",\"bird cat cat fish bird bird fish dog bird cat bird bird fish dog fish bird dog fish dog\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"baddadaabbaaaccb\",\"bird fish dog dog fish dog fish fish bird bird fish fish fish cat cat bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"babcdaaadb\",\"dog bird fish fish dog fish fish fish bird cat\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bdadcaabbdddcc\",\"dog cat fish cat bird fish fish dog dog cat cat cat bird bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bcbabcaabb\",\"fish bird fish fish fish cat cat fish dog dog\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ddcbaaaccdadcbaccbbb\",\"cat cat bird fish dog dog dog bird bird cat dog cat bird fish dog bird bird fish fish fish\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ddadbcdbaabdb\",\"dog cat dog dog bird bird dog dog bird dog cat bird fish\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"adccdabcbdbc\",\"cat bird dog bird cat dog bird bird cat bird cat fish\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bccaccccabacabcad\",\"cat fish fish bird fish fish fish fish bird cat bird fish bird cat fish bird dog\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bbdaadaaadcbbabab\",\"cat cat fish bird bird fish bird bird bird fish dog cat cat bird cat bird cat\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cdcadacaadaabcdbc\",\"dog bird bird dog dog dog fish bird cat bird bird fish bird cat dog dog bird\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cabcccadbbddbdda\",\"cat fish bird cat cat cat fish dog bird bird dog dog bird dog dog fish\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aabddacbbbadddbd\",\"bird bird cat fish fish bird dog cat cat cat bird fish fish fish cat fish\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dcdbbbabccaccbc\",\"bird cat bird dog dog bird cat bird bird cat bird bird bird cat bird\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"caadddcadccdcbc\",\"cat dog fish dog bird dog dog fish cat bird fish dog fish cat cat\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cdbacdddccaba\",\"dog dog cat dog dog cat bird fish bird dog fish fish bird\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"addddbddbdabcdbcdacb\",\"fish cat bird cat bird dog cat fish fish fish bird fish dog fish fish fish cat cat fish cat\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dddbabdcdbd\",\"bird dog fish fish fish cat fish cat dog dog cat\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dbddabbbdcdcdccaba\",\"dog cat dog dog bird cat cat cat dog fish dog fish dog fish fish bird cat bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dcdbdacbaddbbd\",\"fish bird fish dog fish cat bird dog cat fish fish dog dog fish\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dadbaccccdcac\",\"bird bird fish fish cat dog cat fish bird bird bird cat dog\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"addacaacaaca\",\"fish bird cat bird cat dog bird bird cat fish dog dog\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cbbcddbbcbaadbddadc\",\"dog fish fish dog bird bird fish fish dog fish cat cat bird fish bird bird cat bird dog\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dddcccabbbbcccada\",\"fish dog fish cat cat cat cat fish bird cat cat fish fish dog cat dog cat\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ddbacbdabba\",\"bird dog cat cat bird dog fish fish cat dog dog\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aadbccadaaccbaa\",\"bird bird dog dog bird dog fish bird fish bird dog dog cat dog dog\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dbabbbbdabbbaadcb\",\"fish bird dog bird bird bird bird fish dog bird bird bird dog dog fish cat bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"baaacaaccbd\",\"cat fish cat cat cat dog cat cat fish fish dog\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dbbcabadbdcbcbda\",\"fish bird cat fish bird cat fish bird dog bird fish cat fish fish bird bird\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"abdbaabbbdcdcaa\",\"fish bird cat bird fish fish bird bird bird cat dog cat dog fish fish\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dddacbdabbdaa\",\"bird bird bird dog dog fish dog bird fish cat bird cat dog\"]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bcacdaaaccbdcadddcbc\",\"bird dog cat dog fish cat cat cat dog dog bird fish dog cat fish fish fish dog bird dog\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"caadacbccdabcdda\",\"bird dog dog cat dog bird fish bird bird cat dog fish bird cat cat dog\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"daacdbabaacccddbc\",\"cat bird bird dog cat fish bird fish bird bird dog dog dog cat cat fish dog\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ccddcbcabdccaabccab\",\"cat cat dog dog cat bird cat fish bird dog cat cat fish fish bird cat cat fish bird\"]",
+    "expectedOutput": "true",
+    "isHidden": true
+  }
+]

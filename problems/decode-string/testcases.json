@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[\"3[a]2[bc]\"]",
+    "expectedOutput": "\"aaabcbc\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"3[a2[c]]\"]",
+    "expectedOutput": "\"accaccacc\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"2[abc]3[cd]ef\"]",
+    "expectedOutput": "\"abcabccdcdcdef\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"2[k]rd\"]",
+    "expectedOutput": "\"kkrd\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"5[pxl]d\"]",
+    "expectedOutput": "\"pxlpxlpxlpxlpxld\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"2[2[osl]td]f\"]",
+    "expectedOutput": "\"oslosltdoslosltdf\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[q]t\"]",
+    "expectedOutput": "\"qqqqt\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[5[u]]ih\"]",
+    "expectedOutput": "\"uuuuuuuuuuuuuuuih\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[5[gjr]]t\"]",
+    "expectedOutput": "\"gjrgjrgjrgjrgjrgjrgjrgjrgjrgjrgjrgjrgjrgjrgjrgjrgjrgjrgjrgjrt\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[nsl]t\"]",
+    "expectedOutput": "\"nslnslnslt\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[5[ina]]x\"]",
+    "expectedOutput": "\"inainainainainainainainainainainainainainainax\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2[4[fr]mg]\"]",
+    "expectedOutput": "\"frfrfrfrmgfrfrfrfrmg\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[1[qm]u]\"]",
+    "expectedOutput": "\"qmuqmuqmuqmu\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[3[zs]sb]\"]",
+    "expectedOutput": "\"zszszssbzszszssbzszszssbzszszssbzszszssb\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[a]ux\"]",
+    "expectedOutput": "\"aaaux\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[nlk]\"]",
+    "expectedOutput": "\"nlknlknlknlknlk\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[3[l]ro]\"]",
+    "expectedOutput": "\"lllrolllrolllrolllro\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[zip]gr\"]",
+    "expectedOutput": "\"zipzipzipzipzipgr\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[2[f]]hy\"]",
+    "expectedOutput": "\"ffffffffffhy\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[eg]f\"]",
+    "expectedOutput": "\"egegegegf\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2[d]\"]",
+    "expectedOutput": "\"dd\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[5[u]]vb\"]",
+    "expectedOutput": "\"uuuuuuuuuuuuuuuuuuuuuuuuuvb\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[1[nxf]m]p\"]",
+    "expectedOutput": "\"nxfmnxfmnxfmnxfmp\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1[ck]k\"]",
+    "expectedOutput": "\"ckk\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[3[p]]e\"]",
+    "expectedOutput": "\"pppppppppe\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[uw]gy\"]",
+    "expectedOutput": "\"uwuwuwuwuwgy\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2[3[rc]]z\"]",
+    "expectedOutput": "\"rcrcrcrcrcrcz\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2[1[jue]d]\"]",
+    "expectedOutput": "\"juedjued\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[4[t]d]s\"]",
+    "expectedOutput": "\"ttttdttttdttttdttttds\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1[bl]r\"]",
+    "expectedOutput": "\"blr\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[uce]\"]",
+    "expectedOutput": "\"uceuceuceuceuce\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2[su]\"]",
+    "expectedOutput": "\"susu\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[4[zu]]w\"]",
+    "expectedOutput": "\"zuzuzuzuzuzuzuzuzuzuzuzuw\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1[3[ui]]bh\"]",
+    "expectedOutput": "\"uiuiuibh\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[5[cl]o]fq\"]",
+    "expectedOutput": "\"clclclclcloclclclclcloclclclclclofq\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[3[lsq]bp]y\"]",
+    "expectedOutput": "\"lsqlsqlsqbplsqlsqlsqbplsqlsqlsqbplsqlsqlsqbplsqlsqlsqbpy\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[1[grd]t]t\"]",
+    "expectedOutput": "\"grdtgrdtgrdtt\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[n]f\"]",
+    "expectedOutput": "\"nnnnf\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[h]il\"]",
+    "expectedOutput": "\"hhhhhil\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[1[n]aj]\"]",
+    "expectedOutput": "\"najnajnajnajnaj\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[g]ti\"]",
+    "expectedOutput": "\"ggggti\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[1[y]yq]k\"]",
+    "expectedOutput": "\"yyqyyqyyqk\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[3[uuf]rb]j\"]",
+    "expectedOutput": "\"uufuufuufrbuufuufuufrbuufuufuufrbuufuufuufrbuufuufuufrbj\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[5[b]yz]\"]",
+    "expectedOutput": "\"bbbbbyzbbbbbyzbbbbbyzbbbbbyzbbbbbyz\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[4[r]]x\"]",
+    "expectedOutput": "\"rrrrrrrrrrrrrrrrx\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[r]\"]",
+    "expectedOutput": "\"rrr\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[4[yo]m]\"]",
+    "expectedOutput": "\"yoyoyoyomyoyoyoyomyoyoyoyom\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[1[ryx]k]\"]",
+    "expectedOutput": "\"ryxkryxkryxkryxk\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[1[wfp]sv]zm\"]",
+    "expectedOutput": "\"wfpsvwfpsvwfpsvzm\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1[4[h]qr]do\"]",
+    "expectedOutput": "\"hhhhqrdo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[4[qt]]\"]",
+    "expectedOutput": "\"qtqtqtqtqtqtqtqtqtqtqtqt\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1[1[2[xyn]ad]f]m\"]",
+    "expectedOutput": "\"xynxynadfm\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[4[qh]w]\"]",
+    "expectedOutput": "\"qhqhqhqhwqhqhqhqhwqhqhqhqhwqhqhqhqhwqhqhqhqhw\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2[5[x]v]a\"]",
+    "expectedOutput": "\"xxxxxvxxxxxva\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[1[2[i]lp]]k\"]",
+    "expectedOutput": "\"iilpiilpiilpiilpk\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[3[1[oib]]kt]ug\"]",
+    "expectedOutput": "\"oiboiboibktoiboiboibktoiboiboibktoiboiboibktoiboiboibktug\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[3[t]dn]v\"]",
+    "expectedOutput": "\"tttdntttdntttdntttdntttdnv\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[3[5[nos]]]yw\"]",
+    "expectedOutput": "\"nosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosnosyw\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[4[xu]f]by\"]",
+    "expectedOutput": "\"xuxuxuxufxuxuxuxufxuxuxuxufby\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[2[i]jk]\"]",
+    "expectedOutput": "\"iijkiijkiijkiijkiijk\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[1[3[hhg]bb]]\"]",
+    "expectedOutput": "\"hhghhghhgbbhhghhghhgbbhhghhghhgbbhhghhghhgbb\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2[3[u]u]p\"]",
+    "expectedOutput": "\"uuuuuuuup\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[2[sk]ev]qp\"]",
+    "expectedOutput": "\"skskevskskevskskevskskevqp\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[5[3[b]rz]n]\"]",
+    "expectedOutput": "\"bbbrzbbbrzbbbrzbbbrzbbbrznbbbrzbbbrzbbbrzbbbrzbbbrznbbbrzbbbrzbbbrzbbbrzbbbrznbbbrzbbbrzbbbrzbbbrzbbbrzn\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2[2[3[kze]]]b\"]",
+    "expectedOutput": "\"kzekzekzekzekzekzekzekzekzekzekzekzeb\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[1[ck]cs]a\"]",
+    "expectedOutput": "\"ckcsckcsckcsa\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[5[2[ws]d]o]o\"]",
+    "expectedOutput": "\"wswsdwswsdwswsdwswsdwswsdowswsdwswsdwswsdwswsdwswsdowswsdwswsdwswsdwswsdwswsdowswsdwswsdwswsdwswsdwswsdowswsdwswsdwswsdwswsdwswsdoo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2[5[sgt]]y\"]",
+    "expectedOutput": "\"sgtsgtsgtsgtsgtsgtsgtsgtsgtsgty\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2[2[4[wc]]l]ou\"]",
+    "expectedOutput": "\"wcwcwcwcwcwcwcwclwcwcwcwcwcwcwcwclou\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[3[mh]m]\"]",
+    "expectedOutput": "\"mhmhmhmmhmhmhmmhmhmhm\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1[1[2[k]t]c]\"]",
+    "expectedOutput": "\"kktc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1[3[5[w]]d]\"]",
+    "expectedOutput": "\"wwwwwwwwwwwwwwwd\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[4[a]ym]sl\"]",
+    "expectedOutput": "\"aaaaymaaaaymaaaaymaaaaymsl\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[4[4[nct]lp]n]op\"]",
+    "expectedOutput": "\"nctnctnctnctlpnctnctnctnctlpnctnctnctnctlpnctnctnctnctlpnnctnctnctnctlpnctnctnctnctlpnctnctnctnctlpnctnctnctnctlpnnctnctnctnctlpnctnctnctnctlpnctnctnctnctlpnctnctnctnctlpnnctnctnctnctlpnctnctnctnctlpnctnctnctnctlpnctnctnctnctlpnnctnctnctnctlpnctnctnctnctlpnctnctnctnctlpnctnctnctnctlpnop\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2[5[3[lb]bz]oa]\"]",
+    "expectedOutput": "\"lblblbbzlblblbbzlblblbbzlblblbbzlblblbbzoalblblbbzlblblbbzlblblbbzlblblbbzlblblbbzoa\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[1[a]kd]ff\"]",
+    "expectedOutput": "\"akdakdakdakdakdff\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1[3[3[f]mj]e]k\"]",
+    "expectedOutput": "\"fffmjfffmjfffmjek\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2[3[5[bea]hf]f]\"]",
+    "expectedOutput": "\"beabeabeabeabeahfbeabeabeabeabeahfbeabeabeabeabeahffbeabeabeabeabeahfbeabeabeabeabeahfbeabeabeabeabeahff\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[4[ctz]]k\"]",
+    "expectedOutput": "\"ctzctzctzctzctzctzctzctzctzctzctzctzctzctzctzctzk\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[2[1[lbj]t]yd]a\"]",
+    "expectedOutput": "\"lbjtlbjtydlbjtlbjtydlbjtlbjtydlbjtlbjtyda\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[4[ya]w]\"]",
+    "expectedOutput": "\"yayayayawyayayayawyayayayawyayayayaw\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2[1[2[f]hh]]\"]",
+    "expectedOutput": "\"ffhhffhh\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[5[or]]i\"]",
+    "expectedOutput": "\"ororororororororororororororororororororororororori\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[3[pg]fm]\"]",
+    "expectedOutput": "\"pgpgpgfmpgpgpgfmpgpgpgfmpgpgpgfmpgpgpgfm\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[2[2[ny]]j]hr\"]",
+    "expectedOutput": "\"nynynynyjnynynynyjnynynynyjnynynynyjhr\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1[3[1[v]a]]\"]",
+    "expectedOutput": "\"vavava\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[4[tct]r]z\"]",
+    "expectedOutput": "\"tcttcttcttctrtcttcttcttctrtcttcttcttctrtcttcttcttctrtcttcttcttctrz\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[1[5[gs]qb]w]wv\"]",
+    "expectedOutput": "\"gsgsgsgsgsqbwgsgsgsgsgsqbwgsgsgsgsgsqbwwv\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[1[5[exq]]y]\"]",
+    "expectedOutput": "\"exqexqexqexqexqyexqexqexqexqexqyexqexqexqexqexqy\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1[4[5[tj]ai]bz]qs\"]",
+    "expectedOutput": "\"tjtjtjtjtjaitjtjtjtjtjaitjtjtjtjtjaitjtjtjtjtjaibzqs\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[4[5[cc]]]g\"]",
+    "expectedOutput": "\"ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccg\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2[2[tru]]ty\"]",
+    "expectedOutput": "\"trutrutrutruty\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1[1[2[lnb]w]z]u\"]",
+    "expectedOutput": "\"lnblnbwzu\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[5[y]nf]oa\"]",
+    "expectedOutput": "\"yyyyynfyyyyynfyyyyynfyyyyynfyyyyynfoa\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2[1[2[bc]]tj]\"]",
+    "expectedOutput": "\"bcbctjbcbctj\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[3[4[nfg]]u]\"]",
+    "expectedOutput": "\"nfgnfgnfgnfgnfgnfgnfgnfgnfgnfgnfgnfgunfgnfgnfgnfgnfgnfgnfgnfgnfgnfgnfgnfgunfgnfgnfgnfgnfgnfgnfgnfgnfgnfgnfgnfgunfgnfgnfgnfgnfgnfgnfgnfgnfgnfgnfgnfgunfgnfgnfgnfgnfgnfgnfgnfgnfgnfgnfgnfgu\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2[5[5[q]]qz]\"]",
+    "expectedOutput": "\"qqqqqqqqqqqqqqqqqqqqqqqqqqzqqqqqqqqqqqqqqqqqqqqqqqqqqz\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2[2[2[owx]ah]h]v\"]",
+    "expectedOutput": "\"owxowxahowxowxahhowxowxahowxowxahhv\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[5[mqu]uy]\"]",
+    "expectedOutput": "\"mqumqumqumqumquuymqumqumqumqumquuymqumqumqumqumquuy\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[2[taz]lj]tc\"]",
+    "expectedOutput": "\"taztazljtaztazljtaztazljtc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1[2[3[2[nn]dp]q]iv]n\"]",
+    "expectedOutput": "\"nnnndpnnnndpnnnndpqnnnndpnnnndpnnnndpqivn\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[3[1[3[r]qc]ss]z]mm\"]",
+    "expectedOutput": "\"rrrqcssrrrqcssrrrqcsszrrrqcssrrrqcssrrrqcsszrrrqcssrrrqcssrrrqcsszrrrqcssrrrqcssrrrqcsszrrrqcssrrrqcssrrrqcsszmm\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[2[3[1[s]hx]t]gq]gz\"]",
+    "expectedOutput": "\"shxshxshxtshxshxshxtgqshxshxshxtshxshxshxtgqshxshxshxtshxshxshxtgqgz\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[5[3[1[up]jz]ro]vp]u\"]",
+    "expectedOutput": "\"upjzupjzupjzroupjzupjzupjzroupjzupjzupjzroupjzupjzupjzroupjzupjzupjzrovpupjzupjzupjzroupjzupjzupjzroupjzupjzupjzroupjzupjzupjzroupjzupjzupjzrovpupjzupjzupjzroupjzupjzupjzroupjzupjzupjzroupjzupjzupjzroupjzupjzupjzrovpupjzupjzupjzroupjzupjzupjzroupjzupjzupjzroupjzupjzupjzroupjzupjzupjzrovpu\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[2[1[yt]]wh]q\"]",
+    "expectedOutput": "\"ytytwhytytwhytytwhytytwhytytwhq\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[5[1[ugv]d]p]\"]",
+    "expectedOutput": "\"ugvdugvdugvdugvdugvdpugvdugvdugvdugvdugvdpugvdugvdugvdugvdugvdp\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1[3[1[g]m]fs]yi\"]",
+    "expectedOutput": "\"gmgmgmfsyi\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[2[4[hq]a]g]h\"]",
+    "expectedOutput": "\"hqhqhqhqahqhqhqhqaghqhqhqhqahqhqhqhqaghqhqhqhqahqhqhqhqaghqhqhqhqahqhqhqhqagh\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[5[3[vd]us]tr]\"]",
+    "expectedOutput": "\"vdvdvdusvdvdvdusvdvdvdusvdvdvdusvdvdvdustrvdvdvdusvdvdvdusvdvdvdusvdvdvdusvdvdvdustrvdvdvdusvdvdvdusvdvdvdusvdvdvdusvdvdvdustrvdvdvdusvdvdvdusvdvdvdusvdvdvdusvdvdvdustrvdvdvdusvdvdvdusvdvdvdusvdvdvdusvdvdvdustr\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[1[1[a]z]]q\"]",
+    "expectedOutput": "\"azazazazazq\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1[1[4[m]e]i]\"]",
+    "expectedOutput": "\"mmmmei\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[3[5[on]]]q\"]",
+    "expectedOutput": "\"ononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononq\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[2[3[2[ahu]n]p]a]\"]",
+    "expectedOutput": "\"ahuahunahuahunahuahunpahuahunahuahunahuahunpaahuahunahuahunahuahunpahuahunahuahunahuahunpaahuahunahuahunahuahunpahuahunahuahunahuahunpaahuahunahuahunahuahunpahuahunahuahunahuahunpaahuahunahuahunahuahunpahuahunahuahunahuahunpa\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[3[3[glk]l]m]gv\"]",
+    "expectedOutput": "\"glkglkglklglkglkglklglkglkglklmglkglkglklglkglkglklglkglkglklmglkglkglklglkglkglklglkglkglklmgv\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1[4[5[u]ms]]m\"]",
+    "expectedOutput": "\"uuuuumsuuuuumsuuuuumsuuuuumsm\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[2[3[1[dpt]i]]zd]\"]",
+    "expectedOutput": "\"dptidptidptidptidptidptizddptidptidptidptidptidptizddptidptidptidptidptidptizd\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[1[5[4[igw]]dm]pu]ph\"]",
+    "expectedOutput": "\"igwigwigwigwigwigwigwigwigwigwigwigwigwigwigwigwigwigwigwigwdmpuigwigwigwigwigwigwigwigwigwigwigwigwigwigwigwigwigwigwigwigwdmpuigwigwigwigwigwigwigwigwigwigwigwigwigwigwigwigwigwigwigwigwdmpuph\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[5[1[5[wg]y]dd]]\"]",
+    "expectedOutput": "\"wgwgwgwgwgyddwgwgwgwgwgyddwgwgwgwgwgyddwgwgwgwgwgyddwgwgwgwgwgyddwgwgwgwgwgyddwgwgwgwgwgyddwgwgwgwgwgyddwgwgwgwgwgyddwgwgwgwgwgyddwgwgwgwgwgyddwgwgwgwgwgyddwgwgwgwgwgyddwgwgwgwgwgyddwgwgwgwgwgydd\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[1[5[4[szl]b]q]rp]k\"]",
+    "expectedOutput": "\"szlszlszlszlbszlszlszlszlbszlszlszlszlbszlszlszlszlbszlszlszlszlbqrpszlszlszlszlbszlszlszlszlbszlszlszlszlbszlszlszlszlbszlszlszlszlbqrpszlszlszlszlbszlszlszlszlbszlszlszlszlbszlszlszlszlbszlszlszlszlbqrpszlszlszlszlbszlszlszlszlbszlszlszlszlbszlszlszlszlbszlszlszlszlbqrpszlszlszlszlbszlszlszlszlbszlszlszlszlbszlszlszlszlbszlszlszlszlbqrpk\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1[1[2[3[f]oc]]b]\"]",
+    "expectedOutput": "\"fffocfffocb\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2[3[1[ppf]ri]zx]g\"]",
+    "expectedOutput": "\"ppfrippfrippfrizxppfrippfrippfrizxg\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[3[1[1[jqt]]yh]]zb\"]",
+    "expectedOutput": "\"jqtyhjqtyhjqtyhjqtyhjqtyhjqtyhjqtyhjqtyhjqtyhjqtyhjqtyhjqtyhjqtyhjqtyhjqtyhzb\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[3[3[fhv]]]\"]",
+    "expectedOutput": "\"fhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhvfhv\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[5[1[gg]xo]x]wq\"]",
+    "expectedOutput": "\"ggxoggxoggxoggxoggxoxggxoggxoggxoggxoggxoxggxoggxoggxoggxoggxoxwq\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[3[5[wg]zq]r]t\"]",
+    "expectedOutput": "\"wgwgwgwgwgzqwgwgwgwgwgzqwgwgwgwgwgzqrwgwgwgwgwgzqwgwgwgwgwgzqwgwgwgwgwgzqrwgwgwgwgwgzqwgwgwgwgwgzqwgwgwgwgwgzqrwgwgwgwgwgzqwgwgwgwgwgzqwgwgwgwgwgzqrt\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[3[4[2[qxd]w]sw]]\"]",
+    "expectedOutput": "\"qxdqxdwqxdqxdwqxdqxdwqxdqxdwswqxdqxdwqxdqxdwqxdqxdwqxdqxdwswqxdqxdwqxdqxdwqxdqxdwqxdqxdwswqxdqxdwqxdqxdwqxdqxdwqxdqxdwswqxdqxdwqxdqxdwqxdqxdwqxdqxdwswqxdqxdwqxdqxdwqxdqxdwqxdqxdwswqxdqxdwqxdqxdwqxdqxdwqxdqxdwswqxdqxdwqxdqxdwqxdqxdwqxdqxdwswqxdqxdwqxdqxdwqxdqxdwqxdqxdwswqxdqxdwqxdqxdwqxdqxdwqxdqxdwswqxdqxdwqxdqxdwqxdqxdwqxdqxdwswqxdqxdwqxdqxdwqxdqxdwqxdqxdwsw\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[1[2[ave]]]pm\"]",
+    "expectedOutput": "\"aveaveaveaveaveaveaveaveaveavepm\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[3[5[1[k]]gr]]\"]",
+    "expectedOutput": "\"kkkkkgrkkkkkgrkkkkkgrkkkkkgrkkkkkgrkkkkkgrkkkkkgrkkkkkgrkkkkkgr\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[3[4[ezo]]n]o\"]",
+    "expectedOutput": "\"ezoezoezoezoezoezoezoezoezoezoezoezonezoezoezoezoezoezoezoezoezoezoezoezonezoezoezoezoezoezoezoezoezoezoezoezonezoezoezoezoezoezoezoezoezoezoezoezono\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[2[5[5[kc]kk]ui]en]z\"]",
+    "expectedOutput": "\"kckckckckckkkckckckckckkkckckckckckkkckckckckckkkckckckckckkuikckckckckckkkckckckckckkkckckckckckkkckckckckckkkckckckckckkuienkckckckckckkkckckckckckkkckckckckckkkckckckckckkkckckckckckkuikckckckckckkkckckckckckkkckckckckckkkckckckckckkkckckckckckkuienkckckckckckkkckckckckckkkckckckckckkkckckckckckkkckckckckckkuikckckckckckkkckckckckckkkckckckckckkkckckckckckkkckckckckckkuienz\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[4[5[1[pht]]]ag]w\"]",
+    "expectedOutput": "\"phtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtagphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtagphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtagphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtagphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtphtagw\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1[5[4[4[bt]]d]]nu\"]",
+    "expectedOutput": "\"btbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtdbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtdbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtdbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtdbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtdnu\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[2[4[4[rw]q]jm]]wc\"]",
+    "expectedOutput": "\"rwrwrwrwqrwrwrwrwqrwrwrwrwqrwrwrwrwqjmrwrwrwrwqrwrwrwrwqrwrwrwrwqrwrwrwrwqjmrwrwrwrwqrwrwrwrwqrwrwrwrwqrwrwrwrwqjmrwrwrwrwqrwrwrwrwqrwrwrwrwqrwrwrwrwqjmrwrwrwrwqrwrwrwrwqrwrwrwrwqrwrwrwrwqjmrwrwrwrwqrwrwrwrwqrwrwrwrwqrwrwrwrwqjmrwrwrwrwqrwrwrwrwqrwrwrwrwqrwrwrwrwqjmrwrwrwrwqrwrwrwrwqrwrwrwrwqrwrwrwrwqjmrwrwrwrwqrwrwrwrwqrwrwrwrwqrwrwrwrwqjmrwrwrwrwqrwrwrwrwqrwrwrwrwqrwrwrwrwqjmwc\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[4[2[4[e]]b]d]\"]",
+    "expectedOutput": "\"eeeeeeeebeeeeeeeebeeeeeeeebeeeeeeeebdeeeeeeeebeeeeeeeebeeeeeeeebeeeeeeeebdeeeeeeeebeeeeeeeebeeeeeeeebeeeeeeeebdeeeeeeeebeeeeeeeebeeeeeeeebeeeeeeeebd\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[1[3[5[yzx]]h]]g\"]",
+    "expectedOutput": "\"yzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxhyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxhyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxhyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxhyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxyzxhg\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[5[3[1[lg]j]ul]t]lg\"]",
+    "expectedOutput": "\"lgjlgjlgjullgjlgjlgjullgjlgjlgjullgjlgjlgjullgjlgjlgjultlgjlgjlgjullgjlgjlgjullgjlgjlgjullgjlgjlgjullgjlgjlgjultlgjlgjlgjullgjlgjlgjullgjlgjlgjullgjlgjlgjullgjlgjlgjultlgjlgjlgjullgjlgjlgjullgjlgjlgjullgjlgjlgjullgjlgjlgjultlgjlgjlgjullgjlgjlgjullgjlgjlgjullgjlgjlgjullgjlgjlgjultlg\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1[1[1[pxj]jo]pk]m\"]",
+    "expectedOutput": "\"pxjjopkm\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1[5[4[n]ue]]m\"]",
+    "expectedOutput": "\"nnnnuennnnuennnnuennnnuennnnuem\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[2[4[2[q]]p]]r\"]",
+    "expectedOutput": "\"qqqqqqqqpqqqqqqqqpqqqqqqqqpqqqqqqqqpqqqqqqqqpqqqqqqqqpqqqqqqqqpqqqqqqqqpqqqqqqqqpqqqqqqqqpr\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4[1[1[vxt]]il]\"]",
+    "expectedOutput": "\"vxtilvxtilvxtilvxtil\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[4[3[5[j]ed]g]qn]d\"]",
+    "expectedOutput": "\"jjjjjedjjjjjedjjjjjedgjjjjjedjjjjjedjjjjjedgjjjjjedjjjjjedjjjjjedgjjjjjedjjjjjedjjjjjedgqnjjjjjedjjjjjedjjjjjedgjjjjjedjjjjjedjjjjjedgjjjjjedjjjjjedjjjjjedgjjjjjedjjjjjedjjjjjedgqnjjjjjedjjjjjedjjjjjedgjjjjjedjjjjjedjjjjjedgjjjjjedjjjjjedjjjjjedgjjjjjedjjjjjedjjjjjedgqnd\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[1[5[cw]yp]ue]ii\"]",
+    "expectedOutput": "\"cwcwcwcwcwypuecwcwcwcwcwypuecwcwcwcwcwypuecwcwcwcwcwypuecwcwcwcwcwypueii\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[3[5[1[e]cj]fo]]du\"]",
+    "expectedOutput": "\"ecjecjecjecjecjfoecjecjecjecjecjfoecjecjecjecjecjfoecjecjecjecjecjfoecjecjecjecjecjfoecjecjecjecjecjfoecjecjecjecjecjfoecjecjecjecjecjfoecjecjecjecjecjfoecjecjecjecjecjfoecjecjecjecjecjfoecjecjecjecjecjfoecjecjecjecjecjfoecjecjecjecjecjfoecjecjecjecjecjfodu\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[4[3[fhl]g]]\"]",
+    "expectedOutput": "\"fhlfhlfhlgfhlfhlfhlgfhlfhlfhlgfhlfhlfhlgfhlfhlfhlgfhlfhlfhlgfhlfhlfhlgfhlfhlfhlgfhlfhlfhlgfhlfhlfhlgfhlfhlfhlgfhlfhlfhlg\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1[2[5[4[i]f]]d]we\"]",
+    "expectedOutput": "\"iiiifiiiifiiiifiiiifiiiifiiiifiiiifiiiifiiiifiiiifdwe\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1[1[1[t]]]rf\"]",
+    "expectedOutput": "\"trf\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3[5[1[3[mrn]i]ck]h]cx\"]",
+    "expectedOutput": "\"mrnmrnmrnickmrnmrnmrnickmrnmrnmrnickmrnmrnmrnickmrnmrnmrnickhmrnmrnmrnickmrnmrnmrnickmrnmrnmrnickmrnmrnmrnickmrnmrnmrnickhmrnmrnmrnickmrnmrnmrnickmrnmrnmrnickmrnmrnmrnickmrnmrnmrnickhcx\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[2[3[1[eoy]]x]ny]v\"]",
+    "expectedOutput": "\"eoyeoyeoyxeoyeoyeoyxnyeoyeoyeoyxeoyeoyeoyxnyeoyeoyeoyxeoyeoyeoyxnyeoyeoyeoyxeoyeoyeoyxnyeoyeoyeoyxeoyeoyeoyxnyv\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[4[3[5[tl]zr]f]yp]ad\"]",
+    "expectedOutput": "\"tltltltltlzrtltltltltlzrtltltltltlzrftltltltltlzrtltltltltlzrtltltltltlzrftltltltltlzrtltltltltlzrtltltltltlzrftltltltltlzrtltltltltlzrtltltltltlzrfyptltltltltlzrtltltltltlzrtltltltltlzrftltltltltlzrtltltltltlzrtltltltltlzrftltltltltlzrtltltltltlzrtltltltltlzrftltltltltlzrtltltltltlzrtltltltltlzrfyptltltltltlzrtltltltltlzrtltltltltlzrftltltltltlzrtltltltltlzrtltltltltlzrftltltltltlzrtltltltltlzrtltltltltlzrftltltltltlzrtltltltltlzrtltltltltlzrfyptltltltltlzrtltltltltlzrtltltltltlzrftltltltltlzrtltltltltlzrtltltltltlzrftltltltltlzrtltltltltlzrtltltltltlzrftltltltltlzrtltltltltlzrtltltltltlzrfyptltltltltlzrtltltltltlzrtltltltltlzrftltltltltlzrtltltltltlzrtltltltltlzrftltltltltlzrtltltltltlzrtltltltltlzrftltltltltlzrtltltltltlzrtltltltltlzrfypad\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5[1[1[kw]z]c]\"]",
+    "expectedOutput": "\"kwzckwzckwzckwzckwzc\"",
+    "isHidden": true
+  }
+]

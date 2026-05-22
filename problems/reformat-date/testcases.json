@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[\"20th Oct 2052\"]",
+    "expectedOutput": "\"2052-10-20\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"6th Jun 1933\"]",
+    "expectedOutput": "\"1933-06-06\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"10th May 1924\"]",
+    "expectedOutput": "\"1924-05-10\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"16th May 1928\"]",
+    "expectedOutput": "\"1928-05-16\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"3rd Aug 1904\"]",
+    "expectedOutput": "\"1904-08-03\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"3rd Oct 1978\"]",
+    "expectedOutput": "\"1978-10-03\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"13th Aug 2003\"]",
+    "expectedOutput": "\"2003-08-13\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"13th Jan 1963\"]",
+    "expectedOutput": "\"1963-01-13\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"24th Apr 2030\"]",
+    "expectedOutput": "\"2030-04-24\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"11th Dec 1999\"]",
+    "expectedOutput": "\"1999-12-11\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"15th Mar 1952\"]",
+    "expectedOutput": "\"1952-03-15\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"18th Dec 1934\"]",
+    "expectedOutput": "\"1934-12-18\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"18th Jul 1961\"]",
+    "expectedOutput": "\"1961-07-18\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"28th Aug 1922\"]",
+    "expectedOutput": "\"1922-08-28\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"20th Jan 2024\"]",
+    "expectedOutput": "\"2024-01-20\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"20th Jan 1925\"]",
+    "expectedOutput": "\"1925-01-20\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"15th Jul 1933\"]",
+    "expectedOutput": "\"1933-07-15\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"16th Nov 1957\"]",
+    "expectedOutput": "\"1957-11-16\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"17th Jun 2027\"]",
+    "expectedOutput": "\"2027-06-17\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"12th Apr 1990\"]",
+    "expectedOutput": "\"1990-04-12\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3rd Jun 2008\"]",
+    "expectedOutput": "\"2008-06-03\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1st Mar 2013\"]",
+    "expectedOutput": "\"2013-03-01\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"24th Mar 1960\"]",
+    "expectedOutput": "\"1960-03-24\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"8th Sep 1963\"]",
+    "expectedOutput": "\"1963-09-08\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"28th Aug 2025\"]",
+    "expectedOutput": "\"2025-08-28\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"24th Jun 1905\"]",
+    "expectedOutput": "\"1905-06-24\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"21st Mar 2008\"]",
+    "expectedOutput": "\"2008-03-21\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"17th Aug 2002\"]",
+    "expectedOutput": "\"2002-08-17\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"21st Feb 1912\"]",
+    "expectedOutput": "\"1912-02-21\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1st Jan 1934\"]",
+    "expectedOutput": "\"1934-01-01\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"6th Sep 1959\"]",
+    "expectedOutput": "\"1959-09-06\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"27th Oct 1952\"]",
+    "expectedOutput": "\"1952-10-27\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"24th Apr 1980\"]",
+    "expectedOutput": "\"1980-04-24\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"10th Mar 2027\"]",
+    "expectedOutput": "\"2027-03-10\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5th Jun 2019\"]",
+    "expectedOutput": "\"2019-06-05\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"25th Feb 1913\"]",
+    "expectedOutput": "\"1913-02-25\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"18th Jul 2029\"]",
+    "expectedOutput": "\"2029-07-18\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"16th Jan 1970\"]",
+    "expectedOutput": "\"1970-01-16\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"21st Sep 1909\"]",
+    "expectedOutput": "\"1909-09-21\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4th Dec 2002\"]",
+    "expectedOutput": "\"2002-12-04\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"21st Apr 1926\"]",
+    "expectedOutput": "\"1926-04-21\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"12th May 2006\"]",
+    "expectedOutput": "\"2006-05-12\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"22nd Mar 2006\"]",
+    "expectedOutput": "\"2006-03-22\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"15th Apr 1911\"]",
+    "expectedOutput": "\"1911-04-15\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"6th Sep 1941\"]",
+    "expectedOutput": "\"1941-09-06\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"12th Oct 1994\"]",
+    "expectedOutput": "\"1994-10-12\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"21st Jan 2012\"]",
+    "expectedOutput": "\"2012-01-21\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"28th Apr 1969\"]",
+    "expectedOutput": "\"1969-04-28\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2nd Jul 2015\"]",
+    "expectedOutput": "\"2015-07-02\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2nd Dec 1937\"]",
+    "expectedOutput": "\"1937-12-02\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5th Jun 2009\"]",
+    "expectedOutput": "\"2009-06-05\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"9th May 1967\"]",
+    "expectedOutput": "\"1967-05-09\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5th Mar 2011\"]",
+    "expectedOutput": "\"2011-03-05\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1st Aug 1912\"]",
+    "expectedOutput": "\"1912-08-01\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"17th Aug 1989\"]",
+    "expectedOutput": "\"1989-08-17\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"22nd May 1946\"]",
+    "expectedOutput": "\"1946-05-22\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"15th Jul 1914\"]",
+    "expectedOutput": "\"1914-07-15\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4th Dec 1990\"]",
+    "expectedOutput": "\"1990-12-04\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"10th Nov 1955\"]",
+    "expectedOutput": "\"1955-11-10\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"25th Apr 1958\"]",
+    "expectedOutput": "\"1958-04-25\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"8th Dec 1938\"]",
+    "expectedOutput": "\"1938-12-08\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"28th May 1951\"]",
+    "expectedOutput": "\"1951-05-28\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"19th Jul 2015\"]",
+    "expectedOutput": "\"2015-07-19\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4th Mar 1925\"]",
+    "expectedOutput": "\"1925-03-04\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"13th Jun 2012\"]",
+    "expectedOutput": "\"2012-06-13\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"18th Feb 1906\"]",
+    "expectedOutput": "\"1906-02-18\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"21st Sep 1988\"]",
+    "expectedOutput": "\"1988-09-21\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"12th Sep 1922\"]",
+    "expectedOutput": "\"1922-09-12\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"25th Sep 1930\"]",
+    "expectedOutput": "\"1930-09-25\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1st Feb 1960\"]",
+    "expectedOutput": "\"1960-02-01\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"9th Jul 1976\"]",
+    "expectedOutput": "\"1976-07-09\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"18th Feb 2021\"]",
+    "expectedOutput": "\"2021-02-18\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"17th Dec 1982\"]",
+    "expectedOutput": "\"1982-12-17\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"23rd Aug 2002\"]",
+    "expectedOutput": "\"2002-08-23\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"19th Jul 1994\"]",
+    "expectedOutput": "\"1994-07-19\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"15th Feb 1941\"]",
+    "expectedOutput": "\"1941-02-15\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"11th Aug 1958\"]",
+    "expectedOutput": "\"1958-08-11\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"11th Apr 1939\"]",
+    "expectedOutput": "\"1939-04-11\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"27th May 1980\"]",
+    "expectedOutput": "\"1980-05-27\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"4th Jul 1924\"]",
+    "expectedOutput": "\"1924-07-04\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"17th May 1932\"]",
+    "expectedOutput": "\"1932-05-17\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"22nd Jan 1948\"]",
+    "expectedOutput": "\"1948-01-22\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"26th Jan 1946\"]",
+    "expectedOutput": "\"1946-01-26\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"2nd Jan 2020\"]",
+    "expectedOutput": "\"2020-01-02\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"8th Apr 1918\"]",
+    "expectedOutput": "\"1918-04-08\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"21st Aug 1985\"]",
+    "expectedOutput": "\"1985-08-21\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"25th Aug 1916\"]",
+    "expectedOutput": "\"1916-08-25\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"27th Nov 1969\"]",
+    "expectedOutput": "\"1969-11-27\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"11th Apr 2022\"]",
+    "expectedOutput": "\"2022-04-11\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"21st Oct 1964\"]",
+    "expectedOutput": "\"1964-10-21\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"10th Sep 2026\"]",
+    "expectedOutput": "\"2026-09-10\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"15th Oct 1935\"]",
+    "expectedOutput": "\"1935-10-15\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"22nd Sep 2030\"]",
+    "expectedOutput": "\"2030-09-22\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"3rd Nov 1938\"]",
+    "expectedOutput": "\"1938-11-03\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"22nd Mar 2009\"]",
+    "expectedOutput": "\"2009-03-22\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"16th Nov 2027\"]",
+    "expectedOutput": "\"2027-11-16\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"6th Oct 2008\"]",
+    "expectedOutput": "\"2008-10-06\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"14th Apr 1916\"]",
+    "expectedOutput": "\"1916-04-14\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"16th Nov 1909\"]",
+    "expectedOutput": "\"1909-11-16\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"24th Nov 2027\"]",
+    "expectedOutput": "\"2027-11-24\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"15th May 1934\"]",
+    "expectedOutput": "\"1934-05-15\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"13th Jan 1976\"]",
+    "expectedOutput": "\"1976-01-13\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"12th Apr 2019\"]",
+    "expectedOutput": "\"2019-04-12\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"26th Jun 1960\"]",
+    "expectedOutput": "\"1960-06-26\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"19th Aug 2017\"]",
+    "expectedOutput": "\"2017-08-19\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"21st Aug 2030\"]",
+    "expectedOutput": "\"2030-08-21\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1st Jun 1945\"]",
+    "expectedOutput": "\"1945-06-01\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"28th Jul 2023\"]",
+    "expectedOutput": "\"2023-07-28\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"18th Nov 1948\"]",
+    "expectedOutput": "\"1948-11-18\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"23rd Jul 1925\"]",
+    "expectedOutput": "\"1925-07-23\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"13th Sep 2018\"]",
+    "expectedOutput": "\"2018-09-13\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"18th Feb 1941\"]",
+    "expectedOutput": "\"1941-02-18\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"16th Jul 1971\"]",
+    "expectedOutput": "\"1971-07-16\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"13th Aug 1982\"]",
+    "expectedOutput": "\"1982-08-13\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"15th Dec 1949\"]",
+    "expectedOutput": "\"1949-12-15\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"18th May 1906\"]",
+    "expectedOutput": "\"1906-05-18\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"15th Nov 2016\"]",
+    "expectedOutput": "\"2016-11-15\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"24th Nov 1918\"]",
+    "expectedOutput": "\"1918-11-24\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"15th May 1956\"]",
+    "expectedOutput": "\"1956-05-15\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"13th Oct 2000\"]",
+    "expectedOutput": "\"2000-10-13\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"11th Oct 1907\"]",
+    "expectedOutput": "\"1907-10-11\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"7th Jun 1952\"]",
+    "expectedOutput": "\"1952-06-07\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"7th Jun 1954\"]",
+    "expectedOutput": "\"1954-06-07\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"24th Jul 1996\"]",
+    "expectedOutput": "\"1996-07-24\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"28th Jul 1929\"]",
+    "expectedOutput": "\"1929-07-28\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"8th May 2024\"]",
+    "expectedOutput": "\"2024-05-08\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"5th Feb 1997\"]",
+    "expectedOutput": "\"1997-02-05\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"13th Sep 1953\"]",
+    "expectedOutput": "\"1953-09-13\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"19th Feb 1957\"]",
+    "expectedOutput": "\"1957-02-19\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"22nd Sep 2027\"]",
+    "expectedOutput": "\"2027-09-22\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"21st Dec 1940\"]",
+    "expectedOutput": "\"1940-12-21\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"25th Jul 1966\"]",
+    "expectedOutput": "\"1966-07-25\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"18th May 2000\"]",
+    "expectedOutput": "\"2000-05-18\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"9th Jul 1970\"]",
+    "expectedOutput": "\"1970-07-09\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"14th Aug 1952\"]",
+    "expectedOutput": "\"1952-08-14\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"24th Feb 1950\"]",
+    "expectedOutput": "\"1950-02-24\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"26th Sep 1993\"]",
+    "expectedOutput": "\"1993-09-26\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"1st Jun 1967\"]",
+    "expectedOutput": "\"1967-06-01\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"12th Nov 1941\"]",
+    "expectedOutput": "\"1941-11-12\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"14th Mar 1989\"]",
+    "expectedOutput": "\"1989-03-14\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"13th Feb 1909\"]",
+    "expectedOutput": "\"1909-02-13\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"6th Feb 1954\"]",
+    "expectedOutput": "\"1954-02-06\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"18th Jun 1921\"]",
+    "expectedOutput": "\"1921-06-18\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"9th Feb 1939\"]",
+    "expectedOutput": "\"1939-02-09\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"11th Jan 1923\"]",
+    "expectedOutput": "\"1923-01-11\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"7th Nov 1907\"]",
+    "expectedOutput": "\"1907-11-07\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"22nd Apr 1928\"]",
+    "expectedOutput": "\"1928-04-22\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"14th May 1945\"]",
+    "expectedOutput": "\"1945-05-14\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"13th Oct 1926\"]",
+    "expectedOutput": "\"1926-10-13\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"27th Oct 2012\"]",
+    "expectedOutput": "\"2012-10-27\"",
+    "isHidden": true
+  }
+]

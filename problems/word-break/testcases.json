@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[\"leetcode\",[\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": false
+  },
+  {
+    "input": "[\"applepenapple\",[\"apple\",\"pen\"]]",
+    "expectedOutput": "true",
+    "isHidden": false
+  },
+  {
+    "input": "[\"ouxnmw\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": false
+  },
+  {
+    "input": "[\"pencatsand\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": false
+  },
+  {
+    "input": "[\"pensandapple\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": false
+  },
+  {
+    "input": "[\"tugsf\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bficglr\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcodecats\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bkyyhmswok\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"andcatcat\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"yyojq\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"afpdypx\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dogleet\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"veswdjqw\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cmeflr\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cczeduihh\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"wicrysptc\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catscatsapple\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"appleapple\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"xpoldom\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dogsandcode\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ubyfxp\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"bghhdbiu\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"penand\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"stxsa\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"sandcats\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"afwzqwqve\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"jqdgfpadz\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dogcatsdog\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"appleand\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"itpozig\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catscodeapple\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"tougwhe\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"leetcodeleet\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"andsand\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"jbtax\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"leetcatapple\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"penpen\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"sandcodepen\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cpxyb\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"kqocq\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"leetapple\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pencatcatcats\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pencode\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"jxetpt\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"wehqzdmf\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"qawhlvqz\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hzhqn\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catscatscat\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"nuzdokcwe\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"leetleetcatspenapple\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"xnpolcqdgj\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dogcodecats\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"vgjqalznnudscfvybs\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ijejczmfenjcayegokrzlp\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"anejkklgzv\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"iimdnxnrvbugj\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"lhucmiotwqqqvz\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catappleleetapplecodeapple\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catsleetsandappledogapple\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"andcatsandleetpen\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"kskjirtxfgfsafdruwvkwyzr\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cadotrqafctyornmeo\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hfnxuosatobenmwpoeezmjc\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"codedogcatsdogcode\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aoperzjcgifuujhavhkbhk\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"codepenpenpen\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"appleleetpencatscodepenapple\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ldzoarnhlxs\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ipeecvsysjmak\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"epirdeaxxzylcmplpdamkww\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dogcatcodecats\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"vgnyhipqvtwll\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"yfomixjqqzhgekn\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hehdqzkscdl\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dogcatscatscodesandleetcat\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dogcatleetdogcodeandapple\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"uijnpkxcgrloiov\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"leetanddogleet\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"jqotwbgpivlx\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"appleleetdogcode\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catpencatpensand\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"obcwuobrzehbpwufwwyosy\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catsandsandandpenanddog\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dogleetcodecatsandcatscode\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"codeleetandanddogcatspen\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"sandcodecatandpenleet\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"curnsxtmesverjunobzqwl\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"qntrjkxzti\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"andleetsandandpencatssand\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pendogsandcat\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pencatscodeapplepencode\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"codesandcodeleetapple\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"leetcatdogandapple\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catsdogdogappleleetpensand\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"hrqslezsdaoxpmwkcilwwqneu\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pencodecatdogcode\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"leetcodecatappleleetcode\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dogcatdogpen\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"apldpzacmeuoliwjakcemqjgn\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catsleetcatappledogdogsandcatdogdogcatssandcode\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"sandpenandcodeapplecatapplecatpenapple\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"xtqovhyqgqtvgfhwvbhswiwvtlxvhep\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catsleetcatscodecodepencatsandcodeapplesandcats\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dogpencatsdogcatcatssandpencats\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"codeandandpenapplecodecodecodesandcat\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"vecrcwrrzacrfsrtdbqahiqksojjqpahkmugxmnokkquylyodm\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pybpfyvioautxmzqucnrsrwklexrioalzyolbmguud\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"codeleetcodecatsandcodepenappleandcatleetsand\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"awvkucylxrdknqwybrpimgjxzufyklvxujyfshprvo\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcatcatsdogcatpencatapplepencatsapple\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"applecodecodeandandpendogpencatpenanddogleetsand\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"fdjfavvlyjhpqfuuvvkseorxgxlhwsnysuksqyfgasft\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"zvfluccrfrqkxdehojpkqgdslujexwmt\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"applepencatcatscatleetdogleetleetsandpenandsandcode\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcatcatdogcatcatcatspensanddogsandsand\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dogcatsappleandpenleetleetleetcode\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"sandsandsandcatsdogcatcatsandleet\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"penandcatdogdogdogcatdogpendogandpencatleetsand\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ddfezqsepoggsnqglawaljbbwixy\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"leetdogleetleetpenapplecatscatsandcatscats\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"codecatsandsanddogcatsandcatpenpensanddog\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"andcatsleetsandleetapplepenappleappleapple\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"cvshvaylwqtdzawmlcnfrlnwgtwfohznyaq\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"aetplfnytxgouihqbhynzgtwcjrooujzbghwcywkdpkskb\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catpendogdogcatcodecatcodedog\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"leetcatdogcatsdogandsandandandpenleetandapple\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"leetsandpencatcatdogandcats\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catscatsleetpencodeleetappleapplecatleet\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catcatleetsandsandcatsandappledogcatspenleetapple\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"tvjycdfppgtymjbzrjzgmokxmuvolpyxb\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pjmsrxwgjagdnwfigbiecsfxptxqgbrayb\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dfvjldwgjgsupntezvhprkbkuxnarhjatripniyxcemxtdsr\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"dogcatsanddogleetcatscodeapplecatcatand\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"pviueniglcvcqdpzgwnfscdgoskixjfmxvxlytcgawlcyykxsy\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catpenleetpenpenleetleetapplecatdogpencatandcats\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"mdqqplscehqonxlcydfeopwnovnwx\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catapplecodesandcatscatpensandpen\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"andcodedogandpenleetcatscatscatscatsandcode\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"applecatsandapplecatleetandcatcatcatsandapple\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"andcatcodecodedogsandleetpencatsdogapple\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"andpendogcodeapplecodeanddogapple\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"celiruriiirmkmdianluronganedgzdob\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"codeleetcatsandappleleetcatscatsand\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"toeumbjqvscgvicbzyybgbvgcjeckdvpnijuiwwnwpoozfu\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"codecodepensanddogleetcatandappledogdogdogcodecats\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"codecodesandleetleetandcodeappleappleleetanddog\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"kkcxcbfvrmezqbrupbtxsmmgmnpprv\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  },
+  {
+    "input": "[\"catscodepensandpenanddogpendogcatssandpenleetcode\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "true",
+    "isHidden": true
+  },
+  {
+    "input": "[\"ljexrwhuftrhscrytzepctojeppbjuj\",[\"cat\",\"dog\",\"sand\",\"and\",\"cats\",\"apple\",\"pen\",\"leet\",\"code\"]]",
+    "expectedOutput": "false",
+    "isHidden": true
+  }
+]

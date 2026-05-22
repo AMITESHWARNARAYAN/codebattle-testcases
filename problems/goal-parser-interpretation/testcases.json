@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[\"G()(al)\"]",
+    "expectedOutput": "\"Goal\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"G()()()()(al)\"]",
+    "expectedOutput": "\"Gooooal\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"()()(al)(al)GG\"]",
+    "expectedOutput": "\"ooalalGG\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"(al)(al)GG\"]",
+    "expectedOutput": "\"alalGG\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"(al)(al)(al)G()G\"]",
+    "expectedOutput": "\"alalalGoG\"",
+    "isHidden": false
+  },
+  {
+    "input": "[\"()()()()\"]",
+    "expectedOutput": "\"oooo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)(al)\"]",
+    "expectedOutput": "\"alal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G(al)\"]",
+    "expectedOutput": "\"Gal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()GG(al)\"]",
+    "expectedOutput": "\"oGGal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()G()(al)\"]",
+    "expectedOutput": "\"oGoal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()G(al)G(al)\"]",
+    "expectedOutput": "\"oGalGal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()()()(al)()\"]",
+    "expectedOutput": "\"oooalo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)G\"]",
+    "expectedOutput": "\"alG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G()()()(al)(al)\"]",
+    "expectedOutput": "\"Goooalal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()G(al)\"]",
+    "expectedOutput": "\"oGal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)G()G\"]",
+    "expectedOutput": "\"alGoG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()G\"]",
+    "expectedOutput": "\"oG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G()G()()()\"]",
+    "expectedOutput": "\"GoGooo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)G()G()\"]",
+    "expectedOutput": "\"alGoGo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()()G\"]",
+    "expectedOutput": "\"ooG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G()GG\"]",
+    "expectedOutput": "\"GoGG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G(al)(al)()\"]",
+    "expectedOutput": "\"Galalo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()()()()()\"]",
+    "expectedOutput": "\"ooooo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()()\"]",
+    "expectedOutput": "\"oo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()()()(al)()\"]",
+    "expectedOutput": "\"oooalo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()(al)(al)(al)(al)\"]",
+    "expectedOutput": "\"oalalalal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G()(al)()G()\"]",
+    "expectedOutput": "\"GoaloGo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G()\"]",
+    "expectedOutput": "\"Go\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)()(al)G\"]",
+    "expectedOutput": "\"aloalG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G()(al)G\"]",
+    "expectedOutput": "\"GoalG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()()(al)()\"]",
+    "expectedOutput": "\"ooalo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G()()\"]",
+    "expectedOutput": "\"Goo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G()(al)G()G\"]",
+    "expectedOutput": "\"GoalGoG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)GG\"]",
+    "expectedOutput": "\"alGG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G(al)\"]",
+    "expectedOutput": "\"Gal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)G()()(al)\"]",
+    "expectedOutput": "\"alGooal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)()\"]",
+    "expectedOutput": "\"alo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G(al)(al)()G\"]",
+    "expectedOutput": "\"GalaloG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)G(al)(al)G\"]",
+    "expectedOutput": "\"alGalalG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)GG\"]",
+    "expectedOutput": "\"alGG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)G(al)GG(al)\"]",
+    "expectedOutput": "\"alGalGGal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()()\"]",
+    "expectedOutput": "\"oo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)G(al)G\"]",
+    "expectedOutput": "\"alGalG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)()(al)GG\"]",
+    "expectedOutput": "\"aloalGG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"GG(al)(al)G\"]",
+    "expectedOutput": "\"GGalalG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G()GG\"]",
+    "expectedOutput": "\"GoGG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"GG()G(al)G\"]",
+    "expectedOutput": "\"GGoGalG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G(al)()()\"]",
+    "expectedOutput": "\"Galoo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()GGG\"]",
+    "expectedOutput": "\"oGGG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()()()(al)\"]",
+    "expectedOutput": "\"oooal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G(al)(al)(al)(al)G\"]",
+    "expectedOutput": "\"GalalalalG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)(al)(al)()()()()GG()()G(al)(al)(al)\"]",
+    "expectedOutput": "\"alalalooooGGooGalalal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G(al)(al)()(al)()(al)GG\"]",
+    "expectedOutput": "\"GalaloaloalGG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)()GG()G()G(al)(al)()()\"]",
+    "expectedOutput": "\"aloGGoGoGalaloo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)(al)()()(al)(al)(al)GGG(al)(al)\"]",
+    "expectedOutput": "\"alalooalalalGGGalal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"GG()(al)G()G()G()G\"]",
+    "expectedOutput": "\"GGoalGoGoGoG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)GGG(al)()(al)\"]",
+    "expectedOutput": "\"alGGGaloal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)()G()(al)(al)(al)(al)(al)\"]",
+    "expectedOutput": "\"aloGoalalalalal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)(al)()()()(al)\"]",
+    "expectedOutput": "\"alaloooal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)GG(al)(al)G()GG()(al)()(al)(al)\"]",
+    "expectedOutput": "\"alGGalalGoGGoaloalal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()()G(al)()(al)()\"]",
+    "expectedOutput": "\"ooGaloalo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G()()GG()G()GGG(al)\"]",
+    "expectedOutput": "\"GooGGoGoGGGal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)()G(al)(al)GGGGG\"]",
+    "expectedOutput": "\"aloGalalGGGGG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()(al)G()G()(al)()()()\"]",
+    "expectedOutput": "\"oalGoGoalooo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)()()(al)G(al)(al)\"]",
+    "expectedOutput": "\"alooalGalal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()()(al)(al)GGG(al)\"]",
+    "expectedOutput": "\"ooalalGGGal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)(al)(al)()G(al)()(al)(al)()(al)G\"]",
+    "expectedOutput": "\"alalaloGaloalaloalG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G(al)G(al)G()()(al)\"]",
+    "expectedOutput": "\"GalGalGooal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"GG(al)(al)()()G\"]",
+    "expectedOutput": "\"GGalalooG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G()G(al)G(al)()()()G\"]",
+    "expectedOutput": "\"GoGalGaloooG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()()(al)(al)GGGG\"]",
+    "expectedOutput": "\"ooalalGGGG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)G()G()G()()(al)()\"]",
+    "expectedOutput": "\"alGoGoGooalo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()(al)(al)()()()(al)G()()()(al)()()\"]",
+    "expectedOutput": "\"oalaloooalGoooaloo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()(al)GG()(al)G\"]",
+    "expectedOutput": "\"oalGGoalG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)G()(al)GG(al)(al)(al)(al)(al)G()GG\"]",
+    "expectedOutput": "\"alGoalGGalalalalalGoGG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()G()()GG(al)G()(al)(al)\"]",
+    "expectedOutput": "\"oGooGGalGoalal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G(al)()(al)()G()G(al)GG(al)(al)(al)\"]",
+    "expectedOutput": "\"GaloaloGoGalGGalalal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()(al)(al)G(al)GGGGG()()G()\"]",
+    "expectedOutput": "\"oalalGalGGGGGooGo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)GGGG(al)()(al)G()G()\"]",
+    "expectedOutput": "\"alGGGGaloalGoGo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()(al)()GG(al)()()()()(al)()G\"]",
+    "expectedOutput": "\"oaloGGalooooaloG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G(al)(al)G(al)GG(al)(al)G(al)()(al)GG\"]",
+    "expectedOutput": "\"GalalGalGGalalGaloalGG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()(al)G()G()(al)(al)()G\"]",
+    "expectedOutput": "\"oalGoGoalaloG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)()G()(al)(al)()(al)()GG(al)\"]",
+    "expectedOutput": "\"aloGoalaloaloGGal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)(al)()()(al)(al)()\"]",
+    "expectedOutput": "\"alalooalalo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()(al)()G()(al)()GG()()()(al)G\"]",
+    "expectedOutput": "\"oaloGoaloGGoooalG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G()G()G()(al)()\"]",
+    "expectedOutput": "\"GoGoGoalo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()G()()G(al)(al)\"]",
+    "expectedOutput": "\"oGooGalal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()()()(al)()G()(al)(al)G(al)(al)(al)\"]",
+    "expectedOutput": "\"oooaloGoalalGalalal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G()()(al)G()G(al)(al)GG()(al)\"]",
+    "expectedOutput": "\"GooalGoGalalGGoal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()G()G(al)G\"]",
+    "expectedOutput": "\"oGoGalG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"GG(al)()()G(al)(al)(al)\"]",
+    "expectedOutput": "\"GGalooGalalal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()(al)G()(al)(al)(al)\"]",
+    "expectedOutput": "\"oalGoalalal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)()(al)(al)(al)()GGG\"]",
+    "expectedOutput": "\"aloalalaloGGG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)GG(al)G(al)(al)(al)()(al)\"]",
+    "expectedOutput": "\"alGGalGalalaloal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)()G(al)()(al)()GG\"]",
+    "expectedOutput": "\"aloGaloaloGG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)(al)(al)(al)()G(al)G\"]",
+    "expectedOutput": "\"alalalaloGalG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)()(al)(al)G(al)(al)G\"]",
+    "expectedOutput": "\"aloalalGalalG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)G()G(al)()(al)GGGGG\"]",
+    "expectedOutput": "\"alGoGaloalGGGGG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)(al)(al)()()(al)GGG(al)\"]",
+    "expectedOutput": "\"alalalooalGGGal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()GG(al)G()()(al)()()(al)(al)G()G\"]",
+    "expectedOutput": "\"oGGalGooalooalalGoG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"GG(al)(al)(al)()(al)()()()()G(al)()G\"]",
+    "expectedOutput": "\"GGalalaloalooooGaloG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G(al)()()()GG(al)()()GGG(al)GG()G()(al)(al)GGG()(al)\"]",
+    "expectedOutput": "\"GaloooGGalooGGGalGGoGoalalGGGoal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()(al)(al)()(al)()(al)(al)(al)(al)(al)G()()()G(al)G(al)GG()GG(al)\"]",
+    "expectedOutput": "\"oalaloaloalalalalalGoooGalGalGGoGGal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)G()()(al)(al)()()()G(al)(al)G(al)(al)(al)GGGG()(al)\"]",
+    "expectedOutput": "\"alGooalaloooGalalGalalalGGGGoal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G()()()()()()()()(al)(al)G()(al)(al)(al)G\"]",
+    "expectedOutput": "\"GooooooooalalGoalalalG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G()GG()GG(al)()(al)(al)(al)(al)(al)(al)(al)()G(al)()(al)(al)()()()()G()()()\"]",
+    "expectedOutput": "\"GoGGoGGaloalalalalalalaloGaloalalooooGooo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)()(al)GGG(al)(al)()()()()GGG(al)G(al)G()()G(al)\"]",
+    "expectedOutput": "\"aloalGGGalalooooGGGalGalGooGal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G()GG(al)GGG()()()()GGG(al)G(al)GGGG()\"]",
+    "expectedOutput": "\"GoGGalGGGooooGGGalGalGGGGo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()G()GGGG(al)(al)()()GG()()(al)G(al)()()(al)()()(al)()G(al)()(al)G\"]",
+    "expectedOutput": "\"oGoGGGGalalooGGooalGalooalooaloGaloalG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()G()GGGG(al)(al)()()(al)(al)(al)GGGG(al)(al)(al)()\"]",
+    "expectedOutput": "\"oGoGGGGalalooalalalGGGGalalalo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)()G()G()(al)()(al)()()G(al)()(al)()(al)G()(al)(al)()()\"]",
+    "expectedOutput": "\"aloGoGoaloalooGaloaloalGoalaloo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G(al)(al)()()()()()G(al)(al)G(al)G(al)(al)G(al)G(al)()G(al)G()G()()(al)\"]",
+    "expectedOutput": "\"GalaloooooGalalGalGalalGalGaloGalGoGooal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"GG()(al)()(al)(al)()()GG()GGG()G\"]",
+    "expectedOutput": "\"GGoaloalalooGGoGGGoG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)G(al)()GG(al)G(al)G(al)G()()G(al)()(al)()(al)()(al)(al)\"]",
+    "expectedOutput": "\"alGaloGGalGalGalGooGaloaloaloalal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)()(al)(al)()GG(al)()GGG()G()(al)()GGG()()()()(al)(al)()G(al)()\"]",
+    "expectedOutput": "\"aloalaloGGaloGGGoGoaloGGGooooalaloGalo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)(al)G(al)()()(al)()G()G(al)(al)(al)G(al)(al)\"]",
+    "expectedOutput": "\"alalGalooaloGoGalalalGalal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G(al)(al)G()(al)G()()(al)(al)(al)GGG(al)()()(al)(al)()G()(al)(al)(al)\"]",
+    "expectedOutput": "\"GalalGoalGooalalalGGGalooalaloGoalalal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)()G()()()()(al)G(al)GG(al)()()(al)(al)G(al)()()()\"]",
+    "expectedOutput": "\"aloGooooalGalGGalooalalGalooo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)GG(al)()G(al)(al)()GG()()(al)(al)GGG(al)G()()G(al)G()G\"]",
+    "expectedOutput": "\"alGGaloGalaloGGooalalGGGalGooGalGoG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G()()(al)(al)()GGG(al)()GGGG()G(al)()(al)()()\"]",
+    "expectedOutput": "\"GooalaloGGGaloGGGGoGaloaloo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()()G(al)()(al)G(al)(al)G(al)G()(al)G()(al)()(al)(al)G(al)(al)GG\"]",
+    "expectedOutput": "\"ooGaloalGalalGalGoalGoaloalalGalalGG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)G()()G()()()()G(al)(al)(al)()G(al)(al)GG(al)G\"]",
+    "expectedOutput": "\"alGooGooooGalalaloGalalGGalG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)()(al)(al)()GG(al)()()(al)(al)(al)()GG(al)G\"]",
+    "expectedOutput": "\"aloalaloGGalooalalaloGGalG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()()()(al)(al)G()()GG(al)(al)(al)G(al)G(al)()(al)()\"]",
+    "expectedOutput": "\"oooalalGooGGalalalGalGaloalo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)()G(al)()(al)GG()G()()(al)(al)()G()(al)()()(al)(al)()()\"]",
+    "expectedOutput": "\"aloGaloalGGoGooalaloGoalooalaloo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)(al)GGG(al)(al)(al)G()G(al)()()(al)(al)(al)(al)()()()(al)(al)G()(al)()()()\"]",
+    "expectedOutput": "\"alalGGGalalalGoGalooalalalaloooalalGoalooo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)G()G(al)()G(al)(al)(al)(al)(al)GGG(al)(al)()(al)G()()(al)()G\"]",
+    "expectedOutput": "\"alGoGaloGalalalalalGGGalaloalGooaloG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)()G(al)(al)()()()(al)G(al)(al)(al)G()G()(al)\"]",
+    "expectedOutput": "\"aloGalaloooalGalalalGoGoal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()G()G()G()(al)(al)G()G()(al)G()(al)()()G()()(al)GGGG\"]",
+    "expectedOutput": "\"oGoGoGoalalGoGoalGoalooGooalGGGG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"GG(al)(al)G()GG()()G()GG()(al)()(al)(al)()()()(al)()GGGG()\"]",
+    "expectedOutput": "\"GGalalGoGGooGoGGoaloalaloooaloGGGGo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()(al)(al)()()(al)(al)G()GG(al)GG(al)(al)\"]",
+    "expectedOutput": "\"oalalooalalGoGGalGGalal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)()GG()G()G(al)()()()()()()(al)()(al)(al)G()()G()\"]",
+    "expectedOutput": "\"aloGGoGoGalooooooaloalalGooGo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()(al)()G(al)()()()()()()(al)()()()()()G(al)()G(al)\"]",
+    "expectedOutput": "\"oaloGalooooooaloooooGaloGal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G()(al)()(al)()G()(al)()G(al)(al)()(al)G()()(al)G()()G()\"]",
+    "expectedOutput": "\"GoaloaloGoaloGalaloalGooalGooGo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)()()()G()(al)()(al)GG()(al)(al)G(al)()()(al)()()\"]",
+    "expectedOutput": "\"aloooGoaloalGGoalalGalooaloo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)(al)G(al)()(al)(al)G()GGG(al)G(al)()()()\"]",
+    "expectedOutput": "\"alalGaloalalGoGGGalGalooo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)GG(al)(al)()G(al)()G()(al)G(al)()G(al)(al)(al)G(al)(al)(al)(al)(al)()\"]",
+    "expectedOutput": "\"alGGalaloGaloGoalGaloGalalalGalalalalalo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)()()(al)()()()GG(al)(al)GG(al)G()(al)()G()G\"]",
+    "expectedOutput": "\"alooaloooGGalalGGalGoaloGoG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"GG()()GGG(al)()(al)G(al)()()(al)(al)G(al)\"]",
+    "expectedOutput": "\"GGooGGGaloalGalooalalGal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G()G()G()(al)GGG(al)()()()(al)(al)()(al)()()G(al)G(al)()GG()()()\"]",
+    "expectedOutput": "\"GoGoGoalGGGaloooalaloalooGalGaloGGooo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)(al)(al)()()()()GG(al)G()G()(al)G(al)(al)()\"]",
+    "expectedOutput": "\"alalalooooGGalGoGoalGalalo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)G(al)(al)()(al)G()()G()(al)G(al)()()()G()(al)\"]",
+    "expectedOutput": "\"alGalaloalGooGoalGaloooGoal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()(al)GG(al)(al)()GG()(al)(al)G()GG\"]",
+    "expectedOutput": "\"oalGGalaloGGoalalGoGG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()(al)(al)(al)G()(al)G()(al)(al)G(al)(al)G(al)(al)(al)GG\"]",
+    "expectedOutput": "\"oalalalGoalGoalalGalalGalalalGG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G(al)()(al)()(al)GG()()()GG(al)(al)()()(al)()\"]",
+    "expectedOutput": "\"GaloaloalGGoooGGalalooalo\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)G()(al)G(al)()GG()(al)()G(al)()(al)\"]",
+    "expectedOutput": "\"alGoalGaloGGoaloGaloal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()()()()()()(al)(al)G(al)GG()(al)G(al)()(al)G()G()G\"]",
+    "expectedOutput": "\"ooooooalalGalGGoalGaloalGoGoG\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"(al)(al)()(al)G()()()()()G(al)()G(al)(al)(al)(al)()(al)\"]",
+    "expectedOutput": "\"alaloalGoooooGaloGalalalaloal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"()()(al)(al)()()()(al)(al)GG()G()(al)()(al)G(al)()G()(al)\"]",
+    "expectedOutput": "\"ooalaloooalalGGoGoaloalGaloGoal\"",
+    "isHidden": true
+  },
+  {
+    "input": "[\"G()()()()(al)()(al)G()(al)(al)()(al)G(al)GG(al)(al)(al)(al)()()()()()()GG\"]",
+    "expectedOutput": "\"GooooaloalGoalaloalGalGGalalalalooooooGG\"",
+    "isHidden": true
+  }
+]

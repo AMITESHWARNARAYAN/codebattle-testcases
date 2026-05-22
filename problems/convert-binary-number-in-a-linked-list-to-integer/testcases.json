@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[[1,0,1]]",
+    "expectedOutput": "5",
+    "isHidden": false
+  },
+  {
+    "input": "[[0]]",
+    "expectedOutput": "0",
+    "isHidden": false
+  },
+  {
+    "input": "[[1]]",
+    "expectedOutput": "1",
+    "isHidden": false
+  },
+  {
+    "input": "[[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]]",
+    "expectedOutput": "32767",
+    "isHidden": false
+  },
+  {
+    "input": "[[0,1,0,0]]",
+    "expectedOutput": "4",
+    "isHidden": false
+  },
+  {
+    "input": "[[1,1]]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,0,1,0,0]]",
+    "expectedOutput": "36",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,0,1,1,1,0,0,1]]",
+    "expectedOutput": "441",
+    "isHidden": true
+  },
+  {
+    "input": "[[1]]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[[1]]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[[0]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,0,0,0,0,0,1,0]]",
+    "expectedOutput": "130",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,0,1]]",
+    "expectedOutput": "9",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,0]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,1,0,1,0]]",
+    "expectedOutput": "26",
+    "isHidden": true
+  },
+  {
+    "input": "[[1]]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,0,0,0,1,1,1,1]]",
+    "expectedOutput": "143",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,0,1,0,1,0,0,0,1]]",
+    "expectedOutput": "593",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,1,0,0,0,0]]",
+    "expectedOutput": "80",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,1,0,1,0,1,0]]",
+    "expectedOutput": "106",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,0]]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,0,0,0]]",
+    "expectedOutput": "16",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,0,1]]",
+    "expectedOutput": "9",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,0]]",
+    "expectedOutput": "6",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,1,0,0]]",
+    "expectedOutput": "20",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,1,1,1,0,1,0,0]]",
+    "expectedOutput": "116",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,1,0]]",
+    "expectedOutput": "10",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,0,1,0,1,0]]",
+    "expectedOutput": "42",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,1,0]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[[1]]",
+    "expectedOutput": "1",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,0,0,1,1,0,1,1,0]]",
+    "expectedOutput": "54",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,1,0,0,1,1,0]]",
+    "expectedOutput": "38",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,1,1]]",
+    "expectedOutput": "15",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[[0]]",
+    "expectedOutput": "0",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1]]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,0,0,1,0,0,0]]",
+    "expectedOutput": "136",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,0,1,1,1,0,0]]",
+    "expectedOutput": "28",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,1,1]]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,0]]",
+    "expectedOutput": "2",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,0,1]]",
+    "expectedOutput": "9",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,0]]",
+    "expectedOutput": "6",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,1,0,1,0,0]]",
+    "expectedOutput": "20",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,1,1,1,1,0,1,1]]",
+    "expectedOutput": "123",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,1,0,1,1,1,0]]",
+    "expectedOutput": "174",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,0]]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,0,0,1,0,1,0,0,0,1,1,1,0]]",
+    "expectedOutput": "654",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,1,1,1,1,1,1,1,0]]",
+    "expectedOutput": "510",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,0,0,1,0,0,1,1,1,0,1,0,1,0]]",
+    "expectedOutput": "17642",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,1,0,1,0,0,0,0,1,0,0,1,1,0,1,1]]",
+    "expectedOutput": "53403",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,1,0,0,0,0,0,0,0,1,0,0,1,0,1,1]]",
+    "expectedOutput": "81995",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,1,1,1,0,0,1,0,1]]",
+    "expectedOutput": "229",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,0,0,0,0,1,1,0,1,1]]",
+    "expectedOutput": "1563",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,0,0,0,1,0,0,1,1,0,1,1,0,0,1,1,0]]",
+    "expectedOutput": "136038",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,1,0,0,1,0,0,1,0,1,0,1,0,1,0]]",
+    "expectedOutput": "58538",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,0,0,1,1,0,1,1,0,1]]",
+    "expectedOutput": "1133",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,0,0,1,0,1,0,1,1,0,0]]",
+    "expectedOutput": "2220",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,1,0,1,0,0,0,1,1]]",
+    "expectedOutput": "931",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,1,0,0,1,0,1,0,0,0]]",
+    "expectedOutput": "1832",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,1,0,0,0,1,1,1,0,1]]",
+    "expectedOutput": "285",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,0,0,1,0,1,1,1,0,1,1,1,0,0,0,0]]",
+    "expectedOutput": "38768",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,0,0,1,0,1,0,0,0,1,0,1,0,1,0]]",
+    "expectedOutput": "2602",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,1,0,1,0,1,1,0,1,1,1,0,1]]",
+    "expectedOutput": "6877",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,0,0,1,0,1,1,1,0,0,1,1,1,0,0,1]]",
+    "expectedOutput": "104249",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,0,1,1,1,0,1,0,1]]",
+    "expectedOutput": "117",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,1,1,1]]",
+    "expectedOutput": "393431",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,0,1,1,1,0,0,0,0,1,1,0,0,1,1]]",
+    "expectedOutput": "23603",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,0,0,1,1,1,0,0,1]]",
+    "expectedOutput": "313",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,1,0,1,0,1,0,0,0,1,1,0,1,1,1,1,1,1]]",
+    "expectedOutput": "479679",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,0,0,0,1,1,1,0,0,0,0,1,1,0]]",
+    "expectedOutput": "902",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,1,0,0,1,1,0,1,0,1,0,1,0,1]]",
+    "expectedOutput": "29525",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,0,1,0,0,1,0,1,1,0,0,1,0]]",
+    "expectedOutput": "1202",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,1,1,0,0,0,0,1,1,1]]",
+    "expectedOutput": "903",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,0,0,1,1,1,0,1,0,0,0,1,1,1]]",
+    "expectedOutput": "18247",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,0,0,0,0,1,1,1,1,1,0]]",
+    "expectedOutput": "1086",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,1,0,1,1,1,1,0,1,1,0,0]]",
+    "expectedOutput": "7660",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,1,1,0,1,1,0,0,1,0,1,1,0,1,1]]",
+    "expectedOutput": "46683",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,0,1,0,1,0,0,1,0,1]]",
+    "expectedOutput": "677",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,0,0,1,0,0,0,1,0,0]]",
+    "expectedOutput": "580",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,0,1,0,1,0,1,0,0]]",
+    "expectedOutput": "340",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,1,0,0,1,0,1,1,0]]",
+    "expectedOutput": "406",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,0,1,0,1,0,1,0,1,0,1,1,1,0,0,1,1,0]]",
+    "expectedOutput": "436966",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,0,0,1,1,1,1,0,1,0,0,0,0,1,1,0,1,0,0]]",
+    "expectedOutput": "62516",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,1,1,0,1,0,1,1,1,0,1,0,0,0]]",
+    "expectedOutput": "31464",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,1,1,1,0,0,1,1,0,0]]",
+    "expectedOutput": "1484",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,0,1,0,1,1,0,1,1,1,0,1,1,1,1,0,1]]",
+    "expectedOutput": "220093",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,1,1,0,0,1,0,1,0,1,0,0,1,1,0,1]]",
+    "expectedOutput": "25933",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,1,1,1,0,1,0,0,1,0,0,1,0,0,1,0,0,0,0]]",
+    "expectedOutput": "238736",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,0,1,0,1,0,0,0,0,0,1,0,1,0,0,1]]",
+    "expectedOutput": "75817",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,0,1,0,0,1,0,0,1]]",
+    "expectedOutput": "73",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,1,0,0,1,0,1,1,0,1,1,0,0,0,1]]",
+    "expectedOutput": "42417",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,0,1,0,0,1,1,1,1,0,0,0,1,0,1,0]]",
+    "expectedOutput": "42890",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,0,1,0,0,1,0,1,1,1,0,1,0,1,0,0,1,0,1]]",
+    "expectedOutput": "77477",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,0,1,0,0,0,1,1,1]]",
+    "expectedOutput": "327",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,0,0,1,0,1,0,0,1,1,0,0,0,1,1,1]]",
+    "expectedOutput": "103623",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,0,0,1,0,0,1,0,1,1,0,1,0,1,0,0,0]]",
+    "expectedOutput": "140712",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,1,1,0]]",
+    "expectedOutput": "3135622",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,1,0,1,1,0,1,1,0,0,0,1,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,1]]",
+    "expectedOutput": "727870081",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,1,0,0,1,1,1,1,1,0,1,1,1,1,0,1,0,0,1,0,1]]",
+    "expectedOutput": "3798949",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,0,1,0,1,0,0,0,0,0,1,1,1,1,0,0,0,1,0,0,0,1,1,0,0,1,0,0,1]]",
+    "expectedOutput": "84379849",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,0,0,0,1,1,1,0,0,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0]]",
+    "expectedOutput": "17717376",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,0,1,0,1,1,0,0,0,1,1,0,0,0,0,1,0,1,1,0,0,1,0,1,1]]",
+    "expectedOutput": "39371467",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,0,1,1,1,1,0,1,0,0,1,1,0,1,0,0,0,0,1,0,1]]",
+    "expectedOutput": "1549957",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,1,0,0,0,1,1,1,0,1,0,1,1,0,0,1,0,0,1,0,1,0,0,1,1,1,0,1,0]]",
+    "expectedOutput": "686499130",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,0,1,1,1,1,1,1,0,0,1,1,0,1,0,1,0,1,1,0,0,1,1]]",
+    "expectedOutput": "14654131",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,0,0,1,0,1,1,1,1,0,1,1,1,0,0,0,1,1,0]]",
+    "expectedOutput": "310726",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,1,0,1,0,1,0,1,1,0,1,0,0,0,1,1,1,0,0,1,1,0,0,1]]",
+    "expectedOutput": "14001049",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,0,1,1,0,0]]",
+    "expectedOutput": "1598860",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,1,1,0,0,1,0]]",
+    "expectedOutput": "105124402",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,0,1,0,0,1,1,0,0,0,1,1,1,1,0,0,1,0,0,0,1,1,1,1,0]]",
+    "expectedOutput": "21788958",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,1,1,1,0,1,1,1,0,0,1,1,1,0,1,0,0,1,1,0,1,0,0,0]]",
+    "expectedOutput": "24590952",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,1,0,0,1,0,1,1,0,0,0,0,0,0,1,1,0,1,0]]",
+    "expectedOutput": "940058",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,1,0,1,0,0,0,0,1,0,1,1,1,1,0,0]]",
+    "expectedOutput": "1013141692",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0]]",
+    "expectedOutput": "8327272",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,0,0,0,0,1,1,1,0,0,0,1,0,1,1,0,0,0,0,1,0,1,0,1,1,0]]",
+    "expectedOutput": "102520918",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0,1,0,0,1,0,1]]",
+    "expectedOutput": "6451237",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,1,1,0,1,0,1,0,0,0,0,1,1,1,1,0,1,1,1,0,1,0,0,0,1,0,0]]",
+    "expectedOutput": "122746692",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,0,1,0,1,0,1,1,0,1,1,1,0,0,0,0,1,0,0,0,0,1]]",
+    "expectedOutput": "4906017",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,1,0,1,0,0,1,0,1,1,0,0,1,1,1,1,0,0,1,0,0,1]]",
+    "expectedOutput": "1356745",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,1,1,0,1,1,1,1,1,0,0,0,0,0,1,0,1,1,1,0,1,1]]",
+    "expectedOutput": "8118459",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,1,1,0,0,1,1,0,1,0,0,1,0,0,1,1,1,0,0]]",
+    "expectedOutput": "210076",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,1,0,1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0]]",
+    "expectedOutput": "14418820",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,1,1,1,1,0,0,1,1,0,0,0,0,1,1,1,0,1,0,1]]",
+    "expectedOutput": "1022069",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,1,1,1,0,0,0,1,0,0,0,1,0,1,1,0,1,0,0,0]]",
+    "expectedOutput": "987496",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,0,1,1,0,1,1,1,0,0,1,0,0,1,0,1,0,1,1,0,1,1,0,1,1,0,0,0,1]]",
+    "expectedOutput": "384085425",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,1,1,0,0,1,0,0,1,1,0,0,0,1,0,1,0,0,1,0,0,1,0,0]]",
+    "expectedOutput": "14992676",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,0,0,1,1]]",
+    "expectedOutput": "8915619",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,0,0,0,1,0,0,1,1,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,1,1,1,1]]",
+    "expectedOutput": "144615439",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,1,1,0,1,0,0,1,0,1,1,1,1,0,0,1,0,0,0,0,0,0,1,0,1,1,0]]",
+    "expectedOutput": "55298070",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,0,0,0,0,0,0,0,1,1,1,0,0,1,0,1,1,0,0,1,0,1,1,1,1,0,0,0,1]]",
+    "expectedOutput": "270316273",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,1,0,1,1,0,1,0,0,0,0,1,1,0,1,1,0,0,1,0]]",
+    "expectedOutput": "369074",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,0,1,1,0,1,1,1,1,1,0,0,1,0,1,1,1,0,1,0,0,0]]",
+    "expectedOutput": "5108456",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,1,0,1,1]]",
+    "expectedOutput": "14687259",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,1,0,0,1,0,0,1,1,0,0,1,0,0,1,0,1,1,1,0]]",
+    "expectedOutput": "1874222",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,1,1,1,0,0,0,1,0,1,0,1,0,0,1,0,0,0,1,1]]",
+    "expectedOutput": "1512739",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,1,0,0,0,1,1,0,0,1,0,0,1,0,1,0,1,1,1,0,0,1,0,0,0]]",
+    "expectedOutput": "59545032",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,1,0,0,1,0,1,1,1]]",
+    "expectedOutput": "3438743",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,1,1,0,1,1,1,1,1,1,0,0,1,0,1,1,1,1,1,1,1,0,0,1]]",
+    "expectedOutput": "7326713",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,0,1,0,1,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0]]",
+    "expectedOutput": "156255272",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,0,0,0,0,1,0,1,1,1,1,1,1,0,1,1,0,0,1,0]]",
+    "expectedOutput": "24498",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,1,0,1,0,1,1,1,0,1,1,1,1,1,1,0,0,0,0,1,1,1,1,0,1,0]]",
+    "expectedOutput": "56490106",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,0,1,0,1,0,1,0,0,0,1,1,0,0,1,0,1,0,1,0]]",
+    "expectedOutput": "1745706",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,1,1,0,1,0,1,0,0,1,1,1,0,0,1,0,1,1,1,0,0,1,0,0,0,1,1]]",
+    "expectedOutput": "122918691",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,0,0,1,0,0,0,0,0,0,0,1,1,0,1,1,1,0,0]]",
+    "expectedOutput": "557276",
+    "isHidden": true
+  },
+  {
+    "input": "[[0,1,1,0,1,1,0,1,0,1,0,1,0,1,1,1,0,0,1,0,0,1,0,1,0,0,0,1,1,1]]",
+    "expectedOutput": "458606919",
+    "isHidden": true
+  },
+  {
+    "input": "[[1,0,0,1,0,0,1,1,1,1,1,1,1,1,0,1,0,1,1,1,0,0,0,0,1,0]]",
+    "expectedOutput": "38794690",
+    "isHidden": true
+  }
+]

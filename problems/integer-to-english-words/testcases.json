@@ -1,0 +1,752 @@
+[
+  {
+    "input": "[123]",
+    "expectedOutput": "\"One Hundred Twenty Three\"",
+    "isHidden": false
+  },
+  {
+    "input": "[12345]",
+    "expectedOutput": "\"Twelve Thousand Three Hundred Forty Five\"",
+    "isHidden": false
+  },
+  {
+    "input": "[0]",
+    "expectedOutput": "\"Zero\"",
+    "isHidden": false
+  },
+  {
+    "input": "[29]",
+    "expectedOutput": "\"Twenty Nine\"",
+    "isHidden": false
+  },
+  {
+    "input": "[57]",
+    "expectedOutput": "\"Fifty Seven\"",
+    "isHidden": false
+  },
+  {
+    "input": "[41]",
+    "expectedOutput": "\"Forty One\"",
+    "isHidden": true
+  },
+  {
+    "input": "[48]",
+    "expectedOutput": "\"Forty Eight\"",
+    "isHidden": true
+  },
+  {
+    "input": "[14]",
+    "expectedOutput": "\"Fourteen\"",
+    "isHidden": true
+  },
+  {
+    "input": "[20]",
+    "expectedOutput": "\"Twenty\"",
+    "isHidden": true
+  },
+  {
+    "input": "[52]",
+    "expectedOutput": "\"Fifty Two\"",
+    "isHidden": true
+  },
+  {
+    "input": "[19]",
+    "expectedOutput": "\"Nineteen\"",
+    "isHidden": true
+  },
+  {
+    "input": "[78]",
+    "expectedOutput": "\"Seventy Eight\"",
+    "isHidden": true
+  },
+  {
+    "input": "[84]",
+    "expectedOutput": "\"Eighty Four\"",
+    "isHidden": true
+  },
+  {
+    "input": "[32]",
+    "expectedOutput": "\"Thirty Two\"",
+    "isHidden": true
+  },
+  {
+    "input": "[20]",
+    "expectedOutput": "\"Twenty\"",
+    "isHidden": true
+  },
+  {
+    "input": "[1]",
+    "expectedOutput": "\"One\"",
+    "isHidden": true
+  },
+  {
+    "input": "[66]",
+    "expectedOutput": "\"Sixty Six\"",
+    "isHidden": true
+  },
+  {
+    "input": "[69]",
+    "expectedOutput": "\"Sixty Nine\"",
+    "isHidden": true
+  },
+  {
+    "input": "[78]",
+    "expectedOutput": "\"Seventy Eight\"",
+    "isHidden": true
+  },
+  {
+    "input": "[31]",
+    "expectedOutput": "\"Thirty One\"",
+    "isHidden": true
+  },
+  {
+    "input": "[12]",
+    "expectedOutput": "\"Twelve\"",
+    "isHidden": true
+  },
+  {
+    "input": "[15]",
+    "expectedOutput": "\"Fifteen\"",
+    "isHidden": true
+  },
+  {
+    "input": "[89]",
+    "expectedOutput": "\"Eighty Nine\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2]",
+    "expectedOutput": "\"Two\"",
+    "isHidden": true
+  },
+  {
+    "input": "[18]",
+    "expectedOutput": "\"Eighteen\"",
+    "isHidden": true
+  },
+  {
+    "input": "[82]",
+    "expectedOutput": "\"Eighty Two\"",
+    "isHidden": true
+  },
+  {
+    "input": "[78]",
+    "expectedOutput": "\"Seventy Eight\"",
+    "isHidden": true
+  },
+  {
+    "input": "[75]",
+    "expectedOutput": "\"Seventy Five\"",
+    "isHidden": true
+  },
+  {
+    "input": "[94]",
+    "expectedOutput": "\"Ninety Four\"",
+    "isHidden": true
+  },
+  {
+    "input": "[11]",
+    "expectedOutput": "\"Eleven\"",
+    "isHidden": true
+  },
+  {
+    "input": "[80]",
+    "expectedOutput": "\"Eighty\"",
+    "isHidden": true
+  },
+  {
+    "input": "[86]",
+    "expectedOutput": "\"Eighty Six\"",
+    "isHidden": true
+  },
+  {
+    "input": "[35]",
+    "expectedOutput": "\"Thirty Five\"",
+    "isHidden": true
+  },
+  {
+    "input": "[39]",
+    "expectedOutput": "\"Thirty Nine\"",
+    "isHidden": true
+  },
+  {
+    "input": "[33]",
+    "expectedOutput": "\"Thirty Three\"",
+    "isHidden": true
+  },
+  {
+    "input": "[50]",
+    "expectedOutput": "\"Fifty\"",
+    "isHidden": true
+  },
+  {
+    "input": "[51]",
+    "expectedOutput": "\"Fifty One\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2]",
+    "expectedOutput": "\"Two\"",
+    "isHidden": true
+  },
+  {
+    "input": "[22]",
+    "expectedOutput": "\"Twenty Two\"",
+    "isHidden": true
+  },
+  {
+    "input": "[62]",
+    "expectedOutput": "\"Sixty Two\"",
+    "isHidden": true
+  },
+  {
+    "input": "[9]",
+    "expectedOutput": "\"Nine\"",
+    "isHidden": true
+  },
+  {
+    "input": "[25]",
+    "expectedOutput": "\"Twenty Five\"",
+    "isHidden": true
+  },
+  {
+    "input": "[18]",
+    "expectedOutput": "\"Eighteen\"",
+    "isHidden": true
+  },
+  {
+    "input": "[91]",
+    "expectedOutput": "\"Ninety One\"",
+    "isHidden": true
+  },
+  {
+    "input": "[26]",
+    "expectedOutput": "\"Twenty Six\"",
+    "isHidden": true
+  },
+  {
+    "input": "[19]",
+    "expectedOutput": "\"Nineteen\"",
+    "isHidden": true
+  },
+  {
+    "input": "[13]",
+    "expectedOutput": "\"Thirteen\"",
+    "isHidden": true
+  },
+  {
+    "input": "[73]",
+    "expectedOutput": "\"Seventy Three\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3]",
+    "expectedOutput": "\"Three\"",
+    "isHidden": true
+  },
+  {
+    "input": "[69]",
+    "expectedOutput": "\"Sixty Nine\"",
+    "isHidden": true
+  },
+  {
+    "input": "[67815]",
+    "expectedOutput": "\"Sixty Seven Thousand Eight Hundred Fifteen\"",
+    "isHidden": true
+  },
+  {
+    "input": "[77614]",
+    "expectedOutput": "\"Seventy Seven Thousand Six Hundred Fourteen\"",
+    "isHidden": true
+  },
+  {
+    "input": "[86432]",
+    "expectedOutput": "\"Eighty Six Thousand Four Hundred Thirty Two\"",
+    "isHidden": true
+  },
+  {
+    "input": "[96315]",
+    "expectedOutput": "\"Ninety Six Thousand Three Hundred Fifteen\"",
+    "isHidden": true
+  },
+  {
+    "input": "[23573]",
+    "expectedOutput": "\"Twenty Three Thousand Five Hundred Seventy Three\"",
+    "isHidden": true
+  },
+  {
+    "input": "[87536]",
+    "expectedOutput": "\"Eighty Seven Thousand Five Hundred Thirty Six\"",
+    "isHidden": true
+  },
+  {
+    "input": "[6986]",
+    "expectedOutput": "\"Six Thousand Nine Hundred Eighty Six\"",
+    "isHidden": true
+  },
+  {
+    "input": "[39990]",
+    "expectedOutput": "\"Thirty Nine Thousand Nine Hundred Ninety\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3664]",
+    "expectedOutput": "\"Three Thousand Six Hundred Sixty Four\"",
+    "isHidden": true
+  },
+  {
+    "input": "[21598]",
+    "expectedOutput": "\"Twenty One Thousand Five Hundred Ninety Eight\"",
+    "isHidden": true
+  },
+  {
+    "input": "[26810]",
+    "expectedOutput": "\"Twenty Six Thousand Eight Hundred Ten\"",
+    "isHidden": true
+  },
+  {
+    "input": "[28694]",
+    "expectedOutput": "\"Twenty Eight Thousand Six Hundred Ninety Four\"",
+    "isHidden": true
+  },
+  {
+    "input": "[538]",
+    "expectedOutput": "\"Five Hundred Thirty Eight\"",
+    "isHidden": true
+  },
+  {
+    "input": "[74548]",
+    "expectedOutput": "\"Seventy Four Thousand Five Hundred Forty Eight\"",
+    "isHidden": true
+  },
+  {
+    "input": "[35069]",
+    "expectedOutput": "\"Thirty Five Thousand Sixty Nine\"",
+    "isHidden": true
+  },
+  {
+    "input": "[86052]",
+    "expectedOutput": "\"Eighty Six Thousand Fifty Two\"",
+    "isHidden": true
+  },
+  {
+    "input": "[82285]",
+    "expectedOutput": "\"Eighty Two Thousand Two Hundred Eighty Five\"",
+    "isHidden": true
+  },
+  {
+    "input": "[98241]",
+    "expectedOutput": "\"Ninety Eight Thousand Two Hundred Forty One\"",
+    "isHidden": true
+  },
+  {
+    "input": "[47389]",
+    "expectedOutput": "\"Forty Seven Thousand Three Hundred Eighty Nine\"",
+    "isHidden": true
+  },
+  {
+    "input": "[14269]",
+    "expectedOutput": "\"Fourteen Thousand Two Hundred Sixty Nine\"",
+    "isHidden": true
+  },
+  {
+    "input": "[88015]",
+    "expectedOutput": "\"Eighty Eight Thousand Fifteen\"",
+    "isHidden": true
+  },
+  {
+    "input": "[46441]",
+    "expectedOutput": "\"Forty Six Thousand Four Hundred Forty One\"",
+    "isHidden": true
+  },
+  {
+    "input": "[9467]",
+    "expectedOutput": "\"Nine Thousand Four Hundred Sixty Seven\"",
+    "isHidden": true
+  },
+  {
+    "input": "[50849]",
+    "expectedOutput": "\"Fifty Thousand Eight Hundred Forty Nine\"",
+    "isHidden": true
+  },
+  {
+    "input": "[4104]",
+    "expectedOutput": "\"Four Thousand One Hundred Four\"",
+    "isHidden": true
+  },
+  {
+    "input": "[58052]",
+    "expectedOutput": "\"Fifty Eight Thousand Fifty Two\"",
+    "isHidden": true
+  },
+  {
+    "input": "[80434]",
+    "expectedOutput": "\"Eighty Thousand Four Hundred Thirty Four\"",
+    "isHidden": true
+  },
+  {
+    "input": "[16728]",
+    "expectedOutput": "\"Sixteen Thousand Seven Hundred Twenty Eight\"",
+    "isHidden": true
+  },
+  {
+    "input": "[66519]",
+    "expectedOutput": "\"Sixty Six Thousand Five Hundred Nineteen\"",
+    "isHidden": true
+  },
+  {
+    "input": "[99638]",
+    "expectedOutput": "\"Ninety Nine Thousand Six Hundred Thirty Eight\"",
+    "isHidden": true
+  },
+  {
+    "input": "[20148]",
+    "expectedOutput": "\"Twenty Thousand One Hundred Forty Eight\"",
+    "isHidden": true
+  },
+  {
+    "input": "[53684]",
+    "expectedOutput": "\"Fifty Three Thousand Six Hundred Eighty Four\"",
+    "isHidden": true
+  },
+  {
+    "input": "[25517]",
+    "expectedOutput": "\"Twenty Five Thousand Five Hundred Seventeen\"",
+    "isHidden": true
+  },
+  {
+    "input": "[62013]",
+    "expectedOutput": "\"Sixty Two Thousand Thirteen\"",
+    "isHidden": true
+  },
+  {
+    "input": "[31488]",
+    "expectedOutput": "\"Thirty One Thousand Four Hundred Eighty Eight\"",
+    "isHidden": true
+  },
+  {
+    "input": "[67924]",
+    "expectedOutput": "\"Sixty Seven Thousand Nine Hundred Twenty Four\"",
+    "isHidden": true
+  },
+  {
+    "input": "[96275]",
+    "expectedOutput": "\"Ninety Six Thousand Two Hundred Seventy Five\"",
+    "isHidden": true
+  },
+  {
+    "input": "[45788]",
+    "expectedOutput": "\"Forty Five Thousand Seven Hundred Eighty Eight\"",
+    "isHidden": true
+  },
+  {
+    "input": "[634]",
+    "expectedOutput": "\"Six Hundred Thirty Four\"",
+    "isHidden": true
+  },
+  {
+    "input": "[60588]",
+    "expectedOutput": "\"Sixty Thousand Five Hundred Eighty Eight\"",
+    "isHidden": true
+  },
+  {
+    "input": "[31344]",
+    "expectedOutput": "\"Thirty One Thousand Three Hundred Forty Four\"",
+    "isHidden": true
+  },
+  {
+    "input": "[7449]",
+    "expectedOutput": "\"Seven Thousand Four Hundred Forty Nine\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2541]",
+    "expectedOutput": "\"Two Thousand Five Hundred Forty One\"",
+    "isHidden": true
+  },
+  {
+    "input": "[20790]",
+    "expectedOutput": "\"Twenty Thousand Seven Hundred Ninety\"",
+    "isHidden": true
+  },
+  {
+    "input": "[10666]",
+    "expectedOutput": "\"Ten Thousand Six Hundred Sixty Six\"",
+    "isHidden": true
+  },
+  {
+    "input": "[5775]",
+    "expectedOutput": "\"Five Thousand Seven Hundred Seventy Five\"",
+    "isHidden": true
+  },
+  {
+    "input": "[12781]",
+    "expectedOutput": "\"Twelve Thousand Seven Hundred Eighty One\"",
+    "isHidden": true
+  },
+  {
+    "input": "[96632]",
+    "expectedOutput": "\"Ninety Six Thousand Six Hundred Thirty Two\"",
+    "isHidden": true
+  },
+  {
+    "input": "[20474]",
+    "expectedOutput": "\"Twenty Thousand Four Hundred Seventy Four\"",
+    "isHidden": true
+  },
+  {
+    "input": "[65403]",
+    "expectedOutput": "\"Sixty Five Thousand Four Hundred Three\"",
+    "isHidden": true
+  },
+  {
+    "input": "[1228783]",
+    "expectedOutput": "\"One Million Two Hundred Twenty Eight Thousand Seven Hundred Eighty Three\"",
+    "isHidden": true
+  },
+  {
+    "input": "[9114978]",
+    "expectedOutput": "\"Nine Million One Hundred Fourteen Thousand Nine Hundred Seventy Eight\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3505717]",
+    "expectedOutput": "\"Three Million Five Hundred Five Thousand Seven Hundred Seventeen\"",
+    "isHidden": true
+  },
+  {
+    "input": "[6199553]",
+    "expectedOutput": "\"Six Million One Hundred Ninety Nine Thousand Five Hundred Fifty Three\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3899661]",
+    "expectedOutput": "\"Three Million Eight Hundred Ninety Nine Thousand Six Hundred Sixty One\"",
+    "isHidden": true
+  },
+  {
+    "input": "[7793133]",
+    "expectedOutput": "\"Seven Million Seven Hundred Ninety Three Thousand One Hundred Thirty Three\"",
+    "isHidden": true
+  },
+  {
+    "input": "[7415718]",
+    "expectedOutput": "\"Seven Million Four Hundred Fifteen Thousand Seven Hundred Eighteen\"",
+    "isHidden": true
+  },
+  {
+    "input": "[5135060]",
+    "expectedOutput": "\"Five Million One Hundred Thirty Five Thousand Sixty\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2924958]",
+    "expectedOutput": "\"Two Million Nine Hundred Twenty Four Thousand Nine Hundred Fifty Eight\"",
+    "isHidden": true
+  },
+  {
+    "input": "[8711191]",
+    "expectedOutput": "\"Eight Million Seven Hundred Eleven Thousand One Hundred Ninety One\"",
+    "isHidden": true
+  },
+  {
+    "input": "[5284943]",
+    "expectedOutput": "\"Five Million Two Hundred Eighty Four Thousand Nine Hundred Forty Three\"",
+    "isHidden": true
+  },
+  {
+    "input": "[1005728]",
+    "expectedOutput": "\"One Million Five Thousand Seven Hundred Twenty Eight\"",
+    "isHidden": true
+  },
+  {
+    "input": "[359822]",
+    "expectedOutput": "\"Three Hundred Fifty Nine Thousand Eight Hundred Twenty Two\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2379733]",
+    "expectedOutput": "\"Two Million Three Hundred Seventy Nine Thousand Seven Hundred Thirty Three\"",
+    "isHidden": true
+  },
+  {
+    "input": "[1562559]",
+    "expectedOutput": "\"One Million Five Hundred Sixty Two Thousand Five Hundred Fifty Nine\"",
+    "isHidden": true
+  },
+  {
+    "input": "[9929267]",
+    "expectedOutput": "\"Nine Million Nine Hundred Twenty Nine Thousand Two Hundred Sixty Seven\"",
+    "isHidden": true
+  },
+  {
+    "input": "[241116]",
+    "expectedOutput": "\"Two Hundred Forty One Thousand One Hundred Sixteen\"",
+    "isHidden": true
+  },
+  {
+    "input": "[4583269]",
+    "expectedOutput": "\"Four Million Five Hundred Eighty Three Thousand Two Hundred Sixty Nine\"",
+    "isHidden": true
+  },
+  {
+    "input": "[9176517]",
+    "expectedOutput": "\"Nine Million One Hundred Seventy Six Thousand Five Hundred Seventeen\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2934740]",
+    "expectedOutput": "\"Two Million Nine Hundred Thirty Four Thousand Seven Hundred Forty\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3312454]",
+    "expectedOutput": "\"Three Million Three Hundred Twelve Thousand Four Hundred Fifty Four\"",
+    "isHidden": true
+  },
+  {
+    "input": "[7165174]",
+    "expectedOutput": "\"Seven Million One Hundred Sixty Five Thousand One Hundred Seventy Four\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2652307]",
+    "expectedOutput": "\"Two Million Six Hundred Fifty Two Thousand Three Hundred Seven\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3800183]",
+    "expectedOutput": "\"Three Million Eight Hundred Thousand One Hundred Eighty Three\"",
+    "isHidden": true
+  },
+  {
+    "input": "[7990203]",
+    "expectedOutput": "\"Seven Million Nine Hundred Ninety Thousand Two Hundred Three\"",
+    "isHidden": true
+  },
+  {
+    "input": "[8022293]",
+    "expectedOutput": "\"Eight Million Twenty Two Thousand Two Hundred Ninety Three\"",
+    "isHidden": true
+  },
+  {
+    "input": "[4706430]",
+    "expectedOutput": "\"Four Million Seven Hundred Six Thousand Four Hundred Thirty\"",
+    "isHidden": true
+  },
+  {
+    "input": "[7098254]",
+    "expectedOutput": "\"Seven Million Ninety Eight Thousand Two Hundred Fifty Four\"",
+    "isHidden": true
+  },
+  {
+    "input": "[624487]",
+    "expectedOutput": "\"Six Hundred Twenty Four Thousand Four Hundred Eighty Seven\"",
+    "isHidden": true
+  },
+  {
+    "input": "[9342718]",
+    "expectedOutput": "\"Nine Million Three Hundred Forty Two Thousand Seven Hundred Eighteen\"",
+    "isHidden": true
+  },
+  {
+    "input": "[915187]",
+    "expectedOutput": "\"Nine Hundred Fifteen Thousand One Hundred Eighty Seven\"",
+    "isHidden": true
+  },
+  {
+    "input": "[6558941]",
+    "expectedOutput": "\"Six Million Five Hundred Fifty Eight Thousand Nine Hundred Forty One\"",
+    "isHidden": true
+  },
+  {
+    "input": "[6194590]",
+    "expectedOutput": "\"Six Million One Hundred Ninety Four Thousand Five Hundred Ninety\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3717677]",
+    "expectedOutput": "\"Three Million Seven Hundred Seventeen Thousand Six Hundred Seventy Seven\"",
+    "isHidden": true
+  },
+  {
+    "input": "[1089365]",
+    "expectedOutput": "\"One Million Eighty Nine Thousand Three Hundred Sixty Five\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3906389]",
+    "expectedOutput": "\"Three Million Nine Hundred Six Thousand Three Hundred Eighty Nine\"",
+    "isHidden": true
+  },
+  {
+    "input": "[4564727]",
+    "expectedOutput": "\"Four Million Five Hundred Sixty Four Thousand Seven Hundred Twenty Seven\"",
+    "isHidden": true
+  },
+  {
+    "input": "[6694893]",
+    "expectedOutput": "\"Six Million Six Hundred Ninety Four Thousand Eight Hundred Ninety Three\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3129560]",
+    "expectedOutput": "\"Three Million One Hundred Twenty Nine Thousand Five Hundred Sixty\"",
+    "isHidden": true
+  },
+  {
+    "input": "[8152758]",
+    "expectedOutput": "\"Eight Million One Hundred Fifty Two Thousand Seven Hundred Fifty Eight\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3164935]",
+    "expectedOutput": "\"Three Million One Hundred Sixty Four Thousand Nine Hundred Thirty Five\"",
+    "isHidden": true
+  },
+  {
+    "input": "[1611294]",
+    "expectedOutput": "\"One Million Six Hundred Eleven Thousand Two Hundred Ninety Four\"",
+    "isHidden": true
+  },
+  {
+    "input": "[1403539]",
+    "expectedOutput": "\"One Million Four Hundred Three Thousand Five Hundred Thirty Nine\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2049590]",
+    "expectedOutput": "\"Two Million Forty Nine Thousand Five Hundred Ninety\"",
+    "isHidden": true
+  },
+  {
+    "input": "[5830321]",
+    "expectedOutput": "\"Five Million Eight Hundred Thirty Thousand Three Hundred Twenty One\"",
+    "isHidden": true
+  },
+  {
+    "input": "[7911172]",
+    "expectedOutput": "\"Seven Million Nine Hundred Eleven Thousand One Hundred Seventy Two\"",
+    "isHidden": true
+  },
+  {
+    "input": "[7596416]",
+    "expectedOutput": "\"Seven Million Five Hundred Ninety Six Thousand Four Hundred Sixteen\"",
+    "isHidden": true
+  },
+  {
+    "input": "[1020735]",
+    "expectedOutput": "\"One Million Twenty Thousand Seven Hundred Thirty Five\"",
+    "isHidden": true
+  },
+  {
+    "input": "[2900870]",
+    "expectedOutput": "\"Two Million Nine Hundred Thousand Eight Hundred Seventy\"",
+    "isHidden": true
+  },
+  {
+    "input": "[3048675]",
+    "expectedOutput": "\"Three Million Forty Eight Thousand Six Hundred Seventy Five\"",
+    "isHidden": true
+  }
+]
