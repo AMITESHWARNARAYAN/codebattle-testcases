@@ -1,0 +1,127 @@
+[
+  {
+    "input": "[[\"co-\",\"de-battle is great\"],[\"co-de-battle\",\"great\",\"code\"]]",
+    "expectedOutput": "[1,1,0]",
+    "isHidden": false
+  },
+  {
+    "input": "[[\"apple\",\" pie\"],[\"apple\",\"pie\",\"apple-pie\"]]",
+    "expectedOutput": "[1,1,0]",
+    "isHidden": false
+  },
+  {
+    "input": "[[\"hello--world\",\" test\"],[\"hello\",\"world\",\"test\"]]",
+    "expectedOutput": "[1,1,1]",
+    "isHidden": false
+  },
+  {
+    "input": "[[\"a-b-c\",\" d-e\"],[\"a-b-c\",\"d-e\",\"a\",\"b\"]]",
+    "expectedOutput": "[1,1,0,0]",
+    "isHidden": false
+  },
+  {
+    "input": "[[\"a\",\"-b-\",\"c\"],[\"a-b-c\",\"a\",\"b\",\"c\"]]",
+    "expectedOutput": "[1,0,0,0]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"cat \",\"cat \",\"fox-dog \",\"brown \",\"algorithm \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
+    "expectedOutput": "[0,2,1,0]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"cat \",\"algorithm \",\"code-battle \",\"tree-node \",\"algorithm \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
+    "expectedOutput": "[0,1,0,0]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"brown \",\"algorithm \",\"cat \",\"cat \",\"tree-node \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
+    "expectedOutput": "[0,2,0,0]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"tree-node \",\"algorithm \",\"quick \",\"code-battle \",\"code-battle \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
+    "expectedOutput": "[1,0,0,0]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"cat \",\"tree-node \",\"cat \",\"cat \",\"cat \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
+    "expectedOutput": "[0,4,0,0]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"code-battle \",\"tree-node \",\"algorithm \",\"code-battle \",\"brown \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
+    "expectedOutput": "[0,0,0,0]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"code-battle \",\"tree-node \",\"code-battle \",\"cat \",\"quick \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
+    "expectedOutput": "[1,1,0,0]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"cat \",\"quick \",\"brown \",\"brown \",\"code-battle \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
+    "expectedOutput": "[1,1,0,0]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"fox-dog \",\"quick \",\"tree-node \",\"brown \",\"algorithm \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
+    "expectedOutput": "[1,0,1,0]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"quick \",\"brown \",\"brown \",\"quick \",\"algorithm \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
+    "expectedOutput": "[2,0,0,0]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"cat \",\"code-battle \",\"cat \",\"fox-dog \",\"tree-node \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
+    "expectedOutput": "[0,2,1,0]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"cat \",\"algorithm \",\"code-battle \",\"code-battle \",\"algorithm \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
+    "expectedOutput": "[0,1,0,0]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"cat \",\"tree-node \",\"quick \",\"fox-dog \",\"fox-dog \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
+    "expectedOutput": "[1,1,2,0]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"brown \",\"cat \",\"quick \",\"fox-dog \",\"tree-node \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
+    "expectedOutput": "[1,1,1,0]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"brown \",\"cat \",\"brown \",\"fox-dog \",\"brown \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
+    "expectedOutput": "[0,1,1,0]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"fox-dog \",\"fox-dog \",\"quick \",\"code-battle \",\"code-battle \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
+    "expectedOutput": "[1,0,2,0]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"cat \",\"brown \",\"cat \",\"quick \",\"brown \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
+    "expectedOutput": "[1,2,0,0]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"quick \",\"code-battle \",\"quick \",\"brown \",\"fox-dog \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
+    "expectedOutput": "[2,0,1,0]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"quick \",\"quick \",\"cat \",\"fox-dog \",\"quick \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
+    "expectedOutput": "[3,1,1,0]",
+    "isHidden": true
+  },
+  {
+    "input": "[[\"quick \",\"brown \",\"code-battle \",\"cat \",\"fox-dog \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
+    "expectedOutput": "[1,1,1,0]",
+    "isHidden": true
+  }
+]
