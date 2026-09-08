@@ -1,127 +1,72 @@
 [
   {
-    "input": "[[\"co-\",\"de-battle is great\"],[\"co-de-battle\",\"great\",\"code\"]]",
-    "expectedOutput": "[1,1,0]",
+    "input": "[[\"ab\",\"abc\",\"aab\",\"ba\"],\"abc\"]",
+    "expectedOutput": "3",
     "isHidden": false
   },
   {
-    "input": "[[\"apple\",\" pie\"],[\"apple\",\"pie\",\"apple-pie\"]]",
-    "expectedOutput": "[1,1,0]",
+    "input": "[[\"a\",\"b\",\"c\"],\"ab\"]",
+    "expectedOutput": "2",
     "isHidden": false
   },
   {
-    "input": "[[\"hello--world\",\" test\"],[\"hello\",\"world\",\"test\"]]",
-    "expectedOutput": "[1,1,1]",
+    "input": "[[\"xy\",\"xyz\",\"xx\"],\"xyz\"]",
+    "expectedOutput": "2",
     "isHidden": false
   },
   {
-    "input": "[[\"a-b-c\",\" d-e\"],[\"a-b-c\",\"d-e\",\"a\",\"b\"]]",
-    "expectedOutput": "[1,1,0,0]",
+    "input": "[[\"hello\",\"world\",\"he\",\"wo\"],\"ehlorwd\"]",
+    "expectedOutput": "3",
     "isHidden": false
   },
   {
-    "input": "[[\"a\",\"-b-\",\"c\"],[\"a-b-c\",\"a\",\"b\",\"c\"]]",
-    "expectedOutput": "[1,0,0,0]",
+    "input": "[[\"code\",\"battle\",\"leet\",\"codeforces\"],\"abcdefghijklmnopqrstuvwxyz\"]",
+    "expectedOutput": "2",
     "isHidden": true
   },
   {
-    "input": "[[\"cat \",\"cat \",\"fox-dog \",\"brown \",\"algorithm \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
-    "expectedOutput": "[0,2,1,0]",
+    "input": "[[\"a\",\"aa\",\"aaa\",\"aaaa\"],\"a\"]",
+    "expectedOutput": "1",
     "isHidden": true
   },
   {
-    "input": "[[\"cat \",\"algorithm \",\"code-battle \",\"tree-node \",\"algorithm \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
-    "expectedOutput": "[0,1,0,0]",
+    "input": "[[\"ab\",\"ba\",\"aba\",\"bab\",\"abba\"],\"ab\"]",
+    "expectedOutput": "4",
     "isHidden": true
   },
   {
-    "input": "[[\"brown \",\"algorithm \",\"cat \",\"cat \",\"tree-node \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
-    "expectedOutput": "[0,2,0,0]",
+    "input": "[[\"cat\",\"dog\",\"mouse\",\"bird\"],\"actdogmausebrid\"]",
+    "expectedOutput": "4",
     "isHidden": true
   },
   {
-    "input": "[[\"tree-node \",\"algorithm \",\"quick \",\"code-battle \",\"code-battle \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
-    "expectedOutput": "[1,0,0,0]",
+    "input": "[[\"gfehf\",\"heifb\",\"bjjhe\",\"cjaia\",\"dhbhb\",\"hjehc\",\"ihfeg\",\"fhfdd\",\"iabgc\",\"bjjha\"],\"abcdefghij\"]",
+    "expectedOutput": "7",
     "isHidden": true
   },
   {
-    "input": "[[\"cat \",\"tree-node \",\"cat \",\"cat \",\"cat \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
-    "expectedOutput": "[0,4,0,0]",
+    "input": "[[\"badba\",\"bibjd\",\"jhjba\",\"heiga\",\"faich\",\"hfecd\",\"fehgc\",\"dccdb\",\"edece\",\"bfcih\"],\"abcdefghij\"]",
+    "expectedOutput": "9",
     "isHidden": true
   },
   {
-    "input": "[[\"code-battle \",\"tree-node \",\"algorithm \",\"code-battle \",\"brown \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
-    "expectedOutput": "[0,0,0,0]",
+    "input": "[[\"abiag\",\"ddjdb\",\"bcbhe\",\"diaeg\",\"fdcfa\",\"dcfjh\",\"jcgei\",\"ebjac\",\"ddjdi\",\"hhfgi\",\"aaffh\",\"dfjdi\",\"gcbfb\",\"daheg\",\"hjajc\",\"hefeh\",\"gijjg\",\"afhhd\",\"dggeh\",\"igcee\",\"gjeij\",\"bfhbe\",\"eceee\",\"caaig\",\"dhcjb\",\"dddba\",\"gjibe\",\"dgcib\",\"gebdf\",\"dafgd\",\"efbcd\",\"eijjf\",\"ejibh\",\"hecha\",\"cicig\",\"fdjce\",\"bghdb\",\"ajbaa\",\"fcgch\",\"dbjec\",\"aaegh\",\"idafc\",\"jebgh\",\"fchha\",\"dcjbh\",\"gcijg\",\"aiaah\",\"hjife\",\"hffbj\",\"chbdc\"],\"abcdefghij\"]",
+    "expectedOutput": "33",
     "isHidden": true
   },
   {
-    "input": "[[\"code-battle \",\"tree-node \",\"code-battle \",\"cat \",\"quick \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
-    "expectedOutput": "[1,1,0,0]",
+    "input": "[[\"eeecc\",\"adfah\",\"ijjii\",\"ebjgg\",\"dbica\",\"cgebb\",\"giach\",\"jeaci\",\"ahigc\",\"hdjah\",\"idccb\",\"ihcjf\",\"fgfii\",\"gidca\",\"ihcbc\",\"fbcda\",\"fdbdb\",\"ejeih\",\"ggeec\",\"bhgjj\",\"jdigi\",\"jcfae\",\"ibgfh\",\"acgah\",\"bcjeg\",\"jjbcd\",\"daecd\",\"dicde\",\"fcdge\",\"eaaie\",\"bdigg\",\"bdfdi\",\"fffgb\",\"faahh\",\"ccaff\",\"edeie\",\"fghhg\",\"jibac\",\"dfbfj\",\"dibhd\",\"cgegb\",\"jffdd\",\"iiajc\",\"gcdgc\",\"cbegd\",\"hdcgh\",\"jidce\",\"caiad\",\"iejic\",\"gjcgi\"],\"abcdefghij\"]",
+    "expectedOutput": "33",
     "isHidden": true
   },
   {
-    "input": "[[\"cat \",\"quick \",\"brown \",\"brown \",\"code-battle \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
-    "expectedOutput": "[1,1,0,0]",
+    "input": "[[\"hheaf\",\"gcdda\",\"bbhhi\",\"ebcdb\",\"iehjh\",\"cgbdf\",\"cdica\",\"gcchi\",\"aecei\",\"hfabh\",\"ifdgb\",\"gbbef\",\"ajgbd\",\"fgbjj\",\"bbhgh\",\"jfdja\",\"jifjb\",\"ibdhc\",\"jhdha\",\"dhjfi\",\"hdecc\",\"difcf\",\"aaaha\",\"gciae\",\"hcfib\",\"jfgje\",\"chfjb\",\"dhehf\",\"adecj\",\"jebae\",\"fhgdi\",\"eacid\",\"cgfed\",\"fjfgi\",\"hbeib\",\"hdjdc\",\"jgcbc\",\"giaea\",\"cgheb\",\"ijiie\",\"caigj\",\"jdjfh\",\"gjebc\",\"acjij\",\"eigdg\",\"iidji\",\"jceef\",\"jdade\",\"eifej\",\"aabad\",\"hafjc\",\"iadgb\",\"cifgd\",\"ibbii\",\"geegg\",\"heafd\",\"bcige\",\"dfchc\",\"bbdac\",\"cjcae\",\"jigag\",\"ibeii\",\"ihbic\",\"dcedi\",\"jjcch\",\"ddefg\",\"ieece\",\"aeggd\",\"dgaad\",\"ejhii\",\"aegae\",\"jhdec\",\"fbjef\",\"hfjid\",\"higie\",\"idddf\",\"fiece\",\"ajfhd\",\"jhigd\",\"idbhb\",\"iijcb\",\"cchca\",\"fbhgh\",\"cfjdj\",\"gfjaf\",\"eajgd\",\"afgde\",\"icbid\",\"acfag\",\"ejbbe\",\"hjgbd\",\"djecf\",\"bgbea\",\"cdbcj\",\"ghbgj\",\"ecedj\",\"cgebh\",\"bfjjf\",\"chgce\",\"cgagb\"],\"abcdefghij\"]",
+    "expectedOutput": "72",
     "isHidden": true
   },
   {
-    "input": "[[\"fox-dog \",\"quick \",\"tree-node \",\"brown \",\"algorithm \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
-    "expectedOutput": "[1,0,1,0]",
-    "isHidden": true
-  },
-  {
-    "input": "[[\"quick \",\"brown \",\"brown \",\"quick \",\"algorithm \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
-    "expectedOutput": "[2,0,0,0]",
-    "isHidden": true
-  },
-  {
-    "input": "[[\"cat \",\"code-battle \",\"cat \",\"fox-dog \",\"tree-node \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
-    "expectedOutput": "[0,2,1,0]",
-    "isHidden": true
-  },
-  {
-    "input": "[[\"cat \",\"algorithm \",\"code-battle \",\"code-battle \",\"algorithm \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
-    "expectedOutput": "[0,1,0,0]",
-    "isHidden": true
-  },
-  {
-    "input": "[[\"cat \",\"tree-node \",\"quick \",\"fox-dog \",\"fox-dog \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
-    "expectedOutput": "[1,1,2,0]",
-    "isHidden": true
-  },
-  {
-    "input": "[[\"brown \",\"cat \",\"quick \",\"fox-dog \",\"tree-node \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
-    "expectedOutput": "[1,1,1,0]",
-    "isHidden": true
-  },
-  {
-    "input": "[[\"brown \",\"cat \",\"brown \",\"fox-dog \",\"brown \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
-    "expectedOutput": "[0,1,1,0]",
-    "isHidden": true
-  },
-  {
-    "input": "[[\"fox-dog \",\"fox-dog \",\"quick \",\"code-battle \",\"code-battle \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
-    "expectedOutput": "[1,0,2,0]",
-    "isHidden": true
-  },
-  {
-    "input": "[[\"cat \",\"brown \",\"cat \",\"quick \",\"brown \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
-    "expectedOutput": "[1,2,0,0]",
-    "isHidden": true
-  },
-  {
-    "input": "[[\"quick \",\"code-battle \",\"quick \",\"brown \",\"fox-dog \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
-    "expectedOutput": "[2,0,1,0]",
-    "isHidden": true
-  },
-  {
-    "input": "[[\"quick \",\"quick \",\"cat \",\"fox-dog \",\"quick \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
-    "expectedOutput": "[3,1,1,0]",
-    "isHidden": true
-  },
-  {
-    "input": "[[\"quick \",\"brown \",\"code-battle \",\"cat \",\"fox-dog \"],[\"quick\",\"cat\",\"fox-dog\",\"unknown\"]]",
-    "expectedOutput": "[1,1,1,0]",
+    "input": "[[\"bjgah\",\"iieji\",\"ffcdh\",\"hchai\",\"eabbh\",\"jbbif\",\"dejed\",\"dfjcf\",\"fbdhg\",\"dehea\",\"ggbcj\",\"hgbib\",\"dcbga\",\"ejadi\",\"chejj\",\"jegca\",\"jgech\",\"ihice\",\"iafed\",\"jcbgc\",\"gcgcd\",\"bcdci\",\"ighbd\",\"caaef\",\"ijhcf\",\"eejeg\",\"jggdf\",\"affgd\",\"gffbh\",\"hjehf\",\"hcgci\",\"igecc\",\"fchac\",\"fciih\",\"ijgif\",\"hgjca\",\"ibjij\",\"icdca\",\"hfaih\",\"aeccc\",\"cihjh\",\"gacdh\",\"agcfd\",\"haiii\",\"ghfec\",\"higjd\",\"fcchg\",\"ijdgg\",\"aacgf\",\"bbdgj\",\"eijbh\",\"bghfb\",\"fabaj\",\"ijjdf\",\"ghige\",\"fbdaj\",\"bjiff\",\"jbeic\",\"hhaig\",\"gfehd\",\"fgejb\",\"fahgj\",\"dfcef\",\"acbea\",\"ijecc\",\"eiaha\",\"cbhih\",\"feccc\",\"egieb\",\"ggcjg\",\"jiiii\",\"jajee\",\"gjcea\",\"dcggb\",\"dgcgh\",\"efcei\",\"hcded\",\"ecbaa\",\"bcgie\",\"ghhjj\",\"hhchi\",\"hfhbd\",\"bdjgf\",\"cegef\",\"cjeii\",\"eiaii\",\"acbca\",\"hcchc\",\"edjaj\",\"cbdda\",\"dhaba\",\"ejada\",\"ebiii\",\"hifcb\",\"iehbc\",\"jbbcd\",\"jhihh\",\"fhbhe\",\"hbfdd\",\"aidgc\"],\"abcdefghij\"]",
+    "expectedOutput": "61",
     "isHidden": true
   }
 ]
