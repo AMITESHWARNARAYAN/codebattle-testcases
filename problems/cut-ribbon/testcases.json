@@ -1,0 +1,147 @@
+[
+  {
+    "input": "[5,5,3,2]",
+    "expectedOutput": "2",
+    "isHidden": false
+  },
+  {
+    "input": "[7,5,5,2]",
+    "expectedOutput": "2",
+    "isHidden": false
+  },
+  {
+    "input": "[4,1,2,3]",
+    "expectedOutput": "4",
+    "isHidden": false
+  },
+  {
+    "input": "[10,2,4,6]",
+    "expectedOutput": "5",
+    "isHidden": true
+  },
+  {
+    "input": "[100,1,2,3]",
+    "expectedOutput": "100",
+    "isHidden": true
+  },
+  {
+    "input": "[20,5,7,10]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[53,2,3,5]",
+    "expectedOutput": "26",
+    "isHidden": true
+  },
+  {
+    "input": "[1000,7,11,13]",
+    "expectedOutput": "142",
+    "isHidden": true
+  },
+  {
+    "input": "[4000,2,3,5]",
+    "expectedOutput": "2000",
+    "isHidden": true
+  },
+  {
+    "input": "[12,1,5,7]",
+    "expectedOutput": "12",
+    "isHidden": true
+  },
+  {
+    "input": "[19,7,5,7]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[6,2,2,20]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[44,8,7,15]",
+    "expectedOutput": "6",
+    "isHidden": true
+  },
+  {
+    "input": "[85,7,15,8]",
+    "expectedOutput": "12",
+    "isHidden": true
+  },
+  {
+    "input": "[6,1,2,19]",
+    "expectedOutput": "6",
+    "isHidden": true
+  },
+  {
+    "input": "[48,3,15,12]",
+    "expectedOutput": "16",
+    "isHidden": true
+  },
+  {
+    "input": "[54,8,15,11]",
+    "expectedOutput": "6",
+    "isHidden": true
+  },
+  {
+    "input": "[12,4,13,17]",
+    "expectedOutput": "3",
+    "isHidden": true
+  },
+  {
+    "input": "[64,8,8,6]",
+    "expectedOutput": "10",
+    "isHidden": true
+  },
+  {
+    "input": "[24,6,15,6]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[59,5,14,4]",
+    "expectedOutput": "14",
+    "isHidden": true
+  },
+  {
+    "input": "[100,8,15,19]",
+    "expectedOutput": "9",
+    "isHidden": true
+  },
+  {
+    "input": "[25,5,5,12]",
+    "expectedOutput": "5",
+    "isHidden": true
+  },
+  {
+    "input": "[37,3,4,2]",
+    "expectedOutput": "18",
+    "isHidden": true
+  },
+  {
+    "input": "[20,10,5,11]",
+    "expectedOutput": "4",
+    "isHidden": true
+  },
+  {
+    "input": "[45,1,10,13]",
+    "expectedOutput": "45",
+    "isHidden": true
+  },
+  {
+    "input": "[72,6,6,4]",
+    "expectedOutput": "18",
+    "isHidden": true
+  },
+  {
+    "input": "[90,8,6,10]",
+    "expectedOutput": "15",
+    "isHidden": true
+  },
+  {
+    "input": "[71,10,1,9]",
+    "expectedOutput": "71",
+    "isHidden": true
+  }
+]

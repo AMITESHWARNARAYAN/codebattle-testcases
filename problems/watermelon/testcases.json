@@ -1,0 +1,222 @@
+[
+  {
+    "input": "[1]",
+    "expectedOutput": "\"NO\"",
+    "isHidden": false
+  },
+  {
+    "input": "[2]",
+    "expectedOutput": "\"NO\"",
+    "isHidden": false
+  },
+  {
+    "input": "[3]",
+    "expectedOutput": "\"NO\"",
+    "isHidden": false
+  },
+  {
+    "input": "[4]",
+    "expectedOutput": "\"YES\"",
+    "isHidden": true
+  },
+  {
+    "input": "[5]",
+    "expectedOutput": "\"NO\"",
+    "isHidden": true
+  },
+  {
+    "input": "[6]",
+    "expectedOutput": "\"YES\"",
+    "isHidden": true
+  },
+  {
+    "input": "[7]",
+    "expectedOutput": "\"NO\"",
+    "isHidden": true
+  },
+  {
+    "input": "[8]",
+    "expectedOutput": "\"YES\"",
+    "isHidden": true
+  },
+  {
+    "input": "[9]",
+    "expectedOutput": "\"NO\"",
+    "isHidden": true
+  },
+  {
+    "input": "[10]",
+    "expectedOutput": "\"YES\"",
+    "isHidden": true
+  },
+  {
+    "input": "[11]",
+    "expectedOutput": "\"NO\"",
+    "isHidden": true
+  },
+  {
+    "input": "[14]",
+    "expectedOutput": "\"YES\"",
+    "isHidden": true
+  },
+  {
+    "input": "[17]",
+    "expectedOutput": "\"NO\"",
+    "isHidden": true
+  },
+  {
+    "input": "[20]",
+    "expectedOutput": "\"YES\"",
+    "isHidden": true
+  },
+  {
+    "input": "[23]",
+    "expectedOutput": "\"NO\"",
+    "isHidden": true
+  },
+  {
+    "input": "[26]",
+    "expectedOutput": "\"YES\"",
+    "isHidden": true
+  },
+  {
+    "input": "[29]",
+    "expectedOutput": "\"NO\"",
+    "isHidden": true
+  },
+  {
+    "input": "[32]",
+    "expectedOutput": "\"YES\"",
+    "isHidden": true
+  },
+  {
+    "input": "[35]",
+    "expectedOutput": "\"NO\"",
+    "isHidden": true
+  },
+  {
+    "input": "[38]",
+    "expectedOutput": "\"YES\"",
+    "isHidden": true
+  },
+  {
+    "input": "[41]",
+    "expectedOutput": "\"NO\"",
+    "isHidden": true
+  },
+  {
+    "input": "[44]",
+    "expectedOutput": "\"YES\"",
+    "isHidden": true
+  },
+  {
+    "input": "[47]",
+    "expectedOutput": "\"NO\"",
+    "isHidden": true
+  },
+  {
+    "input": "[50]",
+    "expectedOutput": "\"YES\"",
+    "isHidden": true
+  },
+  {
+    "input": "[53]",
+    "expectedOutput": "\"NO\"",
+    "isHidden": true
+  },
+  {
+    "input": "[56]",
+    "expectedOutput": "\"YES\"",
+    "isHidden": true
+  },
+  {
+    "input": "[59]",
+    "expectedOutput": "\"NO\"",
+    "isHidden": true
+  },
+  {
+    "input": "[62]",
+    "expectedOutput": "\"YES\"",
+    "isHidden": true
+  },
+  {
+    "input": "[65]",
+    "expectedOutput": "\"NO\"",
+    "isHidden": true
+  },
+  {
+    "input": "[68]",
+    "expectedOutput": "\"YES\"",
+    "isHidden": true
+  },
+  {
+    "input": "[71]",
+    "expectedOutput": "\"NO\"",
+    "isHidden": true
+  },
+  {
+    "input": "[74]",
+    "expectedOutput": "\"YES\"",
+    "isHidden": true
+  },
+  {
+    "input": "[77]",
+    "expectedOutput": "\"NO\"",
+    "isHidden": true
+  },
+  {
+    "input": "[80]",
+    "expectedOutput": "\"YES\"",
+    "isHidden": true
+  },
+  {
+    "input": "[83]",
+    "expectedOutput": "\"NO\"",
+    "isHidden": true
+  },
+  {
+    "input": "[86]",
+    "expectedOutput": "\"YES\"",
+    "isHidden": true
+  },
+  {
+    "input": "[89]",
+    "expectedOutput": "\"NO\"",
+    "isHidden": true
+  },
+  {
+    "input": "[92]",
+    "expectedOutput": "\"YES\"",
+    "isHidden": true
+  },
+  {
+    "input": "[95]",
+    "expectedOutput": "\"NO\"",
+    "isHidden": true
+  },
+  {
+    "input": "[98]",
+    "expectedOutput": "\"YES\"",
+    "isHidden": true
+  },
+  {
+    "input": "[88]",
+    "expectedOutput": "\"YES\"",
+    "isHidden": true
+  },
+  {
+    "input": "[98]",
+    "expectedOutput": "\"YES\"",
+    "isHidden": true
+  },
+  {
+    "input": "[99]",
+    "expectedOutput": "\"NO\"",
+    "isHidden": true
+  },
+  {
+    "input": "[100]",
+    "expectedOutput": "\"YES\"",
+    "isHidden": true
+  }
+]
